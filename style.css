@@ -1,0 +1,74 @@
+root {
+    --color-accent: oklch(65% 50% 0);
+    color-scheme: light dark
+    }
+
+body {
+    /* Set line height to 1.5 times the font size
+         and use the OS’s UI font as the website font
+       */
+    accent-color: var(--color-accent);
+    font: 100%/1.5 system-ui;
+    max-width: 100ch;
+    margin-inline: max(1em, (100% - 100ch) / 2);
+
+  }
+h1 {
+    text-align: center;
+    font-size:2.8em;
+  }
+.color-scheme {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 80%;
+  font-family: inherit;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* 
+----------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------- NAVIGATION BAR -----------------------------------------------------
+*/
+
+nav {
+    display: flex;
+    margin-bottom: 1em;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+     --border-color: oklch(50% 10% 200 / 40%);
+    border-bottom-color: var(--border-color);
+    
+
+    ul, 
+    ul li {
+        display: contents;
+    }
+
+    a {
+        flex: 1;
+        text-decoration: none;
+        color: inherit;
+        text-align: center;
+        padding: 0.5em;
+        
+        &.current{
+            flex: 1;
+            border-bottom-width: 0.4em;
+            padding-bottom: 0.2em;
+            border-bottom-color: var(--color-accent);
+        }
+
+        &:hover{
+            border-bottom: 0.4em solid var(--color-accent);
+            background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
+            padding-bottom: 0.2em;
+        }
+    }
+
+  }
