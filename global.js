@@ -11,9 +11,8 @@ const ARE_WE_HOME = document.documentElement.classList.contains("home");
 
 const pages = [
   { url: "https://andiigonzalez.github.io/project03/index.html", title: "Home" },
-  { url: "https://andiigonzalez.github.io/project03/design.html", title: "Design Rationale" },
-  { url: "https://andiigonzalez.github.io/project03/development.html", title: "Process Development" },
-  { url: "https://andiigonzalez.github.io/project03/about.html", title: "About Us"},
+  { url: "https://andiigonzalez.github.io/project03/design.html", title: "Design Rationale" }, 
+  { url: "https://andiigonzalez.github.io/project03/development.html", title: "Process Development"},
 ];
 const BASE_URL = "https://andiigonzalez.github.io/project3/";
 let nav = document.createElement("nav");
