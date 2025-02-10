@@ -8,10 +8,37 @@
 </head>
 <body>
     <h1 class="page-title">Project 03</h1>
-    <h2 text-align:center>Visualization</h2>
-    <div class="visualization">
+    <!-- Scatter Plot -->
+    <div class="chart-container">
+        <h2>Scatter Plot: Surgery Duration vs Hospital Stay</h2>
+        <select id="surgery-select">
+            <option value="All">All Surgeries</option>
+        </select>
+        <svg id="scatterplot" width="800" height="500"></svg>
     </div>
+
+    <!-- Interactive Bar Chart -->
+    <div class="chart-container">
+        <h2>Interactive Tree map</h2>
+        <select id="surgery-select">
+            <option value="All">All Surgeries</option>
+        </select>
+        <svg id="treemap" width="800" height="500"></svg>
+    </div>
+
+    <div class="chart-container">
+        <h2>Zoomable Circle Packing</h2>
+        <select id="surgery-select">
+            <option value="All">All Surgeries</option>
+        </select>
+        <svg id="zoomable" width="900" height="900"></svg>
+    </div>
+
     <script type="module" src="global.js"> </script>
-    <script type="module" src="graphs.js"></script>
+    <script type="module" src="treemap.js"></script>
+    <script type="module" src="scatter.js"></script>
+    <script type="module" src="zoomable.js"></script>
+
+
 </body>
 </html>

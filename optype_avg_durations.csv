@@ -1,0 +1,276 @@
+optype,opname,count,avg_opname_duration,avg_optype_duration
+Biliary/Pancreas,Ampullectomy,1,110.0,191.57916554102826
+Biliary/Pancreas,Bile duct anastomosis,1,270.0,191.57916554102826
+Biliary/Pancreas,Central pancreatectomy,1,170.0,191.57916554102826
+Biliary/Pancreas,Cholecystectomy,503,44.53290258449304,191.57916554102826
+Biliary/Pancreas,Choledochal cyst excision,5,187.0766666666668,191.57916554102826
+Biliary/Pancreas,Choledochoscopic bile duct stone removal,3,51.666666666666664,191.57916554102826
+Biliary/Pancreas,Distal pancreatectomy,52,150.8919871794872,191.57916554102826
+Biliary/Pancreas,Enucleation of pancreas,2,237.5,191.57916554102826
+Biliary/Pancreas,Excision,9,216.66666666666666,191.57916554102826
+Biliary/Pancreas,Exploration of common bile duct,1,250.0,191.57916554102826
+Biliary/Pancreas,Extended cholecystectomy,17,206.05882352941177,191.57916554102826
+Biliary/Pancreas,Hepatic hilar resection,3,290.0,191.57916554102826
+Biliary/Pancreas,Hepaticojejunostomy,2,212.5,191.57916554102826
+Biliary/Pancreas,Hepatopancreaticoduodenectomy,1,250.0,191.57916554102826
+Biliary/Pancreas,Median pancreatectomy,2,135.0,191.57916554102826
+Biliary/Pancreas,Pancreatic cystojejunostomy,1,51.45,191.57916554102826
+Biliary/Pancreas,Pancreaticoduodenectomy,19,344.2631578947368,191.57916554102826
+Biliary/Pancreas,Pancreaticojejunostomy,1,285.0,191.57916554102826
+Biliary/Pancreas,Pancreatosplenectomy,2,187.5,191.57916554102826
+Biliary/Pancreas,Partial pancreatectomy,19,190.5412280701754,191.57916554102826
+Biliary/Pancreas,Pylorus preserving pancreaticoduodenectomy,123,313.22466124661247,191.57916554102826
+Biliary/Pancreas,Radical cholecystectomy,2,232.5,191.57916554102826
+Biliary/Pancreas,Segmental resection of bile duct,6,301.8333333333333,191.57916554102826
+Biliary/Pancreas,Spleen preserving distal pancreatectomy,13,122.38461538461539,191.57916554102826
+Biliary/Pancreas,Splenectomy,18,72.62592592592593,191.57916554102826
+Biliary/Pancreas,Subtotal pancreatectomy,2,93.5,191.57916554102826
+Biliary/Pancreas,Total pancreatectomy,2,237.5,191.57916554102826
+Biliary/Pancreas,Transduodenal ampullectomy,1,150.0,191.57916554102826
+Breast,Axillary lymph node dissection,5,54.0,125.49729437299989
+Breast,Biopsy,1,47.0,125.49729437299989
+Breast,Breast reconstruction,1,515.0,125.49729437299989
+Breast,Breast-conserving surgery,295,80.23062146892656,125.49729437299989
+Breast,Completion mastectomy,1,20.0,125.49729437299989
+Breast,Excision,26,49.23076923076923,125.49729437299989
+Breast,Mastectomy,6,238.5,125.49729437299989
+Breast,Radical mastectomy,1,86.0,125.49729437299989
+Breast,Simple mastectomy,66,89.6969696969697,125.49729437299989
+Breast,Total mastectomy,32,75.31458333333333,125.49729437299989
+Colorectal,Abdominoperineal resection,15,232.51555555555555,91.65267696346694
+Colorectal,Anal fistulotomy,2,37.26666666666665,91.65267696346694
+Colorectal,Anterior resection,247,123.51943319838057,91.65267696346694
+Colorectal,Appendectomy,56,55.953869047619044,91.65267696346694
+Colorectal,Biopsy,1,55.0,91.65267696346694
+Colorectal,Cecectomy,4,78.6625,91.65267696346694
+Colorectal,Colostomy,19,53.26929824561404,91.65267696346694
+Colorectal,Colostomy repair,5,63.6,91.65267696346694
+Colorectal,Delorme's operation,8,40.40625,91.65267696346694
+Colorectal,Excision,24,75.42986111111111,91.65267696346694
+Colorectal,Extended hemicolectomy,23,114.67246376811592,91.65267696346694
+Colorectal,Fistulectomy,27,32.67716049382716,91.65267696346694
+Colorectal,Hartmann procedure,28,144.80416666666667,91.65267696346694
+Colorectal,Hemicolectomy,193,131.16830742659758,91.65267696346694
+Colorectal,Hemorrhoidectomy,13,31.302564102564098,91.65267696346694
+Colorectal,Hernia repair,161,40.481469979296065,91.65267696346694
+Colorectal,Ileocecectomy,11,106.24393939393936,91.65267696346694
+Colorectal,Ileocolectomy,1,105.0,91.65267696346694
+Colorectal,Ileostomy,15,92.79222222222225,91.65267696346694
+Colorectal,Ileostomy repair,109,62.8776758409786,91.65267696346694
+Colorectal,Incision and drainage,5,11.65333333333334,91.65267696346694
+Colorectal,Incision of rectal stricture,1,25.1833333333333,91.65267696346694
+Colorectal,Incisional hernia repair,66,65.44848484848485,91.65267696346694
+Colorectal,Inguinal hernia,1,80.0,91.65267696346694
+Colorectal,Inguinal lymph node dissection,7,82.15952380952386,91.65267696346694
+Colorectal,Low anterior resection,181,133.29208103130753,91.65267696346694
+Colorectal,Oophorectomy,1,100.0,91.65267696346694
+Colorectal,Orchiectomy,1,90.0,91.65267696346694
+Colorectal,Radical excision of iliac lymph nodes,4,135.5,91.65267696346694
+Colorectal,Rectal prolapse operation,4,82.2,91.65267696346694
+Colorectal,Rrectocele repair,2,57.5,91.65267696346694
+Colorectal,Salpingo-oophorectomy,1,105.0,91.65267696346694
+Colorectal,Segmental resection of colon,3,171.66666666666666,91.65267696346694
+Colorectal,Sphincteroplasty,2,12.016666666666666,91.65267696346694
+Colorectal,Sphincterotomy,1,5.0,91.65267696346694
+Colorectal,Subtotal colectomy,4,130.9,91.65267696346694
+Colorectal,Total colectomy,10,177.055,91.65267696346694
+Colorectal,Total hysterectomy,1,200.0,91.65267696346694
+Colorectal,Total proctocolectomy,5,228.0,91.65267696346694
+Colorectal,Transanal endoscopic microsurgery,13,73.47051282051282,91.65267696346694
+Colorectal,Transanal excision,36,34.26203703703704,91.65267696346694
+Colorectal,Transplantation of gracilis muscle,2,42.5,91.65267696346694
+Colorectal,Transverse colectomy,3,93.33333333333333,91.65267696346694
+Colorectal,Transverse loop colostomy,3,40.0,91.65267696346694
+Colorectal,Ultralow anterior resection,17,182.2941176470588,91.65267696346694
+Colorectal,Varicocelectomy,1,125.0,91.65267696346694
+Colorectal,anterior resection,1,68.0,91.65267696346694
+Colorectal,subtotal colectomy,12,170.25,91.65267696346694
+Hepatic,Extended hemihepatectomy,26,242.8846153846154,191.9067561495522
+Hepatic,Hemihepatectomy,88,234.84261363636367,191.9067561495522
+Hepatic,Hepatic hilar resection,5,190.0,191.9067561495522
+Hepatic,Liver bisegmentectomy,1,255.0,191.9067561495522
+Hepatic,Liver sectionectomy,40,174.19208333333333,191.9067561495522
+Hepatic,Liver segmentectomy,95,195.83473684210526,191.9067561495522
+Hepatic,Liver tumorectomy,2,177.5,191.9067561495522
+Hepatic,Marsupialization,1,65.0,191.9067561495522
+Major resection,Adrenalectomy,1,70.0,166.4457442797748
+Major resection,Debulking surgery,8,236.25,166.4457442797748
+Major resection,Excision,1,75.0,166.4457442797748
+Major resection,Exploratory laparotomy,10,209.85,166.4457442797748
+Major resection,Extended hysterectomy,10,112.76500000000001,166.4457442797748
+Major resection,Hysterectomy,24,106.66666666666667,166.4457442797748
+Major resection,Lung bilobectomy,14,194.62023809523808,166.4457442797748
+Major resection,Lung lobectomy,332,153.24553212851407,166.4457442797748
+Major resection,Modified radical hysterectomy,1,180.0,166.4457442797748
+Major resection,Nephrectomy,13,148.53846153846155,166.4457442797748
+Major resection,Nephroureterectomy,1,107.0,166.4457442797748
+Major resection,Ovarian cancer staging operation,1,170.0,166.4457442797748
+Major resection,Ovarian cystectomy,25,78.6,166.4457442797748
+Major resection,Partial cystectomy,1,115.0,166.4457442797748
+Major resection,Pelvic tumorectomy,10,152.0,166.4457442797748
+Major resection,Pneumonectomy,10,207.57166666666672,166.4457442797748
+Major resection,Radical cystectomy,6,426.6666666666667,166.4457442797748
+Major resection,Radical hysterectomy,40,107.17125000000001,166.4457442797748
+Major resection,Radical parametrectomy,1,265.0,166.4457442797748
+Major resection,Radical prostatectomy,57,177.05,166.4457442797748
+Major resection,Radical trachelectomy,2,217.5,166.4457442797748
+Major resection,Sleeve lobectomy,7,220.8690476190477,166.4457442797748
+Major resection,Total hysterectomy,3,153.33333333333334,166.4457442797748
+Major resection,Total hysterectomy ,6,110.0,166.4457442797748
+Minor resection,Biopsy,34,46.25882352941177,95.27002485743908
+Minor resection,Bullectomy,30,51.65944444444444,95.27002485743908
+Minor resection,Diagnostic laparoscopy,3,105.33333333333333,95.27002485743908
+Minor resection,Diagnostic pelviscopy,1,85.0,95.27002485743908
+Minor resection,Diagnostic procedure,1,85.0,95.27002485743908
+Minor resection,Empyemectomy,3,183.66666666666666,95.27002485743908
+Minor resection,Excision,3,91.33333333333333,95.27002485743908
+Minor resection,Lung segmentectomy,2,137.5,95.27002485743908
+Minor resection,Lung sgmentectomy,61,131.9877049180328,95.27002485743908
+Minor resection,Lung wedge resection,230,120.61528985507246,95.27002485743908
+Minor resection,Macroplastique injection,1,20.0,95.27002485743908
+Minor resection,Metastasectomy,102,101.10277777777776,95.27002485743908
+Minor resection,Myomectomy,12,122.91666666666667,95.27002485743908
+Minor resection,Oophorectomy,1,50.0,95.27002485743908
+Minor resection,Orchiectomy,1,25.0,95.27002485743908
+Minor resection,Pyeloplasty,2,145.0,95.27002485743908
+Minor resection,Salpingectomy,3,81.0,95.27002485743908
+Minor resection,Salpingo-oophorectomy,27,67.70370370370371,95.27002485743908
+Minor resection,Staging laparotomy,5,188.0,95.27002485743908
+Minor resection,Staging operation,1,135.0,95.27002485743908
+Minor resection,Transurethral resection of bladder tumor,30,26.592777777777776,95.27002485743908
+Others,Adhesiolysis,10,121.92333333333332,136.08444301066191
+Others,Adrenalectomy,22,96.94469696969696,136.08444301066191
+Others,Biopsy,15,44.535555555555554,136.08444301066191
+Others,Bleeding control,32,112.93593750000001,136.08444301066191
+Others,Cervical esophagostomy,1,325.0,136.08444301066191
+Others,Cesarean section,23,63.32536231884058,136.08444301066191
+Others,Clagett procedure,4,41.75,136.08444301066191
+Others,Cleaning of wound,2,21.5,136.08444301066191
+Others,Closure of bronchopleural fistula,1,198.15,136.08444301066191
+Others,Closure of wound,13,56.32179487179485,136.08444301066191
+Others,Colostomy,1,55.0,136.08444301066191
+Others,Debridement of wound,38,38.896929824561404,136.08444301066191
+Others,Debulking surgery,11,171.63636363636363,136.08444301066191
+Others,Decortication,8,236.29375,136.08444301066191
+Others,Diagnostic laparoscopy,30,189.4688888888889,136.08444301066191
+Others,Diverticulectomy,1,185.0,136.08444301066191
+Others,Electrocauterization,1,10.0,136.08444301066191
+Others,Elosser operation,1,102.7,136.08444301066191
+Others,Enucleation of esophageal tumor,2,120.0,136.08444301066191
+Others,Esophagectomy,18,503.6111111111111,136.08444301066191
+Others,Excision,159,80.1296645702306,136.08444301066191
+Others,Exploration,5,127.53666666666659,136.08444301066191
+Others,Exploration of wound,6,119.04722222222222,136.08444301066191
+Others,Exploratory laparotomy,205,132.77170731707318,136.08444301066191
+Others,Exploratory thoracotomy,1,210.0,136.08444301066191
+Others,Feeding jejunostomy,2,78.5,136.08444301066191
+Others,Fundoplication,2,137.5,136.08444301066191
+Others,Hernia repair,1,19.2333333333333,136.08444301066191
+Others,Ileostomy,1,210.0,136.08444301066191
+Others,Incision and drainage,16,47.36145833333333,136.08444301066191
+Others,Internal mammary lymph node dissection,1,55.0,136.08444301066191
+Others,Ivor Lewis operation,4,452.75,136.08444301066191
+Others,Lung wedge resection,1,80.0,136.08444301066191
+Others,McDonald operation,4,36.7375,136.08444301066191
+Others,Mediastinal lymph node dissection,10,109.57833333333333,136.08444301066191
+Others,Modified Shirodkar operation,2,15.0,136.08444301066191
+Others,Modified radical neck dissection,9,121.50925925925925,136.08444301066191
+Others,Paraaortic lymph node dissection,6,150.16666666666666,136.08444301066191
+Others,Pelvic tumorectomy,1,770.0,136.08444301066191
+Others,Pericardial window operation,3,63.333333333333336,136.08444301066191
+Others,Peritoneal mass excision,7,96.42857142857143,136.08444301066191
+Others,Pleurectomy,1,190.0,136.08444301066191
+Others,Pleurodesis,1,40.0,136.08444301066191
+Others,Pleuroscopy,1,25.0,136.08444301066191
+Others,Plication,2,125.0,136.08444301066191
+Others,Radical excision of cervical lymph nodes,2,67.5,136.08444301066191
+Others,Regional lymph node dissection,3,108.33333333333333,136.08444301066191
+Others,Removal of foreign body,2,57.40833333333335,136.08444301066191
+Others,Removal of staples,1,18.5,136.08444301066191
+Others,Resection of chest wall with reconstruction,5,116.0,136.08444301066191
+Others,Resection of rib,1,129.15,136.08444301066191
+Others,Resection of sternum,1,130.0,136.08444301066191
+Others,Rigid bronchoscopic excision,1,55.0,136.08444301066191
+Others,Rigid bronchoscopy,1,25.0,136.08444301066191
+Others,Selective neck dissection,2,75.0,136.08444301066191
+Others,Sentinel lymph node mapping,1,180.0,136.08444301066191
+Others,Sternal fixation,1,69.2833333333333,136.08444301066191
+Others,Thoracic sympathectomy,9,30.14259259259259,136.08444301066191
+Others,Thoracoplasty,1,412.3,136.08444301066191
+Others,Thymectomy,44,170.47765151515148,136.08444301066191
+Others,Thyroglossal duct cyst excision,1,195.0,136.08444301066191
+Others,Total esophagectomy,1,665.0,136.08444301066191
+Others,Transurethral resection of bladder tumor,2,30.0,136.08444301066191
+Others,Wide excision,30,68.03277777777778,136.08444301066191
+Others,Wound revision,5,55.78333333333334,136.08444301066191
+Stomach,Distal gastrectomy,342,217.60672514619884,150.07966904068863
+Stomach,Excision,6,123.16666666666667,150.07966904068863
+Stomach,Extended total gastrectomy,1,240.0,150.07966904068863
+Stomach,Fistulectomy,1,85.0,150.07966904068863
+Stomach,Fundoplication,1,115.0,150.07966904068863
+Stomach,Gastric bypass,1,215.0,150.07966904068863
+Stomach,Gastric wedge resection,42,89.49325396825397,150.07966904068863
+Stomach,Gastrojejunostomy,11,121.0909090909091,150.07966904068863
+Stomach,Gastrostomy,1,38.0,150.07966904068863
+Stomach,Hernia repair,1,183.7,150.07966904068863
+Stomach,Insertion of continuous ambulatory peritoneal dialysis catheter,1,75.0,150.07966904068863
+Stomach,Lung wedge resection,5,146.0,150.07966904068863
+Stomach,Partial gastrectomy,12,185.7013888888889,150.07966904068863
+Stomach,Proximal gastrectomy,10,269.6,150.07966904068863
+Stomach,Pylorus preserving gastrectomy,68,212.17279411764707,150.07966904068863
+Stomach,Radical prostatectomy,1,190.0,150.07966904068863
+Stomach,Remnant total gastrectomy,12,180.60555555555558,150.07966904068863
+Stomach,Reposition of continuous ambulatory peritoneal dialysis catheter,1,40.0,150.07966904068863
+Stomach,Resection of intestine,1,35.0,150.07966904068863
+Stomach,Revision of small intestine anastomosis,1,165.0,150.07966904068863
+Stomach,Small bowel segmental resection,20,107.21333333333334,150.07966904068863
+Stomach,Subtotal gastrectomy,40,184.68416666666667,150.07966904068863
+Stomach,Total gastrectomy,97,232.7975945017182,150.07966904068863
+Thyroid,Completion thyroidectomy,6,97.0,121.84488618025395
+Thyroid,Parathyroidectomy,14,88.8952380952381,121.84488618025395
+Thyroid,Subtotal parathyroidectomy,6,112.5,121.84488618025395
+Thyroid,Thyroid isthmectomy,1,175.0,121.84488618025395
+Thyroid,Thyroid lobectomy,115,107.40463768115941,121.84488618025395
+Thyroid,Thyroidectomy,1,140.0,121.84488618025395
+Thyroid,Total thyroidectomy,114,132.1143274853801,121.84488618025395
+Transplantation,Donor hepatectomy,70,300.7364285714286,299.5685577704751
+Transplantation,Donor nephrectomy,84,172.40952380952382,299.5685577704751
+Transplantation,Kidney transplantation,128,235.49049479166666,299.5685577704751
+Transplantation,Liver transplantation,108,358.9183641975309,299.5685577704751
+Transplantation,Lung transplantation,7,520.6880952380953,299.5685577704751
+Transplantation,Nephrectomy,3,120.80555555555566,299.5685577704751
+Transplantation,Pancreas transplantation,1,290.0,299.5685577704751
+Transplantation,Simultaneous pancreas-kidney transplantation,2,397.5,299.5685577704751
+Vascular,Aneurysmal repair,7,294.5357142857143,161.11823495001266
+Vascular,Aortofemoral bypass,1,270.0,161.11823495001266
+Vascular,Aortoiliac bypass,15,274.85333333333335,161.11823495001266
+Vascular,Aortorenal bypass,4,274.5,161.11823495001266
+Vascular,Arteriovenous fistula,29,77.95344827586206,161.11823495001266
+Vascular,Arteriovenous fistula thrombectomy,6,133.98055555555555,161.11823495001266
+Vascular,Arteriovenous graft,2,160.0,161.11823495001266
+Vascular,Bleeding control,1,70.0,161.11823495001266
+Vascular,Closure of arteriovenous fistula,4,66.25,161.11823495001266
+Vascular,Embolectomy,11,154.54545454545453,161.11823495001266
+Vascular,Endarterectomy,14,211.21428571428572,161.11823495001266
+Vascular,Endovascular aneurysmal repair,7,160.71428571428572,161.11823495001266
+Vascular,Femoro-femoral bypass,1,160.0,161.11823495001266
+Vascular,Femoro-popliteal bypass,3,356.3333333333333,161.11823495001266
+Vascular,Ilioiliac bypass,1,210.0,161.11823495001266
+Vascular,Incision and drainage,1,70.0,161.11823495001266
+Vascular,Insertion of permanent catheter,1,135.0,161.11823495001266
+Vascular,Intra-abdominal arterial bypass graft,1,105.0,161.11823495001266
+Vascular,Ligation and stripping,120,90.12041666666666,161.11823495001266
+Vascular,Nephrectomy,2,83.83333333333334,161.11823495001266
+Vascular,Percutaneous biopsy,1,20.0,161.11823495001266
+Vascular,Removal of Hickman catheter,1,15.0,161.11823495001266
+Vascular,Removal of complicated graft,1,92.0,161.11823495001266
+Vascular,Removal of continuous ambulatory peritoneal dialysis catheter,9,52.24259259259259,161.11823495001266
+Vascular,Removal of permanent catheter,4,27.5,161.11823495001266
+Vascular,Resection of inferior vena cava,2,436.5,161.11823495001266
+Vascular,Resection of lower limb artery,1,200.0,161.11823495001266
+Vascular,Resection of popliteal artery,2,191.0,161.11823495001266
+Vascular,Revision of arteriovenous fistula,4,135.825,161.11823495001266
+Vascular,Transposition of basilic vein for arteriovenous fistula,1,245.0,161.11823495001266
+Vascular,Vascular bypass,2,178.0,161.11823495001266
+Vascular,Vascular repair,2,155.0,161.11823495001266
+Vascular,Vessel graft,1,210.0,161.11823495001266

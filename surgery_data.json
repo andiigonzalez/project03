@@ -1,0 +1,1535 @@
+{
+    "name": "All Surgeries",
+    "children": [
+        {
+            "name": "Biliary/Pancreas",
+            "value": 191.57916554102826,
+            "children": [
+                {
+                    "name": [
+                        "Biliary/Pancreas",
+                        "Ampullectomy"
+                    ],
+                    "value": 110.0
+                },
+                {
+                    "name": [
+                        "Biliary/Pancreas",
+                        "Bile duct anastomosis"
+                    ],
+                    "value": 270.0
+                },
+                {
+                    "name": [
+                        "Biliary/Pancreas",
+                        "Central pancreatectomy"
+                    ],
+                    "value": 170.0
+                },
+                {
+                    "name": [
+                        "Biliary/Pancreas",
+                        "Cholecystectomy"
+                    ],
+                    "value": 44.53290258449304
+                },
+                {
+                    "name": [
+                        "Biliary/Pancreas",
+                        "Choledochal cyst excision"
+                    ],
+                    "value": 187.0766666666668
+                },
+                {
+                    "name": [
+                        "Biliary/Pancreas",
+                        "Choledochoscopic bile duct stone removal"
+                    ],
+                    "value": 51.666666666666664
+                },
+                {
+                    "name": [
+                        "Biliary/Pancreas",
+                        "Distal pancreatectomy"
+                    ],
+                    "value": 150.8919871794872
+                },
+                {
+                    "name": [
+                        "Biliary/Pancreas",
+                        "Enucleation of pancreas"
+                    ],
+                    "value": 237.5
+                },
+                {
+                    "name": [
+                        "Biliary/Pancreas",
+                        "Excision"
+                    ],
+                    "value": 216.66666666666666
+                },
+                {
+                    "name": [
+                        "Biliary/Pancreas",
+                        "Exploration of common bile duct"
+                    ],
+                    "value": 250.0
+                },
+                {
+                    "name": [
+                        "Biliary/Pancreas",
+                        "Extended cholecystectomy"
+                    ],
+                    "value": 206.05882352941177
+                },
+                {
+                    "name": [
+                        "Biliary/Pancreas",
+                        "Hepatic hilar resection"
+                    ],
+                    "value": 290.0
+                },
+                {
+                    "name": [
+                        "Biliary/Pancreas",
+                        "Hepaticojejunostomy"
+                    ],
+                    "value": 212.5
+                },
+                {
+                    "name": [
+                        "Biliary/Pancreas",
+                        "Hepatopancreaticoduodenectomy"
+                    ],
+                    "value": 250.0
+                },
+                {
+                    "name": [
+                        "Biliary/Pancreas",
+                        "Median pancreatectomy"
+                    ],
+                    "value": 135.0
+                },
+                {
+                    "name": [
+                        "Biliary/Pancreas",
+                        "Pancreatic cystojejunostomy"
+                    ],
+                    "value": 51.45
+                },
+                {
+                    "name": [
+                        "Biliary/Pancreas",
+                        "Pancreaticoduodenectomy"
+                    ],
+                    "value": 344.2631578947368
+                },
+                {
+                    "name": [
+                        "Biliary/Pancreas",
+                        "Pancreaticojejunostomy"
+                    ],
+                    "value": 285.0
+                },
+                {
+                    "name": [
+                        "Biliary/Pancreas",
+                        "Pancreatosplenectomy"
+                    ],
+                    "value": 187.5
+                },
+                {
+                    "name": [
+                        "Biliary/Pancreas",
+                        "Partial pancreatectomy"
+                    ],
+                    "value": 190.5412280701754
+                },
+                {
+                    "name": [
+                        "Biliary/Pancreas",
+                        "Pylorus preserving pancreaticoduodenectomy"
+                    ],
+                    "value": 313.22466124661247
+                },
+                {
+                    "name": [
+                        "Biliary/Pancreas",
+                        "Radical cholecystectomy"
+                    ],
+                    "value": 232.5
+                },
+                {
+                    "name": [
+                        "Biliary/Pancreas",
+                        "Segmental resection of bile duct"
+                    ],
+                    "value": 301.8333333333333
+                },
+                {
+                    "name": [
+                        "Biliary/Pancreas",
+                        "Spleen preserving distal pancreatectomy"
+                    ],
+                    "value": 122.38461538461539
+                },
+                {
+                    "name": [
+                        "Biliary/Pancreas",
+                        "Splenectomy"
+                    ],
+                    "value": 72.62592592592593
+                },
+                {
+                    "name": [
+                        "Biliary/Pancreas",
+                        "Subtotal pancreatectomy"
+                    ],
+                    "value": 93.5
+                },
+                {
+                    "name": [
+                        "Biliary/Pancreas",
+                        "Total pancreatectomy"
+                    ],
+                    "value": 237.5
+                },
+                {
+                    "name": [
+                        "Biliary/Pancreas",
+                        "Transduodenal ampullectomy"
+                    ],
+                    "value": 150.0
+                }
+            ]
+        },
+        {
+            "name": "Breast",
+            "value": 125.49729437299989,
+            "children": [
+                {
+                    "name": [
+                        "Breast",
+                        "Axillary lymph node dissection"
+                    ],
+                    "value": 54.0
+                },
+                {
+                    "name": [
+                        "Breast",
+                        "Biopsy"
+                    ],
+                    "value": 47.0
+                },
+                {
+                    "name": [
+                        "Breast",
+                        "Breast reconstruction"
+                    ],
+                    "value": 515.0
+                },
+                {
+                    "name": [
+                        "Breast",
+                        "Breast-conserving surgery"
+                    ],
+                    "value": 80.23062146892656
+                },
+                {
+                    "name": [
+                        "Breast",
+                        "Completion mastectomy"
+                    ],
+                    "value": 20.0
+                },
+                {
+                    "name": [
+                        "Breast",
+                        "Excision"
+                    ],
+                    "value": 49.23076923076923
+                },
+                {
+                    "name": [
+                        "Breast",
+                        "Mastectomy"
+                    ],
+                    "value": 238.5
+                },
+                {
+                    "name": [
+                        "Breast",
+                        "Radical mastectomy"
+                    ],
+                    "value": 86.0
+                },
+                {
+                    "name": [
+                        "Breast",
+                        "Simple mastectomy"
+                    ],
+                    "value": 89.6969696969697
+                },
+                {
+                    "name": [
+                        "Breast",
+                        "Total mastectomy"
+                    ],
+                    "value": 75.31458333333333
+                }
+            ]
+        },
+        {
+            "name": "Colorectal",
+            "value": 91.65267696346694,
+            "children": [
+                {
+                    "name": [
+                        "Colorectal",
+                        "Abdominoperineal resection"
+                    ],
+                    "value": 232.51555555555555
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Anal fistulotomy"
+                    ],
+                    "value": 37.26666666666665
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Anterior resection"
+                    ],
+                    "value": 123.51943319838057
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Appendectomy"
+                    ],
+                    "value": 55.953869047619044
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Biopsy"
+                    ],
+                    "value": 55.0
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Cecectomy"
+                    ],
+                    "value": 78.6625
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Colostomy"
+                    ],
+                    "value": 53.26929824561404
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Colostomy repair"
+                    ],
+                    "value": 63.6
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Delorme's operation"
+                    ],
+                    "value": 40.40625
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Excision"
+                    ],
+                    "value": 75.42986111111111
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Extended hemicolectomy"
+                    ],
+                    "value": 114.67246376811592
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Fistulectomy"
+                    ],
+                    "value": 32.67716049382716
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Hartmann procedure"
+                    ],
+                    "value": 144.80416666666667
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Hemicolectomy"
+                    ],
+                    "value": 131.16830742659758
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Hemorrhoidectomy"
+                    ],
+                    "value": 31.302564102564098
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Hernia repair"
+                    ],
+                    "value": 40.481469979296065
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Ileocecectomy"
+                    ],
+                    "value": 106.24393939393936
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Ileocolectomy"
+                    ],
+                    "value": 105.0
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Ileostomy"
+                    ],
+                    "value": 92.79222222222225
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Ileostomy repair"
+                    ],
+                    "value": 62.8776758409786
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Incision and drainage"
+                    ],
+                    "value": 11.65333333333334
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Incision of rectal stricture"
+                    ],
+                    "value": 25.1833333333333
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Incisional hernia repair"
+                    ],
+                    "value": 65.44848484848485
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Inguinal hernia"
+                    ],
+                    "value": 80.0
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Inguinal lymph node dissection"
+                    ],
+                    "value": 82.15952380952386
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Low anterior resection"
+                    ],
+                    "value": 133.29208103130753
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Oophorectomy"
+                    ],
+                    "value": 100.0
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Orchiectomy"
+                    ],
+                    "value": 90.0
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Radical excision of iliac lymph nodes"
+                    ],
+                    "value": 135.5
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Rectal prolapse operation"
+                    ],
+                    "value": 82.2
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Rrectocele repair"
+                    ],
+                    "value": 57.5
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Salpingo-oophorectomy"
+                    ],
+                    "value": 105.0
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Segmental resection of colon"
+                    ],
+                    "value": 171.66666666666666
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Sphincteroplasty"
+                    ],
+                    "value": 12.016666666666666
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Sphincterotomy"
+                    ],
+                    "value": 5.0
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Subtotal colectomy"
+                    ],
+                    "value": 130.9
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Total colectomy"
+                    ],
+                    "value": 177.055
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Total hysterectomy"
+                    ],
+                    "value": 200.0
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Total proctocolectomy"
+                    ],
+                    "value": 228.0
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Transanal endoscopic microsurgery"
+                    ],
+                    "value": 73.47051282051282
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Transanal excision"
+                    ],
+                    "value": 34.26203703703704
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Transplantation of gracilis muscle"
+                    ],
+                    "value": 42.5
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Transverse colectomy"
+                    ],
+                    "value": 93.33333333333333
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Transverse loop colostomy"
+                    ],
+                    "value": 40.0
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Ultralow anterior resection"
+                    ],
+                    "value": 182.2941176470588
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "Varicocelectomy"
+                    ],
+                    "value": 125.0
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "anterior resection"
+                    ],
+                    "value": 68.0
+                },
+                {
+                    "name": [
+                        "Colorectal",
+                        "subtotal colectomy"
+                    ],
+                    "value": 170.25
+                }
+            ]
+        },
+        {
+            "name": "Hepatic",
+            "value": 191.9067561495522,
+            "children": [
+                {
+                    "name": [
+                        "Hepatic",
+                        "Extended hemihepatectomy"
+                    ],
+                    "value": 242.8846153846154
+                },
+                {
+                    "name": [
+                        "Hepatic",
+                        "Hemihepatectomy"
+                    ],
+                    "value": 234.84261363636367
+                },
+                {
+                    "name": [
+                        "Hepatic",
+                        "Hepatic hilar resection"
+                    ],
+                    "value": 190.0
+                },
+                {
+                    "name": [
+                        "Hepatic",
+                        "Liver bisegmentectomy"
+                    ],
+                    "value": 255.0
+                },
+                {
+                    "name": [
+                        "Hepatic",
+                        "Liver sectionectomy"
+                    ],
+                    "value": 174.19208333333333
+                },
+                {
+                    "name": [
+                        "Hepatic",
+                        "Liver segmentectomy"
+                    ],
+                    "value": 195.83473684210526
+                },
+                {
+                    "name": [
+                        "Hepatic",
+                        "Liver tumorectomy"
+                    ],
+                    "value": 177.5
+                },
+                {
+                    "name": [
+                        "Hepatic",
+                        "Marsupialization"
+                    ],
+                    "value": 65.0
+                }
+            ]
+        },
+        {
+            "name": "Major resection",
+            "value": 166.4457442797748,
+            "children": [
+                {
+                    "name": [
+                        "Major resection",
+                        "Adrenalectomy"
+                    ],
+                    "value": 70.0
+                },
+                {
+                    "name": [
+                        "Major resection",
+                        "Debulking surgery"
+                    ],
+                    "value": 236.25
+                },
+                {
+                    "name": [
+                        "Major resection",
+                        "Excision"
+                    ],
+                    "value": 75.0
+                },
+                {
+                    "name": [
+                        "Major resection",
+                        "Exploratory laparotomy"
+                    ],
+                    "value": 209.85
+                },
+                {
+                    "name": [
+                        "Major resection",
+                        "Extended hysterectomy"
+                    ],
+                    "value": 112.76500000000001
+                },
+                {
+                    "name": [
+                        "Major resection",
+                        "Hysterectomy"
+                    ],
+                    "value": 106.66666666666667
+                },
+                {
+                    "name": [
+                        "Major resection",
+                        "Lung bilobectomy"
+                    ],
+                    "value": 194.62023809523808
+                },
+                {
+                    "name": [
+                        "Major resection",
+                        "Lung lobectomy"
+                    ],
+                    "value": 153.24553212851407
+                },
+                {
+                    "name": [
+                        "Major resection",
+                        "Modified radical hysterectomy"
+                    ],
+                    "value": 180.0
+                },
+                {
+                    "name": [
+                        "Major resection",
+                        "Nephrectomy"
+                    ],
+                    "value": 148.53846153846155
+                },
+                {
+                    "name": [
+                        "Major resection",
+                        "Nephroureterectomy"
+                    ],
+                    "value": 107.0
+                },
+                {
+                    "name": [
+                        "Major resection",
+                        "Ovarian cancer staging operation"
+                    ],
+                    "value": 170.0
+                },
+                {
+                    "name": [
+                        "Major resection",
+                        "Ovarian cystectomy"
+                    ],
+                    "value": 78.6
+                },
+                {
+                    "name": [
+                        "Major resection",
+                        "Partial cystectomy"
+                    ],
+                    "value": 115.0
+                },
+                {
+                    "name": [
+                        "Major resection",
+                        "Pelvic tumorectomy"
+                    ],
+                    "value": 152.0
+                },
+                {
+                    "name": [
+                        "Major resection",
+                        "Pneumonectomy"
+                    ],
+                    "value": 207.57166666666672
+                },
+                {
+                    "name": [
+                        "Major resection",
+                        "Radical cystectomy"
+                    ],
+                    "value": 426.6666666666667
+                },
+                {
+                    "name": [
+                        "Major resection",
+                        "Radical hysterectomy"
+                    ],
+                    "value": 107.17125000000001
+                },
+                {
+                    "name": [
+                        "Major resection",
+                        "Radical parametrectomy"
+                    ],
+                    "value": 265.0
+                },
+                {
+                    "name": [
+                        "Major resection",
+                        "Radical prostatectomy"
+                    ],
+                    "value": 177.05
+                },
+                {
+                    "name": [
+                        "Major resection",
+                        "Radical trachelectomy"
+                    ],
+                    "value": 217.5
+                },
+                {
+                    "name": [
+                        "Major resection",
+                        "Sleeve lobectomy"
+                    ],
+                    "value": 220.8690476190477
+                },
+                {
+                    "name": [
+                        "Major resection",
+                        "Total hysterectomy"
+                    ],
+                    "value": 153.33333333333334
+                },
+                {
+                    "name": [
+                        "Major resection",
+                        "Total hysterectomy "
+                    ],
+                    "value": 110.0
+                }
+            ]
+        },
+        {
+            "name": "Minor resection",
+            "value": 95.27002485743908,
+            "children": [
+                {
+                    "name": [
+                        "Minor resection",
+                        "Biopsy"
+                    ],
+                    "value": 46.25882352941177
+                },
+                {
+                    "name": [
+                        "Minor resection",
+                        "Bullectomy"
+                    ],
+                    "value": 51.65944444444444
+                },
+                {
+                    "name": [
+                        "Minor resection",
+                        "Diagnostic laparoscopy"
+                    ],
+                    "value": 105.33333333333333
+                },
+                {
+                    "name": [
+                        "Minor resection",
+                        "Diagnostic pelviscopy"
+                    ],
+                    "value": 85.0
+                },
+                {
+                    "name": [
+                        "Minor resection",
+                        "Diagnostic procedure"
+                    ],
+                    "value": 85.0
+                },
+                {
+                    "name": [
+                        "Minor resection",
+                        "Empyemectomy"
+                    ],
+                    "value": 183.66666666666666
+                },
+                {
+                    "name": [
+                        "Minor resection",
+                        "Excision"
+                    ],
+                    "value": 91.33333333333333
+                },
+                {
+                    "name": [
+                        "Minor resection",
+                        "Lung segmentectomy"
+                    ],
+                    "value": 137.5
+                },
+                {
+                    "name": [
+                        "Minor resection",
+                        "Lung sgmentectomy"
+                    ],
+                    "value": 131.9877049180328
+                },
+                {
+                    "name": [
+                        "Minor resection",
+                        "Lung wedge resection"
+                    ],
+                    "value": 120.61528985507246
+                },
+                {
+                    "name": [
+                        "Minor resection",
+                        "Macroplastique injection"
+                    ],
+                    "value": 20.0
+                },
+                {
+                    "name": [
+                        "Minor resection",
+                        "Metastasectomy"
+                    ],
+                    "value": 101.10277777777776
+                },
+                {
+                    "name": [
+                        "Minor resection",
+                        "Myomectomy"
+                    ],
+                    "value": 122.91666666666667
+                },
+                {
+                    "name": [
+                        "Minor resection",
+                        "Oophorectomy"
+                    ],
+                    "value": 50.0
+                },
+                {
+                    "name": [
+                        "Minor resection",
+                        "Orchiectomy"
+                    ],
+                    "value": 25.0
+                },
+                {
+                    "name": [
+                        "Minor resection",
+                        "Pyeloplasty"
+                    ],
+                    "value": 145.0
+                },
+                {
+                    "name": [
+                        "Minor resection",
+                        "Salpingectomy"
+                    ],
+                    "value": 81.0
+                },
+                {
+                    "name": [
+                        "Minor resection",
+                        "Salpingo-oophorectomy"
+                    ],
+                    "value": 67.70370370370371
+                },
+                {
+                    "name": [
+                        "Minor resection",
+                        "Staging laparotomy"
+                    ],
+                    "value": 188.0
+                },
+                {
+                    "name": [
+                        "Minor resection",
+                        "Staging operation"
+                    ],
+                    "value": 135.0
+                },
+                {
+                    "name": [
+                        "Minor resection",
+                        "Transurethral resection of bladder tumor"
+                    ],
+                    "value": 26.592777777777776
+                }
+            ]
+        },
+        {
+            "name": "Stomach",
+            "value": 150.07966904068863,
+            "children": [
+                {
+                    "name": [
+                        "Stomach",
+                        "Distal gastrectomy"
+                    ],
+                    "value": 217.60672514619884
+                },
+                {
+                    "name": [
+                        "Stomach",
+                        "Excision"
+                    ],
+                    "value": 123.16666666666667
+                },
+                {
+                    "name": [
+                        "Stomach",
+                        "Extended total gastrectomy"
+                    ],
+                    "value": 240.0
+                },
+                {
+                    "name": [
+                        "Stomach",
+                        "Fistulectomy"
+                    ],
+                    "value": 85.0
+                },
+                {
+                    "name": [
+                        "Stomach",
+                        "Fundoplication"
+                    ],
+                    "value": 115.0
+                },
+                {
+                    "name": [
+                        "Stomach",
+                        "Gastric bypass"
+                    ],
+                    "value": 215.0
+                },
+                {
+                    "name": [
+                        "Stomach",
+                        "Gastric wedge resection"
+                    ],
+                    "value": 89.49325396825397
+                },
+                {
+                    "name": [
+                        "Stomach",
+                        "Gastrojejunostomy"
+                    ],
+                    "value": 121.0909090909091
+                },
+                {
+                    "name": [
+                        "Stomach",
+                        "Gastrostomy"
+                    ],
+                    "value": 38.0
+                },
+                {
+                    "name": [
+                        "Stomach",
+                        "Hernia repair"
+                    ],
+                    "value": 183.7
+                },
+                {
+                    "name": [
+                        "Stomach",
+                        "Insertion of continuous ambulatory peritoneal dialysis catheter"
+                    ],
+                    "value": 75.0
+                },
+                {
+                    "name": [
+                        "Stomach",
+                        "Lung wedge resection"
+                    ],
+                    "value": 146.0
+                },
+                {
+                    "name": [
+                        "Stomach",
+                        "Partial gastrectomy"
+                    ],
+                    "value": 185.7013888888889
+                },
+                {
+                    "name": [
+                        "Stomach",
+                        "Proximal gastrectomy"
+                    ],
+                    "value": 269.6
+                },
+                {
+                    "name": [
+                        "Stomach",
+                        "Pylorus preserving gastrectomy"
+                    ],
+                    "value": 212.17279411764707
+                },
+                {
+                    "name": [
+                        "Stomach",
+                        "Radical prostatectomy"
+                    ],
+                    "value": 190.0
+                },
+                {
+                    "name": [
+                        "Stomach",
+                        "Remnant total gastrectomy"
+                    ],
+                    "value": 180.60555555555558
+                },
+                {
+                    "name": [
+                        "Stomach",
+                        "Reposition of continuous ambulatory peritoneal dialysis catheter"
+                    ],
+                    "value": 40.0
+                },
+                {
+                    "name": [
+                        "Stomach",
+                        "Resection of intestine"
+                    ],
+                    "value": 35.0
+                },
+                {
+                    "name": [
+                        "Stomach",
+                        "Revision of small intestine anastomosis"
+                    ],
+                    "value": 165.0
+                },
+                {
+                    "name": [
+                        "Stomach",
+                        "Small bowel segmental resection"
+                    ],
+                    "value": 107.21333333333334
+                },
+                {
+                    "name": [
+                        "Stomach",
+                        "Subtotal gastrectomy"
+                    ],
+                    "value": 184.68416666666667
+                },
+                {
+                    "name": [
+                        "Stomach",
+                        "Total gastrectomy"
+                    ],
+                    "value": 232.7975945017182
+                }
+            ]
+        },
+        {
+            "name": "Thyroid",
+            "value": 121.84488618025395,
+            "children": [
+                {
+                    "name": [
+                        "Thyroid",
+                        "Completion thyroidectomy"
+                    ],
+                    "value": 97.0
+                },
+                {
+                    "name": [
+                        "Thyroid",
+                        "Parathyroidectomy"
+                    ],
+                    "value": 88.8952380952381
+                },
+                {
+                    "name": [
+                        "Thyroid",
+                        "Subtotal parathyroidectomy"
+                    ],
+                    "value": 112.5
+                },
+                {
+                    "name": [
+                        "Thyroid",
+                        "Thyroid isthmectomy"
+                    ],
+                    "value": 175.0
+                },
+                {
+                    "name": [
+                        "Thyroid",
+                        "Thyroid lobectomy"
+                    ],
+                    "value": 107.40463768115941
+                },
+                {
+                    "name": [
+                        "Thyroid",
+                        "Thyroidectomy"
+                    ],
+                    "value": 140.0
+                },
+                {
+                    "name": [
+                        "Thyroid",
+                        "Total thyroidectomy"
+                    ],
+                    "value": 132.1143274853801
+                }
+            ]
+        },
+        {
+            "name": "Transplantation",
+            "value": 299.5685577704751,
+            "children": [
+                {
+                    "name": [
+                        "Transplantation",
+                        "Donor hepatectomy"
+                    ],
+                    "value": 300.7364285714286
+                },
+                {
+                    "name": [
+                        "Transplantation",
+                        "Donor nephrectomy"
+                    ],
+                    "value": 172.40952380952382
+                },
+                {
+                    "name": [
+                        "Transplantation",
+                        "Kidney transplantation"
+                    ],
+                    "value": 235.49049479166666
+                },
+                {
+                    "name": [
+                        "Transplantation",
+                        "Liver transplantation"
+                    ],
+                    "value": 358.9183641975309
+                },
+                {
+                    "name": [
+                        "Transplantation",
+                        "Lung transplantation"
+                    ],
+                    "value": 520.6880952380953
+                },
+                {
+                    "name": [
+                        "Transplantation",
+                        "Nephrectomy"
+                    ],
+                    "value": 120.80555555555566
+                },
+                {
+                    "name": [
+                        "Transplantation",
+                        "Pancreas transplantation"
+                    ],
+                    "value": 290.0
+                },
+                {
+                    "name": [
+                        "Transplantation",
+                        "Simultaneous pancreas-kidney transplantation"
+                    ],
+                    "value": 397.5
+                }
+            ]
+        },
+        {
+            "name": "Vascular",
+            "value": 161.11823495001266,
+            "children": [
+                {
+                    "name": [
+                        "Vascular",
+                        "Aneurysmal repair"
+                    ],
+                    "value": 294.5357142857143
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Aortofemoral bypass"
+                    ],
+                    "value": 270.0
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Aortoiliac bypass"
+                    ],
+                    "value": 274.85333333333335
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Aortorenal bypass"
+                    ],
+                    "value": 274.5
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Arteriovenous fistula"
+                    ],
+                    "value": 77.95344827586206
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Arteriovenous fistula thrombectomy"
+                    ],
+                    "value": 133.98055555555555
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Arteriovenous graft"
+                    ],
+                    "value": 160.0
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Bleeding control"
+                    ],
+                    "value": 70.0
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Closure of arteriovenous fistula"
+                    ],
+                    "value": 66.25
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Embolectomy"
+                    ],
+                    "value": 154.54545454545453
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Endarterectomy"
+                    ],
+                    "value": 211.21428571428572
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Endovascular aneurysmal repair"
+                    ],
+                    "value": 160.71428571428572
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Femoro-femoral bypass"
+                    ],
+                    "value": 160.0
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Femoro-popliteal bypass"
+                    ],
+                    "value": 356.3333333333333
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Ilioiliac bypass"
+                    ],
+                    "value": 210.0
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Incision and drainage"
+                    ],
+                    "value": 70.0
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Insertion of permanent catheter"
+                    ],
+                    "value": 135.0
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Intra-abdominal arterial bypass graft"
+                    ],
+                    "value": 105.0
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Ligation and stripping"
+                    ],
+                    "value": 90.12041666666666
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Nephrectomy"
+                    ],
+                    "value": 83.83333333333334
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Percutaneous biopsy"
+                    ],
+                    "value": 20.0
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Removal of Hickman catheter"
+                    ],
+                    "value": 15.0
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Removal of complicated graft"
+                    ],
+                    "value": 92.0
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Removal of continuous ambulatory peritoneal dialysis catheter"
+                    ],
+                    "value": 52.24259259259259
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Removal of permanent catheter"
+                    ],
+                    "value": 27.5
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Resection of inferior vena cava"
+                    ],
+                    "value": 436.5
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Resection of lower limb artery"
+                    ],
+                    "value": 200.0
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Resection of popliteal artery"
+                    ],
+                    "value": 191.0
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Revision of arteriovenous fistula"
+                    ],
+                    "value": 135.825
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Transposition of basilic vein for arteriovenous fistula"
+                    ],
+                    "value": 245.0
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Vascular bypass"
+                    ],
+                    "value": 178.0
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Vascular repair"
+                    ],
+                    "value": 155.0
+                },
+                {
+                    "name": [
+                        "Vascular",
+                        "Vessel graft"
+                    ],
+                    "value": 210.0
+                }
+            ]
+        }
+    ]
+}
