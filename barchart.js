@@ -181,6 +181,16 @@ const selector = d3.select(".selector-container")
 console.log("Dropdown created");
 
 // Load CSV data
+
+const xAxisLabel = svg.append("text")
+        .attr("class", "x-axis-label")
+        .attr("x", width / 2)
+        .attr("y", height + 150)
+        .attr("text-anchor", "right")
+        .style("font-size", "14px")
+        .text("All Operations");
+
+
 d3.csv("cases_clean_andres.csv").then(data => {
     console.log("CSV Data Loaded:", data);
 
@@ -220,14 +230,6 @@ d3.csv("cases_clean_andres.csv").then(data => {
 
     const yAxis = svg.append("g");
 
-    // X-Axis Label (Surgery Type or Operation Name)
-    const xAxisLabel = svg.append("text")
-        .attr("class", "x-axis-label")
-        .attr("x", width / 2)
-        .attr("y", height + 150)
-        .attr("text-anchor", "right")
-        .style("font-size", "14px")
-        .text("Surgery Type");
 
     // Y-Axis Label (Duration in Minutes)
     svg.append("text")
@@ -270,6 +272,7 @@ d3.csv("cases_clean_andres.csv").then(data => {
 
     // Function to update the chart
     function updateChart(filteredData, isOpName = false) {
+        const selectedOpType = document.getElementById("optypeSelector").value;
         const xDomain = isOpName ? filteredData.map(d => d.opname) : filteredData.map(d => d.optype);
         x.domain(xDomain);
         y.domain([0, d3.max(filteredData, d => Math.max(d.surgery, d.hospitalization))]).nice();
@@ -285,7 +288,10 @@ d3.csv("cases_clean_andres.csv").then(data => {
         yAxis.transition().duration(500).call(d3.axisLeft(y));
 
         // Update x-axis label dynamically
-        xAxisLabel.text(isOpName ? "Operation Name" : "Surgery Type");
+        xAxisLabel.text(`Surgery Type ${selectedOpType === "all" ? "All Operations" : selectedOpType}`);
+
+        
+
 
         // Surgery bars
         const barsSurgery = svg.selectAll(".bar-surgery").data(filteredData, d => d.caseid);

@@ -13,7 +13,14 @@ const svg = d3.select("#scatterplot")
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
 const dropdown = d3.select("#surgery-select");
-
+const title = svg.append("text")
+    .attr("class", "chart-title")
+    .attr("x", width / 2)
+    .attr("y", -20)  // Position above the chart
+    .attr("text-anchor", "middle")
+    .style("font-size", "20px")
+    .style("font-weight", "bold")
+    .text("Surgery: All Operations");
 // Load CSV
 d3.csv("cases_clean.csv", d3.autoType).then(data => {
     // Get unique surgery types and update dropdown
@@ -83,36 +90,39 @@ d3.csv("cases_clean.csv", d3.autoType).then(data => {
         .attr("y", 4)
         .text(d => d);
 
-    function updateChart(selectedType) {
-        // Filter data if a specific type is selected
-        const filteredData = selectedType === "All" 
-            ? data 
-            : data.filter(d => d.optype === selectedType);
-
-        // Update points with proper D3 update pattern
-        const points = svg.selectAll("circle.point")
-            .data(filteredData, d => d.id); // Assuming you have an id field
-
-        // Remove old points
-        points.exit().remove();
-
-        // Add new points
-        points.enter()
-            .append("circle")
-            .attr("class", "point")
-            .merge(points)
-            .attr("cx", d => xScale(d.opdur_mins))
-            .attr("cy", d => yScale(d.hospstay_mins))
-            .attr("r", 4)
-            .attr("fill", d => colorScale(d.optype))
-            .attr("opacity", 0.7);
-    }
-
-    // Initial render
-    updateChart("All");
-
-    // Update on dropdown change
-    dropdown.on("change", function() {
-        updateChart(this.value);
+        function updateChart(selectedType) {
+            // **Filter Data**
+            const filteredData = selectedType === "All" 
+                ? data 
+                : data.filter(d => d.optype === selectedType);
+    
+            // **Update Title**
+            title.text(`Surgery: ${selectedType}`);
+    
+            // **Update Points (Scatter Plot)**
+            const points = svg.selectAll(".point")
+                .data(filteredData, d => d.id); // Assuming you have an id field
+    
+            points.exit().remove();
+    
+            points.enter()
+                .append("circle")
+                .attr("class", "point")
+                .merge(points)
+                .transition().duration(500)
+                .attr("cx", d => xScale(d.opdur_mins))
+                .attr("cy", d => yScale(d.hospstay_mins))
+                .attr("r", 4)
+                .attr("fill", d => colorScale(d.optype))
+                .attr("opacity", 0.7);
+    
+        }
+        // Initial render
+        updateChart("All");
+    
+        // Update on dropdown change
+        dropdown.on("change", function() {
+            updateChart(this.value);
+        });
     });
-});
+    

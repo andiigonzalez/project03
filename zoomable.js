@@ -85,7 +85,7 @@ const legendScale = d3.scaleLinear()
 
 const legendAxis = d3.axisLeft(legendScale)
     .tickValues(color.domain())
-    .tickFormat(d => `${d}m`);
+    .tickFormat(d => `${d}`);
 
 legendSvg.append("g")
     .attr("class", "legend-axis")
