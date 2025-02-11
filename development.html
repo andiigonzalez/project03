@@ -3,60 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Development Process</title>
+    <title>Development Process</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-svg-legend/2.25.6/d3-svg-legend.min.js"></script>
 </head>
 <body>
+
     <h1 class="page-title">Development Process</h1>
-    <div class="timeline">
-        <div class="timeline-item" id="stage1" onclick="showDetails('stage1')">
-            <div class="icon"> <h3>1</h3></div>
+
+    <div class="project-steps">
+        <div class="step-item" id="stage1" >
+            <div class="circle">1</div>
             <div class="content">
-                <h2>Brainstorm & Research</h2>
+                <h2>Stage 1</h2>
+                <h3>Brainstorm & Research</h3>
+                <p>This stage consisted of discussing what dataset and question our project would focus on. Then, we each investigated on our own what potential visualizations were appropriate and feasible for our data. This took approximately 2.5 hours with most of the time being spent on researching different D3 visualizations and how to implement them </p>
             </div>
         </div>
 
-        <div class="timeline-item" id="stage2" onclick="showDetails('stage2')">
-            <div class="icon"><img src="icons/planning.png" alt="Planning"></div>
+        <div class="step-item" id="stage2">
+            <div class="circle">2</div>
             <div class="content">
                 <h2>Stage 2</h2>
                 <h3>Project Planning</h3>
+                <p>At this point, each team member created 2-3 visualizations to create a general idea of our possibilities. We coded most of them using D3, which took around 10 hours due to challenges in parsing JSON data and coding interactive features</p>
             </div>
         </div>
 
-        <div class="timeline-item" id="stage3" onclick="showDetails('stage3')">
-            <div class="icon"><img src="icons/execution.png" alt="Execution"></div>
+        <div class="step-item" id="stage3">
+            <div class="circle">3</div>
             <div class="content">
                 <h2>Stage 3</h2>
                 <h3>Project Execution</h3>
+                <p>We created our website skeleton using the layout from our labs. However, we wanted to personalize it and thus created this flow chart with interactive features for the viewer</p>
             </div>
         </div>
 
-        <div class="timeline-item" id="stage4" onclick="showDetails('stage4')">
-            <div class="icon"><img src="icons/monitoring.png" alt="Monitoring"></div>
+        <div class="step-item" id="stage4">
+            <div class="circle">4</div>
             <div class="content">
                 <h2>Stage 4</h2>
                 <h3>Monitoring & Controlling</h3>
+                <p>SINISH</p>
             </div>
+
         </div>
 
-        <div class="timeline-item" id="stage5" onclick="showDetails('stage5')">
-            <div class="icon"><img src="icons/close.png" alt="Close"></div>
+        <div class="step-item" id="stage5">
+            <div class="circle">5</div>
             <div class="content">
                 <h2>Stage 5</h2>
                 <h3>Project Close</h3>
+                <p>FINISH</p>
             </div>
         </div>
     </div>
 
-    <div id="details-box" class="hidden">
-        <span class="close-btn" onclick="hideDetails()">✖</span>
-        <h2 id="details-title"></h2>
-        <p id="details-text"></p>
-    </div>
-
-    <script type="module" src="global.js"></script>
+    <script src="global.js"></script>
 </body>
 </html>
