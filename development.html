@@ -5,13 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Development Process</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-svg-legend/2.25.6/d3-svg-legend.min.js"></script>
 </head>
 <body>
     <h1 class="page-title">Development Process</h1>
-    <h2 text-align:center>Visualization</h2>
-    <div class="project">
+    <div class="timeline">
+        <div class="timeline-item" id="stage1" onclick="showDetails('stage1')">
+            <div class="icon"> <h3>1</h3></div>
+            <div class="content">
+                <h2>Brainstorm & Research</h2>
+            </div>
+        </div>
+
+        <div class="timeline-item" id="stage2" onclick="showDetails('stage2')">
+            <div class="icon"><img src="icons/planning.png" alt="Planning"></div>
+            <div class="content">
+                <h2>Stage 2</h2>
+                <h3>Project Planning</h3>
+            </div>
+        </div>
+
+        <div class="timeline-item" id="stage3" onclick="showDetails('stage3')">
+            <div class="icon"><img src="icons/execution.png" alt="Execution"></div>
+            <div class="content">
+                <h2>Stage 3</h2>
+                <h3>Project Execution</h3>
+            </div>
+        </div>
+
+        <div class="timeline-item" id="stage4" onclick="showDetails('stage4')">
+            <div class="icon"><img src="icons/monitoring.png" alt="Monitoring"></div>
+            <div class="content">
+                <h2>Stage 4</h2>
+                <h3>Monitoring & Controlling</h3>
+            </div>
+        </div>
+
+        <div class="timeline-item" id="stage5" onclick="showDetails('stage5')">
+            <div class="icon"><img src="icons/close.png" alt="Close"></div>
+            <div class="content">
+                <h2>Stage 5</h2>
+                <h3>Project Close</h3>
+            </div>
+        </div>
     </div>
-    <script type="module" src="global.js"> </script>
-    <script type="module" src="graphs.js"></script>
+
+    <div id="details-box" class="hidden">
+        <span class="close-btn" onclick="hideDetails()">✖</span>
+        <h2 id="details-title"></h2>
+        <p id="details-text"></p>
+    </div>
+
+    <script type="module" src="global.js"></script>
 </body>
 </html>

@@ -95,3 +95,22 @@ select.addEventListener("input", function (event) {
   localStorage.colorScheme = colorScheme;
   document.documentElement.offsetHeight; 
 });
+
+const details = {
+  stage1: { title: "Brainstorm & Research", text: "This stage consisted of discussing what dataset and question our project would focus on. Then, we each investigated on our own what potential visualizations were appropriate and feasable for our data. This took approximately 2.5  hours with most of the time being spent on researching different d3 visualizations and how to implement them." },
+  stage2: { title: "Potential Visualizations", text: "At this point, each team member created 2-3 visualizations to create a general idea of our possibilities. To acquire as much knowledge and practice, we coded most of them using d3. This stage took overall about 10 hours. It was very time consuming to ensure that our data was properly parsed into json so that we could call it in javascript. Then, coding every aspect of the visualzaation as well as the interactive features proposed many challenges and a considerable amount of re-reading and re-writing code. " },
+  stage3: { title: "Website", text: "We created our website skeleton using the layout from our labs. However, we wanted to personalize it and thus created this flow chart with interactive features for the viewer." },
+  stage4: { title: "Final Visualization", text: "Once we created our checkpoint visualizations, our team discussed the benefits and costs of our preferred graphs. We analyzed ... XXX TO FINISH." },
+  stage5: { title: "Rationale & Website Cleanup", text: "TO FINISH" }
+};
+
+function showDetails(stage) {
+  const detailBox = document.getElementById("details-box");
+  document.getElementById("details-title").innerText = details[stage].title;
+  document.getElementById("details-text").innerText = details[stage].text;
+  detailBox.classList.remove("hidden");
+}
+
+function hideDetails() {
+  document.getElementById("details-box").classList.add("hidden");
+}
