@@ -24,7 +24,7 @@ const selector = d3.select(".selector-container")
 console.log("Dropdown created");
 
 // Load CSV data
-d3.csv("cases_clean.csv").then(data => {
+d3.csv("cases_clean_andres.csv").then(data => {
     console.log("CSV Data Loaded:", data);
 
     data.forEach(d => {
