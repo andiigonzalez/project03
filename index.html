@@ -11,7 +11,7 @@
 </head>
 <body>
     <h1 class="page-title">Project 03</h1>
-    <!-- Scatter Plot -->
+
     <div class="chart-container">
         <h2>Scatter Plot: Surgery Duration vs Hospital Stay</h2>
         <select id="surgery-select">
@@ -20,11 +20,6 @@
         <svg id="scatterplot" width="800" height="500"></svg>
     </div>
 
-    <!-- Interactive Bar Chart -->
-    <div class="chart-container">
-        <h2>Interactive Tree map</h2>
-        <svg id="treemap" width="800" height="500"></svg>
-    </div>
 
     <div class="chart-container">
         <h2>Zoomable Circle Packing</h2>
@@ -38,10 +33,17 @@
         <div class="project"></div> 
     </div>
 
+     <!-- Interactive Bar Chart -->
+     <div class="chart-container">
+        <h2>Interactive Tree map (not currently working)</h2>
+        <svg id="treemap" width="800" height="500"></svg>
+    </div>
+
     <script type="module" src="global.js"> </script>
     <script type="module" src="treemap.js"></script>
     <script type="module" src="scatter.js"></script>
     <script type="module"  src="zoomable.js"></script>
+    <script type="module"  src="barchart.js"></script>
 
 </body>
 </html>
