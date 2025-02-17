@@ -33,14 +33,14 @@ const yAxisGroup = svg.append("g");
 
 // Legend
 const legend = svg.append("g")
-    .attr("transform", `translate(${width - 150}, -30)`); // Position legend at top right
+    .attr("transform", `translate(${width - 120}, -40)`); // Position legend at top right
 
 legend.selectAll("rect")
     .data(["Surgery Duration", "Hospital Stay"])
     .enter()
     .append("rect")
     .attr("x", 0)
-    .attr("y", (d, i) => i * 20)
+    .attr("y", (d, i) => i * 25)
     .attr("width", 15)
     .attr("height", 15)
     .attr("fill", d => colorScale(d));
