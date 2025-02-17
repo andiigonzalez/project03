@@ -80,8 +80,8 @@ nav {
 
 .project-steps {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Two columns */
-  gap: 200px; /* Space between elements */
+  grid-template-columns: 1fr; /* One columns */
+  gap: 50px; /* Space between elements */
   justify-content: center;
   align-items: start;
   margin: auto;
@@ -90,13 +90,13 @@ nav {
 /* ✅ Fix: Ensure all items align properly in grid */
 .step-item {
   display: flex;
-  align-items: center;
+  align-items: start;
   width: 100%;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   position: relative;
-  justify-content: space-between;
-  padding: 20px;
+  justify-content: space-evenly;
+  padding: 10px;
   background: white;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
