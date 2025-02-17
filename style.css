@@ -129,9 +129,6 @@ nav {
   width: 60%;
   overflow: auto;
   position: relative;
-  .h2{
-    text-align: top;
-  }
 }
 
 /* ZOOMED STAGE */
@@ -165,3 +162,4 @@ nav {
   opacity: 0.3;
   pointer-events: none;
 }
+
