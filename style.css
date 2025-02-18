@@ -164,11 +164,77 @@ nav {
   pointer-events: none;
 }
 
-.dropdown-container select {
-  padding: 8px;
-  border-radius: 5px;
-  border: 1px solid blackc;
-  background-color:lightpink;
-  font-size: 14px;
+/*-------------- Hierarchical bar chart style elements ----- */
+.bar {
+  fill: steelblue;
   cursor: pointer;
 }
+
+.bar:hover {
+  fill: lightblue;
+}
+
+.hosp-bar {
+  fill: lightcoral;
+  cursor: pointer;
+}
+
+.hosp-bar:hover {
+  fill: pink;
+}
+
+.axis-label {
+  font-size: 14px;
+  font-weight: bold;
+  fill: white;
+}
+
+text {
+  fill: white;
+}
+
+#tooltip {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  pointer-events: none;
+  backdrop-filter: blur(10px);
+  white-space: nowrap;
+  box-shadow: 0px 0px 5px rgba(63, 63, 63, 0.5);
+}
+
+.chart-container2 {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+svg {
+  width: 100%;
+  height: auto;
+}
+
+/*--- chart back button----*/
+
+#backButton {
+  position: absolute;
+  top: 10px;   /* Distance from the top of .chart-container2 */
+  right: 10px; /* Distance from the right of .chart-container2 */
+  z-index: 10; /* Ensures it stays above the chart */
+  padding: 8px 12px;
+  background-color: #474747;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#backButton:hover {
+  background-color: #666; /* Lighter gray on hover */
+}
+
+/* -------------------------------------------------*/

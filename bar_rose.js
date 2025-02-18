@@ -17,13 +17,11 @@ const svg = d3.select("#chart-svg")
     .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
 // Back button
-const backButton = d3.select("body")
+const backButton = d3.select(".chart-container2")
     .append("button")
+    .attr("id", "backButton") // Assign an ID to target in CSS
     .text("Back")
-    .style("display", "none")
-    .style("position", "absolute")
-    .style("top", "20px")
-    .style("left", "20px")
+    .style("display", "none") // Still control visibility in JS
     .on("click", resetChart);
 
 let initialData;
@@ -263,10 +261,9 @@ function expandBar(event, d) {
         .attr("y", lastBarPosition + 50);
 }
 
-
-
 function resetChart() {
-    updateChart(initialData);
-    resizeChart();  // Ensures axes update correctly
+    updateChart(initialData);  // Reset to top-level data
+    resizeChart();  // Ensure axes and layout resize correctly
+    backButton.style("display", "none");  // Hide the button when at the top level
 }
 
