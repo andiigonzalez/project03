@@ -207,7 +207,7 @@ const xAxisLabel = svgContainer.append("text")
     .style("font-size", "14px")
     .text("Duration (minutes)");
 
-d3.csv("cases_clean_andres.csv").then(data => {
+d3.csv("cases_clean_andres_2.csv").then(data => {
     data.forEach(d => {
         d.surgery = isNaN(+d.surgery) ? 0 : +d.surgery;
         d.hospitalization = isNaN(+d.hospitalization) ? 0 : +d.hospitalization;
