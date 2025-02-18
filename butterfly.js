@@ -1,112 +1,61 @@
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7.9.0/+esm";
 
 // Define margins and dimensions
-const margin = { top: 40, right: 30, bottom: 70, left: 200 }; // Increased bottom margin for labels
-const width = 900 - margin.left - margin.right;
-const height = 600 - margin.top - margin.bottom;
+const margin = { top: 40, right: 30, bottom: 50, left: 200 }; // Increased left margin for labels
+const width = 800 - margin.left - margin.right;
+const height = 500 - margin.top - margin.bottom;
 
-// Create filter dropdown
-const filterDiv = d3.select("#butterfly").append("div")
-    .style("position", "relative")
-    .style("top", "10px")
-    .style("left", "10px");
-
-filterDiv.append("select")
-    .attr("id", "filterDropdown")
-    .style("padding", "5px")
-    .style("margin-bottom", "10px")
-    .on("change", function() {
-        const selectedValue = d3.select(this).property("value");
-        if (selectedValue === "all") {
-            loadMainChart();
-        } else {
-            loadSubChart(selectedValue);
-        }
-    });
-
-// Select the correct SVG
+// Select the correct SVG AFTER defining width and height
 const svg = d3.select("#butterfly")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
     .append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
-// Background rectangle for clicking
+
+// **Background rectangle for clicking to return to main chart**
 svg.append("rect")
     .attr("width", width)
     .attr("height", height)
     .attr("fill", "white")
     .attr("opacity", 0)
-    .on("click", () => loadMainChart());
+    .on("click", () => loadMainChart()); // Return to main chart on click
 
 // Define color scale
 const colorScale = d3.scaleOrdinal()
     .domain(["Surgery Duration", "Hospital Stay"])
-    .range(["#1f77b4", "#ff7f0e"]);
+    .range(["#1f77b4", "url(#diagonalHatch)"]); // Blue for surgery, Orange for stay
 
-// Define scales for the butterfly chart
-const xScaleLeft = d3.scaleLinear().range([0, width/3]);
-const xScaleRight = d3.scaleLinear().range([0, width/1.5]);
-const yScale = d3.scaleBand().range([0, height]);
+const defs = svg.append("defs");
+defs.append("pattern")
+    .attr("id", "diagonalHatch")
+    .attr("patternUnits", "userSpaceOnUse")
+    .attr("width", 8)
+    .attr("height", 8)
+    .append("path")
+    .attr("d", "M0,0 l8,8 M-4,4 l8,8 M4,-4 l8,8")
+    .attr("stroke", "#D0021B")
+    .attr("stroke-width", 2);
 
-// Create axis groups
-const xAxisLeftGroup = svg.append("g")
-    .attr("transform", `translate(0,${height})`);
-const xAxisRightGroup = svg.append("g")
-    .attr("transform", `translate(${width/2},${height})`);
-const yAxisGroup = svg.append("g")
-    .attr("transform", `translate(${width/2},0)`);
 
-// Add X-axis labels
-svg.append("text")
-    .attr("class", "axis-label")
-    .attr("x", width/4)
-    .attr("y", height + 45)
-    .attr("text-anchor", "middle")
-    .style("font-size", "12px")
-    .text("Surgery Duration (Hours)");
+const xScale = d3.scaleLinear().range([0, width]); // Horizontal bars, so x is linear
+const yScale = d3.scaleBand().range([0, height]).padding(0.4); // Band scale for categories
 
-svg.append("text")
-    .attr("class", "axis-label")
-    .attr("x", 3*width/4)
-    .attr("y", height + 45)
-    .attr("text-anchor", "middle")
-    .style("font-size", "12px")
-    .text("Hospital Stay (Hours)");
-
-// Add title
-svg.append("text")
-    .attr("class", "chart-title")
-    .attr("x", width/2)
-    .attr("y", -margin.top/1.2)
-    .attr("text-anchor", "top-middle")
-    .style("font-size", "16px")
-    .style("font-weight", "bold")
-    .text("Surgery Duration and Hospital Stay Comparison");
-
-// Add center line
-svg.append("line")
-    .attr("class", "center-line")
-    .attr("x1", width/2)
-    .attr("x2", width/2)
-    .attr("y1", 0)
-    .attr("y2", height)
-    .attr("stroke", "#ccc")
-    .attr("stroke-width", 1);
-
+const xAxisGroup = svg.append("g").attr("transform", `translate(0,${height})`);
+const yAxisGroup = svg.append("g");
 
 // Legend
 const legend = svg.append("g")
-    .attr("transform", `translate(${width - 150}, -30)`);
+    .attr("transform", `translate(${width - 120}, -40)`); // Position legend at top right
 
 legend.selectAll("rect")
     .data(["Surgery Duration", "Hospital Stay"])
     .enter()
     .append("rect")
     .attr("x", 0)
-    .attr("y", (d, i) => i * 20)
-    .attr("width", 10)
-    .attr("height", 10)
+    .attr("y", (d, i) => i * 25)
+    .attr("width", 15)
+    .attr("height", 15)
     .attr("fill", d => colorScale(d));
 
 legend.selectAll("text")
@@ -119,126 +68,108 @@ legend.selectAll("text")
     .style("font-size", "14px")
     .attr("alignment-baseline", "middle");
 
-// Back button functionality
-const backButton = d3.select("#backButton").on("click", () => loadMainChart());
-
-function updateDropdown(data) {
-    const dropdown = d3.select("#filterDropdown");
-    
-    // Clear existing options
-    dropdown.selectAll("option").remove();
-    
-    // Add "All" option
-    dropdown.append("option")
-        .attr("value", "all")
-        .text("All Categories");
-    
-    // Add options for each surgery type
-    const options = [...new Set(data.map(d => d.optype))];
-    dropdown.selectAll("option.category")
-        .data(options)
-        .enter()
-        .append("option")
-        .attr("value", d => d)
-        .text(d => d);
-}
+const tooltip = d3.select("body")
+    .append("div")
+    .attr("class", "tooltip")
+    .style("position", "absolute")
+    .style("background", "rgba(0, 0, 0, 0.75)")
+    .style("color", "#fff")
+    .style("padding", "8px")
+    .style("border-radius", "5px")
+    .style("display", "none")
+    .style("pointer-events", "none");
 
 function loadMainChart() {
     backButton.style("display", "none");
     d3.json("data/main_durations_data.json").then(data => {
+        // Convert 'optype' to 'department' for consistency
         data.forEach(d => d.SurgeryType = d.optype);
-        updateDropdown(data);
         updateChart(data, false);
     }).catch(error => console.error("Error loading the data", error));
 }
 
+// Load subcategories for a specific department
 function loadSubChart(SurgeryType) {
     backButton.style("display", "inline-block");
-    
+
     d3.json("data/sub_durations_data.json").then(data => {
         const filteredData = data.filter(d => d.optype === SurgeryType);
-        filteredData.forEach(d => d.SurgeryType = d.opname);
+        filteredData.forEach(d => d.SurgeryType = d.opname);  // Ensure consistency
         updateChart(filteredData, true);
     });
 }
 
-function updateChart(data, isSubcategory) {
-    // Update scales - removed division by 24 since data is already in days
-    yScale.domain(data.map(d => d.SurgeryType));
-    xScaleLeft.domain([d3.max(data, d => d.surgery), 0]);
-    xScaleRight.domain([0, d3.max(data, d => d.stay*24)]);
-
-    // Update bars
-    const bars = svg.selectAll(".bar-group").data(data, d => d.SurgeryType);
-
-    // Remove old bars
-    bars.exit()
-        .transition().duration(500)
-        .attr("opacity", 0)
-        .remove();
-
-    // Create new bar groups
-    const barGroups = bars.enter()
-        .append("g")
-        .attr("class", "bar-group")
-        .attr("transform", d => `translate(0,${yScale(d.SurgeryType)})`)
-        .on("click", function(event, d) {
-            if (!isSubcategory) loadSubChart(d.SurgeryType);
-        });
-
-    // Surgery Duration bars (left side)
-    barGroups.append("rect")
-        .attr("class", "bar")
-        .attr("y", yScale.bandwidth() * 0.1)
-        .attr("height", yScale.bandwidth() * 0.5)
-        .attr("x", d => xScaleLeft(d.surgery))
-        .attr("width", 0)
-        .attr("fill", colorScale("Surgery Duration"))
-        .transition().duration(800)
-        .attr("width", d => width/2 - xScaleLeft(d.surgery));
-
-    // Hospital Stay bars (right side)
-    barGroups.append("rect")
-        .attr("class", "bar2")
-        .attr("y", yScale.bandwidth() * 0.1)
-        .attr("height", yScale.bandwidth() * 0.5)
-        .attr("x", width/2)
-        .attr("width", 0)
-        .attr("fill", colorScale("Hospital Stay"))
-        .transition().duration(800)
-        .attr("width", d => xScaleRight(d.stay*24)); // Removed division by 24
-
-    // Add single label at the center
-    barGroups.append("text")
-        .attr("x", width/2)
-        .attr("y", yScale.bandwidth() / 2)
-        .attr("text-anchor", "middle")
-        .attr("opacity", 0)
-        .transition().duration(800)
-        .attr("opacity", 1)
-        .text(d => d.SurgeryType)
-        .style("font-size", "14px")
-        .attr("alignment-baseline", "middle");
-
-    // Update axes with proper formatting
-    xAxisLeftGroup.transition().duration(800)
-        .call(d3.axisBottom(xScaleLeft).ticks(12)
-            .tickFormat(d => Math.round(d) + "h"))
-        .selectAll("text")
-        .attr("transform", "translate(-10,0)rotate(-45)")
-        .style("text-anchor", "end");
-
-    xAxisRightGroup.transition().duration(800)
-        .call(d3.axisBottom(xScaleRight).ticks(20)
-            .tickFormat(d => Math.round(d) + "h"))
-        .selectAll("text")
-        .attr("transform", "translate(10,0)rotate(-45)")
-        .style("text-anchor", "start");
-
-    yAxisGroup.transition().duration(800)
-        .call(d3.axisLeft(yScale));
-}
-
-
-// Initialize chart
-loadMainChart();
+    d3.json("data/main_durations_data.json").then(data => {
+    
+        // ✅ **Fix 1: Ensure xScale domain covers `surgery + stay`**
+        xScale.domain([0, d3.max(data, d => d.surgery + d.stay)]);
+        yScale.domain(data.map(d => d.optype));
+    
+        // Bind data
+        const bars = svg.selectAll(".bar-group").data(data, d => d.optype);
+    
+        // Remove old bars
+        bars.exit().transition().duration(500).attr("opacity", 0).remove();
+    
+        // Create bar groups
+        const barGroups = bars.enter()
+            .append("g")
+            .attr("class", "bar-group")
+            .attr("transform", d => `translate(0, ${yScale(d.optype)})`)
+            .on("mouseover", function (event, d) {
+                tooltip.style("display", "block")
+                    .html(`
+                        <strong>${d.optype}</strong><br>
+                        Surgery Duration: ${d.surgery.toFixed(2)} hours<br>
+                        Hospital Stay: ${d.stay.toFixed(2)} days
+                    `);
+            })
+            .on("mousemove", function (event) {
+                tooltip.style("top", `${event.pageY - 40}px`).style("left", `${event.pageX + 10}px`);
+            })
+            .on("mouseout", function () {
+                tooltip.style("display", "none");
+            });
+    
+        // ✅ **Fix 2: Draw surgery bar first, then overlay dashed hospital stay**
+        // Draw **Surgery Duration** (Solid Bar) **FIRST**
+        barGroups.append("rect")
+            .attr("class", "bar")
+            .attr("x", 0)
+            .attr("y", 0)
+            .attr("height", yScale.bandwidth())
+            .attr("width", 0)  // Start with 0 width
+            .attr("fill", "#D0021B") // Solid Red
+            .transition().duration(800)
+            .attr("width", d => xScale(d.surgery)); // Expand based on surgery duration
+    
+        // Draw **Hospital Stay** (Dashed Background Bar) **SECOND**
+        barGroups.append("rect")
+            .attr("class", "bar-background")
+            .attr("x", d => xScale(d.surgery)) // Start after surgery duration
+            .attr("y", 0)
+            .attr("height", yScale.bandwidth())
+            .attr("width", 0)  // Start with 0 width
+            .attr("fill", "url(#diagonalHatch)")
+            .attr("opacity", 0.4) // Dashed pattern
+            .transition().duration(800)
+            .attr("width", d => xScale(d.stay)); // Expand based on hospital stay
+    
+        // ✅ **Fix 3: Add labels directly on top of bars**
+        barGroups.append("text")
+            .attr("x", d => xScale(d.surgery + d.stay) - 5)
+            .attr("y", yScale.bandwidth() / 2)
+            .attr("text-anchor", "end")
+            .attr("opacity", 0)
+            .transition().duration(800)
+            .attr("opacity", 1)
+            .text(d => `${d.surgery.toFixed(1)}h | ${d.stay.toFixed(1)}d`)
+            .style("font-size", "12px")
+            .attr("fill", "#fff");
+    
+        // Update Axes
+        xAxisGroup.transition().duration(800).call(d3.axisBottom(xScale));
+        yAxisGroup.transition().duration(800).call(d3.axisLeft(yScale));
+    
+    }).catch(error => console.error("Error loading data", error));
+    
