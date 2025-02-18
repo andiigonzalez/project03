@@ -105,14 +105,14 @@ function updateChart(root) {
         .attr("text-anchor", "middle")
         .attr("x", xScale(-maxDuration / 2))
         .attr("y", newHeight - margin.bottom + 15)
-        .text("Surgery Duration (in hours)");
+        .text("Average Surgery Duration (in hours)");
 
     svg.append("text")
         .attr("class", "x-axis-label")
         .attr("text-anchor", "middle")
         .attr("x", xScale(maxDuration / 2))
         .attr("y", newHeight - margin.bottom + 15)
-        .text("Hospitalization Duration (in days)");
+        .text("Average Hospitalization Duration (in days)");
 
     const bars = svg.selectAll(".bar-group")
         .data(root.children, d => d.data.name);
@@ -152,17 +152,28 @@ function updateChart(root) {
         .attr("width", d => xScale(d.data.hosp_dur || 0) - xScale(0));
 
     function showTooltip(event, d, type) {
-        let values;
+        let minVal, maxVal, unit, label;
+
         if (d.children) {
-            values = d.children.map(c => type === "op" ? c.data.op_dur : c.data.hosp_dur).filter(v => v !== undefined);
+            // If it's an operation type, compute min/max from children surgeries
+            const values = d.children.map(c => 
+                type === "op" ? c.data.op_dur : c.data.hosp_dur
+            ).filter(v => v !== undefined);
+
+            minVal = values.length ? d3.min(values).toFixed(2) : "N/A";
+            maxVal = values.length ? d3.max(values).toFixed(2) : "N/A";
         } else {
-            values = [d.data.op_dur, d.data.hosp_dur];
+            // If it's a leaf node (individual surgery), use its own min/max values
+            minVal = type === "op" ? d.data.op_dur_min : d.data.hosp_dur_min;
+            maxVal = type === "op" ? d.data.op_dur_max : d.data.hosp_dur_max;
+
+            // Ensure values are formatted properly
+            minVal = minVal !== undefined ? parseFloat(minVal).toFixed(2) : "N/A";
+            maxVal = maxVal !== undefined ? parseFloat(maxVal).toFixed(2) : "N/A";
         }
 
-        const minVal = values.length ? d3.min(values).toFixed(2) : "N/A";
-        const maxVal = values.length ? d3.max(values).toFixed(2) : "N/A";
-        const unit = type === "op" ? "hours" : "days";
-        const label = type === "op" ? "Operation" : "Hospitalization";
+        unit = type === "op" ? "hours" : "days";
+        label = type === "op" ? "Operation" : "Hospitalization";
 
         tooltip.style("display", "block")
             .html(`<strong>${d.data.name}</strong><br>${label} Duration:<br>Min: ${minVal} ${unit}<br>Max: ${maxVal} ${unit}`)
@@ -170,12 +181,14 @@ function updateChart(root) {
             .style("top", `${event.pageY - 30}px`);
     }
 
+
     function hideTooltip() {
         tooltip.style("display", "none");
     }
 
     backButton.style("display", root !== initialData ? "block" : "none");
 }
+
 
 function expandBar(event, d) {
     if (!d.children) return;
