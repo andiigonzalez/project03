@@ -49,3 +49,14 @@ text {
     white-space: nowrap;
     box-shadow: 0px 0px 5px rgba(63, 63, 63, 0.5);
 }
+
+.chart-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+svg {
+    width: 100%;
+    height: auto;
+}
