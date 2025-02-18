@@ -100,7 +100,7 @@ function loadMainChart() {
         });
 
         selector.property("value", "all");
-        updateChart(data);
+        updateChart(data, false);
     }).catch(error => console.error("Error loading data:", error));
 }
 
@@ -111,15 +111,33 @@ function loadSubChart(selectedType) {
 
     d3.json("data/sub_durations_data.json").then(data => {
         const filteredData = data.filter(d => d.optype === selectedType);
-        updateChart(filteredData);
+        
+        // Update dropdown
+        selector.selectAll("option").remove();
+        selector.append("option").attr("value", "all").text("All Operations");
+        selector.append("option").attr("value", selectedType).text(selectedType);
+        
+        const uniqueOps = [...new Set(filteredData.map(d => d.opname))];
+        uniqueOps.forEach(opname => {
+            selector.append("option")
+                .attr("value", opname)
+                .text(opname);
+        });
+
+        selector.property("value", selectedType);
+        updateChart(filteredData, true);
     }).catch(error => console.error("Error loading data:", error));
 }
 
 // Update chart with new data
-function updateChart(data) {
+function updateChart(data, isSubcategory) {
     const maxValue = d3.max(data, d => Math.max(d.surgery, d.stay));
     xScale.domain([0, maxValue]);
-    yScale.domain(data.map(d => d.optype));
+    
+    const categories = isSubcategory 
+        ? data.map(d => d.opname)
+        : data.map(d => d.optype);
+    yScale.domain(categories);
 
     // Update axes
     xAxisGroup.transition().duration(800)
@@ -129,7 +147,7 @@ function updateChart(data) {
 
     // Update bars
     const barGroups = svg.selectAll(".bar-group")
-        .data(data, d => d.optype);
+        .data(data, d => isSubcategory ? d.opname : d.optype);
 
     // Remove old bars
     barGroups.exit()
@@ -146,7 +164,7 @@ function updateChart(data) {
     // Add surgery duration bars
     newBarGroups.append("rect")
         .attr("class", "surgery-bar")
-        .attr("y", d => yScale(d.optype))
+        .attr("y", d => yScale(isSubcategory ? d.opname : d.optype))
         .attr("height", yScale.bandwidth() * 0.4)
         .attr("fill", colorScale("Surgery Duration"))
         .attr("x", 0)
@@ -157,7 +175,7 @@ function updateChart(data) {
     // Add hospital stay bars
     newBarGroups.append("rect")
         .attr("class", "stay-bar")
-        .attr("y", d => yScale(d.optype) + yScale.bandwidth() * 0.5)
+        .attr("y", d => yScale(isSubcategory ? d.opname : d.optype) + yScale.bandwidth() * 0.5)
         .attr("height", yScale.bandwidth() * 0.4)
         .attr("fill", colorScale("Hospital Stay"))
         .attr("x", 0)
@@ -173,15 +191,31 @@ function updateChart(data) {
     });
 
     // Add hover effects
-    newBarGroups
-        .on("mouseover", function(event, d) {
+    const handleMouseOver = function(event, d) {
+        const title = isSubcategory ? d.opname : d.optype;
+        if (title) {  // Only show tooltip if title exists
             tooltip.style("display", "block")
                 .html(`
-                    <strong>${d.optype}</strong><br>
+                    <strong>${title}</strong><br>
                     Surgery Duration: ${d.surgery.toFixed(2)} hours<br>
                     Hospital Stay: ${d.stay.toFixed(2)} days
                 `);
+        }
+    };
+
+    newBarGroups
+        .on("mouseover", handleMouseOver)
+        .on("mousemove", function(event) {
+            tooltip.style("top", `${event.pageY - 40}px`)
+                .style("left", `${event.pageX + 10}px`);
         })
+        .on("mouseout", function() {
+            tooltip.style("display", "none");
+        });
+
+    // Update existing bar groups with new hover handlers
+    barGroups
+        .on("mouseover", handleMouseOver)
         .on("mousemove", function(event) {
             tooltip.style("top", `${event.pageY - 40}px`)
                 .style("left", `${event.pageX + 10}px`);
@@ -193,12 +227,12 @@ function updateChart(data) {
     // Update existing bars
     barGroups.select(".surgery-bar")
         .transition().duration(800)
-        .attr("y", d => yScale(d.optype))
+        .attr("y", d => yScale(isSubcategory ? d.opname : d.optype))
         .attr("width", d => xScale(d.surgery));
 
     barGroups.select(".stay-bar")
         .transition().duration(800)
-        .attr("y", d => yScale(d.optype) + yScale.bandwidth() * 0.5)
+        .attr("y", d => yScale(isSubcategory ? d.opname : d.optype) + yScale.bandwidth() * 0.5)
         .attr("width", d => xScale(d.stay));
 }
 
@@ -207,8 +241,14 @@ selector.on("change", function() {
     const selectedValue = this.value;
     if (selectedValue === "all") {
         loadMainChart();
-    } else {
+    } else if (currentView === "main") {
         loadSubChart(selectedValue);
+    } else {
+        // Handle subcategory filtering
+        d3.json("data/sub_durations_data.json").then(data => {
+            const filteredData = data.filter(d => d.opname === selectedValue);
+            updateChart(filteredData, true);
+        });
     }
 });
 
