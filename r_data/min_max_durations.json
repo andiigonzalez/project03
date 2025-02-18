@@ -1,0 +1,1689 @@
+[
+    {
+        "opname":"Abdominoperineal resection",
+        "op_dur_min":1.5,
+        "op_dur_max":7.4166666667,
+        "hosp_dur_min":7.0,
+        "hosp_dur_max":31.0
+    },
+    {
+        "opname":"Adhesiolysis",
+        "op_dur_min":1.6666666667,
+        "op_dur_max":3.6205555556,
+        "hosp_dur_min":6.0,
+        "hosp_dur_max":104.0
+    },
+    {
+        "opname":"Adrenalectomy",
+        "op_dur_min":1.0,
+        "op_dur_max":3.5,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":23.0
+    },
+    {
+        "opname":"Ampullectomy",
+        "op_dur_min":1.8333333333,
+        "op_dur_max":1.8333333333,
+        "hosp_dur_min":31.0,
+        "hosp_dur_max":31.0
+    },
+    {
+        "opname":"Anal fistulotomy",
+        "op_dur_min":0.4922222222,
+        "op_dur_max":0.75,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":2.0
+    },
+    {
+        "opname":"Aneurysmal repair",
+        "op_dur_min":3.0833333333,
+        "op_dur_max":6.25,
+        "hosp_dur_min":8.0,
+        "hosp_dur_max":44.0
+    },
+    {
+        "opname":"Anterior resection",
+        "op_dur_min":0.5830555556,
+        "op_dur_max":8.75,
+        "hosp_dur_min":5.0,
+        "hosp_dur_max":72.0
+    },
+    {
+        "opname":"Aortofemoral bypass",
+        "op_dur_min":4.5,
+        "op_dur_max":4.5,
+        "hosp_dur_min":11.0,
+        "hosp_dur_max":11.0
+    },
+    {
+        "opname":"Aortoiliac bypass",
+        "op_dur_min":1.9166666667,
+        "op_dur_max":7.25,
+        "hosp_dur_min":7.0,
+        "hosp_dur_max":42.0
+    },
+    {
+        "opname":"Aortorenal bypass",
+        "op_dur_min":3.25,
+        "op_dur_max":7.0,
+        "hosp_dur_min":8.0,
+        "hosp_dur_max":11.0
+    },
+    {
+        "opname":"Appendectomy",
+        "op_dur_min":0.25,
+        "op_dur_max":4.25,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":46.0
+    },
+    {
+        "opname":"Arteriovenous fistula",
+        "op_dur_min":0.6763888889,
+        "op_dur_max":2.55,
+        "hosp_dur_min":1.0,
+        "hosp_dur_max":24.0
+    },
+    {
+        "opname":"Arteriovenous fistula thrombectomy",
+        "op_dur_min":1.0780555556,
+        "op_dur_max":4.8333333333,
+        "hosp_dur_min":9.0,
+        "hosp_dur_max":40.0
+    },
+    {
+        "opname":"Arteriovenous graft",
+        "op_dur_min":2.0,
+        "op_dur_max":3.3333333333,
+        "hosp_dur_min":9.0,
+        "hosp_dur_max":30.0
+    },
+    {
+        "opname":"Axillary lymph node dissection",
+        "op_dur_min":0.5,
+        "op_dur_max":1.8333333333,
+        "hosp_dur_min":4.0,
+        "hosp_dur_max":6.0
+    },
+    {
+        "opname":"Bile duct anastomosis",
+        "op_dur_min":4.5,
+        "op_dur_max":4.5,
+        "hosp_dur_min":9.0,
+        "hosp_dur_max":9.0
+    },
+    {
+        "opname":"Biopsy",
+        "op_dur_min":0.3333333333,
+        "op_dur_max":2.1666666667,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":27.0
+    },
+    {
+        "opname":"Bleeding control",
+        "op_dur_min":0.9166666667,
+        "op_dur_max":5.3333333333,
+        "hosp_dur_min":4.0,
+        "hosp_dur_max":90.0
+    },
+    {
+        "opname":"Breast reconstruction",
+        "op_dur_min":8.5833333333,
+        "op_dur_max":8.5833333333,
+        "hosp_dur_min":8.0,
+        "hosp_dur_max":8.0
+    },
+    {
+        "opname":"Breast-conserving surgery",
+        "op_dur_min":0.3333333333,
+        "op_dur_max":6.0833333333,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":24.0
+    },
+    {
+        "opname":"Bullectomy",
+        "op_dur_min":0.4166666667,
+        "op_dur_max":1.8855555556,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":17.0
+    },
+    {
+        "opname":"Cecectomy",
+        "op_dur_min":0.7441666667,
+        "op_dur_max":1.9166666667,
+        "hosp_dur_min":5.0,
+        "hosp_dur_max":11.0
+    },
+    {
+        "opname":"Central pancreatectomy",
+        "op_dur_min":2.8333333333,
+        "op_dur_max":2.8333333333,
+        "hosp_dur_min":11.0,
+        "hosp_dur_max":11.0
+    },
+    {
+        "opname":"Cervical esophagostomy",
+        "op_dur_min":5.4166666667,
+        "op_dur_max":5.4166666667,
+        "hosp_dur_min":33.0,
+        "hosp_dur_max":33.0
+    },
+    {
+        "opname":"Cesarean section",
+        "op_dur_min":0.75,
+        "op_dur_max":1.8333333333,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":58.0
+    },
+    {
+        "opname":"Cholecystectomy",
+        "op_dur_min":0.1666666667,
+        "op_dur_max":4.6666666667,
+        "hosp_dur_min":0.0,
+        "hosp_dur_max":81.0
+    },
+    {
+        "opname":"Choledochal cyst excision",
+        "op_dur_min":1.8977777778,
+        "op_dur_max":4.3252777778,
+        "hosp_dur_min":7.0,
+        "hosp_dur_max":9.0
+    },
+    {
+        "opname":"Choledochoscopic bile duct stone removal",
+        "op_dur_min":0.0833333333,
+        "op_dur_max":1.5,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":10.0
+    },
+    {
+        "opname":"Clagett procedure",
+        "op_dur_min":0.5333333333,
+        "op_dur_max":1.0,
+        "hosp_dur_min":25.0,
+        "hosp_dur_max":56.0
+    },
+    {
+        "opname":"Cleaning of wound",
+        "op_dur_min":0.2813888889,
+        "op_dur_max":0.4352777778,
+        "hosp_dur_min":49.0,
+        "hosp_dur_max":66.0
+    },
+    {
+        "opname":"Closure of arteriovenous fistula",
+        "op_dur_min":0.75,
+        "op_dur_max":1.6666666667,
+        "hosp_dur_min":1.0,
+        "hosp_dur_max":21.0
+    },
+    {
+        "opname":"Closure of bronchopleural fistula",
+        "op_dur_min":3.3025,
+        "op_dur_max":3.3025,
+        "hosp_dur_min":56.0,
+        "hosp_dur_max":56.0
+    },
+    {
+        "opname":"Closure of wound",
+        "op_dur_min":0.4166666667,
+        "op_dur_max":2.3263888889,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":170.0
+    },
+    {
+        "opname":"Colostomy",
+        "op_dur_min":0.4166666667,
+        "op_dur_max":2.0833333333,
+        "hosp_dur_min":4.0,
+        "hosp_dur_max":50.0
+    },
+    {
+        "opname":"Colostomy repair",
+        "op_dur_min":0.5,
+        "op_dur_max":2.0833333333,
+        "hosp_dur_min":6.0,
+        "hosp_dur_max":100.0
+    },
+    {
+        "opname":"Completion mastectomy",
+        "op_dur_min":0.3333333333,
+        "op_dur_max":0.3333333333,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":2.0
+    },
+    {
+        "opname":"Completion thyroidectomy",
+        "op_dur_min":1.0833333333,
+        "op_dur_max":2.5833333333,
+        "hosp_dur_min":4.0,
+        "hosp_dur_max":5.0
+    },
+    {
+        "opname":"Debridement of wound",
+        "op_dur_min":0.0236111111,
+        "op_dur_max":1.5,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":229.0
+    },
+    {
+        "opname":"Debulking surgery",
+        "op_dur_min":1.3333333333,
+        "op_dur_max":7.9166666667,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":62.0
+    },
+    {
+        "opname":"Decortication",
+        "op_dur_min":1.1666666667,
+        "op_dur_max":5.5833333333,
+        "hosp_dur_min":6.0,
+        "hosp_dur_max":60.0
+    },
+    {
+        "opname":"Delorme's operation",
+        "op_dur_min":0.5,
+        "op_dur_max":0.8666666667,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":11.0
+    },
+    {
+        "opname":"Diagnostic laparoscopy",
+        "op_dur_min":0.4666666667,
+        "op_dur_max":7.5833333333,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":68.0
+    },
+    {
+        "opname":"Diagnostic pelviscopy",
+        "op_dur_min":1.4166666667,
+        "op_dur_max":1.4166666667,
+        "hosp_dur_min":5.0,
+        "hosp_dur_max":5.0
+    },
+    {
+        "opname":"Diagnostic procedure",
+        "op_dur_min":1.4166666667,
+        "op_dur_max":1.4166666667,
+        "hosp_dur_min":5.0,
+        "hosp_dur_max":5.0
+    },
+    {
+        "opname":"Distal gastrectomy",
+        "op_dur_min":1.25,
+        "op_dur_max":7.3333333333,
+        "hosp_dur_min":6.0,
+        "hosp_dur_max":73.0
+    },
+    {
+        "opname":"Distal pancreatectomy",
+        "op_dur_min":0.3613888889,
+        "op_dur_max":5.25,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":38.0
+    },
+    {
+        "opname":"Diverticulectomy",
+        "op_dur_min":3.0833333333,
+        "op_dur_max":3.0833333333,
+        "hosp_dur_min":10.0,
+        "hosp_dur_max":10.0
+    },
+    {
+        "opname":"Donor hepatectomy",
+        "op_dur_min":2.6666666667,
+        "op_dur_max":7.6333333333,
+        "hosp_dur_min":7.0,
+        "hosp_dur_max":16.0
+    },
+    {
+        "opname":"Donor nephrectomy",
+        "op_dur_min":2.0,
+        "op_dur_max":4.0833333333,
+        "hosp_dur_min":4.0,
+        "hosp_dur_max":9.0
+    },
+    {
+        "opname":"Electrocauterization",
+        "op_dur_min":0.1666666667,
+        "op_dur_max":0.1666666667,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":2.0
+    },
+    {
+        "opname":"Elosser operation",
+        "op_dur_min":1.7116666667,
+        "op_dur_max":1.7116666667,
+        "hosp_dur_min":40.0,
+        "hosp_dur_max":40.0
+    },
+    {
+        "opname":"Embolectomy",
+        "op_dur_min":0.9166666667,
+        "op_dur_max":5.9166666667,
+        "hosp_dur_min":6.0,
+        "hosp_dur_max":38.0
+    },
+    {
+        "opname":"Empyemectomy",
+        "op_dur_min":1.75,
+        "op_dur_max":5.0,
+        "hosp_dur_min":4.0,
+        "hosp_dur_max":8.0
+    },
+    {
+        "opname":"Endarterectomy",
+        "op_dur_min":1.6666666667,
+        "op_dur_max":9.0,
+        "hosp_dur_min":8.0,
+        "hosp_dur_max":36.0
+    },
+    {
+        "opname":"Endovascular aneurysmal repair",
+        "op_dur_min":1.5,
+        "op_dur_max":4.25,
+        "hosp_dur_min":5.0,
+        "hosp_dur_max":36.0
+    },
+    {
+        "opname":"Enucleation of esophageal tumor",
+        "op_dur_min":1.9166666667,
+        "op_dur_max":2.0833333333,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":4.0
+    },
+    {
+        "opname":"Enucleation of pancreas",
+        "op_dur_min":3.0,
+        "op_dur_max":4.9166666667,
+        "hosp_dur_min":9.0,
+        "hosp_dur_max":10.0
+    },
+    {
+        "opname":"Esophagectomy",
+        "op_dur_min":3.3333333333,
+        "op_dur_max":11.4166666667,
+        "hosp_dur_min":11.0,
+        "hosp_dur_max":229.0
+    },
+    {
+        "opname":"Excision",
+        "op_dur_min":0.1666666667,
+        "op_dur_max":7.3333333333,
+        "hosp_dur_min":1.0,
+        "hosp_dur_max":88.0
+    },
+    {
+        "opname":"Exploration",
+        "op_dur_min":0.8333333333,
+        "op_dur_max":3.9166666667,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":43.0
+    },
+    {
+        "opname":"Exploration of common bile duct",
+        "op_dur_min":4.1666666667,
+        "op_dur_max":4.1666666667,
+        "hosp_dur_min":9.0,
+        "hosp_dur_max":9.0
+    },
+    {
+        "opname":"Exploration of wound",
+        "op_dur_min":0.7380555556,
+        "op_dur_max":5.75,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":248.0
+    },
+    {
+        "opname":"Exploratory laparotomy",
+        "op_dur_min":0.1666666667,
+        "op_dur_max":7.9166666667,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":201.0
+    },
+    {
+        "opname":"Exploratory thoracotomy",
+        "op_dur_min":3.5,
+        "op_dur_max":3.5,
+        "hosp_dur_min":6.0,
+        "hosp_dur_max":6.0
+    },
+    {
+        "opname":"Extended cholecystectomy",
+        "op_dur_min":1.5833333333,
+        "op_dur_max":9.0833333333,
+        "hosp_dur_min":7.0,
+        "hosp_dur_max":43.0
+    },
+    {
+        "opname":"Extended hemicolectomy",
+        "op_dur_min":0.9166666667,
+        "op_dur_max":4.3333333333,
+        "hosp_dur_min":6.0,
+        "hosp_dur_max":48.0
+    },
+    {
+        "opname":"Extended hemihepatectomy",
+        "op_dur_min":1.25,
+        "op_dur_max":6.9166666667,
+        "hosp_dur_min":9.0,
+        "hosp_dur_max":37.0
+    },
+    {
+        "opname":"Extended hysterectomy",
+        "op_dur_min":0.8333333333,
+        "op_dur_max":2.8333333333,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":10.0
+    },
+    {
+        "opname":"Extended total gastrectomy",
+        "op_dur_min":4.0,
+        "op_dur_max":4.0,
+        "hosp_dur_min":13.0,
+        "hosp_dur_max":13.0
+    },
+    {
+        "opname":"Feeding jejunostomy",
+        "op_dur_min":1.2833333333,
+        "op_dur_max":1.3333333333,
+        "hosp_dur_min":14.0,
+        "hosp_dur_max":15.0
+    },
+    {
+        "opname":"Femoro-femoral bypass",
+        "op_dur_min":2.6666666667,
+        "op_dur_max":2.6666666667,
+        "hosp_dur_min":10.0,
+        "hosp_dur_max":10.0
+    },
+    {
+        "opname":"Femoro-popliteal bypass",
+        "op_dur_min":4.9833333333,
+        "op_dur_max":6.6666666667,
+        "hosp_dur_min":8.0,
+        "hosp_dur_max":10.0
+    },
+    {
+        "opname":"Fistulectomy",
+        "op_dur_min":0.1611111111,
+        "op_dur_max":2.0833333333,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":25.0
+    },
+    {
+        "opname":"Fundoplication",
+        "op_dur_min":1.9166666667,
+        "op_dur_max":2.5833333333,
+        "hosp_dur_min":8.0,
+        "hosp_dur_max":11.0
+    },
+    {
+        "opname":"Gastric bypass",
+        "op_dur_min":3.5833333333,
+        "op_dur_max":3.5833333333,
+        "hosp_dur_min":10.0,
+        "hosp_dur_max":10.0
+    },
+    {
+        "opname":"Gastric wedge resection",
+        "op_dur_min":0.5833333333,
+        "op_dur_max":3.5833333333,
+        "hosp_dur_min":5.0,
+        "hosp_dur_max":19.0
+    },
+    {
+        "opname":"Gastrojejunostomy",
+        "op_dur_min":0.3333333333,
+        "op_dur_max":4.75,
+        "hosp_dur_min":11.0,
+        "hosp_dur_max":31.0
+    },
+    {
+        "opname":"Gastrostomy",
+        "op_dur_min":0.6333333333,
+        "op_dur_max":0.6333333333,
+        "hosp_dur_min":38.0,
+        "hosp_dur_max":38.0
+    },
+    {
+        "opname":"Hartmann procedure",
+        "op_dur_min":0.6666666667,
+        "op_dur_max":4.3333333333,
+        "hosp_dur_min":6.0,
+        "hosp_dur_max":26.0
+    },
+    {
+        "opname":"Hemicolectomy",
+        "op_dur_min":0.8333333333,
+        "op_dur_max":5.6833333333,
+        "hosp_dur_min":5.0,
+        "hosp_dur_max":78.0
+    },
+    {
+        "opname":"Hemihepatectomy",
+        "op_dur_min":1.3333333333,
+        "op_dur_max":9.3333333333,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":59.0
+    },
+    {
+        "opname":"Hemorrhoidectomy",
+        "op_dur_min":0.1666666667,
+        "op_dur_max":1.0913888889,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":4.0
+    },
+    {
+        "opname":"Hepatic hilar resection",
+        "op_dur_min":2.3333333333,
+        "op_dur_max":7.3333333333,
+        "hosp_dur_min":9.0,
+        "hosp_dur_max":96.0
+    },
+    {
+        "opname":"Hepaticojejunostomy",
+        "op_dur_min":2.3333333333,
+        "op_dur_max":4.75,
+        "hosp_dur_min":8.0,
+        "hosp_dur_max":11.0
+    },
+    {
+        "opname":"Hepatopancreaticoduodenectomy",
+        "op_dur_min":4.1666666667,
+        "op_dur_max":4.1666666667,
+        "hosp_dur_min":22.0,
+        "hosp_dur_max":22.0
+    },
+    {
+        "opname":"Hernia repair",
+        "op_dur_min":0.1630555556,
+        "op_dur_max":3.5,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":115.0
+    },
+    {
+        "opname":"Hysterectomy",
+        "op_dur_min":0.75,
+        "op_dur_max":2.8333333333,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":8.0
+    },
+    {
+        "opname":"Ileocecectomy",
+        "op_dur_min":0.8333333333,
+        "op_dur_max":3.3333333333,
+        "hosp_dur_min":6.0,
+        "hosp_dur_max":15.0
+    },
+    {
+        "opname":"Ileocolectomy",
+        "op_dur_min":1.75,
+        "op_dur_max":1.75,
+        "hosp_dur_min":7.0,
+        "hosp_dur_max":7.0
+    },
+    {
+        "opname":"Ileostomy",
+        "op_dur_min":0.5833333333,
+        "op_dur_max":3.6666666667,
+        "hosp_dur_min":7.0,
+        "hosp_dur_max":71.0
+    },
+    {
+        "opname":"Ileostomy repair",
+        "op_dur_min":0.5,
+        "op_dur_max":3.8333333333,
+        "hosp_dur_min":4.0,
+        "hosp_dur_max":40.0
+    },
+    {
+        "opname":"Ilioiliac bypass",
+        "op_dur_min":3.5,
+        "op_dur_max":3.5,
+        "hosp_dur_min":8.0,
+        "hosp_dur_max":8.0
+    },
+    {
+        "opname":"Incision and drainage",
+        "op_dur_min":0.0833333333,
+        "op_dur_max":1.8166666667,
+        "hosp_dur_min":1.0,
+        "hosp_dur_max":95.0
+    },
+    {
+        "opname":"Incision of rectal stricture",
+        "op_dur_min":0.4197222222,
+        "op_dur_max":0.4197222222,
+        "hosp_dur_min":5.0,
+        "hosp_dur_max":5.0
+    },
+    {
+        "opname":"Incisional hernia repair",
+        "op_dur_min":0.25,
+        "op_dur_max":3.7666666667,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":16.0
+    },
+    {
+        "opname":"Inguinal hernia",
+        "op_dur_min":1.3333333333,
+        "op_dur_max":1.3333333333,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":2.0
+    },
+    {
+        "opname":"Inguinal lymph node dissection",
+        "op_dur_min":0.6666666667,
+        "op_dur_max":2.8333333333,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":25.0
+    },
+    {
+        "opname":"Insertion of continuous ambulatory peritoneal dialysis catheter",
+        "op_dur_min":1.25,
+        "op_dur_max":1.25,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":3.0
+    },
+    {
+        "opname":"Insertion of permanent catheter",
+        "op_dur_min":2.25,
+        "op_dur_max":2.25,
+        "hosp_dur_min":1.0,
+        "hosp_dur_max":1.0
+    },
+    {
+        "opname":"Internal mammary lymph node dissection",
+        "op_dur_min":0.9166666667,
+        "op_dur_max":0.9166666667,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":2.0
+    },
+    {
+        "opname":"Intra-abdominal arterial bypass graft",
+        "op_dur_min":1.75,
+        "op_dur_max":1.75,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":3.0
+    },
+    {
+        "opname":"Ivor Lewis operation",
+        "op_dur_min":5.5,
+        "op_dur_max":11.4166666667,
+        "hosp_dur_min":10.0,
+        "hosp_dur_max":19.0
+    },
+    {
+        "opname":"Kidney transplantation",
+        "op_dur_min":1.0,
+        "op_dur_max":7.5833333333,
+        "hosp_dur_min":1.0,
+        "hosp_dur_max":56.0
+    },
+    {
+        "opname":"Ligation and stripping",
+        "op_dur_min":0.5375,
+        "op_dur_max":3.75,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":5.0
+    },
+    {
+        "opname":"Liver bisegmentectomy",
+        "op_dur_min":4.25,
+        "op_dur_max":4.25,
+        "hosp_dur_min":11.0,
+        "hosp_dur_max":11.0
+    },
+    {
+        "opname":"Liver sectionectomy",
+        "op_dur_min":1.0833333333,
+        "op_dur_max":7.1666666667,
+        "hosp_dur_min":5.0,
+        "hosp_dur_max":72.0
+    },
+    {
+        "opname":"Liver segmentectomy",
+        "op_dur_min":0.5833333333,
+        "op_dur_max":7.1666666667,
+        "hosp_dur_min":5.0,
+        "hosp_dur_max":25.0
+    },
+    {
+        "opname":"Liver transplantation",
+        "op_dur_min":3.0,
+        "op_dur_max":15.0,
+        "hosp_dur_min":8.0,
+        "hosp_dur_max":201.0
+    },
+    {
+        "opname":"Liver tumorectomy",
+        "op_dur_min":1.9166666667,
+        "op_dur_max":4.0,
+        "hosp_dur_min":8.0,
+        "hosp_dur_max":9.0
+    },
+    {
+        "opname":"Low anterior resection",
+        "op_dur_min":0.75,
+        "op_dur_max":15.6666666667,
+        "hosp_dur_min":5.0,
+        "hosp_dur_max":35.0
+    },
+    {
+        "opname":"Lung bilobectomy",
+        "op_dur_min":1.4166666667,
+        "op_dur_max":5.6666666667,
+        "hosp_dur_min":5.0,
+        "hosp_dur_max":40.0
+    },
+    {
+        "opname":"Lung lobectomy",
+        "op_dur_min":0.9166666667,
+        "op_dur_max":15.9166666667,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":59.0
+    },
+    {
+        "opname":"Lung segmentectomy",
+        "op_dur_min":1.4166666667,
+        "op_dur_max":3.1666666667,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":6.0
+    },
+    {
+        "opname":"Lung sgmentectomy",
+        "op_dur_min":1.1811111111,
+        "op_dur_max":4.0,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":30.0
+    },
+    {
+        "opname":"Lung transplantation",
+        "op_dur_min":7.4166666667,
+        "op_dur_max":10.1666666667,
+        "hosp_dur_min":18.0,
+        "hosp_dur_max":212.0
+    },
+    {
+        "opname":"Lung wedge resection",
+        "op_dur_min":0.3333333333,
+        "op_dur_max":8.5,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":185.0
+    },
+    {
+        "opname":"Macroplastique injection",
+        "op_dur_min":0.3333333333,
+        "op_dur_max":0.3333333333,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":2.0
+    },
+    {
+        "opname":"Marsupialization",
+        "op_dur_min":1.0833333333,
+        "op_dur_max":1.0833333333,
+        "hosp_dur_min":11.0,
+        "hosp_dur_max":11.0
+    },
+    {
+        "opname":"Mastectomy",
+        "op_dur_min":2.4166666667,
+        "op_dur_max":8.6666666667,
+        "hosp_dur_min":8.0,
+        "hosp_dur_max":12.0
+    },
+    {
+        "opname":"McDonald operation",
+        "op_dur_min":0.3666666667,
+        "op_dur_max":1.1658333333,
+        "hosp_dur_min":7.0,
+        "hosp_dur_max":55.0
+    },
+    {
+        "opname":"Median pancreatectomy",
+        "op_dur_min":1.9166666667,
+        "op_dur_max":2.5833333333,
+        "hosp_dur_min":7.0,
+        "hosp_dur_max":10.0
+    },
+    {
+        "opname":"Mediastinal lymph node dissection",
+        "op_dur_min":0.4166666667,
+        "op_dur_max":4.0833333333,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":7.0
+    },
+    {
+        "opname":"Metastasectomy",
+        "op_dur_min":0.3333333333,
+        "op_dur_max":9.0,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":42.0
+    },
+    {
+        "opname":"Modified Shirodkar operation",
+        "op_dur_min":0.25,
+        "op_dur_max":0.25,
+        "hosp_dur_min":1.0,
+        "hosp_dur_max":32.0
+    },
+    {
+        "opname":"Modified radical hysterectomy",
+        "op_dur_min":3.0,
+        "op_dur_max":3.0,
+        "hosp_dur_min":14.0,
+        "hosp_dur_max":14.0
+    },
+    {
+        "opname":"Modified radical neck dissection",
+        "op_dur_min":1.0,
+        "op_dur_max":3.1666666667,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":8.0
+    },
+    {
+        "opname":"Myomectomy",
+        "op_dur_min":0.4166666667,
+        "op_dur_max":4.0,
+        "hosp_dur_min":1.0,
+        "hosp_dur_max":7.0
+    },
+    {
+        "opname":"Nephrectomy",
+        "op_dur_min":1.2111111111,
+        "op_dur_max":4.1666666667,
+        "hosp_dur_min":1.0,
+        "hosp_dur_max":52.0
+    },
+    {
+        "opname":"Nephroureterectomy",
+        "op_dur_min":1.7833333333,
+        "op_dur_max":1.7833333333,
+        "hosp_dur_min":8.0,
+        "hosp_dur_max":8.0
+    },
+    {
+        "opname":"Oophorectomy",
+        "op_dur_min":0.8333333333,
+        "op_dur_max":1.6666666667,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":6.0
+    },
+    {
+        "opname":"Orchiectomy",
+        "op_dur_min":0.4166666667,
+        "op_dur_max":1.5,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":4.0
+    },
+    {
+        "opname":"Ovarian cancer staging operation",
+        "op_dur_min":2.8333333333,
+        "op_dur_max":2.8333333333,
+        "hosp_dur_min":8.0,
+        "hosp_dur_max":8.0
+    },
+    {
+        "opname":"Ovarian cystectomy",
+        "op_dur_min":0.5,
+        "op_dur_max":3.1666666667,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":133.0
+    },
+    {
+        "opname":"Pancreas transplantation",
+        "op_dur_min":4.8333333333,
+        "op_dur_max":4.8333333333,
+        "hosp_dur_min":21.0,
+        "hosp_dur_max":21.0
+    },
+    {
+        "opname":"Pancreatic cystojejunostomy",
+        "op_dur_min":0.8575,
+        "op_dur_max":0.8575,
+        "hosp_dur_min":8.0,
+        "hosp_dur_max":8.0
+    },
+    {
+        "opname":"Pancreaticoduodenectomy",
+        "op_dur_min":2.9166666667,
+        "op_dur_max":8.5166666667,
+        "hosp_dur_min":9.0,
+        "hosp_dur_max":44.0
+    },
+    {
+        "opname":"Pancreaticojejunostomy",
+        "op_dur_min":4.75,
+        "op_dur_max":4.75,
+        "hosp_dur_min":20.0,
+        "hosp_dur_max":20.0
+    },
+    {
+        "opname":"Pancreatosplenectomy",
+        "op_dur_min":3.0833333333,
+        "op_dur_max":3.1666666667,
+        "hosp_dur_min":9.0,
+        "hosp_dur_max":9.0
+    },
+    {
+        "opname":"Paraaortic lymph node dissection",
+        "op_dur_min":1.0,
+        "op_dur_max":4.4166666667,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":10.0
+    },
+    {
+        "opname":"Parathyroidectomy",
+        "op_dur_min":0.8333333333,
+        "op_dur_max":2.3333333333,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":4.0
+    },
+    {
+        "opname":"Partial cystectomy",
+        "op_dur_min":1.9166666667,
+        "op_dur_max":1.9166666667,
+        "hosp_dur_min":5.0,
+        "hosp_dur_max":5.0
+    },
+    {
+        "opname":"Partial gastrectomy",
+        "op_dur_min":1.0,
+        "op_dur_max":4.8333333333,
+        "hosp_dur_min":6.0,
+        "hosp_dur_max":11.0
+    },
+    {
+        "opname":"Partial pancreatectomy",
+        "op_dur_min":0.9166666667,
+        "op_dur_max":4.75,
+        "hosp_dur_min":7.0,
+        "hosp_dur_max":51.0
+    },
+    {
+        "opname":"Pelvic tumorectomy",
+        "op_dur_min":1.3333333333,
+        "op_dur_max":12.8333333333,
+        "hosp_dur_min":4.0,
+        "hosp_dur_max":35.0
+    },
+    {
+        "opname":"Percutaneous biopsy",
+        "op_dur_min":0.3333333333,
+        "op_dur_max":0.3333333333,
+        "hosp_dur_min":20.0,
+        "hosp_dur_max":20.0
+    },
+    {
+        "opname":"Pericardial window operation",
+        "op_dur_min":0.5833333333,
+        "op_dur_max":1.75,
+        "hosp_dur_min":14.0,
+        "hosp_dur_max":67.0
+    },
+    {
+        "opname":"Peritoneal mass excision",
+        "op_dur_min":0.5833333333,
+        "op_dur_max":2.5833333333,
+        "hosp_dur_min":4.0,
+        "hosp_dur_max":22.0
+    },
+    {
+        "opname":"Pleurectomy",
+        "op_dur_min":3.1666666667,
+        "op_dur_max":3.1666666667,
+        "hosp_dur_min":7.0,
+        "hosp_dur_max":7.0
+    },
+    {
+        "opname":"Pleurodesis",
+        "op_dur_min":0.6666666667,
+        "op_dur_max":0.6666666667,
+        "hosp_dur_min":5.0,
+        "hosp_dur_max":5.0
+    },
+    {
+        "opname":"Pleuroscopy",
+        "op_dur_min":0.4166666667,
+        "op_dur_max":0.4166666667,
+        "hosp_dur_min":4.0,
+        "hosp_dur_max":4.0
+    },
+    {
+        "opname":"Plication",
+        "op_dur_min":1.25,
+        "op_dur_max":2.9166666667,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":4.0
+    },
+    {
+        "opname":"Pneumonectomy",
+        "op_dur_min":0.4166666667,
+        "op_dur_max":7.5,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":46.0
+    },
+    {
+        "opname":"Proximal gastrectomy",
+        "op_dur_min":3.4166666667,
+        "op_dur_max":7.0,
+        "hosp_dur_min":8.0,
+        "hosp_dur_max":16.0
+    },
+    {
+        "opname":"Pyeloplasty",
+        "op_dur_min":2.3166666667,
+        "op_dur_max":2.5166666667,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":6.0
+    },
+    {
+        "opname":"Pylorus preserving gastrectomy",
+        "op_dur_min":0.4166666667,
+        "op_dur_max":7.7333333333,
+        "hosp_dur_min":6.0,
+        "hosp_dur_max":56.0
+    },
+    {
+        "opname":"Pylorus preserving pancreaticoduodenectomy",
+        "op_dur_min":1.6666666667,
+        "op_dur_max":11.75,
+        "hosp_dur_min":8.0,
+        "hosp_dur_max":64.0
+    },
+    {
+        "opname":"Radical cholecystectomy",
+        "op_dur_min":3.5,
+        "op_dur_max":4.25,
+        "hosp_dur_min":9.0,
+        "hosp_dur_max":10.0
+    },
+    {
+        "opname":"Radical cystectomy",
+        "op_dur_min":4.75,
+        "op_dur_max":9.5,
+        "hosp_dur_min":21.0,
+        "hosp_dur_max":90.0
+    },
+    {
+        "opname":"Radical excision of cervical lymph nodes",
+        "op_dur_min":1.0,
+        "op_dur_max":1.25,
+        "hosp_dur_min":4.0,
+        "hosp_dur_max":6.0
+    },
+    {
+        "opname":"Radical excision of iliac lymph nodes",
+        "op_dur_min":1.0,
+        "op_dur_max":3.5833333333,
+        "hosp_dur_min":6.0,
+        "hosp_dur_max":23.0
+    },
+    {
+        "opname":"Radical hysterectomy",
+        "op_dur_min":0.5833333333,
+        "op_dur_max":4.3833333333,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":19.0
+    },
+    {
+        "opname":"Radical mastectomy",
+        "op_dur_min":1.4333333333,
+        "op_dur_max":1.4333333333,
+        "hosp_dur_min":8.0,
+        "hosp_dur_max":8.0
+    },
+    {
+        "opname":"Radical parametrectomy",
+        "op_dur_min":4.4166666667,
+        "op_dur_max":4.4166666667,
+        "hosp_dur_min":11.0,
+        "hosp_dur_max":11.0
+    },
+    {
+        "opname":"Radical prostatectomy",
+        "op_dur_min":1.6666666667,
+        "op_dur_max":4.5,
+        "hosp_dur_min":4.0,
+        "hosp_dur_max":12.0
+    },
+    {
+        "opname":"Radical trachelectomy",
+        "op_dur_min":3.0833333333,
+        "op_dur_max":4.1666666667,
+        "hosp_dur_min":9.0,
+        "hosp_dur_max":9.0
+    },
+    {
+        "opname":"Rectal prolapse operation",
+        "op_dur_min":0.9166666667,
+        "op_dur_max":1.8333333333,
+        "hosp_dur_min":4.0,
+        "hosp_dur_max":17.0
+    },
+    {
+        "opname":"Regional lymph node dissection",
+        "op_dur_min":1.45,
+        "op_dur_max":2.25,
+        "hosp_dur_min":7.0,
+        "hosp_dur_max":8.0
+    },
+    {
+        "opname":"Remnant total gastrectomy",
+        "op_dur_min":0.6666666667,
+        "op_dur_max":5.0,
+        "hosp_dur_min":8.0,
+        "hosp_dur_max":34.0
+    },
+    {
+        "opname":"Removal of Hickman catheter",
+        "op_dur_min":0.25,
+        "op_dur_max":0.25,
+        "hosp_dur_min":15.0,
+        "hosp_dur_max":15.0
+    },
+    {
+        "opname":"Removal of complicated graft",
+        "op_dur_min":1.5333333333,
+        "op_dur_max":1.5333333333,
+        "hosp_dur_min":27.0,
+        "hosp_dur_max":27.0
+    },
+    {
+        "opname":"Removal of continuous ambulatory peritoneal dialysis catheter",
+        "op_dur_min":0.25,
+        "op_dur_max":2.1666666667,
+        "hosp_dur_min":1.0,
+        "hosp_dur_max":29.0
+    },
+    {
+        "opname":"Removal of foreign body",
+        "op_dur_min":0.6666666667,
+        "op_dur_max":1.2469444444,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":77.0
+    },
+    {
+        "opname":"Removal of permanent catheter",
+        "op_dur_min":0.25,
+        "op_dur_max":0.75,
+        "hosp_dur_min":6.0,
+        "hosp_dur_max":28.0
+    },
+    {
+        "opname":"Removal of staples",
+        "op_dur_min":0.3083333333,
+        "op_dur_max":0.3083333333,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":3.0
+    },
+    {
+        "opname":"Reposition of continuous ambulatory peritoneal dialysis catheter",
+        "op_dur_min":0.6666666667,
+        "op_dur_max":0.6666666667,
+        "hosp_dur_min":4.0,
+        "hosp_dur_max":4.0
+    },
+    {
+        "opname":"Resection of chest wall with reconstruction",
+        "op_dur_min":0.4166666667,
+        "op_dur_max":4.1666666667,
+        "hosp_dur_min":5.0,
+        "hosp_dur_max":66.0
+    },
+    {
+        "opname":"Resection of inferior vena cava",
+        "op_dur_min":7.1333333333,
+        "op_dur_max":7.4166666667,
+        "hosp_dur_min":17.0,
+        "hosp_dur_max":22.0
+    },
+    {
+        "opname":"Resection of intestine",
+        "op_dur_min":0.5833333333,
+        "op_dur_max":0.5833333333,
+        "hosp_dur_min":6.0,
+        "hosp_dur_max":6.0
+    },
+    {
+        "opname":"Resection of lower limb artery",
+        "op_dur_min":3.3333333333,
+        "op_dur_max":3.3333333333,
+        "hosp_dur_min":13.0,
+        "hosp_dur_max":13.0
+    },
+    {
+        "opname":"Resection of popliteal artery",
+        "op_dur_min":3.0833333333,
+        "op_dur_max":3.2833333333,
+        "hosp_dur_min":8.0,
+        "hosp_dur_max":27.0
+    },
+    {
+        "opname":"Resection of rib",
+        "op_dur_min":2.1525,
+        "op_dur_max":2.1525,
+        "hosp_dur_min":14.0,
+        "hosp_dur_max":14.0
+    },
+    {
+        "opname":"Resection of sternum",
+        "op_dur_min":2.1666666667,
+        "op_dur_max":2.1666666667,
+        "hosp_dur_min":8.0,
+        "hosp_dur_max":8.0
+    },
+    {
+        "opname":"Revision of arteriovenous fistula",
+        "op_dur_min":1.405,
+        "op_dur_max":2.9666666667,
+        "hosp_dur_min":1.0,
+        "hosp_dur_max":24.0
+    },
+    {
+        "opname":"Revision of small intestine anastomosis",
+        "op_dur_min":2.75,
+        "op_dur_max":2.75,
+        "hosp_dur_min":27.0,
+        "hosp_dur_max":27.0
+    },
+    {
+        "opname":"Rigid bronchoscopic excision",
+        "op_dur_min":0.9166666667,
+        "op_dur_max":0.9166666667,
+        "hosp_dur_min":4.0,
+        "hosp_dur_max":4.0
+    },
+    {
+        "opname":"Rigid bronchoscopy",
+        "op_dur_min":0.4166666667,
+        "op_dur_max":0.4166666667,
+        "hosp_dur_min":229.0,
+        "hosp_dur_max":229.0
+    },
+    {
+        "opname":"Rrectocele repair",
+        "op_dur_min":0.5,
+        "op_dur_max":1.4166666667,
+        "hosp_dur_min":4.0,
+        "hosp_dur_max":5.0
+    },
+    {
+        "opname":"Salpingectomy",
+        "op_dur_min":0.8333333333,
+        "op_dur_max":1.75,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":4.0
+    },
+    {
+        "opname":"Salpingo-oophorectomy",
+        "op_dur_min":0.4166666667,
+        "op_dur_max":2.9166666667,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":11.0
+    },
+    {
+        "opname":"Segmental resection of bile duct",
+        "op_dur_min":3.75,
+        "op_dur_max":7.0833333333,
+        "hosp_dur_min":10.0,
+        "hosp_dur_max":56.0
+    },
+    {
+        "opname":"Segmental resection of colon",
+        "op_dur_min":1.9166666667,
+        "op_dur_max":4.1666666667,
+        "hosp_dur_min":8.0,
+        "hosp_dur_max":25.0
+    },
+    {
+        "opname":"Selective neck dissection",
+        "op_dur_min":1.0833333333,
+        "op_dur_max":1.4166666667,
+        "hosp_dur_min":4.0,
+        "hosp_dur_max":4.0
+    },
+    {
+        "opname":"Sentinel lymph node mapping",
+        "op_dur_min":3.0,
+        "op_dur_max":3.0,
+        "hosp_dur_min":10.0,
+        "hosp_dur_max":10.0
+    },
+    {
+        "opname":"Simple mastectomy",
+        "op_dur_min":0.5,
+        "op_dur_max":6.3333333333,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":32.0
+    },
+    {
+        "opname":"Simultaneous pancreas-kidney transplantation",
+        "op_dur_min":6.1666666667,
+        "op_dur_max":7.0833333333,
+        "hosp_dur_min":22.0,
+        "hosp_dur_max":55.0
+    },
+    {
+        "opname":"Sleeve lobectomy",
+        "op_dur_min":2.5833333333,
+        "op_dur_max":4.5833333333,
+        "hosp_dur_min":7.0,
+        "hosp_dur_max":27.0
+    },
+    {
+        "opname":"Small bowel segmental resection",
+        "op_dur_min":0.8333333333,
+        "op_dur_max":4.4166666667,
+        "hosp_dur_min":4.0,
+        "hosp_dur_max":30.0
+    },
+    {
+        "opname":"Sphincteroplasty",
+        "op_dur_min":0.0672222222,
+        "op_dur_max":0.3333333333,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":3.0
+    },
+    {
+        "opname":"Sphincterotomy",
+        "op_dur_min":0.0833333333,
+        "op_dur_max":0.0833333333,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":2.0
+    },
+    {
+        "opname":"Spleen preserving distal pancreatectomy",
+        "op_dur_min":1.2666666667,
+        "op_dur_max":4.8333333333,
+        "hosp_dur_min":7.0,
+        "hosp_dur_max":15.0
+    },
+    {
+        "opname":"Splenectomy",
+        "op_dur_min":0.5,
+        "op_dur_max":2.4,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":102.0
+    },
+    {
+        "opname":"Staging laparotomy",
+        "op_dur_min":0.9166666667,
+        "op_dur_max":5.1666666667,
+        "hosp_dur_min":4.0,
+        "hosp_dur_max":15.0
+    },
+    {
+        "opname":"Staging operation",
+        "op_dur_min":2.25,
+        "op_dur_max":2.25,
+        "hosp_dur_min":5.0,
+        "hosp_dur_max":5.0
+    },
+    {
+        "opname":"Sternal fixation",
+        "op_dur_min":1.1547222222,
+        "op_dur_max":1.1547222222,
+        "hosp_dur_min":83.0,
+        "hosp_dur_max":83.0
+    },
+    {
+        "opname":"Subtotal colectomy",
+        "op_dur_min":1.5833333333,
+        "op_dur_max":2.9166666667,
+        "hosp_dur_min":8.0,
+        "hosp_dur_max":16.0
+    },
+    {
+        "opname":"Subtotal gastrectomy",
+        "op_dur_min":0.5,
+        "op_dur_max":4.8333333333,
+        "hosp_dur_min":4.0,
+        "hosp_dur_max":68.0
+    },
+    {
+        "opname":"Subtotal pancreatectomy",
+        "op_dur_min":1.2,
+        "op_dur_max":1.9166666667,
+        "hosp_dur_min":9.0,
+        "hosp_dur_max":11.0
+    },
+    {
+        "opname":"Subtotal parathyroidectomy",
+        "op_dur_min":1.3333333333,
+        "op_dur_max":2.8333333333,
+        "hosp_dur_min":4.0,
+        "hosp_dur_max":16.0
+    },
+    {
+        "opname":"Thoracic sympathectomy",
+        "op_dur_min":0.3333333333,
+        "op_dur_max":0.75,
+        "hosp_dur_min":0.0,
+        "hosp_dur_max":15.0
+    },
+    {
+        "opname":"Thoracoplasty",
+        "op_dur_min":6.8716666667,
+        "op_dur_max":6.8716666667,
+        "hosp_dur_min":23.0,
+        "hosp_dur_max":23.0
+    },
+    {
+        "opname":"Thymectomy",
+        "op_dur_min":0.8333333333,
+        "op_dur_max":7.1666666667,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":46.0
+    },
+    {
+        "opname":"Thyroglossal duct cyst excision",
+        "op_dur_min":3.25,
+        "op_dur_max":3.25,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":3.0
+    },
+    {
+        "opname":"Thyroid isthmectomy",
+        "op_dur_min":2.9166666667,
+        "op_dur_max":2.9166666667,
+        "hosp_dur_min":4.0,
+        "hosp_dur_max":4.0
+    },
+    {
+        "opname":"Thyroid lobectomy",
+        "op_dur_min":0.6666666667,
+        "op_dur_max":4.0,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":16.0
+    },
+    {
+        "opname":"Thyroidectomy",
+        "op_dur_min":2.3333333333,
+        "op_dur_max":2.3333333333,
+        "hosp_dur_min":4.0,
+        "hosp_dur_max":4.0
+    },
+    {
+        "opname":"Total colectomy",
+        "op_dur_min":1.4166666667,
+        "op_dur_max":4.3333333333,
+        "hosp_dur_min":6.0,
+        "hosp_dur_max":54.0
+    },
+    {
+        "opname":"Total esophagectomy",
+        "op_dur_min":11.0833333333,
+        "op_dur_max":11.0833333333,
+        "hosp_dur_min":30.0,
+        "hosp_dur_max":30.0
+    },
+    {
+        "opname":"Total gastrectomy",
+        "op_dur_min":0.4166666667,
+        "op_dur_max":9.8263888889,
+        "hosp_dur_min":5.0,
+        "hosp_dur_max":65.0
+    },
+    {
+        "opname":"Total hysterectomy",
+        "op_dur_min":2.3333333333,
+        "op_dur_max":3.3333333333,
+        "hosp_dur_min":4.0,
+        "hosp_dur_max":10.0
+    },
+    {
+        "opname":"Total hysterectomy ",
+        "op_dur_min":1.0833333333,
+        "op_dur_max":3.8333333333,
+        "hosp_dur_min":4.0,
+        "hosp_dur_max":15.0
+    },
+    {
+        "opname":"Total mastectomy",
+        "op_dur_min":0.5,
+        "op_dur_max":3.25,
+        "hosp_dur_min":5.0,
+        "hosp_dur_max":21.0
+    },
+    {
+        "opname":"Total pancreatectomy",
+        "op_dur_min":1.8333333333,
+        "op_dur_max":6.0833333333,
+        "hosp_dur_min":10.0,
+        "hosp_dur_max":19.0
+    },
+    {
+        "opname":"Total proctocolectomy",
+        "op_dur_min":1.9166666667,
+        "op_dur_max":5.5,
+        "hosp_dur_min":7.0,
+        "hosp_dur_max":10.0
+    },
+    {
+        "opname":"Total thyroidectomy",
+        "op_dur_min":0.6666666667,
+        "op_dur_max":5.25,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":19.0
+    },
+    {
+        "opname":"Transanal endoscopic microsurgery",
+        "op_dur_min":0.1666666667,
+        "op_dur_max":3.8333333333,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":10.0
+    },
+    {
+        "opname":"Transanal excision",
+        "op_dur_min":0.0833333333,
+        "op_dur_max":2.8333333333,
+        "hosp_dur_min":0.0,
+        "hosp_dur_max":10.0
+    },
+    {
+        "opname":"Transduodenal ampullectomy",
+        "op_dur_min":2.5,
+        "op_dur_max":2.5,
+        "hosp_dur_min":10.0,
+        "hosp_dur_max":10.0
+    },
+    {
+        "opname":"Transplantation of gracilis muscle",
+        "op_dur_min":0.5,
+        "op_dur_max":0.9166666667,
+        "hosp_dur_min":3.0,
+        "hosp_dur_max":5.0
+    },
+    {
+        "opname":"Transposition of basilic vein for arteriovenous fistula",
+        "op_dur_min":4.0833333333,
+        "op_dur_max":4.0833333333,
+        "hosp_dur_min":35.0,
+        "hosp_dur_max":35.0
+    },
+    {
+        "opname":"Transurethral resection of bladder tumor",
+        "op_dur_min":0.0833333333,
+        "op_dur_max":2.2666666667,
+        "hosp_dur_min":1.0,
+        "hosp_dur_max":10.0
+    },
+    {
+        "opname":"Transverse colectomy",
+        "op_dur_min":1.25,
+        "op_dur_max":1.9166666667,
+        "hosp_dur_min":6.0,
+        "hosp_dur_max":9.0
+    },
+    {
+        "opname":"Transverse loop colostomy",
+        "op_dur_min":0.6666666667,
+        "op_dur_max":0.6666666667,
+        "hosp_dur_min":7.0,
+        "hosp_dur_max":11.0
+    },
+    {
+        "opname":"Ultralow anterior resection",
+        "op_dur_min":1.6666666667,
+        "op_dur_max":4.8333333333,
+        "hosp_dur_min":6.0,
+        "hosp_dur_max":23.0
+    },
+    {
+        "opname":"Varicocelectomy",
+        "op_dur_min":2.0833333333,
+        "op_dur_max":2.0833333333,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":2.0
+    },
+    {
+        "opname":"Vascular bypass",
+        "op_dur_min":0.5166666667,
+        "op_dur_max":5.4166666667,
+        "hosp_dur_min":9.0,
+        "hosp_dur_max":25.0
+    },
+    {
+        "opname":"Vascular repair",
+        "op_dur_min":2.5,
+        "op_dur_max":2.6666666667,
+        "hosp_dur_min":31.0,
+        "hosp_dur_max":53.0
+    },
+    {
+        "opname":"Vessel graft",
+        "op_dur_min":3.5,
+        "op_dur_max":3.5,
+        "hosp_dur_min":15.0,
+        "hosp_dur_max":15.0
+    },
+    {
+        "opname":"Wide excision",
+        "op_dur_min":0.5,
+        "op_dur_max":4.25,
+        "hosp_dur_min":1.0,
+        "hosp_dur_max":9.0
+    },
+    {
+        "opname":"Wound revision",
+        "op_dur_min":0.1666666667,
+        "op_dur_max":2.3333333333,
+        "hosp_dur_min":2.0,
+        "hosp_dur_max":30.0
+    },
+    {
+        "opname":"anterior resection",
+        "op_dur_min":1.1333333333,
+        "op_dur_max":1.1333333333,
+        "hosp_dur_min":8.0,
+        "hosp_dur_max":8.0
+    },
+    {
+        "opname":"subtotal colectomy",
+        "op_dur_min":0.9166666667,
+        "op_dur_max":4.75,
+        "hosp_dur_min":7.0,
+        "hosp_dur_max":25.0
+    }
+]
