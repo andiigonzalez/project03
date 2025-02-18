@@ -163,3 +163,12 @@ nav {
   opacity: 0.3;
   pointer-events: none;
 }
+
+.dropdown-container select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid blackc;
+  background-color:lightpink;
+  font-size: 14px;
+  cursor: pointer;
+}

@@ -1,1 +1,1090 @@
-[{"optype":"Biliary\/Pancreas","opname":"Ampullectomy","surgery":1.8333333333,"stay":742.1666666667},{"optype":"Biliary\/Pancreas","opname":"Bile Duct Anastomosis","surgery":4.5,"stay":211.5},{"optype":"Biliary\/Pancreas","opname":"Central Pancreatectomy","surgery":2.8333333333,"stay":261.1666666667},{"optype":"Biliary\/Pancreas","opname":"Cholecystectomy","surgery":0.7422150431,"stay":83.711065275},{"optype":"Biliary\/Pancreas","opname":"Choledochal Cyst Excision","surgery":3.1179444444,"stay":188.8820555556},{"optype":"Biliary\/Pancreas","opname":"Choledochoscopic Bile Duct Stone Removal","surgery":0.8611111111,"stay":151.1388888889},{"optype":"Biliary\/Pancreas","opname":"Distal Pancreatectomy","surgery":2.514866453,"stay":287.7928258547},{"optype":"Biliary\/Pancreas","opname":"Enucleation Of Pancreas","surgery":3.9583333333,"stay":224.0416666667},{"optype":"Biliary\/Pancreas","opname":"Excision","surgery":3.6111111111,"stay":233.7222222222},{"optype":"Biliary\/Pancreas","opname":"Exploration Of Common Bile Duct","surgery":4.1666666667,"stay":211.8333333333},{"optype":"Biliary\/Pancreas","opname":"Extended Cholecystectomy","surgery":3.4343137255,"stay":264.8009803922},{"optype":"Biliary\/Pancreas","opname":"Hepatic Hilar Resection","surgery":4.8333333333,"stay":923.1666666667},{"optype":"Biliary\/Pancreas","opname":"Hepaticojejunostomy","surgery":3.5416666667,"stay":224.4583333333},{"optype":"Biliary\/Pancreas","opname":"Hepatopancreaticoduodenectomy","surgery":4.1666666667,"stay":523.8333333333},{"optype":"Biliary\/Pancreas","opname":"Median Pancreatectomy","surgery":2.25,"stay":201.75},{"optype":"Biliary\/Pancreas","opname":"Pancreatic Cystojejunostomy","surgery":0.8575,"stay":191.1425},{"optype":"Biliary\/Pancreas","opname":"Pancreaticoduodenectomy","surgery":5.7377192982,"stay":441.4201754386},{"optype":"Biliary\/Pancreas","opname":"Pancreaticojejunostomy","surgery":4.75,"stay":475.25},{"optype":"Biliary\/Pancreas","opname":"Pancreatosplenectomy","surgery":3.125,"stay":212.875},{"optype":"Biliary\/Pancreas","opname":"Partial Pancreatectomy","surgery":3.1756871345,"stay":315.1401023392},{"optype":"Biliary\/Pancreas","opname":"Pylorus Preserving Pancreaticoduodenectomy","surgery":5.2204110208,"stay":409.6088572719},{"optype":"Biliary\/Pancreas","opname":"Radical Cholecystectomy","surgery":3.875,"stay":224.125},{"optype":"Biliary\/Pancreas","opname":"Segmental Resection Of Bile Duct","surgery":5.0305555556,"stay":558.9694444444},{"optype":"Biliary\/Pancreas","opname":"Spleen Preserving Distal Pancreatectomy","surgery":2.0397435897,"stay":225.0371794872},{"optype":"Biliary\/Pancreas","opname":"Splenectomy","surgery":1.2104320988,"stay":356.1229012346},{"optype":"Biliary\/Pancreas","opname":"Subtotal Pancreatectomy","surgery":1.5583333333,"stay":238.4416666667},{"optype":"Biliary\/Pancreas","opname":"Total Pancreatectomy","surgery":3.9583333333,"stay":344.0416666667},{"optype":"Biliary\/Pancreas","opname":"Transduodenal Ampullectomy","surgery":2.5,"stay":237.5},{"optype":"Breast","opname":"Axillary Lymph Node Dissection","surgery":0.9,"stay":119.1},{"optype":"Breast","opname":"Biopsy","surgery":0.7833333333,"stay":71.2166666667},{"optype":"Breast","opname":"Breast Reconstruction","surgery":8.5833333333,"stay":183.4166666667},{"optype":"Breast","opname":"Breast-Conserving Surgery","surgery":1.3371770245,"stay":147.5441789077},{"optype":"Breast","opname":"Completion Mastectomy","surgery":0.3333333333,"stay":47.6666666667},{"optype":"Breast","opname":"Excision","surgery":0.8205128205,"stay":59.1794871795},{"optype":"Breast","opname":"Mastectomy","surgery":3.975,"stay":232.025},{"optype":"Breast","opname":"Radical Mastectomy","surgery":1.4333333333,"stay":190.5666666667},{"optype":"Breast","opname":"Simple Mastectomy","surgery":1.4949494949,"stay":197.4141414141},{"optype":"Breast","opname":"Total Mastectomy","surgery":1.2552430556,"stay":177.9947569444},{"optype":"Colorectal","opname":"Abdominoperineal Resection","surgery":3.8752592593,"stay":324.1247407407},{"optype":"Colorectal","opname":"Anal Fistulotomy","surgery":0.6211111111,"stay":47.3788888889},{"optype":"Colorectal","opname":"Anterior Resection","surgery":2.0549260753,"stay":223.8160416667},{"optype":"Colorectal","opname":"Appendectomy","surgery":0.9325644841,"stay":176.0674355159},{"optype":"Colorectal","opname":"Biopsy","surgery":0.9166666667,"stay":95.0833333333},{"optype":"Colorectal","opname":"Cecectomy","surgery":1.3110416667,"stay":166.6889583333},{"optype":"Colorectal","opname":"Colostomy","surgery":0.8878216374,"stay":391.9542836257},{"optype":"Colorectal","opname":"Colostomy Repair","surgery":1.06,"stay":613.34},{"optype":"Colorectal","opname":"Delorme'S Operation","surgery":0.6734375,"stay":131.3265625},{"optype":"Colorectal","opname":"Excision","surgery":1.2571643519,"stay":149.7428356481},{"optype":"Colorectal","opname":"Extended Hemicolectomy","surgery":1.9112077295,"stay":247.4800966184},{"optype":"Colorectal","opname":"Fistulectomy","surgery":0.5446193416,"stay":83.010936214},{"optype":"Colorectal","opname":"Hartmann Procedure","surgery":2.4134027778,"stay":304.4437400794},{"optype":"Colorectal","opname":"Hemicolectomy","surgery":2.1861384571,"stay":251.2439133564},{"optype":"Colorectal","opname":"Hemorrhoidectomy","surgery":0.5217094017,"stay":69.6321367521},{"optype":"Colorectal","opname":"Hernia Repair","surgery":0.6746911663,"stay":99.7973585231},{"optype":"Colorectal","opname":"Ileocecectomy","surgery":1.7707323232,"stay":205.5019949495},{"optype":"Colorectal","opname":"Ileocolectomy","surgery":1.75,"stay":166.25},{"optype":"Colorectal","opname":"Ileostomy","surgery":1.546537037,"stay":537.653462963},{"optype":"Colorectal","opname":"Ileostomy Repair","surgery":1.047961264,"stay":184.7869011213},{"optype":"Colorectal","opname":"Incision And Drainage","surgery":0.1942222222,"stay":326.2057777778},{"optype":"Colorectal","opname":"Incision Of Rectal Stricture","surgery":0.4197222222,"stay":119.5802777778},{"optype":"Colorectal","opname":"Incisional Hernia Repair","surgery":1.0908080808,"stay":137.8182828283},{"optype":"Colorectal","opname":"Inguinal Hernia","surgery":1.3333333333,"stay":46.6666666667},{"optype":"Colorectal","opname":"Inguinal Lymph Node Dissection","surgery":1.3693253968,"stay":231.773531746},{"optype":"Colorectal","opname":"Low Anterior Resection","surgery":2.2215346839,"stay":209.8005647637},{"optype":"Colorectal","opname":"Oophorectomy","surgery":1.6666666667,"stay":142.3333333333},{"optype":"Colorectal","opname":"Orchiectomy","surgery":1.5,"stay":94.5},{"optype":"Colorectal","opname":"Radical Excision Of Iliac Lymph Nodes","surgery":2.2583333333,"stay":309.7416666667},{"optype":"Colorectal","opname":"Rectal Prolapse Operation","surgery":1.37,"stay":184.63},{"optype":"Colorectal","opname":"Rrectocele Repair","surgery":0.9583333333,"stay":107.0416666667},{"optype":"Colorectal","opname":"Salpingo-Oophorectomy","surgery":1.75,"stay":262.25},{"optype":"Colorectal","opname":"Segmental Resection Of Colon","surgery":2.8611111111,"stay":333.1388888889},{"optype":"Colorectal","opname":"Sphincteroplasty","surgery":0.2002777778,"stay":59.7997222222},{"optype":"Colorectal","opname":"Sphincterotomy","surgery":0.0833333333,"stay":47.9166666667},{"optype":"Colorectal","opname":"Subtotal Colectomy","surgery":2.6735416667,"stay":255.3264583333},{"optype":"Colorectal","opname":"Total Colectomy","surgery":2.9509166667,"stay":390.6490833333},{"optype":"Colorectal","opname":"Total Hysterectomy","surgery":3.3333333333,"stay":236.6666666667},{"optype":"Colorectal","opname":"Total Proctocolectomy","surgery":3.8,"stay":188.2},{"optype":"Colorectal","opname":"Transanal Endoscopic Microsurgery","surgery":1.224508547,"stay":133.5447222222},{"optype":"Colorectal","opname":"Transanal Excision","surgery":0.5710339506,"stay":98.7622993827},{"optype":"Colorectal","opname":"Transplantation Of Gracilis Muscle","surgery":0.7083333333,"stay":95.2916666667},{"optype":"Colorectal","opname":"Transverse Colectomy","surgery":1.5555555556,"stay":166.4444444444},{"optype":"Colorectal","opname":"Transverse Loop Colostomy","surgery":0.6666666667,"stay":207.3333333333},{"optype":"Colorectal","opname":"Ultralow Anterior Resection","surgery":3.0382352941,"stay":249.6676470588},{"optype":"Colorectal","opname":"Varicocelectomy","surgery":2.0833333333,"stay":45.9166666667},{"optype":"Hepatic","opname":"Extended Hemihepatectomy","surgery":4.0480769231,"stay":391.9519230769},{"optype":"Hepatic","opname":"Hemihepatectomy","surgery":3.9140435606,"stay":311.9041382576},{"optype":"Hepatic","opname":"Hepatic Hilar Resection","surgery":3.1666666667,"stay":438.4333333333},{"optype":"Hepatic","opname":"Liver Bisegmentectomy","surgery":4.25,"stay":259.75},{"optype":"Hepatic","opname":"Liver Sectionectomy","surgery":2.9032013889,"stay":268.2967986111},{"optype":"Hepatic","opname":"Liver Segmentectomy","surgery":3.2639122807,"stay":237.999245614},{"optype":"Hepatic","opname":"Liver Tumorectomy","surgery":2.9583333333,"stay":201.0416666667},{"optype":"Hepatic","opname":"Marsupialization","surgery":1.0833333333,"stay":262.9166666667},{"optype":"Major Resection","opname":"Adrenalectomy","surgery":1.1666666667,"stay":94.8333333333},{"optype":"Major Resection","opname":"Debulking Surgery","surgery":3.9375,"stay":248.0625},{"optype":"Major Resection","opname":"Excision","surgery":1.25,"stay":94.75},{"optype":"Major Resection","opname":"Exploratory Laparotomy","surgery":3.4975,"stay":378.1025},{"optype":"Major Resection","opname":"Extended Hysterectomy","surgery":1.8794166667,"stay":137.3205833333},{"optype":"Major Resection","opname":"Hysterectomy","surgery":1.7777777778,"stay":99.2222222222},{"optype":"Major Resection","opname":"Lung Bilobectomy","surgery":3.2436706349,"stay":271.0420436508},{"optype":"Major Resection","opname":"Lung Lobectomy","surgery":2.5540922021,"stay":188.0001246653},{"optype":"Major Resection","opname":"Modified Radical Hysterectomy","surgery":3.0,"stay":333.0},{"optype":"Major Resection","opname":"Nephrectomy","surgery":2.4756410256,"stay":148.908974359},{"optype":"Major Resection","opname":"Nephroureterectomy","surgery":1.7833333333,"stay":190.2166666667},{"optype":"Major Resection","opname":"Ovarian Cancer Staging Operation","surgery":2.8333333333,"stay":189.1666666667},{"optype":"Major Resection","opname":"Ovarian Cystectomy","surgery":1.31,"stay":199.33},{"optype":"Major Resection","opname":"Partial Cystectomy","surgery":1.9166666667,"stay":118.0833333333},{"optype":"Major Resection","opname":"Pelvic Tumorectomy","surgery":2.5333333333,"stay":201.4666666667},{"optype":"Major Resection","opname":"Pneumonectomy","surgery":3.4595277778,"stay":277.3404722222},{"optype":"Major Resection","opname":"Radical Cystectomy","surgery":7.1111111111,"stay":1024.8888888889},{"optype":"Major Resection","opname":"Radical Hysterectomy","surgery":1.7861875,"stay":127.2138125},{"optype":"Major Resection","opname":"Radical Parametrectomy","surgery":4.4166666667,"stay":259.5833333333},{"optype":"Major Resection","opname":"Radical Prostatectomy","surgery":2.9508333333,"stay":114.9439035088},{"optype":"Major Resection","opname":"Radical Trachelectomy","surgery":3.625,"stay":212.375},{"optype":"Major Resection","opname":"Sleeve Lobectomy","surgery":3.6811507937,"stay":304.8902777778},{"optype":"Major Resection","opname":"Total Hysterectomy","surgery":2.0740740741,"stay":152.5925925926},{"optype":"Minor Resection","opname":"Biopsy","surgery":0.7709803922,"stay":154.5231372549},{"optype":"Minor Resection","opname":"Bullectomy","surgery":0.8609907407,"stay":143.1390092593},{"optype":"Minor Resection","opname":"Diagnostic Laparoscopy","surgery":1.7555555556,"stay":134.2444444444},{"optype":"Minor Resection","opname":"Diagnostic Pelviscopy","surgery":1.4166666667,"stay":118.5833333333},{"optype":"Minor Resection","opname":"Diagnostic Procedure","surgery":1.4166666667,"stay":118.5833333333},{"optype":"Minor Resection","opname":"Empyemectomy","surgery":3.0611111111,"stay":140.9388888889},{"optype":"Minor Resection","opname":"Excision","surgery":1.5222222222,"stay":110.4777777778},{"optype":"Minor Resection","opname":"Lung Segmentectomy","surgery":2.2916666667,"stay":105.7083333333},{"optype":"Minor Resection","opname":"Lung Sgmentectomy","surgery":2.199795082,"stay":172.0952868852},{"optype":"Minor Resection","opname":"Lung Wedge Resection","surgery":2.0102548309,"stay":181.3288756039},{"optype":"Minor Resection","opname":"Macroplastique Injection","surgery":0.3333333333,"stay":47.6666666667},{"optype":"Minor Resection","opname":"Metastasectomy","surgery":1.6850462963,"stay":118.5502478214},{"optype":"Minor Resection","opname":"Myomectomy","surgery":2.0486111111,"stay":93.9513888889},{"optype":"Minor Resection","opname":"Oophorectomy","surgery":0.8333333333,"stay":71.1666666667},{"optype":"Minor Resection","opname":"Orchiectomy","surgery":0.4166666667,"stay":47.5833333333},{"optype":"Minor Resection","opname":"Pyeloplasty","surgery":2.4166666667,"stay":105.5833333333},{"optype":"Minor Resection","opname":"Salpingectomy","surgery":1.35,"stay":78.65},{"optype":"Minor Resection","opname":"Salpingo-Oophorectomy","surgery":1.1283950617,"stay":90.4271604938},{"optype":"Minor Resection","opname":"Staging Laparotomy","surgery":3.1333333333,"stay":260.8666666667},{"optype":"Minor Resection","opname":"Staging Operation","surgery":2.25,"stay":117.75},{"optype":"Minor Resection","opname":"Transurethral Resection Of Bladder Tumor","surgery":0.443212963,"stay":53.956787037},{"optype":"Stomach","opname":"Distal Gastrectomy","surgery":3.6267787524,"stay":289.5662037037},{"optype":"Stomach","opname":"Excision","surgery":2.0527777778,"stay":225.9472222222},{"optype":"Stomach","opname":"Extended Total Gastrectomy","surgery":4.0,"stay":308.0},{"optype":"Stomach","opname":"Fistulectomy","surgery":1.4166666667,"stay":238.5833333333},{"optype":"Stomach","opname":"Fundoplication","surgery":1.9166666667,"stay":262.0833333333},{"optype":"Stomach","opname":"Gastric Bypass","surgery":3.5833333333,"stay":236.4166666667},{"optype":"Stomach","opname":"Gastric Wedge Resection","surgery":1.4915542328,"stay":185.3655886243},{"optype":"Stomach","opname":"Gastrojejunostomy","surgery":2.0181818182,"stay":536.8909090909},{"optype":"Stomach","opname":"Gastrostomy","surgery":0.6333333333,"stay":911.3666666667},{"optype":"Stomach","opname":"Hernia Repair","surgery":3.0616666667,"stay":572.9383333333},{"optype":"Stomach","opname":"Insertion Of Continuous Ambulatory Peritoneal Dialysis Catheter","surgery":1.25,"stay":70.75},{"optype":"Stomach","opname":"Lung Wedge Resection","surgery":2.4333333333,"stay":367.1666666667},{"optype":"Stomach","opname":"Partial Gastrectomy","surgery":3.0950231481,"stay":222.9049768519},{"optype":"Stomach","opname":"Proximal Gastrectomy","surgery":4.4933333333,"stay":249.9066666667},{"optype":"Stomach","opname":"Pylorus Preserving Gastrectomy","surgery":3.5362132353,"stay":297.8755514706},{"optype":"Stomach","opname":"Radical Prostatectomy","surgery":3.1666666667,"stay":284.8333333333},{"optype":"Stomach","opname":"Remnant Total Gastrectomy","surgery":3.0100925926,"stay":326.9899074074},{"optype":"Stomach","opname":"Reposition Of Continuous Ambulatory Peritoneal Dialysis Catheter","surgery":0.6666666667,"stay":95.3333333333},{"optype":"Stomach","opname":"Resection Of Intestine","surgery":0.5833333333,"stay":143.4166666667},{"optype":"Stomach","opname":"Revision Of Small Intestine Anastomosis","surgery":2.75,"stay":645.25},{"optype":"Stomach","opname":"Small Bowel Segmental Resection","surgery":1.7868888889,"stay":283.8131111111},{"optype":"Stomach","opname":"Subtotal Gastrectomy","surgery":3.0780694444,"stay":365.9219305556},{"optype":"Stomach","opname":"Total Gastrectomy","surgery":3.8799599084,"stay":337.3159163803},{"optype":"Thyroid","opname":"Completion Thyroidectomy","surgery":1.6166666667,"stay":102.3833333333},{"optype":"Thyroid","opname":"Parathyroidectomy","surgery":1.4815873016,"stay":55.0898412698},{"optype":"Thyroid","opname":"Subtotal Parathyroidectomy","surgery":1.875,"stay":162.125},{"optype":"Thyroid","opname":"Thyroid Isthmectomy","surgery":2.9166666667,"stay":93.0833333333},{"optype":"Thyroid","opname":"Thyroid Lobectomy","surgery":1.7900772947,"stay":85.8620966184},{"optype":"Thyroid","opname":"Thyroidectomy","surgery":2.3333333333,"stay":93.6666666667},{"optype":"Thyroid","opname":"Total Thyroidectomy","surgery":2.2019054581,"stay":106.8507261209},{"optype":"Transplantation","opname":"Donor Hepatectomy","surgery":5.0122738095,"stay":202.0734404762},{"optype":"Transplantation","opname":"Donor Nephrectomy","surgery":2.8734920635,"stay":126.8407936508},{"optype":"Transplantation","opname":"Kidney Transplantation","surgery":3.9248415799,"stay":466.1376584201},{"optype":"Transplantation","opname":"Liver Transplantation","surgery":5.9819727366,"stay":791.7958050412},{"optype":"Transplantation","opname":"Lung Transplantation","surgery":8.6781349206,"stay":1849.6075793651},{"optype":"Transplantation","opname":"Nephrectomy","surgery":2.0134259259,"stay":29.9865740741},{"optype":"Transplantation","opname":"Pancreas Transplantation","surgery":4.8333333333,"stay":499.1666666667},{"optype":"Transplantation","opname":"Simultaneous Pancreas-Kidney Transplantation","surgery":6.625,"stay":917.375},{"optype":"Vascular","opname":"Aneurysmal Repair","surgery":4.9089285714,"stay":550.5196428571},{"optype":"Vascular","opname":"Aortofemoral Bypass","surgery":4.5,"stay":259.5},{"optype":"Vascular","opname":"Aortoiliac Bypass","surgery":4.5808888889,"stay":336.2191111111},{"optype":"Vascular","opname":"Aortorenal Bypass","surgery":4.575,"stay":217.425},{"optype":"Vascular","opname":"Arteriovenous Fistula","surgery":1.2992241379,"stay":115.3904310345},{"optype":"Vascular","opname":"Arteriovenous Fistula Thrombectomy","surgery":2.2330092593,"stay":529.7669907407},{"optype":"Vascular","opname":"Arteriovenous Graft","surgery":2.6666666667,"stay":465.3333333333},{"optype":"Vascular","opname":"Bleeding Control","surgery":1.1666666667,"stay":550.8333333333},{"optype":"Vascular","opname":"Closure Of Arteriovenous Fistula","surgery":1.1041666667,"stay":166.8958333333},{"optype":"Vascular","opname":"Embolectomy","surgery":2.5757575758,"stay":499.2424242424},{"optype":"Vascular","opname":"Endarterectomy","surgery":3.5202380952,"stay":320.4797619048},{"optype":"Vascular","opname":"Endovascular Aneurysmal Repair","surgery":2.6785714286,"stay":419.0357142857},{"optype":"Vascular","opname":"Femoro-Femoral Bypass","surgery":2.6666666667,"stay":237.3333333333},{"optype":"Vascular","opname":"Femoro-Popliteal Bypass","surgery":5.9388888889,"stay":218.0611111111},{"optype":"Vascular","opname":"Ilioiliac Bypass","surgery":3.5,"stay":188.5},{"optype":"Vascular","opname":"Incision And Drainage","surgery":1.1666666667,"stay":190.8333333333},{"optype":"Vascular","opname":"Insertion Of Permanent Catheter","surgery":2.25,"stay":21.75},{"optype":"Vascular","opname":"Intra-Abdominal Arterial Bypass Graft","surgery":1.75,"stay":70.25},{"optype":"Vascular","opname":"Ligation And Stripping","surgery":1.5020069444,"stay":48.2979930556},{"optype":"Vascular","opname":"Nephrectomy","surgery":1.3972222222,"stay":754.6027777778},{"optype":"Vascular","opname":"Percutaneous Biopsy","surgery":0.3333333333,"stay":479.6666666667},{"optype":"Vascular","opname":"Removal Of Complicated Graft","surgery":1.5333333333,"stay":646.4666666667},{"optype":"Vascular","opname":"Removal Of Continuous Ambulatory Peritoneal Dialysis Catheter","surgery":0.8707098765,"stay":156.4626234568},{"optype":"Vascular","opname":"Removal Of Hickman Catheter","surgery":0.25,"stay":359.75},{"optype":"Vascular","opname":"Removal Of Permanent Catheter","surgery":0.4583333333,"stay":401.5416666667},{"optype":"Vascular","opname":"Resection Of Inferior Vena Cava","surgery":7.275,"stay":460.725},{"optype":"Vascular","opname":"Resection Of Lower Limb Artery","surgery":3.3333333333,"stay":308.6666666667},{"optype":"Vascular","opname":"Resection Of Popliteal Artery","surgery":3.1833333333,"stay":416.8166666667},{"optype":"Vascular","opname":"Revision Of Arteriovenous Fistula","surgery":2.26375,"stay":201.73625},{"optype":"Vascular","opname":"Transposition Of Basilic Vein For Arteriovenous Fistula","surgery":4.0833333333,"stay":835.9166666667},{"optype":"Vascular","opname":"Vascular Bypass","surgery":2.9666666667,"stay":405.0333333333},{"optype":"Vascular","opname":"Vascular Repair","surgery":2.5833333333,"stay":1005.4166666667},{"optype":"Vascular","opname":"Vessel Graft","surgery":3.5,"stay":356.5}]
+{
+    "name": "root",
+    "children": [
+        {
+            "name": "Biliary/Pancreas",
+            "children": [
+                {
+                    "name": "Ampullectomy",
+                    "surgery": 1.8333333333333333,
+                    "stay": 30.92361111111111
+                },
+                {
+                    "name": "Bile Duct Anastomosis",
+                    "surgery": 4.5,
+                    "stay": 8.8125
+                },
+                {
+                    "name": "Central Pancreatectomy",
+                    "surgery": 2.8333333333333335,
+                    "stay": 10.881944444444445
+                },
+                {
+                    "name": "Cholecystectomy",
+                    "surgery": 0.7422150430748841,
+                    "stay": 3.4879610531256904
+                },
+                {
+                    "name": "Choledochal Cyst Excision",
+                    "surgery": 3.1179444444444466,
+                    "stay": 7.870085648148139
+                },
+                {
+                    "name": "Choledochoscopic Bile Duct Stone Removal",
+                    "surgery": 0.861111111111111,
+                    "stay": 6.297453703703703
+                },
+                {
+                    "name": "Distal Pancreatectomy",
+                    "surgery": 2.514866452991453,
+                    "stay": 11.991367743945869
+                },
+                {
+                    "name": "Enucleation Of Pancreas",
+                    "surgery": 3.9583333333333335,
+                    "stay": 9.335069444444445
+                },
+                {
+                    "name": "Excision",
+                    "surgery": 3.611111111111111,
+                    "stay": 9.738425925925927
+                },
+                {
+                    "name": "Exploration Of Common Bile Duct",
+                    "surgery": 4.166666666666667,
+                    "stay": 8.82638888888889
+                },
+                {
+                    "name": "Extended Cholecystectomy",
+                    "surgery": 3.434313725490196,
+                    "stay": 11.033374183006536
+                },
+                {
+                    "name": "Hepatic Hilar Resection",
+                    "surgery": 4.833333333333333,
+                    "stay": 38.46527777777778
+                },
+                {
+                    "name": "Hepaticojejunostomy",
+                    "surgery": 3.541666666666667,
+                    "stay": 9.352430555555555
+                },
+                {
+                    "name": "Hepatopancreaticoduodenectomy",
+                    "surgery": 4.166666666666667,
+                    "stay": 21.82638888888889
+                },
+                {
+                    "name": "Median Pancreatectomy",
+                    "surgery": 2.25,
+                    "stay": 8.40625
+                },
+                {
+                    "name": "Pancreatic Cystojejunostomy",
+                    "surgery": 0.8575,
+                    "stay": 7.964270833333333
+                },
+                {
+                    "name": "Pancreaticoduodenectomy",
+                    "surgery": 5.737719298245614,
+                    "stay": 18.39250730994152
+                },
+                {
+                    "name": "Pancreaticojejunostomy",
+                    "surgery": 4.75,
+                    "stay": 19.802083333333332
+                },
+                {
+                    "name": "Pancreatosplenectomy",
+                    "surgery": 3.125,
+                    "stay": 8.869791666666668
+                },
+                {
+                    "name": "Partial Pancreatectomy",
+                    "surgery": 3.175687134502924,
+                    "stay": 13.130837597465888
+                },
+                {
+                    "name": "Pylorus Preserving Pancreaticoduodenectomy",
+                    "surgery": 5.220411020776874,
+                    "stay": 17.06703571966275
+                },
+                {
+                    "name": "Radical Cholecystectomy",
+                    "surgery": 3.875,
+                    "stay": 9.338541666666666
+                },
+                {
+                    "name": "Segmental Resection Of Bile Duct",
+                    "surgery": 5.030555555555556,
+                    "stay": 23.290393518518517
+                },
+                {
+                    "name": "Spleen Preserving Distal Pancreatectomy",
+                    "surgery": 2.0397435897435896,
+                    "stay": 9.376549145299146
+                },
+                {
+                    "name": "Splenectomy",
+                    "surgery": 1.210432098765432,
+                    "stay": 14.838454218106996
+                },
+                {
+                    "name": "Subtotal Pancreatectomy",
+                    "surgery": 1.5583333333333333,
+                    "stay": 9.935069444444444
+                },
+                {
+                    "name": "Total Pancreatectomy",
+                    "surgery": 3.958333333333333,
+                    "stay": 14.335069444444445
+                },
+                {
+                    "name": "Transduodenal Ampullectomy",
+                    "surgery": 2.5,
+                    "stay": 9.895833333333334
+                }
+            ]
+        },
+        {
+            "name": "Breast",
+            "children": [
+                {
+                    "name": "Axillary Lymph Node Dissection",
+                    "surgery": 0.9,
+                    "stay": 4.9625
+                },
+                {
+                    "name": "Biopsy",
+                    "surgery": 0.7833333333333333,
+                    "stay": 2.967361111111111
+                },
+                {
+                    "name": "Breast Reconstruction",
+                    "surgery": 8.583333333333334,
+                    "stay": 7.642361111111111
+                },
+                {
+                    "name": "Breast-Conserving Surgery",
+                    "surgery": 1.3371770244821093,
+                    "stay": 6.147674121155053
+                },
+                {
+                    "name": "Completion Mastectomy",
+                    "surgery": 0.3333333333333333,
+                    "stay": 1.9861111111111112
+                },
+                {
+                    "name": "Excision",
+                    "surgery": 0.8205128205128205,
+                    "stay": 2.465811965811966
+                },
+                {
+                    "name": "Mastectomy",
+                    "surgery": 3.975,
+                    "stay": 9.667708333333334
+                },
+                {
+                    "name": "Radical Mastectomy",
+                    "surgery": 1.4333333333333333,
+                    "stay": 7.940277777777778
+                },
+                {
+                    "name": "Simple Mastectomy",
+                    "surgery": 1.494949494949495,
+                    "stay": 8.225589225589227
+                },
+                {
+                    "name": "Total Mastectomy",
+                    "surgery": 1.2552430555555556,
+                    "stay": 7.416448206018518
+                }
+            ]
+        },
+        {
+            "name": "Colorectal",
+            "children": [
+                {
+                    "name": "Abdominoperineal Resection",
+                    "surgery": 3.8752592592592587,
+                    "stay": 13.505197530864198
+                },
+                {
+                    "name": "Anal Fistulotomy",
+                    "surgery": 0.6211111111111108,
+                    "stay": 1.9741203703703714
+                },
+                {
+                    "name": "Anterior Resection",
+                    "surgery": 2.0549260752688174,
+                    "stay": 9.325668402777778
+                },
+                {
+                    "name": "Appendectomy",
+                    "surgery": 0.9325644841269841,
+                    "stay": 7.336143146494709
+                },
+                {
+                    "name": "Biopsy",
+                    "surgery": 0.9166666666666666,
+                    "stay": 3.9618055555555554
+                },
+                {
+                    "name": "Cecectomy",
+                    "surgery": 1.3110416666666667,
+                    "stay": 6.945373263888889
+                },
+                {
+                    "name": "Colostomy",
+                    "surgery": 0.8878216374269006,
+                    "stay": 16.331428484405457
+                },
+                {
+                    "name": "Colostomy Repair",
+                    "surgery": 1.06,
+                    "stay": 25.555833333333332
+                },
+                {
+                    "name": "Delorme'S Operation",
+                    "surgery": 0.6734375,
+                    "stay": 5.471940104166666
+                },
+                {
+                    "name": "Excision",
+                    "surgery": 1.2571643518518518,
+                    "stay": 6.239284818672839
+                },
+                {
+                    "name": "Extended Hemicolectomy",
+                    "surgery": 1.9112077294685987,
+                    "stay": 10.311670692431564
+                },
+                {
+                    "name": "Fistulectomy",
+                    "surgery": 0.544619341563786,
+                    "stay": 3.4587890089163236
+                },
+                {
+                    "name": "Hartmann Procedure",
+                    "surgery": 2.4134027777777782,
+                    "stay": 12.68515583664021
+                },
+                {
+                    "name": "Hemicolectomy",
+                    "surgery": 2.18613845710996,
+                    "stay": 10.468496389848397
+                },
+                {
+                    "name": "Hemorrhoidectomy",
+                    "surgery": 0.5217094017094017,
+                    "stay": 2.9013390313390315
+                },
+                {
+                    "name": "Hernia Repair",
+                    "surgery": 0.6746911663216011,
+                    "stay": 4.158223271796642
+                },
+                {
+                    "name": "Ileocecectomy",
+                    "surgery": 1.7707323232323227,
+                    "stay": 8.562583122895624
+                },
+                {
+                    "name": "Ileocolectomy",
+                    "surgery": 1.75,
+                    "stay": 6.927083333333333
+                },
+                {
+                    "name": "Ileostomy",
+                    "surgery": 1.5465370370370375,
+                    "stay": 22.402227623456774
+                },
+                {
+                    "name": "Ileostomy Repair",
+                    "surgery": 1.0479612640163098,
+                    "stay": 7.699454213387699
+                },
+                {
+                    "name": "Incision And Drainage",
+                    "surgery": 0.19422222222222235,
+                    "stay": 13.591907407407405
+                },
+                {
+                    "name": "Incision Of Rectal Stricture",
+                    "surgery": 0.4197222222222217,
+                    "stay": 4.982511574074077
+                },
+                {
+                    "name": "Incisional Hernia Repair",
+                    "surgery": 1.090808080808081,
+                    "stay": 5.742428451178451
+                },
+                {
+                    "name": "Inguinal Hernia",
+                    "surgery": 1.3333333333333333,
+                    "stay": 1.9444444444444444
+                },
+                {
+                    "name": "Inguinal Lymph Node Dissection",
+                    "surgery": 1.3693253968253976,
+                    "stay": 9.657230489417985
+                },
+                {
+                    "name": "Low Anterior Resection",
+                    "surgery": 2.221534683855126,
+                    "stay": 8.741690198485777
+                },
+                {
+                    "name": "Oophorectomy",
+                    "surgery": 1.6666666666666667,
+                    "stay": 5.930555555555555
+                },
+                {
+                    "name": "Orchiectomy",
+                    "surgery": 1.5,
+                    "stay": 3.9375
+                },
+                {
+                    "name": "Radical Excision Of Iliac Lymph Nodes",
+                    "surgery": 2.2583333333333333,
+                    "stay": 12.905902777777778
+                },
+                {
+                    "name": "Rectal Prolapse Operation",
+                    "surgery": 1.37,
+                    "stay": 7.692916666666666
+                },
+                {
+                    "name": "Rrectocele Repair",
+                    "surgery": 0.9583333333333334,
+                    "stay": 4.460069444444445
+                },
+                {
+                    "name": "Salpingo-Oophorectomy",
+                    "surgery": 1.75,
+                    "stay": 10.927083333333334
+                },
+                {
+                    "name": "Segmental Resection Of Colon",
+                    "surgery": 2.861111111111111,
+                    "stay": 13.880787037037038
+                },
+                {
+                    "name": "Sphincteroplasty",
+                    "surgery": 0.20027777777777772,
+                    "stay": 2.4916550925925938
+                },
+                {
+                    "name": "Sphincterotomy",
+                    "surgery": 0.08333333333333333,
+                    "stay": 1.9965277777777777
+                },
+                {
+                    "name": "Subtotal Colectomy",
+                    "surgery": 2.6735416666666665,
+                    "stay": 10.638602430555556
+                },
+                {
+                    "name": "Total Colectomy",
+                    "surgery": 2.9509166666666666,
+                    "stay": 16.277045138888887
+                },
+                {
+                    "name": "Total Hysterectomy",
+                    "surgery": 3.3333333333333335,
+                    "stay": 9.86111111111111
+                },
+                {
+                    "name": "Total Proctocolectomy",
+                    "surgery": 3.8,
+                    "stay": 7.841666666666667
+                },
+                {
+                    "name": "Transanal Endoscopic Microsurgery",
+                    "surgery": 1.224508547008547,
+                    "stay": 5.564363425925924
+                },
+                {
+                    "name": "Transanal Excision",
+                    "surgery": 0.5710339506172839,
+                    "stay": 4.115095807613169
+                },
+                {
+                    "name": "Transplantation Of Gracilis Muscle",
+                    "surgery": 0.7083333333333333,
+                    "stay": 3.9704861111111107
+                },
+                {
+                    "name": "Transverse Colectomy",
+                    "surgery": 1.5555555555555556,
+                    "stay": 6.935185185185186
+                },
+                {
+                    "name": "Transverse Loop Colostomy",
+                    "surgery": 0.6666666666666666,
+                    "stay": 8.638888888888888
+                },
+                {
+                    "name": "Ultralow Anterior Resection",
+                    "surgery": 3.038235294117647,
+                    "stay": 10.40281862745098
+                },
+                {
+                    "name": "Varicocelectomy",
+                    "surgery": 2.0833333333333335,
+                    "stay": 1.9131944444444444
+                }
+            ]
+        },
+        {
+            "name": "Hepatic",
+            "children": [
+                {
+                    "name": "Extended Hemihepatectomy",
+                    "surgery": 4.048076923076923,
+                    "stay": 16.331330128205128
+                },
+                {
+                    "name": "Hemihepatectomy",
+                    "surgery": 3.9140435606060606,
+                    "stay": 12.996005760732324
+                },
+                {
+                    "name": "Hepatic Hilar Resection",
+                    "surgery": 3.1666666666666665,
+                    "stay": 18.268055555555556
+                },
+                {
+                    "name": "Liver Bisegmentectomy",
+                    "surgery": 4.25,
+                    "stay": 10.822916666666666
+                },
+                {
+                    "name": "Liver Sectionectomy",
+                    "surgery": 2.903201388888889,
+                    "stay": 11.179033275462963
+                },
+                {
+                    "name": "Liver Segmentectomy",
+                    "surgery": 3.263912280701754,
+                    "stay": 9.916635233918129
+                },
+                {
+                    "name": "Liver Tumorectomy",
+                    "surgery": 2.9583333333333335,
+                    "stay": 8.37673611111111
+                },
+                {
+                    "name": "Marsupialization",
+                    "surgery": 1.0833333333333333,
+                    "stay": 10.95486111111111
+                }
+            ]
+        },
+        {
+            "name": "Major Resection",
+            "children": [
+                {
+                    "name": "Adrenalectomy",
+                    "surgery": 1.1666666666666667,
+                    "stay": 3.951388888888889
+                },
+                {
+                    "name": "Debulking Surgery",
+                    "surgery": 3.9375,
+                    "stay": 10.3359375
+                },
+                {
+                    "name": "Excision",
+                    "surgery": 1.25,
+                    "stay": 3.9479166666666665
+                },
+                {
+                    "name": "Exploratory Laparotomy",
+                    "surgery": 3.4975,
+                    "stay": 15.754270833333333
+                },
+                {
+                    "name": "Extended Hysterectomy",
+                    "surgery": 1.8794166666666665,
+                    "stay": 5.721690972222222
+                },
+                {
+                    "name": "Hysterectomy",
+                    "surgery": 1.7777777777777777,
+                    "stay": 4.1342592592592595
+                },
+                {
+                    "name": "Lung Bilobectomy",
+                    "surgery": 3.2436706349206346,
+                    "stay": 11.293418485449735
+                },
+                {
+                    "name": "Lung Lobectomy",
+                    "surgery": 2.5540922021419012,
+                    "stay": 7.833338527721999
+                },
+                {
+                    "name": "Modified Radical Hysterectomy",
+                    "surgery": 3.0,
+                    "stay": 13.875
+                },
+                {
+                    "name": "Nephrectomy",
+                    "surgery": 2.4756410256410257,
+                    "stay": 6.204540598290598
+                },
+                {
+                    "name": "Nephroureterectomy",
+                    "surgery": 1.7833333333333334,
+                    "stay": 7.925694444444445
+                },
+                {
+                    "name": "Ovarian Cancer Staging Operation",
+                    "surgery": 2.8333333333333335,
+                    "stay": 7.881944444444445
+                },
+                {
+                    "name": "Ovarian Cystectomy",
+                    "surgery": 1.31,
+                    "stay": 8.305416666666666
+                },
+                {
+                    "name": "Partial Cystectomy",
+                    "surgery": 1.9166666666666667,
+                    "stay": 4.920138888888889
+                },
+                {
+                    "name": "Pelvic Tumorectomy",
+                    "surgery": 2.533333333333333,
+                    "stay": 8.394444444444444
+                },
+                {
+                    "name": "Pneumonectomy",
+                    "surgery": 3.459527777777778,
+                    "stay": 11.555853009259257
+                },
+                {
+                    "name": "Radical Cystectomy",
+                    "surgery": 7.111111111111112,
+                    "stay": 42.7037037037037
+                },
+                {
+                    "name": "Radical Hysterectomy",
+                    "surgery": 1.7861875,
+                    "stay": 5.300575520833333
+                },
+                {
+                    "name": "Radical Parametrectomy",
+                    "surgery": 4.416666666666667,
+                    "stay": 10.815972222222221
+                },
+                {
+                    "name": "Radical Prostatectomy",
+                    "surgery": 2.950833333333333,
+                    "stay": 4.7893293128654975
+                },
+                {
+                    "name": "Radical Trachelectomy",
+                    "surgery": 3.625,
+                    "stay": 8.848958333333334
+                },
+                {
+                    "name": "Sleeve Lobectomy",
+                    "surgery": 3.681150793650795,
+                    "stay": 12.703761574074067
+                },
+                {
+                    "name": "Total Hysterectomy",
+                    "surgery": 2.0740740740740744,
+                    "stay": 6.3580246913580245
+                }
+            ]
+        },
+        {
+            "name": "Minor Resection",
+            "children": [
+                {
+                    "name": "Biopsy",
+                    "surgery": 0.7709803921568628,
+                    "stay": 6.438464052287581
+                },
+                {
+                    "name": "Bullectomy",
+                    "surgery": 0.8609907407407406,
+                    "stay": 5.96412538580247
+                },
+                {
+                    "name": "Diagnostic Laparoscopy",
+                    "surgery": 1.7555555555555555,
+                    "stay": 5.593518518518519
+                },
+                {
+                    "name": "Diagnostic Pelviscopy",
+                    "surgery": 1.4166666666666667,
+                    "stay": 4.940972222222222
+                },
+                {
+                    "name": "Diagnostic Procedure",
+                    "surgery": 1.4166666666666667,
+                    "stay": 4.940972222222222
+                },
+                {
+                    "name": "Empyemectomy",
+                    "surgery": 3.0611111111111113,
+                    "stay": 5.872453703703704
+                },
+                {
+                    "name": "Excision",
+                    "surgery": 1.5222222222222221,
+                    "stay": 4.603240740740741
+                },
+                {
+                    "name": "Lung Segmentectomy",
+                    "surgery": 2.2916666666666665,
+                    "stay": 4.404513888888889
+                },
+                {
+                    "name": "Lung Sgmentectomy",
+                    "surgery": 2.1997950819672134,
+                    "stay": 7.170636953551913
+                },
+                {
+                    "name": "Lung Wedge Resection",
+                    "surgery": 2.0102548309178743,
+                    "stay": 7.555369816827698
+                },
+                {
+                    "name": "Macroplastique Injection",
+                    "surgery": 0.3333333333333333,
+                    "stay": 1.9861111111111112
+                },
+                {
+                    "name": "Metastasectomy",
+                    "surgery": 1.6850462962962962,
+                    "stay": 4.939593659222949
+                },
+                {
+                    "name": "Myomectomy",
+                    "surgery": 2.048611111111111,
+                    "stay": 3.9146412037037037
+                },
+                {
+                    "name": "Oophorectomy",
+                    "surgery": 0.8333333333333334,
+                    "stay": 2.9652777777777777
+                },
+                {
+                    "name": "Orchiectomy",
+                    "surgery": 0.4166666666666667,
+                    "stay": 1.9826388888888888
+                },
+                {
+                    "name": "Pyeloplasty",
+                    "surgery": 2.416666666666667,
+                    "stay": 4.399305555555555
+                },
+                {
+                    "name": "Salpingectomy",
+                    "surgery": 1.3499999999999999,
+                    "stay": 3.2770833333333336
+                },
+                {
+                    "name": "Salpingo-Oophorectomy",
+                    "surgery": 1.128395061728395,
+                    "stay": 3.767798353909465
+                },
+                {
+                    "name": "Staging Laparotomy",
+                    "surgery": 3.1333333333333337,
+                    "stay": 10.869444444444444
+                },
+                {
+                    "name": "Staging Operation",
+                    "surgery": 2.25,
+                    "stay": 4.90625
+                },
+                {
+                    "name": "Transurethral Resection Of Bladder Tumor",
+                    "surgery": 0.4432129629629629,
+                    "stay": 2.2481994598765436
+                }
+            ]
+        },
+        {
+            "name": "Stomach",
+            "children": [
+                {
+                    "name": "Distal Gastrectomy",
+                    "surgery": 3.626778752436647,
+                    "stay": 12.06525848765432
+                },
+                {
+                    "name": "Excision",
+                    "surgery": 2.0527777777777776,
+                    "stay": 9.414467592592592
+                },
+                {
+                    "name": "Extended Total Gastrectomy",
+                    "surgery": 4.0,
+                    "stay": 12.833333333333334
+                },
+                {
+                    "name": "Fistulectomy",
+                    "surgery": 1.4166666666666667,
+                    "stay": 9.940972222222221
+                },
+                {
+                    "name": "Fundoplication",
+                    "surgery": 1.9166666666666667,
+                    "stay": 10.92013888888889
+                },
+                {
+                    "name": "Gastric Bypass",
+                    "surgery": 3.5833333333333335,
+                    "stay": 9.850694444444445
+                },
+                {
+                    "name": "Gastric Wedge Resection",
+                    "surgery": 1.4915542328042328,
+                    "stay": 7.723566192680775
+                },
+                {
+                    "name": "Gastrojejunostomy",
+                    "surgery": 2.018181818181818,
+                    "stay": 22.370454545454546
+                },
+                {
+                    "name": "Gastrostomy",
+                    "surgery": 0.6333333333333333,
+                    "stay": 37.97361111111111
+                },
+                {
+                    "name": "Hernia Repair",
+                    "surgery": 3.0616666666666665,
+                    "stay": 23.872430555555557
+                },
+                {
+                    "name": "Insertion Of Continuous Ambulatory Peritoneal Dialysis Catheter",
+                    "surgery": 1.25,
+                    "stay": 2.9479166666666665
+                },
+                {
+                    "name": "Lung Wedge Resection",
+                    "surgery": 2.433333333333333,
+                    "stay": 15.29861111111111
+                },
+                {
+                    "name": "Partial Gastrectomy",
+                    "surgery": 3.0950231481481487,
+                    "stay": 9.287707368827158
+                },
+                {
+                    "name": "Proximal Gastrectomy",
+                    "surgery": 4.493333333333333,
+                    "stay": 10.412777777777778
+                },
+                {
+                    "name": "Pylorus Preserving Gastrectomy",
+                    "surgery": 3.5362132352941176,
+                    "stay": 12.41148131127451
+                },
+                {
+                    "name": "Radical Prostatectomy",
+                    "surgery": 3.1666666666666665,
+                    "stay": 11.868055555555555
+                },
+                {
+                    "name": "Remnant Total Gastrectomy",
+                    "surgery": 3.0100925925925934,
+                    "stay": 13.624579475308641
+                },
+                {
+                    "name": "Reposition Of Continuous Ambulatory Peritoneal Dialysis Catheter",
+                    "surgery": 0.6666666666666666,
+                    "stay": 3.9722222222222223
+                },
+                {
+                    "name": "Resection Of Intestine",
+                    "surgery": 0.5833333333333334,
+                    "stay": 5.975694444444445
+                },
+                {
+                    "name": "Revision Of Small Intestine Anastomosis",
+                    "surgery": 2.75,
+                    "stay": 26.885416666666668
+                },
+                {
+                    "name": "Small Bowel Segmental Resection",
+                    "surgery": 1.786888888888889,
+                    "stay": 11.825546296296297
+                },
+                {
+                    "name": "Subtotal Gastrectomy",
+                    "surgery": 3.0780694444444445,
+                    "stay": 15.246747106481482
+                },
+                {
+                    "name": "Total Gastrectomy",
+                    "surgery": 3.87995990836197,
+                    "stay": 14.054829849179075
+                }
+            ]
+        },
+        {
+            "name": "Thyroid",
+            "children": [
+                {
+                    "name": "Completion Thyroidectomy",
+                    "surgery": 1.6166666666666665,
+                    "stay": 4.265972222222222
+                },
+                {
+                    "name": "Parathyroidectomy",
+                    "surgery": 1.4815873015873016,
+                    "stay": 2.295410052910053
+                },
+                {
+                    "name": "Subtotal Parathyroidectomy",
+                    "surgery": 1.875,
+                    "stay": 6.755208333333333
+                },
+                {
+                    "name": "Thyroid Isthmectomy",
+                    "surgery": 2.9166666666666665,
+                    "stay": 3.8784722222222223
+                },
+                {
+                    "name": "Thyroid Lobectomy",
+                    "surgery": 1.7900772946859902,
+                    "stay": 3.5775873590982283
+                },
+                {
+                    "name": "Thyroidectomy",
+                    "surgery": 2.3333333333333335,
+                    "stay": 3.9027777777777777
+                },
+                {
+                    "name": "Total Thyroidectomy",
+                    "surgery": 2.2019054580896684,
+                    "stay": 4.452113588369071
+                }
+            ]
+        },
+        {
+            "name": "Transplantation",
+            "children": [
+                {
+                    "name": "Donor Hepatectomy",
+                    "surgery": 5.012273809523809,
+                    "stay": 8.419726686507936
+                },
+                {
+                    "name": "Donor Nephrectomy",
+                    "surgery": 2.8734920634920633,
+                    "stay": 5.285033068783069
+                },
+                {
+                    "name": "Kidney Transplantation",
+                    "surgery": 3.924841579861111,
+                    "stay": 19.422402434172454
+                },
+                {
+                    "name": "Liver Transplantation",
+                    "surgery": 5.981972736625515,
+                    "stay": 32.991491876714676
+                },
+                {
+                    "name": "Lung Transplantation",
+                    "surgery": 8.678134920634921,
+                    "stay": 77.06698247354497
+                },
+                {
+                    "name": "Nephrectomy",
+                    "surgery": 2.0134259259259277,
+                    "stay": 1.2494405864197524
+                },
+                {
+                    "name": "Pancreas Transplantation",
+                    "surgery": 4.833333333333333,
+                    "stay": 20.79861111111111
+                },
+                {
+                    "name": "Simultaneous Pancreas-Kidney Transplantation",
+                    "surgery": 6.625,
+                    "stay": 38.223958333333336
+                }
+            ]
+        },
+        {
+            "name": "Vascular",
+            "children": [
+                {
+                    "name": "Aneurysmal Repair",
+                    "surgery": 4.908928571428571,
+                    "stay": 22.93831845238095
+                },
+                {
+                    "name": "Aortofemoral Bypass",
+                    "surgery": 4.5,
+                    "stay": 10.8125
+                },
+                {
+                    "name": "Aortoiliac Bypass",
+                    "surgery": 4.5808888888888895,
+                    "stay": 14.00912962962963
+                },
+                {
+                    "name": "Aortorenal Bypass",
+                    "surgery": 4.575,
+                    "stay": 9.059375
+                },
+                {
+                    "name": "Arteriovenous Fistula",
+                    "surgery": 1.2992241379310343,
+                    "stay": 4.807934626436783
+                },
+                {
+                    "name": "Arteriovenous Fistula Thrombectomy",
+                    "surgery": 2.233009259259259,
+                    "stay": 22.073624614197538
+                },
+                {
+                    "name": "Arteriovenous Graft",
+                    "surgery": 2.666666666666667,
+                    "stay": 19.38888888888889
+                },
+                {
+                    "name": "Bleeding Control",
+                    "surgery": 1.1666666666666667,
+                    "stay": 22.95138888888889
+                },
+                {
+                    "name": "Closure Of Arteriovenous Fistula",
+                    "surgery": 1.1041666666666665,
+                    "stay": 6.953993055555556
+                },
+                {
+                    "name": "Embolectomy",
+                    "surgery": 2.575757575757576,
+                    "stay": 20.801767676767675
+                },
+                {
+                    "name": "Endarterectomy",
+                    "surgery": 3.520238095238095,
+                    "stay": 13.353323412698414
+                },
+                {
+                    "name": "Endovascular Aneurysmal Repair",
+                    "surgery": 2.6785714285714284,
+                    "stay": 17.459821428571427
+                },
+                {
+                    "name": "Femoro-Femoral Bypass",
+                    "surgery": 2.6666666666666665,
+                    "stay": 9.88888888888889
+                },
+                {
+                    "name": "Femoro-Popliteal Bypass",
+                    "surgery": 5.938888888888889,
+                    "stay": 9.085879629629629
+                },
+                {
+                    "name": "Ilioiliac Bypass",
+                    "surgery": 3.5,
+                    "stay": 7.854166666666667
+                },
+                {
+                    "name": "Incision And Drainage",
+                    "surgery": 1.1666666666666667,
+                    "stay": 7.951388888888889
+                },
+                {
+                    "name": "Insertion Of Permanent Catheter",
+                    "surgery": 2.25,
+                    "stay": 0.90625
+                },
+                {
+                    "name": "Intra-Abdominal Arterial Bypass Graft",
+                    "surgery": 1.75,
+                    "stay": 2.9270833333333335
+                },
+                {
+                    "name": "Ligation And Stripping",
+                    "surgery": 1.5020069444444446,
+                    "stay": 2.012416377314815
+                },
+                {
+                    "name": "Nephrectomy",
+                    "surgery": 1.3972222222222226,
+                    "stay": 31.441782407407395
+                },
+                {
+                    "name": "Percutaneous Biopsy",
+                    "surgery": 0.3333333333333333,
+                    "stay": 19.98611111111111
+                },
+                {
+                    "name": "Removal Of Complicated Graft",
+                    "surgery": 1.5333333333333334,
+                    "stay": 26.93611111111111
+                },
+                {
+                    "name": "Removal Of Continuous Ambulatory Peritoneal Dialysis Catheter",
+                    "surgery": 0.8707098765432097,
+                    "stay": 6.5192759773662585
+                },
+                {
+                    "name": "Removal Of Hickman Catheter",
+                    "surgery": 0.25,
+                    "stay": 14.989583333333334
+                },
+                {
+                    "name": "Removal Of Permanent Catheter",
+                    "surgery": 0.4583333333333333,
+                    "stay": 16.73090277777778
+                },
+                {
+                    "name": "Resection Of Inferior Vena Cava",
+                    "surgery": 7.275,
+                    "stay": 19.196875
+                },
+                {
+                    "name": "Resection Of Lower Limb Artery",
+                    "surgery": 3.3333333333333335,
+                    "stay": 12.86111111111111
+                },
+                {
+                    "name": "Resection Of Popliteal Artery",
+                    "surgery": 3.1833333333333336,
+                    "stay": 17.367361111111112
+                },
+                {
+                    "name": "Revision Of Arteriovenous Fistula",
+                    "surgery": 2.26375,
+                    "stay": 8.405677083333334
+                },
+                {
+                    "name": "Transposition Of Basilic Vein For Arteriovenous Fistula",
+                    "surgery": 4.083333333333333,
+                    "stay": 34.829861111111114
+                },
+                {
+                    "name": "Vascular Bypass",
+                    "surgery": 2.966666666666667,
+                    "stay": 16.87638888888889
+                },
+                {
+                    "name": "Vascular Repair",
+                    "surgery": 2.583333333333333,
+                    "stay": 41.89236111111111
+                },
+                {
+                    "name": "Vessel Graft",
+                    "surgery": 3.5,
+                    "stay": 14.854166666666666
+                }
+            ]
+        }
+    ]
+}

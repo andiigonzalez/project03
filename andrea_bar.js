@@ -1,256 +1,285 @@
-import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7.9.0/+esm";
-
 // Define margins and dimensions
-const margin = { top: 40, right: 30, bottom: 50, left: 200 };
-const width = 800 - margin.left - margin.right;
-const height = 500 - margin.top - margin.bottom;
+const margin = { top: 50, right: 50, bottom: 100, left: 50 };
+const baseWidth = 1000 - margin.left - margin.right;
+const baseHeight = 600 - margin.top - margin.bottom;
 
-// Select the correct SVG
-const svg = d3.select("#andrea_bar")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
+// Select the container and create the SVG
+const container = d3.select(".chart-container1");
+
+const svgContainer = d3.select("#andrea_bar")
+    .attr("width", baseWidth + margin.left + margin.right)
+    .attr("height", baseHeight + margin.top + margin.bottom)
     .append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
-const selector = d3.select(".chart-container1")
-    .select(".selector-container")
-    .append("select")
-    .attr("id", "opSelector");
 
-// Background rectangle for returning to main chart
-svg.append("rect")
-    .attr("width", width)
-    .attr("height", height)
+svgContainer.append("text")
+    .attr("x", baseWidth / 2)
+    .attr("y", -30)
+    .attr("text-anchor", "middle")
+    .style("font-size", "20px")
+    .style("font-weight", "bold")
+    .text("How Long Will it Take?")
+
+svgContainer.append("text")
+    .attr("x", baseWidth / 2)
+    .attr("y", -10)
+    .attr("text-anchor", "middle")
+    .style("font-size", "16px")
+    .style("fill", "#666")
+    .text("An analysis of Surgery and Hospital Stay Durations Across Surgeries");
+
+const dropdownContainer = container.append("div")
+    .attr("class", "dropdown-container")
+    .style("position", "absolute")
+    .style("top", "900px")
+    .style("anchor", "left")
+    .style("z-index", "10");
+
+const dropdown = dropdownContainer.append("select")
+    .attr("id", "filterDropdown")
+    .style("padding", "5px")
+    .style("font-size", "14px")
+    .style("background", "white")
+    .style("border", "1px solid #ccc");
+
+
+const resetButton = container.append("button")
+    .text("Reset")
+    .style("display", "none")
+    .style("margin-top", "10px")
+    .on("click", () => {
+        updateChart(initialData, "optype");
+        currentView = "main";
+    });
+// Tooltip
+const tooltip = container.append("div")
+    .attr("class", "tooltip")
+    .style("position", "absolute")
+    .style("padding", "8px")
+    .style("background", "rgba(0, 0, 0, 0.75)")
+    .style("color", "#fff")
+    .style("border-radius", "3px")
+    .style("display", "none")
+    .style("pointer-events", "none");
+
+// Create background rect for clicking to go back
+const backRect = svgContainer.append("rect")
+    .attr("width", baseWidth)
+    .attr("height", baseHeight)
     .attr("fill", "white")
     .attr("opacity", 0)
     .style("cursor", "pointer")
     .on("click", () => {
         if (currentView === "sub") {
-            loadMainChart();
+            updateChart(initialData, "optype");
+            currentView = "main";
         }
     });
 
-// Define color scale
-const colorScale = d3.scaleOrdinal()
-    .domain(["Surgery Duration", "Hospital Stay"])
-    .range(["#1f77b4", "#ff7f0e"]);
+// Initialize two x-scales (left for surgery, right for hospital stay)
+const xScaleLeft = d3.scaleLinear().range([0, baseWidth / 2]); // Surgery expands left
+const xScaleRight = d3.scaleLinear().range([0, baseWidth/2]); // Hospital stay expands right
+const yScale = d3.scaleBand().range([0, baseHeight]).padding(0.3);
 
-const xScale = d3.scaleLinear().range([0, width]);
-const yScale = d3.scaleBand().range([0, height]).padding(0.4);
+// Create x-axis groups
+const xAxisGroupLeft = svgContainer.append("g")
+    .attr("class", "x-axis")
+    .attr("transform", `translate(0,${baseHeight})`);
 
-const xAxisGroup = svg.append("g").attr("transform", `translate(0,${height})`);
-const yAxisGroup = svg.append("g");
+const xAxisGroupRight = svgContainer.append("g")
+    .attr("class", "x-axis")
+    .attr("transform", `translate(${baseWidth / 2}, ${baseHeight})`);
 
-// Legend
-const legend = svg.append("g")
-    .attr("transform", `translate(${width - 120}, -40)`);
-
-legend.selectAll("rect")
-    .data(["Surgery Duration", "Hospital Stay"])
-    .enter()
-    .append("rect")
-    .attr("x", 0)
-    .attr("y", (d, i) => i * 25)
-    .attr("width", 15)
-    .attr("height", 15)
-    .attr("fill", d => colorScale(d));
-
-legend.selectAll("text")
-    .data(["Surgery Duration", "Hospital Stay"])
-    .enter()
-    .append("text")
-    .attr("x", 20)
-    .attr("y", (d, i) => i * 20 + 12)
-    .text(d => d)
+// X-axis labels
+const xAxisLabelLeft = svgContainer.append("text")
+    .attr("class", "x-axis-label")
+    .attr("x", baseWidth / 4)
+    .attr("y", baseHeight + 60)
+    .attr("text-anchor", "middle")
     .style("font-size", "14px")
-    .attr("alignment-baseline", "middle");
+    .style("fill", "black")
+    .text("Average Surgery Duration (in hours)");
 
-const backButton = d3.select("#backButton")
-    .style("display", "none")
-    .on("click", loadMainChart);
+const xAxisLabelRight = svgContainer.append("text")
+    .attr("class", "x-axis-label")
+    .attr("x", (baseWidth / 4) * 3)
+    .attr("y", baseHeight + 60)
+    .attr("text-anchor", "middle")
+    .style("font-size", "14px")
+    .style("fill", "black")
+    .text("Average Hospitalization Duration (in days)");
 
-const tooltip = d3.select("body")
-    .append("div")
-    .attr("class", "tooltip")
-    .style("position", "absolute")
-    .style("background", "rgba(0, 0, 0, 0.75)")
-    .style("color", "#fff")
-    .style("padding", "4px")
-    .style("border-radius", "3px")
-    .style("display", "none")
-    .style("pointer-events", "none");
+let currentView = "main"; // Track current view
+let initialData;
+function updateChart(data = null, groupBy = "optype") {
+    // ✅ Load data dynamically if not provided
+    if (!data) {
+        d3.json("data/sub_durations_data.json")
+            .then(response => {
+                if (!response.children) {
+                    throw new Error("No children found in JSON data");
+                }
+                initialData = response.children; // Store top-level data
+                populateDropdown(initialData);
+                updateChart(initialData, "optype"); // Show optypes first
+            })
+            .catch(error => console.error("Error loading JSON data:", error));
+        return;
+    }
 
-let currentView = "main";
+    console.log("Data received:", data);
 
-// Load main categories
-function loadMainChart() {
-    currentView = "main";
-    backButton.style("display", "none");
-    
-    d3.json("data/main_durations_data.json").then(data => {
-        // Update dropdown menu
-        selector.selectAll("option").remove();
-        selector.append("option").attr("value", "all").text("All Operations");
-        
-        const uniqueTypes = [...new Set(data.map(d => d.optype))];
-        uniqueTypes.forEach(optype => {
-            selector.append("option")
-                .attr("value", optype)
-                .text(optype);
-        });
+    // ✅ Prepare data depending on view (optypes or opnames)
+    let processedData;
+    if (groupBy === "optype") {
+        // Aggregate surgery and stay times by `optype`
+        processedData = data.map(category => ({
+            name: category.name,
+            surgery: d3.mean(category.children, d => d.surgery || 0),
+            stay: d3.mean(category.children, d => d.stay || 0),
+            children: category.children // Preserve children for filtering
+        }));
+    } else {
+        // Show specific procedures within the selected `optype`
+        processedData = data.map(procedure => ({
+            name: procedure.name,
+            surgery: procedure.surgery || 0,
+            stay: procedure.stay || 0
+        }));
+    }
 
-        selector.property("value", "all");
-        updateChart(data, false);
-    }).catch(error => console.error("Error loading data:", error));
-}
+    // ✅ Set independent x-axis domains for each side
+    const maxOpDur = d3.max(processedData, d => d.surgery || 0);
+    const maxHospDur = d3.max(processedData, d => d.stay || 0);
+    xScaleLeft.domain([0, maxOpDur]); // Surgery duration starts at 0
+    xScaleRight.domain([0, maxHospDur]); // Hospital stay duration starts at 0
 
-// Load subcategories
-function loadSubChart(selectedType) {
-    currentView = "sub";
-    backButton.style("display", "inline-block");
+    // ✅ Dynamically adjust y-axis bandwidth based on the number of categories
+    const minBandwidth = 10; // Minimum height for each bar
+    const maxBandwidth = 50; // Maximum height for each bar
+    const bandwidth = Math.min(maxBandwidth, baseHeight / processedData.length);
+    yScale.padding(0.3).range([0, baseHeight]).paddingInner(Math.max(0.1, 0.3)); // Adjust padding dynamically
 
-    d3.json("data/sub_durations_data.json").then(data => {
-        const filteredData = data.filter(d => d.optype === selectedType);
-        
-        // Update dropdown
-        selector.selectAll("option").remove();
-        selector.append("option").attr("value", "all").text("All Operations");
-        selector.append("option").attr("value", selectedType).text(selectedType);
-        
-        const uniqueOps = [...new Set(filteredData.map(d => d.opname))];
-        uniqueOps.forEach(opname => {
-            selector.append("option")
-                .attr("value", opname)
-                .text(opname);
-        });
+    yScale.domain(processedData.map(d => d.name));
 
-        selector.property("value", selectedType);
-        updateChart(filteredData, true);
-    }).catch(error => console.error("Error loading data:", error));
-}
+    // ✅ Update the x-axes
+    xAxisGroupLeft.transition().duration(500).call(d3.axisBottom(xScaleLeft).ticks(10));
+    xAxisGroupRight.transition().duration(500).call(d3.axisBottom(xScaleRight).ticks(10));
 
-// Update chart with new data
-function updateChart(data, isSubcategory) {
-    const maxValue = d3.max(data, d => Math.max(d.surgery, d.stay));
-    xScale.domain([0, maxValue]);
-    
-    const categories = isSubcategory 
-        ? data.map(d => d.opname)
-        : data.map(d => d.optype);
-    yScale.domain(categories);
+    // ✅ Select bars
+    const bars = svgContainer.selectAll(".bar").data(processedData, d => d.name);
+    bars.exit().remove();
 
-    // Update axes
-    xAxisGroup.transition().duration(800)
-        .call(d3.axisBottom(xScale).ticks(5));
-    yAxisGroup.transition().duration(800)
-        .call(d3.axisLeft(yScale));
+    const barsEnter = bars.enter().append("g").attr("class", "bar");
 
-    // Update bars
-    const barGroups = svg.selectAll(".bar-group")
-        .data(data, d => isSubcategory ? d.opname : d.optype);
-
-    // Remove old bars
-    barGroups.exit()
-        .transition().duration(500)
-        .attr("opacity", 0)
-        .remove();
-
-    // Create new bar groups
-    const newBarGroups = barGroups.enter()
-        .append("g")
-        .attr("class", "bar-group")
-        .style("cursor", "pointer");
-
-    // Add surgery duration bars
-    newBarGroups.append("rect")
-        .attr("class", "surgery-bar")
-        .attr("y", d => yScale(isSubcategory ? d.opname : d.optype))
-        .attr("height", yScale.bandwidth() * 0.4)
-        .attr("fill", colorScale("Surgery Duration"))
-        .attr("x", 0)
-        .attr("width", 0)
+    // ✅ Surgery bars (Left side)
+    barsEnter.append("rect")
+        .attr("class", "bar-surgery")
+        .merge(bars.select(".bar-surgery"))
         .transition().duration(800)
-        .attr("width", d => xScale(d.surgery));
+        .attr("y", d => yScale(d.name))
+        .attr("x", d => baseWidth / 2 - xScaleLeft(d.surgery))
+        .attr("height", yScale.bandwidth())
+        .attr("width", d => xScaleLeft(d.surgery))
+        .attr("fill", "steelblue");
 
-    // Add hospital stay bars
-    newBarGroups.append("rect")
-        .attr("class", "stay-bar")
-        .attr("y", d => yScale(isSubcategory ? d.opname : d.optype) + yScale.bandwidth() * 0.5)
-        .attr("height", yScale.bandwidth() * 0.4)
-        .attr("fill", colorScale("Hospital Stay"))
-        .attr("x", 0)
-        .attr("width", 0)
+    // ✅ Hospital stay bars (Right side)
+    barsEnter.append("rect")
+        .attr("class", "bar-hospitalization")
+        .merge(bars.select(".bar-hospitalization"))
         .transition().duration(800)
-        .attr("width", d => xScale(d.stay));
+        .attr("y", d => yScale(d.name))
+        .attr("x", baseWidth / 2)
+        .attr("height", yScale.bandwidth())
+        .attr("width", d => xScaleRight(d.stay))
+        .attr("fill", "orange");
 
-    // Add click handlers
-    newBarGroups.on("click", function(event, d) {
-        if (currentView === "main") {
-            loadSubChart(d.optype);
+    // ✅ Add text annotations for operation names in the center
+    barsEnter.append("text")
+        .attr("class", "bar-label-name")
+        .merge(bars.select(".bar-label-name"))
+        .transition().duration(800)
+        .attr("x", baseWidth / 2) // Center of the chart
+        .attr("y", d => yScale(d.name) + yScale.bandwidth() / 2)
+        .attr("dy", "0.35em")
+        .style("fill", "black")
+        .style("font-size", "12px")
+        .style("text-anchor", "middle") // Center-align the text
+        .text(d => d.name); // Display the operation name
+
+
+    // ✅ Click to drill down
+    barsEnter.on("click", function (event, d) {
+        if (currentView === "main" && d.children) {
+            console.log("Drilling into:", d.name);
+            drillDown(d);
         }
     });
 
-    // Add hover effects
-    const handleMouseOver = function(event, d) {
-        const title = isSubcategory ? d.opname : d.optype;
-        if (title) {  // Only show tooltip if title exists
-            tooltip.style("display", "block")
-                .html(`
-                    <strong>${title}</strong><br>
-                    Average Surgery Duration: ${d.surgery.toFixed(2)} hours<br>
-                    Average Hospital Stay: ${d.stay.toFixed(2)} hours
-                `);
-        }
-    };
-
-    newBarGroups
-        .on("mouseover", handleMouseOver)
-        .on("mousemove", function(event) {
-            tooltip.style("top", `${event.pageY - 40}px`)
-                .style("left", `${event.pageX + 10}px`);
-        })
-        .on("mouseout", function() {
-            tooltip.style("display", "none");
-        });
-
-    // Update existing bar groups with new hover handlers
-    barGroups
-        .on("mouseover", handleMouseOver)
-        .on("mousemove", function(event) {
-            tooltip.style("top", `${event.pageY - 40}px`)
-                .style("left", `${event.pageX + 10}px`);
-        })
-        .on("mouseout", function() {
-            tooltip.style("display", "none");
-        });
-
-    // Update existing bars
-    barGroups.select(".surgery-bar")
-        .transition().duration(800)
-        .attr("y", d => yScale(isSubcategory ? d.opname : d.optype))
-        .attr("width", d => xScale(d.surgery));
-
-    barGroups.select(".stay-bar")
-        .transition().duration(800)
-        .attr("y", d => yScale(isSubcategory ? d.opname : d.optype) + yScale.bandwidth() * 0.5)
-        .attr("width", d => xScale(d.stay));
+    // ✅ Tooltip for interaction
+    barsEnter.on("mouseover", function (event, d) {
+        tooltip.style("display", "block")
+            .html(`
+                <strong>${d.name}</strong><br>
+                Surgery: ${d.surgery.toFixed(2)} hours<br>
+                Stay: ${d.stay.toFixed(2)} days
+            `);
+    }).on("mousemove", function (event) {
+        tooltip.style("top", `${event.pageY - 40}px`).style("left", `${event.pageX + 10}px`);
+    }).on("mouseout", function () {
+        tooltip.style("display", "none");
+    });
 }
 
-// Dropdown event handler
-selector.on("change", function() {
-    const selectedValue = this.value;
-    if (selectedValue === "all") {
-        loadMainChart();
-    } else if (currentView === "main") {
-        loadSubChart(selectedValue);
-    } else {
-        // Handle subcategory filtering
-        d3.json("data/sub_durations_data.json").then(data => {
-            const filteredData = data.filter(d => d.opname === selectedValue);
-            updateChart(filteredData, true);
-        });
-    }
-});
+// ✅ Drill-down function
+function drillDown(d) {
+    if (!d.children || d3.active(svgContainer.node())) return;
 
-// Initialize the chart
-loadMainChart();
+    // Collapse the selected bar
+    const selectedBar = svgContainer.selectAll(".bar")
+        .filter(datum => datum.name === d.name);
+
+    selectedBar.selectAll("rect")
+        .transition().duration(500)
+        .attr("width", 0) // Collapse the bars
+        .attr("fill-opacity", 0); // Fade out the bars
+
+    // After the collapse, update the chart with the children data
+    setTimeout(() => {
+        updateChart(d.children, "opname");
+        currentView = "sub";
+    }, 500); // Wait for the collapse animation to finish
+}
+
+// Populate dropdown with data
+function populateDropdown(data) {
+    dropdown.selectAll("option").remove();
+    dropdown.append("option")
+        .attr("value", "all")
+        .text("All Operations");
+
+    data.forEach(d => {
+        dropdown.append("option")
+            .attr("value", d.name)
+            .text(d.name);
+    });
+
+    dropdown.on("change", function () {
+        const selected = this.value;
+        if (selected === "all") {
+            updateChart(initialData, "optype");
+        } else {
+            const filteredData = initialData.find(d => d.name === selected);
+            if (filteredData && filteredData.children) {
+                updateChart(filteredData.children, "opname");
+            }
+        }
+    });
+}
+
+// ✅ Make updateChart globally accessible
+window.updateChart = updateChart;
+
+// ✅ Load the chart on page load
+updateChart();
