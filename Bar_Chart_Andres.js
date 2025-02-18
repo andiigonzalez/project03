@@ -363,8 +363,6 @@ svgContainer.append("text")
     .style("fill", "#666")
     .text("Click on the name of the surgery for more information on it. (Warning: External Links with Strong Images)");
 
-    
-
 // Add X-axis Label
 const xAxisLabel = svgContainer.append("text")
     .attr("class", "x-axis-label")
@@ -408,10 +406,15 @@ d3.csv("cases_clean_andres_2.csv").then(data => {
             .text(optype);
     });
 
+    // Google Search Links for Surgeries and Operation Types
     const surgeryLinks = {};
     uniqueSurgeryNames.forEach(name => {
-        const formattedName = name.replace(/\s+/g, '_').replace(/[^\w\-]/g, '');
-        surgeryLinks[name] = `https://en.wikipedia.org/wiki/${formattedName}`;
+        surgeryLinks[name] = `https://www.google.com/search?q=${encodeURIComponent(name)}`;
+    });
+
+    const surgeryOpTypeLinks = {};
+    uniqueOpTypes.forEach(optype => {
+        surgeryOpTypeLinks[optype] = `https://www.google.com/search?q=${encodeURIComponent(optype)}`;
     });
 
     const y = d3.scaleBand().padding(0.3);
@@ -484,8 +487,16 @@ d3.csv("cases_clean_andres_2.csv").then(data => {
             .text(d => d[groupBy])
             .style("cursor", "pointer")
             .on("click", function (event, d) {
-                const surgeryName = d[groupBy];
-                const url = surgeryLinks[surgeryName];
+                const selectedValue = document.getElementById("opSelector").value;
+                const searchName = d[groupBy];
+
+                let url;
+                if (selectedValue === "all") {
+                    url = surgeryOpTypeLinks[searchName]; // Google search for "optype"
+                } else {
+                    url = surgeryLinks[searchName]; // Google search for specific surgery
+                }
+
                 if (url) {
                     window.open(url, '_blank');
                 }
