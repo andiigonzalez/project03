@@ -197,8 +197,8 @@ function updateChart(data, isSubcategory) {
             tooltip.style("display", "block")
                 .html(`
                     <strong>${title}</strong><br>
-                    Surgery Duration: ${d.surgery.toFixed(2)} hours<br>
-                    Hospital Stay: ${d.stay.toFixed(2)} days
+                    Average Surgery Duration: ${d.surgery.toFixed(2)} hours<br>
+                    Average Hospital Stay: ${d.stay.toFixed(2)} hours
                 `);
         }
     };
