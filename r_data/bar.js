@@ -83,15 +83,20 @@ function updateChart(root) {
     const barHeight = 30;
     const newHeight = Math.max(600, numBars * barHeight); // Minimum height of 600px
 
-    // Resize the SVG container dynamically
-    d3.select("svg").transition().duration(750).attr("height", newHeight);
+    // Resize the SVG width dynamically based on maxDuration
+    const dynamicWidth = Math.max(1000, maxDuration * 50); // Ensure proper width scaling
 
-    console.log("Updated chart height:", newHeight, "Number of bars:", numBars);
+    d3.select("svg")
+        .transition().duration(750)
+        .attr("height", newHeight + margin.bottom + 20) // Adjust height to ensure x-axis visibility
+        .attr("width", dynamicWidth);
 
-    // Define X scale (left side flipped, right side normal)
+    console.log("Updated chart dimensions: Width:", dynamicWidth, "Height:", newHeight);
+
+    // Define X scale (restored the correct domain & range)
     const xScale = d3.scaleLinear()
-        .domain([-maxDuration, maxDuration])  // Centered at 0
-        .range([0, width]); 
+        .domain([-maxDuration, maxDuration])  // Ensures bars extend from 0 on both sides
+        .range([margin.left, dynamicWidth - margin.right]); // Full SVG width
 
     const yScale = d3.scaleBand()
         .domain(root.children.map(d => d.data.name))
@@ -103,16 +108,18 @@ function updateChart(root) {
     if (yAxis.empty()) {
         yAxis = svg.append("g").attr("class", "y-axis");
     }
-    yAxis.transition().duration(750).call(d3.axisLeft(yScale));
+    yAxis.transition().duration(750)
+        .attr("transform", `translate(${margin.left}, 0)`)
+        .call(d3.axisLeft(yScale));
 
-    // Ensure X Axis exists and is centered at 0
+    // Ensure X Axis exists and is properly centered at 0
     let xAxis = svg.select(".x-axis");
     if (xAxis.empty()) {
         xAxis = svg.append("g").attr("class", "x-axis");
     }
     xAxis.transition().duration(750)
-        .attr("transform", `translate(0, ${newHeight - margin.top - margin.bottom})`)
-        .call(d3.axisBottom(xScale).ticks(10).tickFormat(d => Math.abs(d)));  // Display absolute values
+        .attr("transform", `translate(0, ${newHeight - margin.bottom - 50})`) // Adjusted to stay visible
+        .call(d3.axisBottom(xScale).ticks(10).tickFormat(d => Math.abs(d))); // Restored correct format
 
     // JOIN: Bind new data
     const bars = svg.selectAll(".bar-group")
@@ -133,16 +140,16 @@ function updateChart(root) {
 
     barGroups.transition().duration(750).style("opacity", 1);
 
-    // Surgery Duration Bars (left side, extending from center)
+    // Surgery Duration Bars (left side)
     barGroups.append("rect")
         .attr("class", "bar op-bar")
-        .attr("x", d => xScale(-d.data.op_dur || 0))  // Flip left side correctly
+        .attr("x", d => xScale(-d.data.op_dur || 0))  // Align bars correctly
         .attr("width", 0) // Start from 0 width for smooth transition
         .attr("height", yScale.bandwidth())
         .attr("fill", "#1f77b4")
         .on("click", (event, d) => expandBar(event, d))
         .transition().duration(750)
-        .attr("width", d => Math.abs(xScale(0) - xScale(-d.data.op_dur || 0))); // Ensure correct bar width
+        .attr("width", d => Math.abs(xScale(0) - xScale(-d.data.op_dur || 0))); // Correct bar width
 
     // Hospitalization Duration Bars (right side)
     barGroups.append("rect")
@@ -177,8 +184,8 @@ function updateChart(root) {
             .text("Average Surgery Duration (in hours)");
     }
     xAxisTitleLeft.transition().duration(750)
-        .attr("x", width / 4)
-        .attr("y", newHeight - margin.bottom - 5);
+        .attr("x", xScale(-maxDuration / 2))
+        .attr("y", newHeight - margin.bottom);
 
     let xAxisTitleRight = svg.select(".x-axis-title-right");
     if (xAxisTitleRight.empty()) {
@@ -190,12 +197,13 @@ function updateChart(root) {
             .text("Average Hospitalization Duration (in days)");
     }
     xAxisTitleRight.transition().duration(750)
-        .attr("x", (3 * width) / 4)
-        .attr("y", newHeight - margin.bottom - 5);
+        .attr("x", xScale(maxDuration / 2))
+        .attr("y", newHeight - margin.bottom);
 
     // Show back button when navigating subcategories
     backButton.style("display", root !== initialData ? "block" : "none");
 }
+
 
 
 // Expand function when clicking a bar
