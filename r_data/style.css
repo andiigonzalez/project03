@@ -1,0 +1,38 @@
+body {
+    background-color: #222;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+}
+
+.bar {
+    fill: steelblue;
+    cursor: pointer;
+}
+
+.bar:hover {
+    fill: lightblue;
+}
+
+.hosp-bar {
+    fill: lightcoral;
+    cursor: pointer;
+}
+
+.hosp-bar:hover {
+    fill: pink;
+}
+
+.axis-label {
+    font-size: 14px;
+    font-weight: bold;
+    fill: white;
+}
+
+text {
+    fill: white;
+}
