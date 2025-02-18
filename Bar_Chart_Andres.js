@@ -352,7 +352,7 @@ svgContainer.append("text")
     .attr("text-anchor", "middle")
     .style("font-size", "18px")
     .style("font-weight", "bold")
-    .text("Types of Surgeries");
+    .text("Average Duration for Different Types of Surgeries");
 
 // Add Subtitle
 svgContainer.append("text")
@@ -367,7 +367,7 @@ svgContainer.append("text")
 const xAxisLabel = svgContainer.append("text")
     .attr("class", "x-axis-label")
     .attr("x", baseWidth / 2)
-    .attr("y", baseHeight + 40)  // Initial position
+    .attr("y", baseHeight + 40)
     .attr("text-anchor", "middle")
     .style("font-size", "14px")
     .style("font-weight", "bold")
@@ -406,7 +406,6 @@ d3.csv("cases_clean_andres_2.csv").then(data => {
             .text(optype);
     });
 
-    // Google Search Links for Surgeries and Operation Types
     const surgeryLinks = {};
     uniqueSurgeryNames.forEach(name => {
         surgeryLinks[name] = `https://www.google.com/search?q=${encodeURIComponent(name)}`;
@@ -458,10 +457,11 @@ d3.csv("cases_clean_andres_2.csv").then(data => {
 
         // Update X-axis Label Position
         xAxisLabel.transition().duration(500)
-            .attr("y", height + 40);  // Adjusts based on chart height
+            .attr("y", height + 40);
 
         const barsSurgery = svgContainer.selectAll(".bar-surgery").data(averages, d => d[groupBy]);
         barsSurgery.exit().remove();
+
         barsSurgery.enter()
             .append("rect")
             .attr("class", "bar-surgery")
@@ -473,7 +473,7 @@ d3.csv("cases_clean_andres_2.csv").then(data => {
             .attr("width", d => x(d.surgery))
             .attr("fill", "steelblue");
 
-        // Fix: Remove old labels before adding new ones
+        // Remove old labels before adding new ones
         svgContainer.selectAll(".bar-label").remove();
 
         svgContainer.selectAll(".bar-label")
@@ -492,14 +492,30 @@ d3.csv("cases_clean_andres_2.csv").then(data => {
 
                 let url;
                 if (selectedValue === "all") {
-                    url = surgeryOpTypeLinks[searchName]; // Google search for "optype"
+                    url = surgeryOpTypeLinks[searchName];
                 } else {
-                    url = surgeryLinks[searchName]; // Google search for specific surgery
+                    url = surgeryLinks[searchName];
                 }
 
                 if (url) {
                     window.open(url, '_blank');
                 }
+            });
+
+        // Apply tooltip on bars
+        svgContainer.selectAll(".bar-surgery")
+            .on("mouseover", function (event, d) {
+                tooltip.style("display", "block")
+                    .html(`<strong>${d[groupBy]}</strong><br>Average Surgery Duration: ${d.surgery.toFixed(2)} min`)
+                    .style("left", `${event.pageX + 10}px`)
+                    .style("top", `${event.pageY - 20}px`);
+            })
+            .on("mousemove", function (event) {
+                tooltip.style("left", `${event.pageX + 10}px`)
+                    .style("top", `${event.pageY - 20}px`);
+            })
+            .on("mouseout", function () {
+                tooltip.style("display", "none");
             });
     }
 
