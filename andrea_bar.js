@@ -32,7 +32,7 @@ svgContainer.append("text")
 const dropdownContainer = container.append("div")
     .attr("class", "dropdown-container")
     .style("position", "absolute")
-    .style("top", "900px")
+    .style("top", "800px")
     .style("anchor", "left")
     .style("z-index", "10");
 
