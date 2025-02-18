@@ -6,148 +6,320 @@
             "children": [
                 {
                     "name": "Average Biliary/Pancreas",
-                    "op_dur": 3.192986092350471,
-                    "hosp_dur": 13.4717898943307
+                    "op_dur": 1.9553663793103448,
+                    "op_dur_min": 0.08333333333333333,
+                    "op_dur_max": 11.75,
+                    "hosp_dur": 7.854679802955665,
+                    "hosp_dur_min": 0.0,
+                    "hosp_dur_max": 102.0
                 },
                 {
-                    "name": "Ampullectomy",
+                    "name": [
+                        "Ampullectomy"
+                    ],
                     "op_dur": 1.8333333333333333,
-                    "hosp_dur": 31.0
+                    "op_dur_min": 1.8333333333333333,
+                    "op_dur_max": 1.8333333333333333,
+                    "hosp_dur": 31.0,
+                    "hosp_dur_min": 31.0,
+                    "hosp_dur_max": 31.0
                 },
                 {
-                    "name": "Bile duct anastomosis",
+                    "name": [
+                        "Bile duct anastomosis"
+                    ],
                     "op_dur": 4.5,
-                    "hosp_dur": 9.0
+                    "op_dur_min": 4.5,
+                    "op_dur_max": 4.5,
+                    "hosp_dur": 9.0,
+                    "hosp_dur_min": 9.0,
+                    "hosp_dur_max": 9.0
                 },
                 {
-                    "name": "Central pancreatectomy",
+                    "name": [
+                        "Central pancreatectomy"
+                    ],
                     "op_dur": 2.8333333333333335,
-                    "hosp_dur": 11.0
+                    "op_dur_min": 2.8333333333333335,
+                    "op_dur_max": 2.8333333333333335,
+                    "hosp_dur": 11.0,
+                    "hosp_dur_min": 11.0,
+                    "hosp_dur_max": 11.0
                 },
                 {
-                    "name": "Cholecystectomy",
+                    "name": [
+                        "Cholecystectomy"
+                    ],
                     "op_dur": 0.742215043074884,
-                    "hosp_dur": 3.518886679920477
+                    "op_dur_min": 0.16666666666666666,
+                    "op_dur_max": 4.666666666666667,
+                    "hosp_dur": 3.518886679920477,
+                    "hosp_dur_min": 0.0,
+                    "hosp_dur_max": 81.0
                 },
                 {
-                    "name": "Choledochal cyst excision",
+                    "name": [
+                        "Choledochal cyst excision"
+                    ],
                     "op_dur": 3.1179444444444444,
-                    "hosp_dur": 8.0
+                    "op_dur_min": 1.8977777777777778,
+                    "op_dur_max": 4.325277777777778,
+                    "hosp_dur": 8.0,
+                    "hosp_dur_min": 7.0,
+                    "hosp_dur_max": 9.0
                 },
                 {
-                    "name": "Choledochoscopic bile duct stone removal",
+                    "name": [
+                        "Choledochoscopic bile duct stone removal"
+                    ],
                     "op_dur": 0.861111111111111,
-                    "hosp_dur": 6.333333333333333
+                    "op_dur_min": 0.08333333333333333,
+                    "op_dur_max": 1.5,
+                    "hosp_dur": 6.333333333333333,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 10.0
                 },
                 {
-                    "name": "Distal pancreatectomy",
+                    "name": [
+                        "Distal pancreatectomy"
+                    ],
                     "op_dur": 2.514866452991453,
-                    "hosp_dur": 12.096153846153847
+                    "op_dur_min": 0.36138888888888887,
+                    "op_dur_max": 5.25,
+                    "hosp_dur": 12.096153846153847,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 38.0
                 },
                 {
-                    "name": "Enucleation of pancreas",
+                    "name": [
+                        "Enucleation of pancreas"
+                    ],
                     "op_dur": 3.9583333333333335,
-                    "hosp_dur": 9.5
+                    "op_dur_min": 3.0,
+                    "op_dur_max": 4.916666666666667,
+                    "hosp_dur": 9.5,
+                    "hosp_dur_min": 9.0,
+                    "hosp_dur_max": 10.0
                 },
                 {
-                    "name": "Excision",
+                    "name": [
+                        "Excision"
+                    ],
                     "op_dur": 3.611111111111111,
-                    "hosp_dur": 9.88888888888889
+                    "op_dur_min": 1.5833333333333333,
+                    "op_dur_max": 6.083333333333333,
+                    "hosp_dur": 9.88888888888889,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 20.0
                 },
                 {
-                    "name": "Exploration of common bile duct",
+                    "name": [
+                        "Exploration of common bile duct"
+                    ],
                     "op_dur": 4.166666666666667,
-                    "hosp_dur": 9.0
+                    "op_dur_min": 4.166666666666667,
+                    "op_dur_max": 4.166666666666667,
+                    "hosp_dur": 9.0,
+                    "hosp_dur_min": 9.0,
+                    "hosp_dur_max": 9.0
                 },
                 {
-                    "name": "Extended cholecystectomy",
+                    "name": [
+                        "Extended cholecystectomy"
+                    ],
                     "op_dur": 3.434313725490196,
-                    "hosp_dur": 11.176470588235293
+                    "op_dur_min": 1.5833333333333333,
+                    "op_dur_max": 9.083333333333334,
+                    "hosp_dur": 11.176470588235293,
+                    "hosp_dur_min": 7.0,
+                    "hosp_dur_max": 43.0
                 },
                 {
-                    "name": "Hepatic hilar resection",
+                    "name": [
+                        "Hepatic hilar resection"
+                    ],
                     "op_dur": 4.833333333333333,
-                    "hosp_dur": 38.666666666666664
+                    "op_dur_min": 3.0,
+                    "op_dur_max": 7.333333333333333,
+                    "hosp_dur": 38.666666666666664,
+                    "hosp_dur_min": 9.0,
+                    "hosp_dur_max": 96.0
                 },
                 {
-                    "name": "Hepaticojejunostomy",
+                    "name": [
+                        "Hepaticojejunostomy"
+                    ],
                     "op_dur": 3.541666666666667,
-                    "hosp_dur": 9.5
+                    "op_dur_min": 2.3333333333333335,
+                    "op_dur_max": 4.75,
+                    "hosp_dur": 9.5,
+                    "hosp_dur_min": 8.0,
+                    "hosp_dur_max": 11.0
                 },
                 {
-                    "name": "Hepatopancreaticoduodenectomy",
+                    "name": [
+                        "Hepatopancreaticoduodenectomy"
+                    ],
                     "op_dur": 4.166666666666667,
-                    "hosp_dur": 22.0
+                    "op_dur_min": 4.166666666666667,
+                    "op_dur_max": 4.166666666666667,
+                    "hosp_dur": 22.0,
+                    "hosp_dur_min": 22.0,
+                    "hosp_dur_max": 22.0
                 },
                 {
-                    "name": "Median pancreatectomy",
+                    "name": [
+                        "Median pancreatectomy"
+                    ],
                     "op_dur": 2.25,
-                    "hosp_dur": 8.5
+                    "op_dur_min": 1.9166666666666667,
+                    "op_dur_max": 2.5833333333333335,
+                    "hosp_dur": 8.5,
+                    "hosp_dur_min": 7.0,
+                    "hosp_dur_max": 10.0
                 },
                 {
-                    "name": "Pancreatic cystojejunostomy",
+                    "name": [
+                        "Pancreatic cystojejunostomy"
+                    ],
                     "op_dur": 0.8575,
-                    "hosp_dur": 8.0
+                    "op_dur_min": 0.8575,
+                    "op_dur_max": 0.8575,
+                    "hosp_dur": 8.0,
+                    "hosp_dur_min": 8.0,
+                    "hosp_dur_max": 8.0
                 },
                 {
-                    "name": "Pancreaticoduodenectomy",
+                    "name": [
+                        "Pancreaticoduodenectomy"
+                    ],
                     "op_dur": 5.737719298245614,
-                    "hosp_dur": 18.63157894736842
+                    "op_dur_min": 2.9166666666666665,
+                    "op_dur_max": 8.516666666666667,
+                    "hosp_dur": 18.63157894736842,
+                    "hosp_dur_min": 9.0,
+                    "hosp_dur_max": 44.0
                 },
                 {
-                    "name": "Pancreaticojejunostomy",
+                    "name": [
+                        "Pancreaticojejunostomy"
+                    ],
                     "op_dur": 4.75,
-                    "hosp_dur": 20.0
+                    "op_dur_min": 4.75,
+                    "op_dur_max": 4.75,
+                    "hosp_dur": 20.0,
+                    "hosp_dur_min": 20.0,
+                    "hosp_dur_max": 20.0
                 },
                 {
-                    "name": "Pancreatosplenectomy",
+                    "name": [
+                        "Pancreatosplenectomy"
+                    ],
                     "op_dur": 3.125,
-                    "hosp_dur": 9.0
+                    "op_dur_min": 3.0833333333333335,
+                    "op_dur_max": 3.1666666666666665,
+                    "hosp_dur": 9.0,
+                    "hosp_dur_min": 9.0,
+                    "hosp_dur_max": 9.0
                 },
                 {
-                    "name": "Partial pancreatectomy",
+                    "name": [
+                        "Partial pancreatectomy"
+                    ],
                     "op_dur": 3.175687134502924,
-                    "hosp_dur": 13.263157894736842
+                    "op_dur_min": 0.9166666666666666,
+                    "op_dur_max": 4.75,
+                    "hosp_dur": 13.263157894736842,
+                    "hosp_dur_min": 7.0,
+                    "hosp_dur_max": 51.0
                 },
                 {
-                    "name": "Pylorus preserving pancreaticoduodenectomy",
+                    "name": [
+                        "Pylorus preserving pancreaticoduodenectomy"
+                    ],
                     "op_dur": 5.220411020776875,
-                    "hosp_dur": 17.284552845528456
+                    "op_dur_min": 1.6666666666666667,
+                    "op_dur_max": 11.75,
+                    "hosp_dur": 17.284552845528456,
+                    "hosp_dur_min": 8.0,
+                    "hosp_dur_max": 64.0
                 },
                 {
-                    "name": "Radical cholecystectomy",
+                    "name": [
+                        "Radical cholecystectomy"
+                    ],
                     "op_dur": 3.875,
-                    "hosp_dur": 9.5
+                    "op_dur_min": 3.5,
+                    "op_dur_max": 4.25,
+                    "hosp_dur": 9.5,
+                    "hosp_dur_min": 9.0,
+                    "hosp_dur_max": 10.0
                 },
                 {
-                    "name": "Segmental resection of bile duct",
+                    "name": [
+                        "Segmental resection of bile duct"
+                    ],
                     "op_dur": 5.030555555555556,
-                    "hosp_dur": 23.5
+                    "op_dur_min": 3.75,
+                    "op_dur_max": 7.083333333333333,
+                    "hosp_dur": 23.5,
+                    "hosp_dur_min": 10.0,
+                    "hosp_dur_max": 56.0
                 },
                 {
-                    "name": "Spleen preserving distal pancreatectomy",
+                    "name": [
+                        "Spleen preserving distal pancreatectomy"
+                    ],
                     "op_dur": 2.0397435897435896,
-                    "hosp_dur": 9.461538461538462
+                    "op_dur_min": 1.2666666666666666,
+                    "op_dur_max": 4.833333333333333,
+                    "hosp_dur": 9.461538461538462,
+                    "hosp_dur_min": 7.0,
+                    "hosp_dur_max": 15.0
                 },
                 {
-                    "name": "Splenectomy",
+                    "name": [
+                        "Splenectomy"
+                    ],
                     "op_dur": 1.210432098765432,
-                    "hosp_dur": 14.88888888888889
+                    "op_dur_min": 0.5,
+                    "op_dur_max": 2.4,
+                    "hosp_dur": 14.88888888888889,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 102.0
                 },
                 {
-                    "name": "Subtotal pancreatectomy",
+                    "name": [
+                        "Subtotal pancreatectomy"
+                    ],
                     "op_dur": 1.5583333333333333,
-                    "hosp_dur": 10.0
+                    "op_dur_min": 1.2,
+                    "op_dur_max": 1.9166666666666667,
+                    "hosp_dur": 10.0,
+                    "hosp_dur_min": 9.0,
+                    "hosp_dur_max": 11.0
                 },
                 {
-                    "name": "Total pancreatectomy",
+                    "name": [
+                        "Total pancreatectomy"
+                    ],
                     "op_dur": 3.958333333333333,
-                    "hosp_dur": 14.5
+                    "op_dur_min": 1.8333333333333333,
+                    "op_dur_max": 6.083333333333333,
+                    "hosp_dur": 14.5,
+                    "hosp_dur_min": 10.0,
+                    "hosp_dur_max": 19.0
                 },
                 {
-                    "name": "Transduodenal ampullectomy",
+                    "name": [
+                        "Transduodenal ampullectomy"
+                    ],
                     "op_dur": 2.5,
-                    "hosp_dur": 10.0
+                    "op_dur_min": 2.5,
+                    "op_dur_max": 2.5,
+                    "hosp_dur": 10.0,
+                    "hosp_dur_min": 10.0,
+                    "hosp_dur_max": 10.0
                 }
             ]
         },
@@ -156,58 +328,122 @@
             "children": [
                 {
                     "name": "Average Breast",
-                    "op_dur": 2.0916215728833314,
-                    "hosp_dur": 6.02933519517206
+                    "op_dur": 1.368936251920123,
+                    "op_dur_min": 0.25,
+                    "op_dur_max": 8.666666666666666,
+                    "hosp_dur": 6.419354838709677,
+                    "hosp_dur_min": 1.0,
+                    "hosp_dur_max": 32.0
                 },
                 {
-                    "name": "Axillary lymph node dissection",
+                    "name": [
+                        "Axillary lymph node dissection"
+                    ],
                     "op_dur": 0.9,
-                    "hosp_dur": 5.0
+                    "op_dur_min": 0.5,
+                    "op_dur_max": 1.8333333333333333,
+                    "hosp_dur": 5.0,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 6.0
                 },
                 {
-                    "name": "Biopsy",
+                    "name": [
+                        "Biopsy"
+                    ],
                     "op_dur": 0.7833333333333333,
-                    "hosp_dur": 3.0
+                    "op_dur_min": 0.7833333333333333,
+                    "op_dur_max": 0.7833333333333333,
+                    "hosp_dur": 3.0,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 3.0
                 },
                 {
-                    "name": "Breast reconstruction",
+                    "name": [
+                        "Breast reconstruction"
+                    ],
                     "op_dur": 8.583333333333334,
-                    "hosp_dur": 8.0
+                    "op_dur_min": 8.583333333333334,
+                    "op_dur_max": 8.583333333333334,
+                    "hosp_dur": 8.0,
+                    "hosp_dur_min": 8.0,
+                    "hosp_dur_max": 8.0
                 },
                 {
-                    "name": "Breast-conserving surgery",
+                    "name": [
+                        "Breast-conserving surgery"
+                    ],
                     "op_dur": 1.3371770244821093,
-                    "hosp_dur": 6.203389830508475
+                    "op_dur_min": 0.3333333333333333,
+                    "op_dur_max": 6.083333333333333,
+                    "hosp_dur": 6.203389830508475,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 24.0
                 },
                 {
-                    "name": "Completion mastectomy",
+                    "name": [
+                        "Completion mastectomy"
+                    ],
                     "op_dur": 0.3333333333333333,
-                    "hosp_dur": 2.0
+                    "op_dur_min": 0.3333333333333333,
+                    "op_dur_max": 0.3333333333333333,
+                    "hosp_dur": 2.0,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 2.0
                 },
                 {
-                    "name": "Excision",
+                    "name": [
+                        "Excision"
+                    ],
                     "op_dur": 0.8205128205128205,
-                    "hosp_dur": 2.5
+                    "op_dur_min": 0.25,
+                    "op_dur_max": 2.6666666666666665,
+                    "hosp_dur": 2.5,
+                    "hosp_dur_min": 1.0,
+                    "hosp_dur_max": 6.0
                 },
                 {
-                    "name": "Mastectomy",
+                    "name": [
+                        "Mastectomy"
+                    ],
                     "op_dur": 3.975,
-                    "hosp_dur": 9.833333333333334
+                    "op_dur_min": 2.4166666666666665,
+                    "op_dur_max": 8.666666666666666,
+                    "hosp_dur": 9.833333333333334,
+                    "hosp_dur_min": 8.0,
+                    "hosp_dur_max": 12.0
                 },
                 {
-                    "name": "Radical mastectomy",
+                    "name": [
+                        "Radical mastectomy"
+                    ],
                     "op_dur": 1.4333333333333333,
-                    "hosp_dur": 8.0
+                    "op_dur_min": 1.4333333333333333,
+                    "op_dur_max": 1.4333333333333333,
+                    "hosp_dur": 8.0,
+                    "hosp_dur_min": 8.0,
+                    "hosp_dur_max": 8.0
                 },
                 {
-                    "name": "Simple mastectomy",
+                    "name": [
+                        "Simple mastectomy"
+                    ],
                     "op_dur": 1.494949494949495,
-                    "hosp_dur": 8.287878787878787
+                    "op_dur_min": 0.5,
+                    "op_dur_max": 6.333333333333333,
+                    "hosp_dur": 8.287878787878787,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 32.0
                 },
                 {
-                    "name": "Total mastectomy",
+                    "name": [
+                        "Total mastectomy"
+                    ],
                     "op_dur": 1.2552430555555556,
-                    "hosp_dur": 7.46875
+                    "op_dur_min": 0.5,
+                    "op_dur_max": 3.25,
+                    "hosp_dur": 7.46875,
+                    "hosp_dur_min": 5.0,
+                    "hosp_dur_max": 21.0
                 }
             ]
         },
@@ -216,248 +452,540 @@
             "children": [
                 {
                     "name": "Average Colorectal",
-                    "op_dur": 1.5275446160577824,
-                    "hosp_dur": 8.411718955259937
+                    "op_dur": 1.64226316872428,
+                    "op_dur_min": 0.06722222222222222,
+                    "op_dur_max": 15.666666666666666,
+                    "hosp_dur": 8.50074074074074,
+                    "hosp_dur_min": 0.0,
+                    "hosp_dur_max": 115.0
                 },
                 {
-                    "name": "Abdominoperineal resection",
+                    "name": [
+                        "Abdominoperineal resection"
+                    ],
                     "op_dur": 3.875259259259259,
-                    "hosp_dur": 13.666666666666666
+                    "op_dur_min": 1.5,
+                    "op_dur_max": 7.416666666666667,
+                    "hosp_dur": 13.666666666666666,
+                    "hosp_dur_min": 7.0,
+                    "hosp_dur_max": 31.0
                 },
                 {
-                    "name": "Anal fistulotomy",
+                    "name": [
+                        "Anal fistulotomy"
+                    ],
                     "op_dur": 0.6211111111111112,
-                    "hosp_dur": 2.0
+                    "op_dur_min": 0.4922222222222222,
+                    "op_dur_max": 0.75,
+                    "hosp_dur": 2.0,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 2.0
                 },
                 {
-                    "name": "Anterior resection",
+                    "name": [
+                        "Anterior resection"
+                    ],
                     "op_dur": 2.0586572199730093,
-                    "hosp_dur": 9.417004048582996
+                    "op_dur_min": 0.5830555555555555,
+                    "op_dur_max": 8.75,
+                    "hosp_dur": 9.417004048582996,
+                    "hosp_dur_min": 5.0,
+                    "hosp_dur_max": 72.0
                 },
                 {
-                    "name": "Appendectomy",
+                    "name": [
+                        "Appendectomy"
+                    ],
                     "op_dur": 0.9325644841269841,
-                    "hosp_dur": 7.375
+                    "op_dur_min": 0.25,
+                    "op_dur_max": 4.25,
+                    "hosp_dur": 7.375,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 46.0
                 },
                 {
-                    "name": "Biopsy",
+                    "name": [
+                        "Biopsy"
+                    ],
                     "op_dur": 0.9166666666666666,
-                    "hosp_dur": 4.0
+                    "op_dur_min": 0.9166666666666666,
+                    "op_dur_max": 0.9166666666666666,
+                    "hosp_dur": 4.0,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 4.0
                 },
                 {
-                    "name": "Cecectomy",
+                    "name": [
+                        "Cecectomy"
+                    ],
                     "op_dur": 1.3110416666666667,
-                    "hosp_dur": 7.0
+                    "op_dur_min": 0.7441666666666666,
+                    "op_dur_max": 1.9166666666666667,
+                    "hosp_dur": 7.0,
+                    "hosp_dur_min": 5.0,
+                    "hosp_dur_max": 11.0
                 },
                 {
-                    "name": "Colostomy",
+                    "name": [
+                        "Colostomy"
+                    ],
                     "op_dur": 0.8878216374269006,
-                    "hosp_dur": 16.36842105263158
+                    "op_dur_min": 0.4166666666666667,
+                    "op_dur_max": 2.0833333333333335,
+                    "hosp_dur": 16.36842105263158,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 50.0
                 },
                 {
-                    "name": "Colostomy repair",
+                    "name": [
+                        "Colostomy repair"
+                    ],
                     "op_dur": 1.06,
-                    "hosp_dur": 25.6
+                    "op_dur_min": 0.5,
+                    "op_dur_max": 2.0833333333333335,
+                    "hosp_dur": 25.6,
+                    "hosp_dur_min": 6.0,
+                    "hosp_dur_max": 100.0
                 },
                 {
-                    "name": "Delorme's operation",
+                    "name": [
+                        "Delorme's operation"
+                    ],
                     "op_dur": 0.6734375,
-                    "hosp_dur": 5.5
+                    "op_dur_min": 0.5,
+                    "op_dur_max": 0.8666666666666667,
+                    "hosp_dur": 5.5,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 11.0
                 },
                 {
-                    "name": "Excision",
+                    "name": [
+                        "Excision"
+                    ],
                     "op_dur": 1.2571643518518518,
-                    "hosp_dur": 6.291666666666667
+                    "op_dur_min": 0.16666666666666666,
+                    "op_dur_max": 4.083333333333333,
+                    "hosp_dur": 6.291666666666667,
+                    "hosp_dur_min": 1.0,
+                    "hosp_dur_max": 36.0
                 },
                 {
-                    "name": "Extended hemicolectomy",
+                    "name": [
+                        "Extended hemicolectomy"
+                    ],
                     "op_dur": 1.911207729468599,
-                    "hosp_dur": 10.391304347826088
+                    "op_dur_min": 0.9166666666666666,
+                    "op_dur_max": 4.333333333333333,
+                    "hosp_dur": 10.391304347826088,
+                    "hosp_dur_min": 6.0,
+                    "hosp_dur_max": 48.0
                 },
                 {
-                    "name": "Fistulectomy",
+                    "name": [
+                        "Fistulectomy"
+                    ],
                     "op_dur": 0.544619341563786,
-                    "hosp_dur": 3.4814814814814814
+                    "op_dur_min": 0.16111111111111112,
+                    "op_dur_max": 2.0833333333333335,
+                    "hosp_dur": 3.4814814814814814,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 25.0
                 },
                 {
-                    "name": "Hartmann procedure",
+                    "name": [
+                        "Hartmann procedure"
+                    ],
                     "op_dur": 2.4134027777777782,
-                    "hosp_dur": 12.785714285714286
+                    "op_dur_min": 0.6666666666666666,
+                    "op_dur_max": 4.333333333333333,
+                    "hosp_dur": 12.785714285714286,
+                    "hosp_dur_min": 6.0,
+                    "hosp_dur_max": 26.0
                 },
                 {
-                    "name": "Hemicolectomy",
+                    "name": [
+                        "Hemicolectomy"
+                    ],
                     "op_dur": 2.18613845710996,
-                    "hosp_dur": 10.55958549222798
+                    "op_dur_min": 0.8333333333333334,
+                    "op_dur_max": 5.683333333333334,
+                    "hosp_dur": 10.55958549222798,
+                    "hosp_dur_min": 5.0,
+                    "hosp_dur_max": 78.0
                 },
                 {
-                    "name": "Hemorrhoidectomy",
+                    "name": [
+                        "Hemorrhoidectomy"
+                    ],
                     "op_dur": 0.5217094017094017,
-                    "hosp_dur": 2.923076923076923
+                    "op_dur_min": 0.16666666666666666,
+                    "op_dur_max": 1.091388888888889,
+                    "hosp_dur": 2.923076923076923,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 4.0
                 },
                 {
-                    "name": "Hernia repair",
+                    "name": [
+                        "Hernia repair"
+                    ],
                     "op_dur": 0.6746911663216011,
-                    "hosp_dur": 4.186335403726708
+                    "op_dur_min": 0.16305555555555556,
+                    "op_dur_max": 3.5,
+                    "hosp_dur": 4.186335403726708,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 115.0
                 },
                 {
-                    "name": "Ileocecectomy",
+                    "name": [
+                        "Ileocecectomy"
+                    ],
                     "op_dur": 1.7707323232323233,
-                    "hosp_dur": 8.636363636363637
+                    "op_dur_min": 0.8333333333333334,
+                    "op_dur_max": 3.3333333333333335,
+                    "hosp_dur": 8.636363636363637,
+                    "hosp_dur_min": 6.0,
+                    "hosp_dur_max": 15.0
                 },
                 {
-                    "name": "Ileocolectomy",
+                    "name": [
+                        "Ileocolectomy"
+                    ],
                     "op_dur": 1.75,
-                    "hosp_dur": 7.0
+                    "op_dur_min": 1.75,
+                    "op_dur_max": 1.75,
+                    "hosp_dur": 7.0,
+                    "hosp_dur_min": 7.0,
+                    "hosp_dur_max": 7.0
                 },
                 {
-                    "name": "Ileostomy",
+                    "name": [
+                        "Ileostomy"
+                    ],
                     "op_dur": 1.546537037037037,
-                    "hosp_dur": 22.466666666666665
+                    "op_dur_min": 0.5833333333333334,
+                    "op_dur_max": 3.6666666666666665,
+                    "hosp_dur": 22.466666666666665,
+                    "hosp_dur_min": 7.0,
+                    "hosp_dur_max": 71.0
                 },
                 {
-                    "name": "Ileostomy repair",
+                    "name": [
+                        "Ileostomy repair"
+                    ],
                     "op_dur": 1.0479612640163098,
-                    "hosp_dur": 7.743119266055046
+                    "op_dur_min": 0.5,
+                    "op_dur_max": 3.8333333333333335,
+                    "hosp_dur": 7.743119266055046,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 40.0
                 },
                 {
-                    "name": "Incision and drainage",
+                    "name": [
+                        "Incision and drainage"
+                    ],
                     "op_dur": 0.1942222222222222,
-                    "hosp_dur": 13.6
+                    "op_dur_min": 0.08333333333333333,
+                    "op_dur_max": 0.3333333333333333,
+                    "hosp_dur": 13.6,
+                    "hosp_dur_min": 1.0,
+                    "hosp_dur_max": 37.0
                 },
                 {
-                    "name": "Incision of rectal stricture",
+                    "name": [
+                        "Incision of rectal stricture"
+                    ],
                     "op_dur": 0.4197222222222222,
-                    "hosp_dur": 5.0
+                    "op_dur_min": 0.4197222222222222,
+                    "op_dur_max": 0.4197222222222222,
+                    "hosp_dur": 5.0,
+                    "hosp_dur_min": 5.0,
+                    "hosp_dur_max": 5.0
                 },
                 {
-                    "name": "Incisional hernia repair",
+                    "name": [
+                        "Incisional hernia repair"
+                    ],
                     "op_dur": 1.0908080808080807,
-                    "hosp_dur": 5.787878787878788
+                    "op_dur_min": 0.25,
+                    "op_dur_max": 3.7666666666666666,
+                    "hosp_dur": 5.787878787878788,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 16.0
                 },
                 {
-                    "name": "Inguinal hernia",
+                    "name": [
+                        "Inguinal hernia"
+                    ],
                     "op_dur": 1.3333333333333333,
-                    "hosp_dur": 2.0
+                    "op_dur_min": 1.3333333333333333,
+                    "op_dur_max": 1.3333333333333333,
+                    "hosp_dur": 2.0,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 2.0
                 },
                 {
-                    "name": "Inguinal lymph node dissection",
+                    "name": [
+                        "Inguinal lymph node dissection"
+                    ],
                     "op_dur": 1.369325396825397,
-                    "hosp_dur": 9.714285714285714
+                    "op_dur_min": 0.6666666666666666,
+                    "op_dur_max": 2.8333333333333335,
+                    "hosp_dur": 9.714285714285714,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 25.0
                 },
                 {
-                    "name": "Low anterior resection",
+                    "name": [
+                        "Low anterior resection"
+                    ],
                     "op_dur": 2.221534683855126,
-                    "hosp_dur": 8.834254143646408
+                    "op_dur_min": 0.75,
+                    "op_dur_max": 15.666666666666666,
+                    "hosp_dur": 8.834254143646408,
+                    "hosp_dur_min": 5.0,
+                    "hosp_dur_max": 35.0
                 },
                 {
-                    "name": "Oophorectomy",
+                    "name": [
+                        "Oophorectomy"
+                    ],
                     "op_dur": 1.6666666666666667,
-                    "hosp_dur": 6.0
+                    "op_dur_min": 1.6666666666666667,
+                    "op_dur_max": 1.6666666666666667,
+                    "hosp_dur": 6.0,
+                    "hosp_dur_min": 6.0,
+                    "hosp_dur_max": 6.0
                 },
                 {
-                    "name": "Orchiectomy",
+                    "name": [
+                        "Orchiectomy"
+                    ],
                     "op_dur": 1.5,
-                    "hosp_dur": 4.0
+                    "op_dur_min": 1.5,
+                    "op_dur_max": 1.5,
+                    "hosp_dur": 4.0,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 4.0
                 },
                 {
-                    "name": "Radical excision of iliac lymph nodes",
+                    "name": [
+                        "Radical excision of iliac lymph nodes"
+                    ],
                     "op_dur": 2.2583333333333333,
-                    "hosp_dur": 13.0
+                    "op_dur_min": 1.0,
+                    "op_dur_max": 3.5833333333333335,
+                    "hosp_dur": 13.0,
+                    "hosp_dur_min": 6.0,
+                    "hosp_dur_max": 23.0
                 },
                 {
-                    "name": "Rectal prolapse operation",
+                    "name": [
+                        "Rectal prolapse operation"
+                    ],
                     "op_dur": 1.37,
-                    "hosp_dur": 7.75
+                    "op_dur_min": 0.9166666666666666,
+                    "op_dur_max": 1.8333333333333333,
+                    "hosp_dur": 7.75,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 17.0
                 },
                 {
-                    "name": "Rrectocele repair",
+                    "name": [
+                        "Rrectocele repair"
+                    ],
                     "op_dur": 0.9583333333333334,
-                    "hosp_dur": 4.5
+                    "op_dur_min": 0.5,
+                    "op_dur_max": 1.4166666666666667,
+                    "hosp_dur": 4.5,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 5.0
                 },
                 {
-                    "name": "Salpingo-oophorectomy",
+                    "name": [
+                        "Salpingo-oophorectomy"
+                    ],
                     "op_dur": 1.75,
-                    "hosp_dur": 11.0
+                    "op_dur_min": 1.75,
+                    "op_dur_max": 1.75,
+                    "hosp_dur": 11.0,
+                    "hosp_dur_min": 11.0,
+                    "hosp_dur_max": 11.0
                 },
                 {
-                    "name": "Segmental resection of colon",
+                    "name": [
+                        "Segmental resection of colon"
+                    ],
                     "op_dur": 2.861111111111111,
-                    "hosp_dur": 14.0
+                    "op_dur_min": 1.9166666666666667,
+                    "op_dur_max": 4.166666666666667,
+                    "hosp_dur": 14.0,
+                    "hosp_dur_min": 8.0,
+                    "hosp_dur_max": 25.0
                 },
                 {
-                    "name": "Sphincteroplasty",
+                    "name": [
+                        "Sphincteroplasty"
+                    ],
                     "op_dur": 0.20027777777777778,
-                    "hosp_dur": 2.5
+                    "op_dur_min": 0.06722222222222222,
+                    "op_dur_max": 0.3333333333333333,
+                    "hosp_dur": 2.5,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 3.0
                 },
                 {
-                    "name": "Sphincterotomy",
+                    "name": [
+                        "Sphincterotomy"
+                    ],
                     "op_dur": 0.08333333333333333,
-                    "hosp_dur": 2.0
+                    "op_dur_min": 0.08333333333333333,
+                    "op_dur_max": 0.08333333333333333,
+                    "hosp_dur": 2.0,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 2.0
                 },
                 {
-                    "name": "Subtotal colectomy",
+                    "name": [
+                        "Subtotal colectomy"
+                    ],
                     "op_dur": 2.1816666666666666,
-                    "hosp_dur": 12.0
+                    "op_dur_min": 1.5833333333333333,
+                    "op_dur_max": 2.9166666666666665,
+                    "hosp_dur": 12.0,
+                    "hosp_dur_min": 8.0,
+                    "hosp_dur_max": 16.0
                 },
                 {
-                    "name": "Total colectomy",
+                    "name": [
+                        "Total colectomy"
+                    ],
                     "op_dur": 2.9509166666666666,
-                    "hosp_dur": 16.4
+                    "op_dur_min": 1.4166666666666667,
+                    "op_dur_max": 4.333333333333333,
+                    "hosp_dur": 16.4,
+                    "hosp_dur_min": 6.0,
+                    "hosp_dur_max": 54.0
                 },
                 {
-                    "name": "Total hysterectomy",
+                    "name": [
+                        "Total hysterectomy"
+                    ],
                     "op_dur": 3.3333333333333335,
-                    "hosp_dur": 10.0
+                    "op_dur_min": 3.3333333333333335,
+                    "op_dur_max": 3.3333333333333335,
+                    "hosp_dur": 10.0,
+                    "hosp_dur_min": 10.0,
+                    "hosp_dur_max": 10.0
                 },
                 {
-                    "name": "Total proctocolectomy",
+                    "name": [
+                        "Total proctocolectomy"
+                    ],
                     "op_dur": 3.8,
-                    "hosp_dur": 8.0
+                    "op_dur_min": 1.9166666666666667,
+                    "op_dur_max": 5.5,
+                    "hosp_dur": 8.0,
+                    "hosp_dur_min": 7.0,
+                    "hosp_dur_max": 10.0
                 },
                 {
-                    "name": "Transanal endoscopic microsurgery",
+                    "name": [
+                        "Transanal endoscopic microsurgery"
+                    ],
                     "op_dur": 1.224508547008547,
-                    "hosp_dur": 5.615384615384615
+                    "op_dur_min": 0.16666666666666666,
+                    "op_dur_max": 3.8333333333333335,
+                    "hosp_dur": 5.615384615384615,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 10.0
                 },
                 {
-                    "name": "Transanal excision",
+                    "name": [
+                        "Transanal excision"
+                    ],
                     "op_dur": 0.5710339506172839,
-                    "hosp_dur": 4.138888888888889
+                    "op_dur_min": 0.08333333333333333,
+                    "op_dur_max": 2.8333333333333335,
+                    "hosp_dur": 4.138888888888889,
+                    "hosp_dur_min": 0.0,
+                    "hosp_dur_max": 10.0
                 },
                 {
-                    "name": "Transplantation of gracilis muscle",
+                    "name": [
+                        "Transplantation of gracilis muscle"
+                    ],
                     "op_dur": 0.7083333333333333,
-                    "hosp_dur": 4.0
+                    "op_dur_min": 0.5,
+                    "op_dur_max": 0.9166666666666666,
+                    "hosp_dur": 4.0,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 5.0
                 },
                 {
-                    "name": "Transverse colectomy",
+                    "name": [
+                        "Transverse colectomy"
+                    ],
                     "op_dur": 1.5555555555555556,
-                    "hosp_dur": 7.0
+                    "op_dur_min": 1.25,
+                    "op_dur_max": 1.9166666666666667,
+                    "hosp_dur": 7.0,
+                    "hosp_dur_min": 6.0,
+                    "hosp_dur_max": 9.0
                 },
                 {
-                    "name": "Transverse loop colostomy",
+                    "name": [
+                        "Transverse loop colostomy"
+                    ],
                     "op_dur": 0.6666666666666666,
-                    "hosp_dur": 8.666666666666666
+                    "op_dur_min": 0.6666666666666666,
+                    "op_dur_max": 0.6666666666666666,
+                    "hosp_dur": 8.666666666666666,
+                    "hosp_dur_min": 7.0,
+                    "hosp_dur_max": 11.0
                 },
                 {
-                    "name": "Ultralow anterior resection",
+                    "name": [
+                        "Ultralow anterior resection"
+                    ],
                     "op_dur": 3.038235294117647,
-                    "hosp_dur": 10.529411764705882
+                    "op_dur_min": 1.6666666666666667,
+                    "op_dur_max": 4.833333333333333,
+                    "hosp_dur": 10.529411764705882,
+                    "hosp_dur_min": 6.0,
+                    "hosp_dur_max": 23.0
                 },
                 {
-                    "name": "Varicocelectomy",
+                    "name": [
+                        "Varicocelectomy"
+                    ],
                     "op_dur": 2.0833333333333335,
-                    "hosp_dur": 2.0
+                    "op_dur_min": 2.0833333333333335,
+                    "op_dur_max": 2.0833333333333335,
+                    "hosp_dur": 2.0,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 2.0
                 },
                 {
-                    "name": "anterior resection",
+                    "name": [
+                        "anterior resection"
+                    ],
                     "op_dur": 1.1333333333333333,
-                    "hosp_dur": 8.0
+                    "op_dur_min": 1.1333333333333333,
+                    "op_dur_max": 1.1333333333333333,
+                    "hosp_dur": 8.0,
+                    "hosp_dur_min": 8.0,
+                    "hosp_dur_max": 8.0
                 },
                 {
-                    "name": "subtotal colectomy",
+                    "name": [
+                        "subtotal colectomy"
+                    ],
                     "op_dur": 2.8375,
-                    "hosp_dur": 10.333333333333334
+                    "op_dur_min": 0.9166666666666666,
+                    "op_dur_max": 4.75,
+                    "hosp_dur": 10.333333333333334,
+                    "hosp_dur_min": 7.0,
+                    "hosp_dur_max": 25.0
                 }
             ]
         },
@@ -466,48 +994,100 @@
             "children": [
                 {
                     "name": "Average Hepatic",
-                    "op_dur": 3.1984459358258697,
-                    "hosp_dur": 12.488965311004783
+                    "op_dur": 3.499879414298019,
+                    "op_dur_min": 0.5833333333333334,
+                    "op_dur_max": 9.333333333333334,
+                    "hosp_dur": 12.112403100775193,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 72.0
                 },
                 {
-                    "name": "Extended hemihepatectomy",
+                    "name": [
+                        "Extended hemihepatectomy"
+                    ],
                     "op_dur": 4.048076923076923,
-                    "hosp_dur": 16.5
+                    "op_dur_min": 1.25,
+                    "op_dur_max": 6.916666666666667,
+                    "hosp_dur": 16.5,
+                    "hosp_dur_min": 9.0,
+                    "hosp_dur_max": 37.0
                 },
                 {
-                    "name": "Hemihepatectomy",
+                    "name": [
+                        "Hemihepatectomy"
+                    ],
                     "op_dur": 3.9140435606060606,
-                    "hosp_dur": 13.159090909090908
+                    "op_dur_min": 1.3333333333333333,
+                    "op_dur_max": 9.333333333333334,
+                    "hosp_dur": 13.159090909090908,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 59.0
                 },
                 {
-                    "name": "Hepatic hilar resection",
+                    "name": [
+                        "Hepatic hilar resection"
+                    ],
                     "op_dur": 3.1666666666666665,
-                    "hosp_dur": 18.4
+                    "op_dur_min": 2.3333333333333335,
+                    "op_dur_max": 4.333333333333333,
+                    "hosp_dur": 18.4,
+                    "hosp_dur_min": 10.0,
+                    "hosp_dur_max": 39.0
                 },
                 {
-                    "name": "Liver bisegmentectomy",
+                    "name": [
+                        "Liver bisegmentectomy"
+                    ],
                     "op_dur": 4.25,
-                    "hosp_dur": 11.0
+                    "op_dur_min": 4.25,
+                    "op_dur_max": 4.25,
+                    "hosp_dur": 11.0,
+                    "hosp_dur_min": 11.0,
+                    "hosp_dur_max": 11.0
                 },
                 {
-                    "name": "Liver sectionectomy",
+                    "name": [
+                        "Liver sectionectomy"
+                    ],
                     "op_dur": 2.9032013888888892,
-                    "hosp_dur": 11.3
+                    "op_dur_min": 1.0833333333333333,
+                    "op_dur_max": 7.166666666666667,
+                    "hosp_dur": 11.3,
+                    "hosp_dur_min": 5.0,
+                    "hosp_dur_max": 72.0
                 },
                 {
-                    "name": "Liver segmentectomy",
+                    "name": [
+                        "Liver segmentectomy"
+                    ],
                     "op_dur": 3.263912280701754,
-                    "hosp_dur": 10.052631578947368
+                    "op_dur_min": 0.5833333333333334,
+                    "op_dur_max": 7.166666666666667,
+                    "hosp_dur": 10.052631578947368,
+                    "hosp_dur_min": 5.0,
+                    "hosp_dur_max": 25.0
                 },
                 {
-                    "name": "Liver tumorectomy",
+                    "name": [
+                        "Liver tumorectomy"
+                    ],
                     "op_dur": 2.9583333333333335,
-                    "hosp_dur": 8.5
+                    "op_dur_min": 1.9166666666666667,
+                    "op_dur_max": 4.0,
+                    "hosp_dur": 8.5,
+                    "hosp_dur_min": 8.0,
+                    "hosp_dur_max": 9.0
                 },
                 {
-                    "name": "Marsupialization",
+                    "name": [
+                        "Marsupialization"
+                    ],
                     "op_dur": 1.0833333333333333,
-                    "hosp_dur": 11.0
+                    "op_dur_min": 1.0833333333333333,
+                    "op_dur_max": 1.0833333333333333,
+                    "hosp_dur": 11.0,
+                    "hosp_dur_min": 11.0,
+                    "hosp_dur_max": 11.0
                 }
             ]
         },
@@ -516,128 +1096,276 @@
             "children": [
                 {
                     "name": "Average Major resection",
-                    "op_dur": 2.7740957379962463,
-                    "hosp_dur": 9.685643597137732
+                    "op_dur": 2.562552796803653,
+                    "op_dur_min": 0.4166666666666667,
+                    "op_dur_max": 15.916666666666666,
+                    "hosp_dur": 7.986301369863014,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 133.0
                 },
                 {
-                    "name": "Adrenalectomy",
+                    "name": [
+                        "Adrenalectomy"
+                    ],
                     "op_dur": 1.1666666666666667,
-                    "hosp_dur": 4.0
+                    "op_dur_min": 1.1666666666666667,
+                    "op_dur_max": 1.1666666666666667,
+                    "hosp_dur": 4.0,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 4.0
                 },
                 {
-                    "name": "Debulking surgery",
+                    "name": [
+                        "Debulking surgery"
+                    ],
                     "op_dur": 3.9375,
-                    "hosp_dur": 10.5
+                    "op_dur_min": 1.9166666666666667,
+                    "op_dur_max": 7.916666666666667,
+                    "hosp_dur": 10.5,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 16.0
                 },
                 {
-                    "name": "Excision",
+                    "name": [
+                        "Excision"
+                    ],
                     "op_dur": 1.25,
-                    "hosp_dur": 4.0
+                    "op_dur_min": 1.25,
+                    "op_dur_max": 1.25,
+                    "hosp_dur": 4.0,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 4.0
                 },
                 {
-                    "name": "Exploratory laparotomy",
+                    "name": [
+                        "Exploratory laparotomy"
+                    ],
                     "op_dur": 3.4975,
-                    "hosp_dur": 15.9
+                    "op_dur_min": 1.1666666666666667,
+                    "op_dur_max": 7.583333333333333,
+                    "hosp_dur": 15.9,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 41.0
                 },
                 {
-                    "name": "Extended hysterectomy",
+                    "name": [
+                        "Extended hysterectomy"
+                    ],
                     "op_dur": 1.8794166666666665,
-                    "hosp_dur": 5.8
+                    "op_dur_min": 0.8333333333333334,
+                    "op_dur_max": 2.8333333333333335,
+                    "hosp_dur": 5.8,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 10.0
                 },
                 {
-                    "name": "Hysterectomy",
+                    "name": [
+                        "Hysterectomy"
+                    ],
                     "op_dur": 1.7777777777777777,
-                    "hosp_dur": 4.208333333333333
+                    "op_dur_min": 0.75,
+                    "op_dur_max": 2.8333333333333335,
+                    "hosp_dur": 4.208333333333333,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 8.0
                 },
                 {
-                    "name": "Lung bilobectomy",
+                    "name": [
+                        "Lung bilobectomy"
+                    ],
                     "op_dur": 3.2436706349206346,
-                    "hosp_dur": 11.428571428571429
+                    "op_dur_min": 1.4166666666666667,
+                    "op_dur_max": 5.666666666666667,
+                    "hosp_dur": 11.428571428571429,
+                    "hosp_dur_min": 5.0,
+                    "hosp_dur_max": 40.0
                 },
                 {
-                    "name": "Lung lobectomy",
+                    "name": [
+                        "Lung lobectomy"
+                    ],
                     "op_dur": 2.5540922021419012,
-                    "hosp_dur": 7.9397590361445785
+                    "op_dur_min": 0.9166666666666666,
+                    "op_dur_max": 15.916666666666666,
+                    "hosp_dur": 7.9397590361445785,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 59.0
                 },
                 {
-                    "name": "Modified radical hysterectomy",
+                    "name": [
+                        "Modified radical hysterectomy"
+                    ],
                     "op_dur": 3.0,
-                    "hosp_dur": 14.0
+                    "op_dur_min": 3.0,
+                    "op_dur_max": 3.0,
+                    "hosp_dur": 14.0,
+                    "hosp_dur_min": 14.0,
+                    "hosp_dur_max": 14.0
                 },
                 {
-                    "name": "Nephrectomy",
+                    "name": [
+                        "Nephrectomy"
+                    ],
                     "op_dur": 2.4756410256410257,
-                    "hosp_dur": 6.3076923076923075
+                    "op_dur_min": 1.6666666666666667,
+                    "op_dur_max": 4.166666666666667,
+                    "hosp_dur": 6.3076923076923075,
+                    "hosp_dur_min": 5.0,
+                    "hosp_dur_max": 14.0
                 },
                 {
-                    "name": "Nephroureterectomy",
+                    "name": [
+                        "Nephroureterectomy"
+                    ],
                     "op_dur": 1.7833333333333334,
-                    "hosp_dur": 8.0
+                    "op_dur_min": 1.7833333333333334,
+                    "op_dur_max": 1.7833333333333334,
+                    "hosp_dur": 8.0,
+                    "hosp_dur_min": 8.0,
+                    "hosp_dur_max": 8.0
                 },
                 {
-                    "name": "Ovarian cancer staging operation",
+                    "name": [
+                        "Ovarian cancer staging operation"
+                    ],
                     "op_dur": 2.8333333333333335,
-                    "hosp_dur": 8.0
+                    "op_dur_min": 2.8333333333333335,
+                    "op_dur_max": 2.8333333333333335,
+                    "hosp_dur": 8.0,
+                    "hosp_dur_min": 8.0,
+                    "hosp_dur_max": 8.0
                 },
                 {
-                    "name": "Ovarian cystectomy",
+                    "name": [
+                        "Ovarian cystectomy"
+                    ],
                     "op_dur": 1.31,
-                    "hosp_dur": 8.36
+                    "op_dur_min": 0.5,
+                    "op_dur_max": 3.1666666666666665,
+                    "hosp_dur": 8.36,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 133.0
                 },
                 {
-                    "name": "Partial cystectomy",
+                    "name": [
+                        "Partial cystectomy"
+                    ],
                     "op_dur": 1.9166666666666667,
-                    "hosp_dur": 5.0
+                    "op_dur_min": 1.9166666666666667,
+                    "op_dur_max": 1.9166666666666667,
+                    "hosp_dur": 5.0,
+                    "hosp_dur_min": 5.0,
+                    "hosp_dur_max": 5.0
                 },
                 {
-                    "name": "Pelvic tumorectomy",
+                    "name": [
+                        "Pelvic tumorectomy"
+                    ],
                     "op_dur": 2.533333333333333,
-                    "hosp_dur": 8.5
+                    "op_dur_min": 1.3333333333333333,
+                    "op_dur_max": 4.416666666666667,
+                    "hosp_dur": 8.5,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 35.0
                 },
                 {
-                    "name": "Pneumonectomy",
+                    "name": [
+                        "Pneumonectomy"
+                    ],
                     "op_dur": 3.459527777777778,
-                    "hosp_dur": 11.7
+                    "op_dur_min": 0.4166666666666667,
+                    "op_dur_max": 7.5,
+                    "hosp_dur": 11.7,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 46.0
                 },
                 {
-                    "name": "Radical cystectomy",
+                    "name": [
+                        "Radical cystectomy"
+                    ],
                     "op_dur": 7.111111111111112,
-                    "hosp_dur": 43.0
+                    "op_dur_min": 4.75,
+                    "op_dur_max": 9.5,
+                    "hosp_dur": 43.0,
+                    "hosp_dur_min": 21.0,
+                    "hosp_dur_max": 90.0
                 },
                 {
-                    "name": "Radical hysterectomy",
+                    "name": [
+                        "Radical hysterectomy"
+                    ],
                     "op_dur": 1.7861875,
-                    "hosp_dur": 5.375
+                    "op_dur_min": 0.5833333333333334,
+                    "op_dur_max": 4.383333333333334,
+                    "hosp_dur": 5.375,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 19.0
                 },
                 {
-                    "name": "Radical parametrectomy",
+                    "name": [
+                        "Radical parametrectomy"
+                    ],
                     "op_dur": 4.416666666666667,
-                    "hosp_dur": 11.0
+                    "op_dur_min": 4.416666666666667,
+                    "op_dur_max": 4.416666666666667,
+                    "hosp_dur": 11.0,
+                    "hosp_dur_min": 11.0,
+                    "hosp_dur_max": 11.0
                 },
                 {
-                    "name": "Radical prostatectomy",
+                    "name": [
+                        "Radical prostatectomy"
+                    ],
                     "op_dur": 2.950833333333333,
-                    "hosp_dur": 4.912280701754386
+                    "op_dur_min": 1.6666666666666667,
+                    "op_dur_max": 4.5,
+                    "hosp_dur": 4.912280701754386,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 8.0
                 },
                 {
-                    "name": "Radical trachelectomy",
+                    "name": [
+                        "Radical trachelectomy"
+                    ],
                     "op_dur": 3.625,
-                    "hosp_dur": 9.0
+                    "op_dur_min": 3.0833333333333335,
+                    "op_dur_max": 4.166666666666667,
+                    "hosp_dur": 9.0,
+                    "hosp_dur_min": 9.0,
+                    "hosp_dur_max": 9.0
                 },
                 {
-                    "name": "Sleeve lobectomy",
+                    "name": [
+                        "Sleeve lobectomy"
+                    ],
                     "op_dur": 3.6811507936507937,
-                    "hosp_dur": 12.857142857142858
+                    "op_dur_min": 2.5833333333333335,
+                    "op_dur_max": 4.583333333333333,
+                    "hosp_dur": 12.857142857142858,
+                    "hosp_dur_min": 7.0,
+                    "hosp_dur_max": 27.0
                 },
                 {
-                    "name": "Total hysterectomy",
+                    "name": [
+                        "Total hysterectomy"
+                    ],
                     "op_dur": 2.5555555555555554,
-                    "hosp_dur": 6.0
+                    "op_dur_min": 2.3333333333333335,
+                    "op_dur_max": 2.9166666666666665,
+                    "hosp_dur": 6.0,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 8.0
                 },
                 {
-                    "name": "Total hysterectomy ",
+                    "name": [
+                        "Total hysterectomy "
+                    ],
                     "op_dur": 1.8333333333333333,
-                    "hosp_dur": 6.666666666666667
+                    "op_dur_min": 1.0833333333333333,
+                    "op_dur_max": 3.8333333333333335,
+                    "hosp_dur": 6.666666666666667,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 15.0
                 }
             ]
         },
@@ -646,113 +1374,243 @@
             "children": [
                 {
                     "name": "Average Minor resection",
-                    "op_dur": 1.5878337476239845,
-                    "hosp_dur": 4.958569801036224
+                    "op_dur": 1.7063778380550534,
+                    "op_dur_min": 0.08333333333333333,
+                    "op_dur_max": 9.0,
+                    "hosp_dur": 6.300180831826402,
+                    "hosp_dur_min": 1.0,
+                    "hosp_dur_max": 185.0
                 },
                 {
-                    "name": "Biopsy",
+                    "name": [
+                        "Biopsy"
+                    ],
                     "op_dur": 0.7709803921568626,
-                    "hosp_dur": 6.470588235294118
+                    "op_dur_min": 0.3333333333333333,
+                    "op_dur_max": 2.1666666666666665,
+                    "hosp_dur": 6.470588235294118,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 17.0
                 },
                 {
-                    "name": "Bullectomy",
+                    "name": [
+                        "Bullectomy"
+                    ],
                     "op_dur": 0.8609907407407408,
-                    "hosp_dur": 6.0
+                    "op_dur_min": 0.4166666666666667,
+                    "op_dur_max": 1.8855555555555557,
+                    "hosp_dur": 6.0,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 17.0
                 },
                 {
-                    "name": "Diagnostic laparoscopy",
+                    "name": [
+                        "Diagnostic laparoscopy"
+                    ],
                     "op_dur": 1.7555555555555555,
-                    "hosp_dur": 5.666666666666667
+                    "op_dur_min": 0.4666666666666667,
+                    "op_dur_max": 3.8333333333333335,
+                    "hosp_dur": 5.666666666666667,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 10.0
                 },
                 {
-                    "name": "Diagnostic pelviscopy",
+                    "name": [
+                        "Diagnostic pelviscopy"
+                    ],
                     "op_dur": 1.4166666666666667,
-                    "hosp_dur": 5.0
+                    "op_dur_min": 1.4166666666666667,
+                    "op_dur_max": 1.4166666666666667,
+                    "hosp_dur": 5.0,
+                    "hosp_dur_min": 5.0,
+                    "hosp_dur_max": 5.0
                 },
                 {
-                    "name": "Diagnostic procedure",
+                    "name": [
+                        "Diagnostic procedure"
+                    ],
                     "op_dur": 1.4166666666666667,
-                    "hosp_dur": 5.0
+                    "op_dur_min": 1.4166666666666667,
+                    "op_dur_max": 1.4166666666666667,
+                    "hosp_dur": 5.0,
+                    "hosp_dur_min": 5.0,
+                    "hosp_dur_max": 5.0
                 },
                 {
-                    "name": "Empyemectomy",
+                    "name": [
+                        "Empyemectomy"
+                    ],
                     "op_dur": 3.0611111111111113,
-                    "hosp_dur": 6.0
+                    "op_dur_min": 1.75,
+                    "op_dur_max": 5.0,
+                    "hosp_dur": 6.0,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 8.0
                 },
                 {
-                    "name": "Excision",
+                    "name": [
+                        "Excision"
+                    ],
                     "op_dur": 1.5222222222222221,
-                    "hosp_dur": 4.666666666666667
+                    "op_dur_min": 0.48333333333333334,
+                    "op_dur_max": 3.5833333333333335,
+                    "hosp_dur": 4.666666666666667,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 7.0
                 },
                 {
-                    "name": "Lung segmentectomy",
+                    "name": [
+                        "Lung segmentectomy"
+                    ],
                     "op_dur": 2.2916666666666665,
-                    "hosp_dur": 4.5
+                    "op_dur_min": 1.4166666666666667,
+                    "op_dur_max": 3.1666666666666665,
+                    "hosp_dur": 4.5,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 6.0
                 },
                 {
-                    "name": "Lung sgmentectomy",
+                    "name": [
+                        "Lung sgmentectomy"
+                    ],
                     "op_dur": 2.199795081967213,
-                    "hosp_dur": 7.262295081967213
+                    "op_dur_min": 1.181111111111111,
+                    "op_dur_max": 4.0,
+                    "hosp_dur": 7.262295081967213,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 30.0
                 },
                 {
-                    "name": "Lung wedge resection",
+                    "name": [
+                        "Lung wedge resection"
+                    ],
                     "op_dur": 2.0102548309178743,
-                    "hosp_dur": 7.639130434782609
+                    "op_dur_min": 0.3333333333333333,
+                    "op_dur_max": 8.5,
+                    "hosp_dur": 7.639130434782609,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 185.0
                 },
                 {
-                    "name": "Macroplastique injection",
+                    "name": [
+                        "Macroplastique injection"
+                    ],
                     "op_dur": 0.3333333333333333,
-                    "hosp_dur": 2.0
+                    "op_dur_min": 0.3333333333333333,
+                    "op_dur_max": 0.3333333333333333,
+                    "hosp_dur": 2.0,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 2.0
                 },
                 {
-                    "name": "Metastasectomy",
+                    "name": [
+                        "Metastasectomy"
+                    ],
                     "op_dur": 1.6850462962962964,
-                    "hosp_dur": 5.009803921568627
+                    "op_dur_min": 0.3333333333333333,
+                    "op_dur_max": 9.0,
+                    "hosp_dur": 5.009803921568627,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 42.0
                 },
                 {
-                    "name": "Myomectomy",
+                    "name": [
+                        "Myomectomy"
+                    ],
                     "op_dur": 2.048611111111111,
-                    "hosp_dur": 4.0
+                    "op_dur_min": 0.4166666666666667,
+                    "op_dur_max": 4.0,
+                    "hosp_dur": 4.0,
+                    "hosp_dur_min": 1.0,
+                    "hosp_dur_max": 7.0
                 },
                 {
-                    "name": "Oophorectomy",
+                    "name": [
+                        "Oophorectomy"
+                    ],
                     "op_dur": 0.8333333333333334,
-                    "hosp_dur": 3.0
+                    "op_dur_min": 0.8333333333333334,
+                    "op_dur_max": 0.8333333333333334,
+                    "hosp_dur": 3.0,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 3.0
                 },
                 {
-                    "name": "Orchiectomy",
+                    "name": [
+                        "Orchiectomy"
+                    ],
                     "op_dur": 0.4166666666666667,
-                    "hosp_dur": 2.0
+                    "op_dur_min": 0.4166666666666667,
+                    "op_dur_max": 0.4166666666666667,
+                    "hosp_dur": 2.0,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 2.0
                 },
                 {
-                    "name": "Pyeloplasty",
+                    "name": [
+                        "Pyeloplasty"
+                    ],
                     "op_dur": 2.416666666666667,
-                    "hosp_dur": 4.5
+                    "op_dur_min": 2.316666666666667,
+                    "op_dur_max": 2.5166666666666666,
+                    "hosp_dur": 4.5,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 6.0
                 },
                 {
-                    "name": "Salpingectomy",
+                    "name": [
+                        "Salpingectomy"
+                    ],
                     "op_dur": 1.3499999999999999,
-                    "hosp_dur": 3.3333333333333335
+                    "op_dur_min": 0.8333333333333334,
+                    "op_dur_max": 1.75,
+                    "hosp_dur": 3.3333333333333335,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 4.0
                 },
                 {
-                    "name": "Salpingo-oophorectomy",
+                    "name": [
+                        "Salpingo-oophorectomy"
+                    ],
                     "op_dur": 1.128395061728395,
-                    "hosp_dur": 3.814814814814815
+                    "op_dur_min": 0.4166666666666667,
+                    "op_dur_max": 2.9166666666666665,
+                    "hosp_dur": 3.814814814814815,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 8.0
                 },
                 {
-                    "name": "Staging laparotomy",
+                    "name": [
+                        "Staging laparotomy"
+                    ],
                     "op_dur": 3.1333333333333337,
-                    "hosp_dur": 11.0
+                    "op_dur_min": 0.9166666666666666,
+                    "op_dur_max": 5.166666666666667,
+                    "hosp_dur": 11.0,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 15.0
                 },
                 {
-                    "name": "Staging operation",
+                    "name": [
+                        "Staging operation"
+                    ],
                     "op_dur": 2.25,
-                    "hosp_dur": 5.0
+                    "op_dur_min": 2.25,
+                    "op_dur_max": 2.25,
+                    "hosp_dur": 5.0,
+                    "hosp_dur_min": 5.0,
+                    "hosp_dur_max": 5.0
                 },
                 {
-                    "name": "Transurethral resection of bladder tumor",
+                    "name": [
+                        "Transurethral resection of bladder tumor"
+                    ],
                     "op_dur": 0.4432129629629629,
-                    "hosp_dur": 2.2666666666666666
+                    "op_dur_min": 0.08333333333333333,
+                    "op_dur_max": 2.2666666666666666,
+                    "hosp_dur": 2.2666666666666666,
+                    "hosp_dur_min": 1.0,
+                    "hosp_dur_max": 10.0
                 }
             ]
         },
@@ -761,333 +1619,727 @@
             "children": [
                 {
                     "name": "Average Others",
-                    "op_dur": 2.268074050177699,
-                    "hosp_dur": 22.544305484262708
+                    "op_dur": 1.9771252259769154,
+                    "op_dur_min": 0.02361111111111111,
+                    "op_dur_max": 12.833333333333334,
+                    "hosp_dur": 19.337922403003756,
+                    "hosp_dur_min": 0.0,
+                    "hosp_dur_max": 248.0
                 },
                 {
-                    "name": "Adhesiolysis",
+                    "name": [
+                        "Adhesiolysis"
+                    ],
                     "op_dur": 2.0320555555555555,
-                    "hosp_dur": 29.5
+                    "op_dur_min": 1.6666666666666667,
+                    "op_dur_max": 3.6205555555555557,
+                    "hosp_dur": 29.5,
+                    "hosp_dur_min": 6.0,
+                    "hosp_dur_max": 104.0
                 },
                 {
-                    "name": "Adrenalectomy",
+                    "name": [
+                        "Adrenalectomy"
+                    ],
                     "op_dur": 1.6157449494949496,
-                    "hosp_dur": 7.045454545454546
+                    "op_dur_min": 1.0,
+                    "op_dur_max": 3.5,
+                    "hosp_dur": 7.045454545454546,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 23.0
                 },
                 {
-                    "name": "Biopsy",
+                    "name": [
+                        "Biopsy"
+                    ],
                     "op_dur": 0.7422592592592593,
-                    "hosp_dur": 7.533333333333333
+                    "op_dur_min": 0.3333333333333333,
+                    "op_dur_max": 1.8333333333333333,
+                    "hosp_dur": 7.533333333333333,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 27.0
                 },
                 {
-                    "name": "Bleeding control",
+                    "name": [
+                        "Bleeding control"
+                    ],
                     "op_dur": 1.882265625,
-                    "hosp_dur": 28.78125
+                    "op_dur_min": 0.9166666666666666,
+                    "op_dur_max": 5.333333333333333,
+                    "hosp_dur": 28.78125,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 90.0
                 },
                 {
-                    "name": "Cervical esophagostomy",
+                    "name": [
+                        "Cervical esophagostomy"
+                    ],
                     "op_dur": 5.416666666666667,
-                    "hosp_dur": 33.0
+                    "op_dur_min": 5.416666666666667,
+                    "op_dur_max": 5.416666666666667,
+                    "hosp_dur": 33.0,
+                    "hosp_dur_min": 33.0,
+                    "hosp_dur_max": 33.0
                 },
                 {
-                    "name": "Cesarean section",
+                    "name": [
+                        "Cesarean section"
+                    ],
                     "op_dur": 1.0554227053140097,
-                    "hosp_dur": 14.565217391304348
+                    "op_dur_min": 0.75,
+                    "op_dur_max": 1.8333333333333333,
+                    "hosp_dur": 14.565217391304348,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 58.0
                 },
                 {
-                    "name": "Clagett procedure",
+                    "name": [
+                        "Clagett procedure"
+                    ],
                     "op_dur": 0.6958333333333333,
-                    "hosp_dur": 41.0
+                    "op_dur_min": 0.5333333333333333,
+                    "op_dur_max": 1.0,
+                    "hosp_dur": 41.0,
+                    "hosp_dur_min": 25.0,
+                    "hosp_dur_max": 56.0
                 },
                 {
-                    "name": "Cleaning of wound",
+                    "name": [
+                        "Cleaning of wound"
+                    ],
                     "op_dur": 0.35833333333333334,
-                    "hosp_dur": 57.5
+                    "op_dur_min": 0.2813888888888889,
+                    "op_dur_max": 0.43527777777777776,
+                    "hosp_dur": 57.5,
+                    "hosp_dur_min": 49.0,
+                    "hosp_dur_max": 66.0
                 },
                 {
-                    "name": "Closure of bronchopleural fistula",
+                    "name": [
+                        "Closure of bronchopleural fistula"
+                    ],
                     "op_dur": 3.3025,
-                    "hosp_dur": 56.0
+                    "op_dur_min": 3.3025,
+                    "op_dur_max": 3.3025,
+                    "hosp_dur": 56.0,
+                    "hosp_dur_min": 56.0,
+                    "hosp_dur_max": 56.0
                 },
                 {
-                    "name": "Closure of wound",
+                    "name": [
+                        "Closure of wound"
+                    ],
                     "op_dur": 0.9386965811965811,
-                    "hosp_dur": 40.92307692307692
+                    "op_dur_min": 0.4166666666666667,
+                    "op_dur_max": 2.326388888888889,
+                    "hosp_dur": 40.92307692307692,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 170.0
                 },
                 {
-                    "name": "Colostomy",
+                    "name": [
+                        "Colostomy"
+                    ],
                     "op_dur": 0.9166666666666666,
-                    "hosp_dur": 17.0
+                    "op_dur_min": 0.9166666666666666,
+                    "op_dur_max": 0.9166666666666666,
+                    "hosp_dur": 17.0,
+                    "hosp_dur_min": 17.0,
+                    "hosp_dur_max": 17.0
                 },
                 {
-                    "name": "Debridement of wound",
+                    "name": [
+                        "Debridement of wound"
+                    ],
                     "op_dur": 0.6482821637426901,
-                    "hosp_dur": 61.6578947368421
+                    "op_dur_min": 0.02361111111111111,
+                    "op_dur_max": 1.5,
+                    "hosp_dur": 61.6578947368421,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 229.0
                 },
                 {
-                    "name": "Debulking surgery",
+                    "name": [
+                        "Debulking surgery"
+                    ],
                     "op_dur": 2.8606060606060604,
-                    "hosp_dur": 14.181818181818182
+                    "op_dur_min": 1.3333333333333333,
+                    "op_dur_max": 5.25,
+                    "hosp_dur": 14.181818181818182,
+                    "hosp_dur_min": 6.0,
+                    "hosp_dur_max": 62.0
                 },
                 {
-                    "name": "Decortication",
+                    "name": [
+                        "Decortication"
+                    ],
                     "op_dur": 3.938229166666667,
-                    "hosp_dur": 16.625
+                    "op_dur_min": 1.1666666666666667,
+                    "op_dur_max": 5.583333333333333,
+                    "hosp_dur": 16.625,
+                    "hosp_dur_min": 6.0,
+                    "hosp_dur_max": 60.0
                 },
                 {
-                    "name": "Diagnostic laparoscopy",
+                    "name": [
+                        "Diagnostic laparoscopy"
+                    ],
                     "op_dur": 3.157814814814815,
-                    "hosp_dur": 18.366666666666667
+                    "op_dur_min": 0.5833333333333334,
+                    "op_dur_max": 7.583333333333333,
+                    "hosp_dur": 18.366666666666667,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 68.0
                 },
                 {
-                    "name": "Diverticulectomy",
+                    "name": [
+                        "Diverticulectomy"
+                    ],
                     "op_dur": 3.0833333333333335,
-                    "hosp_dur": 10.0
+                    "op_dur_min": 3.0833333333333335,
+                    "op_dur_max": 3.0833333333333335,
+                    "hosp_dur": 10.0,
+                    "hosp_dur_min": 10.0,
+                    "hosp_dur_max": 10.0
                 },
                 {
-                    "name": "Electrocauterization",
+                    "name": [
+                        "Electrocauterization"
+                    ],
                     "op_dur": 0.16666666666666666,
-                    "hosp_dur": 2.0
+                    "op_dur_min": 0.16666666666666666,
+                    "op_dur_max": 0.16666666666666666,
+                    "hosp_dur": 2.0,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 2.0
                 },
                 {
-                    "name": "Elosser operation",
+                    "name": [
+                        "Elosser operation"
+                    ],
                     "op_dur": 1.7116666666666667,
-                    "hosp_dur": 40.0
+                    "op_dur_min": 1.7116666666666667,
+                    "op_dur_max": 1.7116666666666667,
+                    "hosp_dur": 40.0,
+                    "hosp_dur_min": 40.0,
+                    "hosp_dur_max": 40.0
                 },
                 {
-                    "name": "Enucleation of esophageal tumor",
+                    "name": [
+                        "Enucleation of esophageal tumor"
+                    ],
                     "op_dur": 2.0,
-                    "hosp_dur": 3.5
+                    "op_dur_min": 1.9166666666666667,
+                    "op_dur_max": 2.0833333333333335,
+                    "hosp_dur": 3.5,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 4.0
                 },
                 {
-                    "name": "Esophagectomy",
+                    "name": [
+                        "Esophagectomy"
+                    ],
                     "op_dur": 8.393518518518519,
-                    "hosp_dur": 34.94444444444444
+                    "op_dur_min": 3.3333333333333335,
+                    "op_dur_max": 11.416666666666666,
+                    "hosp_dur": 34.94444444444444,
+                    "hosp_dur_min": 11.0,
+                    "hosp_dur_max": 229.0
                 },
                 {
-                    "name": "Excision",
+                    "name": [
+                        "Excision"
+                    ],
                     "op_dur": 1.3354944095038435,
-                    "hosp_dur": 6.29559748427673
+                    "op_dur_min": 0.16666666666666666,
+                    "op_dur_max": 7.333333333333333,
+                    "hosp_dur": 6.29559748427673,
+                    "hosp_dur_min": 1.0,
+                    "hosp_dur_max": 88.0
                 },
                 {
-                    "name": "Exploration",
+                    "name": [
+                        "Exploration"
+                    ],
                     "op_dur": 2.125611111111111,
-                    "hosp_dur": 13.8
+                    "op_dur_min": 0.8333333333333334,
+                    "op_dur_max": 3.9166666666666665,
+                    "hosp_dur": 13.8,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 43.0
                 },
                 {
-                    "name": "Exploration of wound",
+                    "name": [
+                        "Exploration of wound"
+                    ],
                     "op_dur": 1.9841203703703705,
-                    "hosp_dur": 84.16666666666667
+                    "op_dur_min": 0.7380555555555556,
+                    "op_dur_max": 5.75,
+                    "hosp_dur": 84.16666666666667,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 248.0
                 },
                 {
-                    "name": "Exploratory laparotomy",
+                    "name": [
+                        "Exploratory laparotomy"
+                    ],
                     "op_dur": 2.2128617886178863,
-                    "hosp_dur": 24.91219512195122
+                    "op_dur_min": 0.16666666666666666,
+                    "op_dur_max": 7.916666666666667,
+                    "hosp_dur": 24.91219512195122,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 201.0
                 },
                 {
-                    "name": "Exploratory thoracotomy",
+                    "name": [
+                        "Exploratory thoracotomy"
+                    ],
                     "op_dur": 3.5,
-                    "hosp_dur": 6.0
+                    "op_dur_min": 3.5,
+                    "op_dur_max": 3.5,
+                    "hosp_dur": 6.0,
+                    "hosp_dur_min": 6.0,
+                    "hosp_dur_max": 6.0
                 },
                 {
-                    "name": "Feeding jejunostomy",
+                    "name": [
+                        "Feeding jejunostomy"
+                    ],
                     "op_dur": 1.3083333333333333,
-                    "hosp_dur": 14.5
+                    "op_dur_min": 1.2833333333333334,
+                    "op_dur_max": 1.3333333333333333,
+                    "hosp_dur": 14.5,
+                    "hosp_dur_min": 14.0,
+                    "hosp_dur_max": 15.0
                 },
                 {
-                    "name": "Fundoplication",
+                    "name": [
+                        "Fundoplication"
+                    ],
                     "op_dur": 2.291666666666667,
-                    "hosp_dur": 8.5
+                    "op_dur_min": 2.0,
+                    "op_dur_max": 2.5833333333333335,
+                    "hosp_dur": 8.5,
+                    "hosp_dur_min": 8.0,
+                    "hosp_dur_max": 9.0
                 },
                 {
-                    "name": "Hernia repair",
+                    "name": [
+                        "Hernia repair"
+                    ],
                     "op_dur": 0.32055555555555554,
-                    "hosp_dur": 4.0
+                    "op_dur_min": 0.32055555555555554,
+                    "op_dur_max": 0.32055555555555554,
+                    "hosp_dur": 4.0,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 4.0
                 },
                 {
-                    "name": "Ileostomy",
+                    "name": [
+                        "Ileostomy"
+                    ],
                     "op_dur": 3.5,
-                    "hosp_dur": 63.0
+                    "op_dur_min": 3.5,
+                    "op_dur_max": 3.5,
+                    "hosp_dur": 63.0,
+                    "hosp_dur_min": 63.0,
+                    "hosp_dur_max": 63.0
                 },
                 {
-                    "name": "Incision and drainage",
+                    "name": [
+                        "Incision and drainage"
+                    ],
                     "op_dur": 0.7893576388888889,
-                    "hosp_dur": 21.25
+                    "op_dur_min": 0.16666666666666666,
+                    "op_dur_max": 1.8166666666666667,
+                    "hosp_dur": 21.25,
+                    "hosp_dur_min": 1.0,
+                    "hosp_dur_max": 95.0
                 },
                 {
-                    "name": "Internal mammary lymph node dissection",
+                    "name": [
+                        "Internal mammary lymph node dissection"
+                    ],
                     "op_dur": 0.9166666666666666,
-                    "hosp_dur": 2.0
+                    "op_dur_min": 0.9166666666666666,
+                    "op_dur_max": 0.9166666666666666,
+                    "hosp_dur": 2.0,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 2.0
                 },
                 {
-                    "name": "Ivor Lewis operation",
+                    "name": [
+                        "Ivor Lewis operation"
+                    ],
                     "op_dur": 7.545833333333333,
-                    "hosp_dur": 13.25
+                    "op_dur_min": 5.5,
+                    "op_dur_max": 11.416666666666666,
+                    "hosp_dur": 13.25,
+                    "hosp_dur_min": 10.0,
+                    "hosp_dur_max": 19.0
                 },
                 {
-                    "name": "Lung wedge resection",
+                    "name": [
+                        "Lung wedge resection"
+                    ],
                     "op_dur": 1.3333333333333333,
-                    "hosp_dur": 15.0
+                    "op_dur_min": 1.3333333333333333,
+                    "op_dur_max": 1.3333333333333333,
+                    "hosp_dur": 15.0,
+                    "hosp_dur_min": 15.0,
+                    "hosp_dur_max": 15.0
                 },
                 {
-                    "name": "McDonald operation",
+                    "name": [
+                        "McDonald operation"
+                    ],
                     "op_dur": 0.6122916666666667,
-                    "hosp_dur": 21.0
+                    "op_dur_min": 0.36666666666666664,
+                    "op_dur_max": 1.1658333333333333,
+                    "hosp_dur": 21.0,
+                    "hosp_dur_min": 7.0,
+                    "hosp_dur_max": 55.0
                 },
                 {
-                    "name": "Mediastinal lymph node dissection",
+                    "name": [
+                        "Mediastinal lymph node dissection"
+                    ],
                     "op_dur": 1.8263055555555554,
-                    "hosp_dur": 4.2
+                    "op_dur_min": 0.4166666666666667,
+                    "op_dur_max": 4.083333333333333,
+                    "hosp_dur": 4.2,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 7.0
                 },
                 {
-                    "name": "Modified Shirodkar operation",
+                    "name": [
+                        "Modified Shirodkar operation"
+                    ],
                     "op_dur": 0.25,
-                    "hosp_dur": 16.5
+                    "op_dur_min": 0.25,
+                    "op_dur_max": 0.25,
+                    "hosp_dur": 16.5,
+                    "hosp_dur_min": 1.0,
+                    "hosp_dur_max": 32.0
                 },
                 {
-                    "name": "Modified radical neck dissection",
+                    "name": [
+                        "Modified radical neck dissection"
+                    ],
                     "op_dur": 2.0251543209876544,
-                    "hosp_dur": 4.333333333333333
+                    "op_dur_min": 1.0,
+                    "op_dur_max": 3.1666666666666665,
+                    "hosp_dur": 4.333333333333333,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 8.0
                 },
                 {
-                    "name": "Paraaortic lymph node dissection",
+                    "name": [
+                        "Paraaortic lymph node dissection"
+                    ],
                     "op_dur": 2.5027777777777778,
-                    "hosp_dur": 7.5
+                    "op_dur_min": 1.0,
+                    "op_dur_max": 4.416666666666667,
+                    "hosp_dur": 7.5,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 10.0
                 },
                 {
-                    "name": "Pelvic tumorectomy",
+                    "name": [
+                        "Pelvic tumorectomy"
+                    ],
                     "op_dur": 12.833333333333334,
-                    "hosp_dur": 18.0
+                    "op_dur_min": 12.833333333333334,
+                    "op_dur_max": 12.833333333333334,
+                    "hosp_dur": 18.0,
+                    "hosp_dur_min": 18.0,
+                    "hosp_dur_max": 18.0
                 },
                 {
-                    "name": "Pericardial window operation",
+                    "name": [
+                        "Pericardial window operation"
+                    ],
                     "op_dur": 1.0555555555555556,
-                    "hosp_dur": 32.0
+                    "op_dur_min": 0.5833333333333334,
+                    "op_dur_max": 1.75,
+                    "hosp_dur": 32.0,
+                    "hosp_dur_min": 14.0,
+                    "hosp_dur_max": 67.0
                 },
                 {
-                    "name": "Peritoneal mass excision",
+                    "name": [
+                        "Peritoneal mass excision"
+                    ],
                     "op_dur": 1.6071428571428572,
-                    "hosp_dur": 8.142857142857142
+                    "op_dur_min": 0.5833333333333334,
+                    "op_dur_max": 2.5833333333333335,
+                    "hosp_dur": 8.142857142857142,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 22.0
                 },
                 {
-                    "name": "Pleurectomy",
+                    "name": [
+                        "Pleurectomy"
+                    ],
                     "op_dur": 3.1666666666666665,
-                    "hosp_dur": 7.0
+                    "op_dur_min": 3.1666666666666665,
+                    "op_dur_max": 3.1666666666666665,
+                    "hosp_dur": 7.0,
+                    "hosp_dur_min": 7.0,
+                    "hosp_dur_max": 7.0
                 },
                 {
-                    "name": "Pleurodesis",
+                    "name": [
+                        "Pleurodesis"
+                    ],
                     "op_dur": 0.6666666666666666,
-                    "hosp_dur": 5.0
+                    "op_dur_min": 0.6666666666666666,
+                    "op_dur_max": 0.6666666666666666,
+                    "hosp_dur": 5.0,
+                    "hosp_dur_min": 5.0,
+                    "hosp_dur_max": 5.0
                 },
                 {
-                    "name": "Pleuroscopy",
+                    "name": [
+                        "Pleuroscopy"
+                    ],
                     "op_dur": 0.4166666666666667,
-                    "hosp_dur": 4.0
+                    "op_dur_min": 0.4166666666666667,
+                    "op_dur_max": 0.4166666666666667,
+                    "hosp_dur": 4.0,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 4.0
                 },
                 {
-                    "name": "Plication",
+                    "name": [
+                        "Plication"
+                    ],
                     "op_dur": 2.083333333333333,
-                    "hosp_dur": 3.5
+                    "op_dur_min": 1.25,
+                    "op_dur_max": 2.9166666666666665,
+                    "hosp_dur": 3.5,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 4.0
                 },
                 {
-                    "name": "Radical excision of cervical lymph nodes",
+                    "name": [
+                        "Radical excision of cervical lymph nodes"
+                    ],
                     "op_dur": 1.125,
-                    "hosp_dur": 5.0
+                    "op_dur_min": 1.0,
+                    "op_dur_max": 1.25,
+                    "hosp_dur": 5.0,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 6.0
                 },
                 {
-                    "name": "Regional lymph node dissection",
+                    "name": [
+                        "Regional lymph node dissection"
+                    ],
                     "op_dur": 1.8055555555555554,
-                    "hosp_dur": 7.333333333333333
+                    "op_dur_min": 1.45,
+                    "op_dur_max": 2.25,
+                    "hosp_dur": 7.333333333333333,
+                    "hosp_dur_min": 7.0,
+                    "hosp_dur_max": 8.0
                 },
                 {
-                    "name": "Removal of foreign body",
+                    "name": [
+                        "Removal of foreign body"
+                    ],
                     "op_dur": 0.9568055555555555,
-                    "hosp_dur": 40.0
+                    "op_dur_min": 0.6666666666666666,
+                    "op_dur_max": 1.2469444444444444,
+                    "hosp_dur": 40.0,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 77.0
                 },
                 {
-                    "name": "Removal of staples",
+                    "name": [
+                        "Removal of staples"
+                    ],
                     "op_dur": 0.30833333333333335,
-                    "hosp_dur": 3.0
+                    "op_dur_min": 0.30833333333333335,
+                    "op_dur_max": 0.30833333333333335,
+                    "hosp_dur": 3.0,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 3.0
                 },
                 {
-                    "name": "Resection of chest wall with reconstruction",
+                    "name": [
+                        "Resection of chest wall with reconstruction"
+                    ],
                     "op_dur": 1.9333333333333336,
-                    "hosp_dur": 31.2
+                    "op_dur_min": 0.4166666666666667,
+                    "op_dur_max": 4.166666666666667,
+                    "hosp_dur": 31.2,
+                    "hosp_dur_min": 5.0,
+                    "hosp_dur_max": 66.0
                 },
                 {
-                    "name": "Resection of rib",
+                    "name": [
+                        "Resection of rib"
+                    ],
                     "op_dur": 2.1525,
-                    "hosp_dur": 14.0
+                    "op_dur_min": 2.1525,
+                    "op_dur_max": 2.1525,
+                    "hosp_dur": 14.0,
+                    "hosp_dur_min": 14.0,
+                    "hosp_dur_max": 14.0
                 },
                 {
-                    "name": "Resection of sternum",
+                    "name": [
+                        "Resection of sternum"
+                    ],
                     "op_dur": 2.1666666666666665,
-                    "hosp_dur": 8.0
+                    "op_dur_min": 2.1666666666666665,
+                    "op_dur_max": 2.1666666666666665,
+                    "hosp_dur": 8.0,
+                    "hosp_dur_min": 8.0,
+                    "hosp_dur_max": 8.0
                 },
                 {
-                    "name": "Rigid bronchoscopic excision",
+                    "name": [
+                        "Rigid bronchoscopic excision"
+                    ],
                     "op_dur": 0.9166666666666666,
-                    "hosp_dur": 4.0
+                    "op_dur_min": 0.9166666666666666,
+                    "op_dur_max": 0.9166666666666666,
+                    "hosp_dur": 4.0,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 4.0
                 },
                 {
-                    "name": "Rigid bronchoscopy",
+                    "name": [
+                        "Rigid bronchoscopy"
+                    ],
                     "op_dur": 0.4166666666666667,
-                    "hosp_dur": 229.0
+                    "op_dur_min": 0.4166666666666667,
+                    "op_dur_max": 0.4166666666666667,
+                    "hosp_dur": 229.0,
+                    "hosp_dur_min": 229.0,
+                    "hosp_dur_max": 229.0
                 },
                 {
-                    "name": "Selective neck dissection",
+                    "name": [
+                        "Selective neck dissection"
+                    ],
                     "op_dur": 1.25,
-                    "hosp_dur": 4.0
+                    "op_dur_min": 1.0833333333333333,
+                    "op_dur_max": 1.4166666666666667,
+                    "hosp_dur": 4.0,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 4.0
                 },
                 {
-                    "name": "Sentinel lymph node mapping",
+                    "name": [
+                        "Sentinel lymph node mapping"
+                    ],
                     "op_dur": 3.0,
-                    "hosp_dur": 10.0
+                    "op_dur_min": 3.0,
+                    "op_dur_max": 3.0,
+                    "hosp_dur": 10.0,
+                    "hosp_dur_min": 10.0,
+                    "hosp_dur_max": 10.0
                 },
                 {
-                    "name": "Sternal fixation",
+                    "name": [
+                        "Sternal fixation"
+                    ],
                     "op_dur": 1.1547222222222222,
-                    "hosp_dur": 83.0
+                    "op_dur_min": 1.1547222222222222,
+                    "op_dur_max": 1.1547222222222222,
+                    "hosp_dur": 83.0,
+                    "hosp_dur_min": 83.0,
+                    "hosp_dur_max": 83.0
                 },
                 {
-                    "name": "Thoracic sympathectomy",
+                    "name": [
+                        "Thoracic sympathectomy"
+                    ],
                     "op_dur": 0.5023765432098766,
-                    "hosp_dur": 2.4444444444444446
+                    "op_dur_min": 0.3333333333333333,
+                    "op_dur_max": 0.75,
+                    "hosp_dur": 2.4444444444444446,
+                    "hosp_dur_min": 0.0,
+                    "hosp_dur_max": 15.0
                 },
                 {
-                    "name": "Thoracoplasty",
+                    "name": [
+                        "Thoracoplasty"
+                    ],
                     "op_dur": 6.871666666666667,
-                    "hosp_dur": 23.0
+                    "op_dur_min": 6.871666666666667,
+                    "op_dur_max": 6.871666666666667,
+                    "hosp_dur": 23.0,
+                    "hosp_dur_min": 23.0,
+                    "hosp_dur_max": 23.0
                 },
                 {
-                    "name": "Thymectomy",
+                    "name": [
+                        "Thymectomy"
+                    ],
                     "op_dur": 2.841294191919192,
-                    "hosp_dur": 6.7272727272727275
+                    "op_dur_min": 0.8333333333333334,
+                    "op_dur_max": 7.166666666666667,
+                    "hosp_dur": 6.7272727272727275,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 46.0
                 },
                 {
-                    "name": "Thyroglossal duct cyst excision",
+                    "name": [
+                        "Thyroglossal duct cyst excision"
+                    ],
                     "op_dur": 3.25,
-                    "hosp_dur": 3.0
+                    "op_dur_min": 3.25,
+                    "op_dur_max": 3.25,
+                    "hosp_dur": 3.0,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 3.0
                 },
                 {
-                    "name": "Total esophagectomy",
+                    "name": [
+                        "Total esophagectomy"
+                    ],
                     "op_dur": 11.083333333333334,
-                    "hosp_dur": 30.0
+                    "op_dur_min": 11.083333333333334,
+                    "op_dur_max": 11.083333333333334,
+                    "hosp_dur": 30.0,
+                    "hosp_dur_min": 30.0,
+                    "hosp_dur_max": 30.0
                 },
                 {
-                    "name": "Transurethral resection of bladder tumor",
+                    "name": [
+                        "Transurethral resection of bladder tumor"
+                    ],
                     "op_dur": 0.5,
-                    "hosp_dur": 2.0
+                    "op_dur_min": 0.16666666666666666,
+                    "op_dur_max": 0.8333333333333334,
+                    "hosp_dur": 2.0,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 2.0
                 },
                 {
-                    "name": "Wide excision",
+                    "name": [
+                        "Wide excision"
+                    ],
                     "op_dur": 1.1338796296296296,
-                    "hosp_dur": 4.1
+                    "op_dur_min": 0.5,
+                    "op_dur_max": 4.25,
+                    "hosp_dur": 4.1,
+                    "hosp_dur_min": 1.0,
+                    "hosp_dur_max": 9.0
                 },
                 {
-                    "name": "Wound revision",
+                    "name": [
+                        "Wound revision"
+                    ],
                     "op_dur": 0.9297222222222222,
-                    "hosp_dur": 13.6
+                    "op_dur_min": 0.16666666666666666,
+                    "op_dur_max": 2.3333333333333335,
+                    "hosp_dur": 13.6,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 30.0
                 }
             ]
         },
@@ -1096,123 +2348,265 @@
             "children": [
                 {
                     "name": "Average Stomach",
-                    "op_dur": 2.50132781734481,
-                    "hosp_dur": 13.616244306552385
+                    "op_dur": 3.3529425542406313,
+                    "op_dur_min": 0.3333333333333333,
+                    "op_dur_max": 9.82638888888889,
+                    "hosp_dur": 12.594674556213018,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 73.0
                 },
                 {
-                    "name": "Distal gastrectomy",
+                    "name": [
+                        "Distal gastrectomy"
+                    ],
                     "op_dur": 3.626778752436647,
-                    "hosp_dur": 12.216374269005849
+                    "op_dur_min": 1.25,
+                    "op_dur_max": 7.333333333333333,
+                    "hosp_dur": 12.216374269005849,
+                    "hosp_dur_min": 6.0,
+                    "hosp_dur_max": 73.0
                 },
                 {
-                    "name": "Excision",
+                    "name": [
+                        "Excision"
+                    ],
                     "op_dur": 2.0527777777777776,
-                    "hosp_dur": 9.5
+                    "op_dur_min": 1.3333333333333333,
+                    "op_dur_max": 2.75,
+                    "hosp_dur": 9.5,
+                    "hosp_dur_min": 7.0,
+                    "hosp_dur_max": 16.0
                 },
                 {
-                    "name": "Extended total gastrectomy",
+                    "name": [
+                        "Extended total gastrectomy"
+                    ],
                     "op_dur": 4.0,
-                    "hosp_dur": 13.0
+                    "op_dur_min": 4.0,
+                    "op_dur_max": 4.0,
+                    "hosp_dur": 13.0,
+                    "hosp_dur_min": 13.0,
+                    "hosp_dur_max": 13.0
                 },
                 {
-                    "name": "Fistulectomy",
+                    "name": [
+                        "Fistulectomy"
+                    ],
                     "op_dur": 1.4166666666666667,
-                    "hosp_dur": 10.0
+                    "op_dur_min": 1.4166666666666667,
+                    "op_dur_max": 1.4166666666666667,
+                    "hosp_dur": 10.0,
+                    "hosp_dur_min": 10.0,
+                    "hosp_dur_max": 10.0
                 },
                 {
-                    "name": "Fundoplication",
+                    "name": [
+                        "Fundoplication"
+                    ],
                     "op_dur": 1.9166666666666667,
-                    "hosp_dur": 11.0
+                    "op_dur_min": 1.9166666666666667,
+                    "op_dur_max": 1.9166666666666667,
+                    "hosp_dur": 11.0,
+                    "hosp_dur_min": 11.0,
+                    "hosp_dur_max": 11.0
                 },
                 {
-                    "name": "Gastric bypass",
+                    "name": [
+                        "Gastric bypass"
+                    ],
                     "op_dur": 3.5833333333333335,
-                    "hosp_dur": 10.0
+                    "op_dur_min": 3.5833333333333335,
+                    "op_dur_max": 3.5833333333333335,
+                    "hosp_dur": 10.0,
+                    "hosp_dur_min": 10.0,
+                    "hosp_dur_max": 10.0
                 },
                 {
-                    "name": "Gastric wedge resection",
+                    "name": [
+                        "Gastric wedge resection"
+                    ],
                     "op_dur": 1.4915542328042328,
-                    "hosp_dur": 7.785714285714286
+                    "op_dur_min": 0.5833333333333334,
+                    "op_dur_max": 3.5833333333333335,
+                    "hosp_dur": 7.785714285714286,
+                    "hosp_dur_min": 5.0,
+                    "hosp_dur_max": 19.0
                 },
                 {
-                    "name": "Gastrojejunostomy",
+                    "name": [
+                        "Gastrojejunostomy"
+                    ],
                     "op_dur": 2.018181818181818,
-                    "hosp_dur": 22.454545454545453
+                    "op_dur_min": 0.3333333333333333,
+                    "op_dur_max": 4.75,
+                    "hosp_dur": 22.454545454545453,
+                    "hosp_dur_min": 11.0,
+                    "hosp_dur_max": 31.0
                 },
                 {
-                    "name": "Gastrostomy",
+                    "name": [
+                        "Gastrostomy"
+                    ],
                     "op_dur": 0.6333333333333333,
-                    "hosp_dur": 38.0
+                    "op_dur_min": 0.6333333333333333,
+                    "op_dur_max": 0.6333333333333333,
+                    "hosp_dur": 38.0,
+                    "hosp_dur_min": 38.0,
+                    "hosp_dur_max": 38.0
                 },
                 {
-                    "name": "Hernia repair",
+                    "name": [
+                        "Hernia repair"
+                    ],
                     "op_dur": 3.0616666666666665,
-                    "hosp_dur": 24.0
+                    "op_dur_min": 3.0616666666666665,
+                    "op_dur_max": 3.0616666666666665,
+                    "hosp_dur": 24.0,
+                    "hosp_dur_min": 24.0,
+                    "hosp_dur_max": 24.0
                 },
                 {
-                    "name": "Insertion of continuous ambulatory peritoneal dialysis catheter",
+                    "name": [
+                        "Insertion of continuous ambulatory peritoneal dialysis catheter"
+                    ],
                     "op_dur": 1.25,
-                    "hosp_dur": 3.0
+                    "op_dur_min": 1.25,
+                    "op_dur_max": 1.25,
+                    "hosp_dur": 3.0,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 3.0
                 },
                 {
-                    "name": "Lung wedge resection",
+                    "name": [
+                        "Lung wedge resection"
+                    ],
                     "op_dur": 2.433333333333333,
-                    "hosp_dur": 15.4
+                    "op_dur_min": 1.1666666666666667,
+                    "op_dur_max": 3.6666666666666665,
+                    "hosp_dur": 15.4,
+                    "hosp_dur_min": 10.0,
+                    "hosp_dur_max": 28.0
                 },
                 {
-                    "name": "Partial gastrectomy",
+                    "name": [
+                        "Partial gastrectomy"
+                    ],
                     "op_dur": 3.095023148148148,
-                    "hosp_dur": 9.416666666666666
+                    "op_dur_min": 1.0,
+                    "op_dur_max": 4.833333333333333,
+                    "hosp_dur": 9.416666666666666,
+                    "hosp_dur_min": 6.0,
+                    "hosp_dur_max": 11.0
                 },
                 {
-                    "name": "Proximal gastrectomy",
+                    "name": [
+                        "Proximal gastrectomy"
+                    ],
                     "op_dur": 4.493333333333333,
-                    "hosp_dur": 10.6
+                    "op_dur_min": 3.4166666666666665,
+                    "op_dur_max": 7.0,
+                    "hosp_dur": 10.6,
+                    "hosp_dur_min": 8.0,
+                    "hosp_dur_max": 16.0
                 },
                 {
-                    "name": "Pylorus preserving gastrectomy",
+                    "name": [
+                        "Pylorus preserving gastrectomy"
+                    ],
                     "op_dur": 3.5362132352941176,
-                    "hosp_dur": 12.558823529411764
+                    "op_dur_min": 0.4166666666666667,
+                    "op_dur_max": 7.733333333333333,
+                    "hosp_dur": 12.558823529411764,
+                    "hosp_dur_min": 6.0,
+                    "hosp_dur_max": 56.0
                 },
                 {
-                    "name": "Radical prostatectomy",
+                    "name": [
+                        "Radical prostatectomy"
+                    ],
                     "op_dur": 3.1666666666666665,
-                    "hosp_dur": 12.0
+                    "op_dur_min": 3.1666666666666665,
+                    "op_dur_max": 3.1666666666666665,
+                    "hosp_dur": 12.0,
+                    "hosp_dur_min": 12.0,
+                    "hosp_dur_max": 12.0
                 },
                 {
-                    "name": "Remnant total gastrectomy",
+                    "name": [
+                        "Remnant total gastrectomy"
+                    ],
                     "op_dur": 3.0100925925925925,
-                    "hosp_dur": 13.75
+                    "op_dur_min": 0.6666666666666666,
+                    "op_dur_max": 5.0,
+                    "hosp_dur": 13.75,
+                    "hosp_dur_min": 8.0,
+                    "hosp_dur_max": 34.0
                 },
                 {
-                    "name": "Reposition of continuous ambulatory peritoneal dialysis catheter",
+                    "name": [
+                        "Reposition of continuous ambulatory peritoneal dialysis catheter"
+                    ],
                     "op_dur": 0.6666666666666666,
-                    "hosp_dur": 4.0
+                    "op_dur_min": 0.6666666666666666,
+                    "op_dur_max": 0.6666666666666666,
+                    "hosp_dur": 4.0,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 4.0
                 },
                 {
-                    "name": "Resection of intestine",
+                    "name": [
+                        "Resection of intestine"
+                    ],
                     "op_dur": 0.5833333333333334,
-                    "hosp_dur": 6.0
+                    "op_dur_min": 0.5833333333333334,
+                    "op_dur_max": 0.5833333333333334,
+                    "hosp_dur": 6.0,
+                    "hosp_dur_min": 6.0,
+                    "hosp_dur_max": 6.0
                 },
                 {
-                    "name": "Revision of small intestine anastomosis",
+                    "name": [
+                        "Revision of small intestine anastomosis"
+                    ],
                     "op_dur": 2.75,
-                    "hosp_dur": 27.0
+                    "op_dur_min": 2.75,
+                    "op_dur_max": 2.75,
+                    "hosp_dur": 27.0,
+                    "hosp_dur_min": 27.0,
+                    "hosp_dur_max": 27.0
                 },
                 {
-                    "name": "Small bowel segmental resection",
+                    "name": [
+                        "Small bowel segmental resection"
+                    ],
                     "op_dur": 1.786888888888889,
-                    "hosp_dur": 11.9
+                    "op_dur_min": 0.8333333333333334,
+                    "op_dur_max": 4.416666666666667,
+                    "hosp_dur": 11.9,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 30.0
                 },
                 {
-                    "name": "Subtotal gastrectomy",
+                    "name": [
+                        "Subtotal gastrectomy"
+                    ],
                     "op_dur": 3.078069444444444,
-                    "hosp_dur": 15.375
+                    "op_dur_min": 0.5,
+                    "op_dur_max": 4.833333333333333,
+                    "hosp_dur": 15.375,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 68.0
                 },
                 {
-                    "name": "Total gastrectomy",
+                    "name": [
+                        "Total gastrectomy"
+                    ],
                     "op_dur": 3.87995990836197,
-                    "hosp_dur": 14.216494845360824
+                    "op_dur_min": 0.4166666666666667,
+                    "op_dur_max": 9.82638888888889,
+                    "hosp_dur": 14.216494845360824,
+                    "hosp_dur_min": 5.0,
+                    "hosp_dur_max": 65.0
                 }
             ]
         },
@@ -1221,43 +2615,89 @@
             "children": [
                 {
                     "name": "Average Thyroid",
-                    "op_dur": 2.0307481030042323,
-                    "hosp_dur": 4.245691869425115
+                    "op_dur": 1.9603826199740597,
+                    "op_dur_min": 0.6666666666666666,
+                    "op_dur_max": 5.25,
+                    "hosp_dur": 4.070038910505836,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 19.0
                 },
                 {
-                    "name": "Completion thyroidectomy",
+                    "name": [
+                        "Completion thyroidectomy"
+                    ],
                     "op_dur": 1.6166666666666665,
-                    "hosp_dur": 4.333333333333333
+                    "op_dur_min": 1.0833333333333333,
+                    "op_dur_max": 2.5833333333333335,
+                    "hosp_dur": 4.333333333333333,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 5.0
                 },
                 {
-                    "name": "Parathyroidectomy",
+                    "name": [
+                        "Parathyroidectomy"
+                    ],
                     "op_dur": 1.4815873015873016,
-                    "hosp_dur": 2.357142857142857
+                    "op_dur_min": 0.8333333333333334,
+                    "op_dur_max": 2.3333333333333335,
+                    "hosp_dur": 2.357142857142857,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 4.0
                 },
                 {
-                    "name": "Subtotal parathyroidectomy",
+                    "name": [
+                        "Subtotal parathyroidectomy"
+                    ],
                     "op_dur": 1.875,
-                    "hosp_dur": 6.833333333333333
+                    "op_dur_min": 1.3333333333333333,
+                    "op_dur_max": 2.8333333333333335,
+                    "hosp_dur": 6.833333333333333,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 16.0
                 },
                 {
-                    "name": "Thyroid isthmectomy",
+                    "name": [
+                        "Thyroid isthmectomy"
+                    ],
                     "op_dur": 2.9166666666666665,
-                    "hosp_dur": 4.0
+                    "op_dur_min": 2.9166666666666665,
+                    "op_dur_max": 2.9166666666666665,
+                    "hosp_dur": 4.0,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 4.0
                 },
                 {
-                    "name": "Thyroid lobectomy",
+                    "name": [
+                        "Thyroid lobectomy"
+                    ],
                     "op_dur": 1.7900772946859902,
-                    "hosp_dur": 3.652173913043478
+                    "op_dur_min": 0.6666666666666666,
+                    "op_dur_max": 4.0,
+                    "hosp_dur": 3.652173913043478,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 16.0
                 },
                 {
-                    "name": "Thyroidectomy",
+                    "name": [
+                        "Thyroidectomy"
+                    ],
                     "op_dur": 2.3333333333333335,
-                    "hosp_dur": 4.0
+                    "op_dur_min": 2.3333333333333335,
+                    "op_dur_max": 2.3333333333333335,
+                    "hosp_dur": 4.0,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 4.0
                 },
                 {
-                    "name": "Total thyroidectomy",
+                    "name": [
+                        "Total thyroidectomy"
+                    ],
                     "op_dur": 2.2019054580896684,
-                    "hosp_dur": 4.543859649122807
+                    "op_dur_min": 0.6666666666666666,
+                    "op_dur_max": 5.25,
+                    "hosp_dur": 4.543859649122807,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 19.0
                 }
             ]
         },
@@ -1266,48 +2706,100 @@
             "children": [
                 {
                     "name": "Average Transplantation",
-                    "op_dur": 4.992809296174585,
-                    "hosp_dur": 25.640239541997353
+                    "op_dur": 4.52986559139785,
+                    "op_dur_min": 1.0,
+                    "op_dur_max": 15.0,
+                    "hosp_dur": 19.352357320099255,
+                    "hosp_dur_min": 1.0,
+                    "hosp_dur_max": 212.0
                 },
                 {
-                    "name": "Donor hepatectomy",
+                    "name": [
+                        "Donor hepatectomy"
+                    ],
                     "op_dur": 5.012273809523809,
-                    "hosp_dur": 8.628571428571428
+                    "op_dur_min": 2.6666666666666665,
+                    "op_dur_max": 7.633333333333334,
+                    "hosp_dur": 8.628571428571428,
+                    "hosp_dur_min": 7.0,
+                    "hosp_dur_max": 16.0
                 },
                 {
-                    "name": "Donor nephrectomy",
+                    "name": [
+                        "Donor nephrectomy"
+                    ],
                     "op_dur": 2.8734920634920633,
-                    "hosp_dur": 5.404761904761905
+                    "op_dur_min": 2.0,
+                    "op_dur_max": 4.083333333333333,
+                    "hosp_dur": 5.404761904761905,
+                    "hosp_dur_min": 4.0,
+                    "hosp_dur_max": 9.0
                 },
                 {
-                    "name": "Kidney transplantation",
+                    "name": [
+                        "Kidney transplantation"
+                    ],
                     "op_dur": 3.924841579861111,
-                    "hosp_dur": 19.5859375
+                    "op_dur_min": 1.0,
+                    "op_dur_max": 7.583333333333333,
+                    "hosp_dur": 19.5859375,
+                    "hosp_dur_min": 1.0,
+                    "hosp_dur_max": 56.0
                 },
                 {
-                    "name": "Liver transplantation",
+                    "name": [
+                        "Liver transplantation"
+                    ],
                     "op_dur": 5.981972736625515,
-                    "hosp_dur": 33.24074074074074
+                    "op_dur_min": 3.0,
+                    "op_dur_max": 15.0,
+                    "hosp_dur": 33.24074074074074,
+                    "hosp_dur_min": 8.0,
+                    "hosp_dur_max": 201.0
                 },
                 {
-                    "name": "Lung transplantation",
+                    "name": [
+                        "Lung transplantation"
+                    ],
                     "op_dur": 8.678134920634921,
-                    "hosp_dur": 77.42857142857143
+                    "op_dur_min": 7.416666666666667,
+                    "op_dur_max": 10.166666666666666,
+                    "hosp_dur": 77.42857142857143,
+                    "hosp_dur_min": 18.0,
+                    "hosp_dur_max": 212.0
                 },
                 {
-                    "name": "Nephrectomy",
+                    "name": [
+                        "Nephrectomy"
+                    ],
                     "op_dur": 2.013425925925926,
-                    "hosp_dur": 1.3333333333333333
+                    "op_dur_min": 1.6666666666666667,
+                    "op_dur_max": 2.540277777777778,
+                    "hosp_dur": 1.3333333333333333,
+                    "hosp_dur_min": 1.0,
+                    "hosp_dur_max": 2.0
                 },
                 {
-                    "name": "Pancreas transplantation",
+                    "name": [
+                        "Pancreas transplantation"
+                    ],
                     "op_dur": 4.833333333333333,
-                    "hosp_dur": 21.0
+                    "op_dur_min": 4.833333333333333,
+                    "op_dur_max": 4.833333333333333,
+                    "hosp_dur": 21.0,
+                    "hosp_dur_min": 21.0,
+                    "hosp_dur_max": 21.0
                 },
                 {
-                    "name": "Simultaneous pancreas-kidney transplantation",
+                    "name": [
+                        "Simultaneous pancreas-kidney transplantation"
+                    ],
                     "op_dur": 6.625,
-                    "hosp_dur": 38.5
+                    "op_dur_min": 6.166666666666667,
+                    "op_dur_max": 7.083333333333333,
+                    "hosp_dur": 38.5,
+                    "hosp_dur_min": 22.0,
+                    "hosp_dur_max": 55.0
                 }
             ]
         },
@@ -1316,173 +2808,375 @@
             "children": [
                 {
                     "name": "Average Vascular",
-                    "op_dur": 2.6853039158335443,
-                    "hosp_dur": 15.509575792256042
+                    "op_dur": 2.138147794741306,
+                    "op_dur_min": 0.25,
+                    "op_dur_max": 9.0,
+                    "hosp_dur": 8.305343511450381,
+                    "hosp_dur_min": 1.0,
+                    "hosp_dur_max": 53.0
                 },
                 {
-                    "name": "Aneurysmal repair",
+                    "name": [
+                        "Aneurysmal repair"
+                    ],
                     "op_dur": 4.908928571428571,
-                    "hosp_dur": 23.142857142857142
+                    "op_dur_min": 3.0833333333333335,
+                    "op_dur_max": 6.25,
+                    "hosp_dur": 23.142857142857142,
+                    "hosp_dur_min": 8.0,
+                    "hosp_dur_max": 44.0
                 },
                 {
-                    "name": "Aortofemoral bypass",
+                    "name": [
+                        "Aortofemoral bypass"
+                    ],
                     "op_dur": 4.5,
-                    "hosp_dur": 11.0
+                    "op_dur_min": 4.5,
+                    "op_dur_max": 4.5,
+                    "hosp_dur": 11.0,
+                    "hosp_dur_min": 11.0,
+                    "hosp_dur_max": 11.0
                 },
                 {
-                    "name": "Aortoiliac bypass",
+                    "name": [
+                        "Aortoiliac bypass"
+                    ],
                     "op_dur": 4.5808888888888895,
-                    "hosp_dur": 14.2
+                    "op_dur_min": 1.9166666666666667,
+                    "op_dur_max": 7.25,
+                    "hosp_dur": 14.2,
+                    "hosp_dur_min": 7.0,
+                    "hosp_dur_max": 42.0
                 },
                 {
-                    "name": "Aortorenal bypass",
+                    "name": [
+                        "Aortorenal bypass"
+                    ],
                     "op_dur": 4.575,
-                    "hosp_dur": 9.25
+                    "op_dur_min": 3.25,
+                    "op_dur_max": 7.0,
+                    "hosp_dur": 9.25,
+                    "hosp_dur_min": 8.0,
+                    "hosp_dur_max": 11.0
                 },
                 {
-                    "name": "Arteriovenous fistula",
+                    "name": [
+                        "Arteriovenous fistula"
+                    ],
                     "op_dur": 1.2992241379310345,
-                    "hosp_dur": 4.862068965517241
+                    "op_dur_min": 0.6763888888888889,
+                    "op_dur_max": 2.55,
+                    "hosp_dur": 4.862068965517241,
+                    "hosp_dur_min": 1.0,
+                    "hosp_dur_max": 24.0
                 },
                 {
-                    "name": "Arteriovenous fistula thrombectomy",
+                    "name": [
+                        "Arteriovenous fistula thrombectomy"
+                    ],
                     "op_dur": 2.233009259259259,
-                    "hosp_dur": 22.166666666666668
+                    "op_dur_min": 1.0780555555555555,
+                    "op_dur_max": 4.833333333333333,
+                    "hosp_dur": 22.166666666666668,
+                    "hosp_dur_min": 9.0,
+                    "hosp_dur_max": 40.0
                 },
                 {
-                    "name": "Arteriovenous graft",
+                    "name": [
+                        "Arteriovenous graft"
+                    ],
                     "op_dur": 2.666666666666667,
-                    "hosp_dur": 19.5
+                    "op_dur_min": 2.0,
+                    "op_dur_max": 3.3333333333333335,
+                    "hosp_dur": 19.5,
+                    "hosp_dur_min": 9.0,
+                    "hosp_dur_max": 30.0
                 },
                 {
-                    "name": "Bleeding control",
+                    "name": [
+                        "Bleeding control"
+                    ],
                     "op_dur": 1.1666666666666667,
-                    "hosp_dur": 23.0
+                    "op_dur_min": 1.1666666666666667,
+                    "op_dur_max": 1.1666666666666667,
+                    "hosp_dur": 23.0,
+                    "hosp_dur_min": 23.0,
+                    "hosp_dur_max": 23.0
                 },
                 {
-                    "name": "Closure of arteriovenous fistula",
+                    "name": [
+                        "Closure of arteriovenous fistula"
+                    ],
                     "op_dur": 1.1041666666666665,
-                    "hosp_dur": 7.0
+                    "op_dur_min": 0.75,
+                    "op_dur_max": 1.6666666666666667,
+                    "hosp_dur": 7.0,
+                    "hosp_dur_min": 1.0,
+                    "hosp_dur_max": 21.0
                 },
                 {
-                    "name": "Embolectomy",
+                    "name": [
+                        "Embolectomy"
+                    ],
                     "op_dur": 2.575757575757576,
-                    "hosp_dur": 20.90909090909091
+                    "op_dur_min": 0.9166666666666666,
+                    "op_dur_max": 5.916666666666667,
+                    "hosp_dur": 20.90909090909091,
+                    "hosp_dur_min": 6.0,
+                    "hosp_dur_max": 38.0
                 },
                 {
-                    "name": "Endarterectomy",
+                    "name": [
+                        "Endarterectomy"
+                    ],
                     "op_dur": 3.520238095238095,
-                    "hosp_dur": 13.5
+                    "op_dur_min": 1.6666666666666667,
+                    "op_dur_max": 9.0,
+                    "hosp_dur": 13.5,
+                    "hosp_dur_min": 8.0,
+                    "hosp_dur_max": 36.0
                 },
                 {
-                    "name": "Endovascular aneurysmal repair",
+                    "name": [
+                        "Endovascular aneurysmal repair"
+                    ],
                     "op_dur": 2.6785714285714284,
-                    "hosp_dur": 17.571428571428573
+                    "op_dur_min": 1.5,
+                    "op_dur_max": 4.25,
+                    "hosp_dur": 17.571428571428573,
+                    "hosp_dur_min": 5.0,
+                    "hosp_dur_max": 36.0
                 },
                 {
-                    "name": "Femoro-femoral bypass",
+                    "name": [
+                        "Femoro-femoral bypass"
+                    ],
                     "op_dur": 2.6666666666666665,
-                    "hosp_dur": 10.0
+                    "op_dur_min": 2.6666666666666665,
+                    "op_dur_max": 2.6666666666666665,
+                    "hosp_dur": 10.0,
+                    "hosp_dur_min": 10.0,
+                    "hosp_dur_max": 10.0
                 },
                 {
-                    "name": "Femoro-popliteal bypass",
+                    "name": [
+                        "Femoro-popliteal bypass"
+                    ],
                     "op_dur": 5.938888888888889,
-                    "hosp_dur": 9.333333333333334
+                    "op_dur_min": 4.983333333333333,
+                    "op_dur_max": 6.666666666666667,
+                    "hosp_dur": 9.333333333333334,
+                    "hosp_dur_min": 8.0,
+                    "hosp_dur_max": 10.0
                 },
                 {
-                    "name": "Ilioiliac bypass",
+                    "name": [
+                        "Ilioiliac bypass"
+                    ],
                     "op_dur": 3.5,
-                    "hosp_dur": 8.0
+                    "op_dur_min": 3.5,
+                    "op_dur_max": 3.5,
+                    "hosp_dur": 8.0,
+                    "hosp_dur_min": 8.0,
+                    "hosp_dur_max": 8.0
                 },
                 {
-                    "name": "Incision and drainage",
+                    "name": [
+                        "Incision and drainage"
+                    ],
                     "op_dur": 1.1666666666666667,
-                    "hosp_dur": 8.0
+                    "op_dur_min": 1.1666666666666667,
+                    "op_dur_max": 1.1666666666666667,
+                    "hosp_dur": 8.0,
+                    "hosp_dur_min": 8.0,
+                    "hosp_dur_max": 8.0
                 },
                 {
-                    "name": "Insertion of permanent catheter",
+                    "name": [
+                        "Insertion of permanent catheter"
+                    ],
                     "op_dur": 2.25,
-                    "hosp_dur": 1.0
+                    "op_dur_min": 2.25,
+                    "op_dur_max": 2.25,
+                    "hosp_dur": 1.0,
+                    "hosp_dur_min": 1.0,
+                    "hosp_dur_max": 1.0
                 },
                 {
-                    "name": "Intra-abdominal arterial bypass graft",
+                    "name": [
+                        "Intra-abdominal arterial bypass graft"
+                    ],
                     "op_dur": 1.75,
-                    "hosp_dur": 3.0
+                    "op_dur_min": 1.75,
+                    "op_dur_max": 1.75,
+                    "hosp_dur": 3.0,
+                    "hosp_dur_min": 3.0,
+                    "hosp_dur_max": 3.0
                 },
                 {
-                    "name": "Ligation and stripping",
+                    "name": [
+                        "Ligation and stripping"
+                    ],
                     "op_dur": 1.5020069444444446,
-                    "hosp_dur": 2.075
+                    "op_dur_min": 0.5375,
+                    "op_dur_max": 3.75,
+                    "hosp_dur": 2.075,
+                    "hosp_dur_min": 2.0,
+                    "hosp_dur_max": 5.0
                 },
                 {
-                    "name": "Nephrectomy",
+                    "name": [
+                        "Nephrectomy"
+                    ],
                     "op_dur": 1.3972222222222221,
-                    "hosp_dur": 31.5
+                    "op_dur_min": 1.211111111111111,
+                    "op_dur_max": 1.5833333333333333,
+                    "hosp_dur": 31.5,
+                    "hosp_dur_min": 11.0,
+                    "hosp_dur_max": 52.0
                 },
                 {
-                    "name": "Percutaneous biopsy",
+                    "name": [
+                        "Percutaneous biopsy"
+                    ],
                     "op_dur": 0.3333333333333333,
-                    "hosp_dur": 20.0
+                    "op_dur_min": 0.3333333333333333,
+                    "op_dur_max": 0.3333333333333333,
+                    "hosp_dur": 20.0,
+                    "hosp_dur_min": 20.0,
+                    "hosp_dur_max": 20.0
                 },
                 {
-                    "name": "Removal of Hickman catheter",
+                    "name": [
+                        "Removal of Hickman catheter"
+                    ],
                     "op_dur": 0.25,
-                    "hosp_dur": 15.0
+                    "op_dur_min": 0.25,
+                    "op_dur_max": 0.25,
+                    "hosp_dur": 15.0,
+                    "hosp_dur_min": 15.0,
+                    "hosp_dur_max": 15.0
                 },
                 {
-                    "name": "Removal of complicated graft",
+                    "name": [
+                        "Removal of complicated graft"
+                    ],
                     "op_dur": 1.5333333333333334,
-                    "hosp_dur": 27.0
+                    "op_dur_min": 1.5333333333333334,
+                    "op_dur_max": 1.5333333333333334,
+                    "hosp_dur": 27.0,
+                    "hosp_dur_min": 27.0,
+                    "hosp_dur_max": 27.0
                 },
                 {
-                    "name": "Removal of continuous ambulatory peritoneal dialysis catheter",
+                    "name": [
+                        "Removal of continuous ambulatory peritoneal dialysis catheter"
+                    ],
                     "op_dur": 0.8707098765432099,
-                    "hosp_dur": 6.555555555555555
+                    "op_dur_min": 0.25,
+                    "op_dur_max": 2.1666666666666665,
+                    "hosp_dur": 6.555555555555555,
+                    "hosp_dur_min": 1.0,
+                    "hosp_dur_max": 29.0
                 },
                 {
-                    "name": "Removal of permanent catheter",
+                    "name": [
+                        "Removal of permanent catheter"
+                    ],
                     "op_dur": 0.4583333333333333,
-                    "hosp_dur": 16.75
+                    "op_dur_min": 0.25,
+                    "op_dur_max": 0.75,
+                    "hosp_dur": 16.75,
+                    "hosp_dur_min": 6.0,
+                    "hosp_dur_max": 28.0
                 },
                 {
-                    "name": "Resection of inferior vena cava",
+                    "name": [
+                        "Resection of inferior vena cava"
+                    ],
                     "op_dur": 7.275,
-                    "hosp_dur": 19.5
+                    "op_dur_min": 7.133333333333334,
+                    "op_dur_max": 7.416666666666667,
+                    "hosp_dur": 19.5,
+                    "hosp_dur_min": 17.0,
+                    "hosp_dur_max": 22.0
                 },
                 {
-                    "name": "Resection of lower limb artery",
+                    "name": [
+                        "Resection of lower limb artery"
+                    ],
                     "op_dur": 3.3333333333333335,
-                    "hosp_dur": 13.0
+                    "op_dur_min": 3.3333333333333335,
+                    "op_dur_max": 3.3333333333333335,
+                    "hosp_dur": 13.0,
+                    "hosp_dur_min": 13.0,
+                    "hosp_dur_max": 13.0
                 },
                 {
-                    "name": "Resection of popliteal artery",
+                    "name": [
+                        "Resection of popliteal artery"
+                    ],
                     "op_dur": 3.1833333333333336,
-                    "hosp_dur": 17.5
+                    "op_dur_min": 3.0833333333333335,
+                    "op_dur_max": 3.283333333333333,
+                    "hosp_dur": 17.5,
+                    "hosp_dur_min": 8.0,
+                    "hosp_dur_max": 27.0
                 },
                 {
-                    "name": "Revision of arteriovenous fistula",
+                    "name": [
+                        "Revision of arteriovenous fistula"
+                    ],
                     "op_dur": 2.26375,
-                    "hosp_dur": 8.5
+                    "op_dur_min": 1.405,
+                    "op_dur_max": 2.966666666666667,
+                    "hosp_dur": 8.5,
+                    "hosp_dur_min": 1.0,
+                    "hosp_dur_max": 24.0
                 },
                 {
-                    "name": "Transposition of basilic vein for arteriovenous fistula",
+                    "name": [
+                        "Transposition of basilic vein for arteriovenous fistula"
+                    ],
                     "op_dur": 4.083333333333333,
-                    "hosp_dur": 35.0
+                    "op_dur_min": 4.083333333333333,
+                    "op_dur_max": 4.083333333333333,
+                    "hosp_dur": 35.0,
+                    "hosp_dur_min": 35.0,
+                    "hosp_dur_max": 35.0
                 },
                 {
-                    "name": "Vascular bypass",
+                    "name": [
+                        "Vascular bypass"
+                    ],
                     "op_dur": 2.966666666666667,
-                    "hosp_dur": 17.0
+                    "op_dur_min": 0.5166666666666667,
+                    "op_dur_max": 5.416666666666667,
+                    "hosp_dur": 17.0,
+                    "hosp_dur_min": 9.0,
+                    "hosp_dur_max": 25.0
                 },
                 {
-                    "name": "Vascular repair",
+                    "name": [
+                        "Vascular repair"
+                    ],
                     "op_dur": 2.583333333333333,
-                    "hosp_dur": 42.0
+                    "op_dur_min": 2.5,
+                    "op_dur_max": 2.6666666666666665,
+                    "hosp_dur": 42.0,
+                    "hosp_dur_min": 31.0,
+                    "hosp_dur_max": 53.0
                 },
                 {
-                    "name": "Vessel graft",
+                    "name": [
+                        "Vessel graft"
+                    ],
                     "op_dur": 3.5,
-                    "hosp_dur": 15.0
+                    "op_dur_min": 3.5,
+                    "op_dur_max": 3.5,
+                    "hosp_dur": 15.0,
+                    "hosp_dur_min": 15.0,
+                    "hosp_dur_max": 15.0
                 }
             ]
         }
