@@ -157,7 +157,7 @@ function updateChart(data = null, groupBy = "optype") {
     // ✅ Dynamically adjust SVG height based on the number of categories
     const numBars = processedData.length;
     const barHeight = 30; // Minimum height for each bar
-    const newHeight = Math.max(600, numBars * barHeight + margin.top + margin.bottom);
+    const newHeight = Math.max(600, numBars * barHeight + margin.top );
 
     // Update SVG height
     d3.select("#andrea_bar")
@@ -182,6 +182,20 @@ function updateChart(data = null, groupBy = "optype") {
     xAxis.transition().duration(500)
         .attr("transform", `translate(0,${newHeight - margin.bottom})`)
         .call(d3.axisBottom(xScale).ticks(10).tickFormat(d => Math.abs(d)));
+
+    svgContainer.selectAll(".gridline").remove(); // Clear existing gridlines
+
+    svgContainer.selectAll(".gridline")
+        .data(xScale.ticks(10)) // Use the same ticks as the x-axis
+        .enter().append("line")
+        .attr("class", "gridline")
+        .attr("x1", d => xScale(d)) // Position based on xScale
+        .attr("x2", d => xScale(d)) // Vertical line, so x1 and x2 are the same
+        .attr("y1", 0) // Start at the top of the chart
+        .attr("y2", newHeight - margin.bottom) // End at the bottom of the chart
+        .attr("stroke", "#ccc") // Light gray color
+        .attr("stroke-width", 0.5) // Thin lines
+        .attr("stroke-dasharray", "2,2"); // Dashed lines for better aesthetics
 
     // ✅ Select bars
     const bars = svgContainer.selectAll(".bar").data(processedData, d => d.name);
