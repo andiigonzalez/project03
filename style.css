@@ -40,8 +40,11 @@ h1 {
 }
 .h3 {
     font-weight:normal;
-    text-align: center;
 } 
+.h4{
+    font-weight: bold;
+     text-align: center;
+}
 
 
 /* 
