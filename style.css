@@ -48,6 +48,7 @@ nav {
     ul, 
     ul li {
         display: contents;
+        display: inline-block
     }
 
     a {
@@ -56,12 +57,13 @@ nav {
         color: inherit;
         text-align: center;
         padding: 0.5em;
+        transition: all 0.2s ease-in-out;
         
         &.current{
             flex: 1;
-            border-bottom-width: 0.4em;
+            border-bottom: 0.4em solid var(--color-accent);
             padding-bottom: 0.2em;
-            border-bottom-color: var(--color-accent);
+            font-weight: bold;
         }
 
         &:hover{
