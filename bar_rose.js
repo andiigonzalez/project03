@@ -36,7 +36,6 @@ svg.append("text")
     .style("font-size", "18px")
     .text("Comparing surgery and hospitalization durations across different surgical procedures.");
 
-
 // Back button
 const backButton = d3.select(".chart-container2")
     .append("button")
@@ -44,6 +43,7 @@ const backButton = d3.select(".chart-container2")
     .text("Back")
     .style("display", "none") // Still control visibility in JS
     .on("click", resetChart);
+
 
 let initialData;
 

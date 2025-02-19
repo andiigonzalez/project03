@@ -1,13 +1,10 @@
 console.log("IT’S ALIVE!");
 
-
 function $$(selector, context = document) {
   return Array.from(context.querySelectorAll(selector));
 }
 
-
 const ARE_WE_HOME = document.documentElement.classList.contains("home");
-
 
 const pages = [
   { url: "https://andiigonzalez.github.io/project03/index.html", title: "Home" },
@@ -25,19 +22,17 @@ for (const p of pages) {
   let title = p.title;
 
   if (!url.startsWith("http")) {
-  url = BASE_URL + url;
-}
+    url = BASE_URL + url;
+  }
 
   const a = document.createElement("a");
   a.href = url;
   a.textContent = title;
 
-
   a.classList.toggle(
     "current",
     a.host === location.host && a.pathname === location.pathname
   );
-
 
   if (p.external) {
     a.target = "_blank";
@@ -47,6 +42,7 @@ for (const p of pages) {
   li.appendChild(a);
   ul.appendChild(li);
 }
+
 // Automatic detection of the OS color scheme
 const osDarkMode = matchMedia("(prefers-color-scheme: dark)").matches;
 const osLightMode = matchMedia("(prefers-color-scheme: light)").matches;
@@ -65,7 +61,6 @@ document.body.insertAdjacentHTML(
   `
 );
 
-
 const select = document.querySelector(".color-scheme select");
 const savedScheme = localStorage.colorScheme || (osDarkMode ? "dark" : "light dark");
 document.documentElement.style.setProperty("color-scheme", savedScheme);
@@ -75,7 +70,6 @@ if (savedScheme === "dark") {
   document.documentElement.classList.add("light-mode");
 }
 select.value = savedScheme;
-
 
 select.addEventListener("input", function (event) {
   const colorScheme = event.target.value;
@@ -88,7 +82,6 @@ select.addEventListener("input", function (event) {
     document.documentElement.classList.add("light-mode");
     document.documentElement.style.setProperty("color-scheme", "light");
   } else {
-  
     document.documentElement.style.setProperty("color-scheme", "light dark");
   }
 
@@ -96,14 +89,36 @@ select.addEventListener("input", function (event) {
   document.documentElement.offsetHeight; 
 });
 
+// Add the "Next" button to the DOM
+const nextButton = document.createElement("button");
+nextButton.id = "nextButton";
+nextButton.textContent = "Next";
+nextButton.style.display = "none"; // Initially hidden
+document.body.appendChild(nextButton);
+
+let currentStepIndex = 0;
 
 document.addEventListener("DOMContentLoaded", function () {
   const timelineItems = document.querySelectorAll(".step-item");
 
-  timelineItems.forEach(item => {
-      item.addEventListener("click", function () {
-          toggleZoom(item);
-      });
+  timelineItems.forEach((item, index) => {
+    item.addEventListener("click", function () {
+      toggleZoom(item);
+      currentStepIndex = index; // Update the current step index
+      nextButton.style.display = "block"; // Show the "Next" button
+    });
+  });
+
+  // Handle "Next" button click
+  nextButton.addEventListener("click", function () {
+    if (currentStepIndex < timelineItems.length - 1) {
+      currentStepIndex++;
+      const nextItem = timelineItems[currentStepIndex];
+      nextItem.scrollIntoView({ behavior: "smooth" });
+      toggleZoom(nextItem); // Zoom into the next item
+    } else {
+      alert("You've reached the end of the timeline!");
+    }
   });
 });
 
@@ -111,20 +126,20 @@ function toggleZoom(selectedItem) {
   const isZoomed = selectedItem.classList.contains("zoomed");
 
   if (isZoomed) {
-      // Return to timeline view
-      document.querySelectorAll(".step-item").forEach(item => {
-          item.classList.remove("zoomed", "faded");
-          item.style.display = "flex";
-      });
+    // Return to timeline view
+    document.querySelectorAll(".step-item").forEach(item => {
+      item.classList.remove("zoomed", "faded");
+      item.style.display = "flex";
+    });
+    nextButton.style.display = "none"; // Hide the "Next" button when unzooming
   } else {
-      // Expand selected item, fade others
-      document.querySelectorAll(".step-item").forEach(item => {
-          if (item !== selectedItem) {
-              item.classList.add("faded");
-          }
-      });
+    // Expand selected item, fade others
+    document.querySelectorAll(".step-item").forEach(item => {
+      if (item !== selectedItem) {
+        item.classList.add("faded");
+      }
+    });
 
-      selectedItem.classList.add("zoomed");
+    selectedItem.classList.add("zoomed");
   }
 }
-

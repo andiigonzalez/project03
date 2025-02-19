@@ -8,6 +8,7 @@
 </head>
 <body>
 
+   
     <h1 class="page-title">Development Process</h1>
 
     <div class="project-steps">
@@ -23,7 +24,13 @@
             <div class="circle">2</div>
             <div class="content">
                 <h2>Stage 2: Comparison & Analysis </h2>
-                <p>At this point, each team member created 2-3 visualizations to create a general idea of our possibilities. We coded most of them using D3, which took around 10 hours due to challenges in parsing JSON data and coding interactive features. This step took each team member an average of 3 hours. Once we had a variety of potential visualizations our team deconstructed the pros and cons of each visuzalization. At this point we agreed on a barplot (althogh specifics remained more flexible). By the end of this stage, we submitted our project checkpoint.  </p>
+                <p>At this point, each team member created 2-3 visualizations to create a general idea of our possibilities.
+                     We coded most of them using D3, which took around 10 hours due to challenges in parsing JSON data and coding interactive features.
+                    This step took each team member an average of 3 hours. 
+                    Once we had a variety of potential visualizations our team deconstructed the pros and cons of each visuzalization. 
+                    At this point we agreed on a barplot (althogh specifics remained more flexible). By the end of this stage, we submitted our project checkpoint. 
+                    Moving forward out team had a set of agreed upon yet flexible attributes and characteristics we were going to implement. 
+                    However, each one of us coded graphs as our time allowed and we then reconvened and implemented each others opinion and code into our own.  </p>
             </div>
         </div>
 
@@ -31,27 +38,28 @@
             <div class="circle">3</div>
             <div class="content">
                 <h2>Stage 3: Graph Design </h2>
-                <p> This stage includes the creation and molding of our finalized bargraph. Our first goal was to clean and organize the data in the best way possible for our visualization. As such, we dropped unnecessary columns, created the columns and the calculations to compute average hospital stay and surgery durations. This was a multi-step stage as it took a lot of back and forth with the characteristics and add-ons in our graph such as the color scheme, the font, the layout...etc.  </p>
+                <p> This stage includes the creation and molding of our finalized bargraph. Our first goal was to fully clean and organize the data in the best way possible for our visualization. 
+                    As such, we dropped unnecessary columns, created the columns and the calculations to compute average hospital stay and surgery durations, ensured there were no duplicates and capitalized the surgery names. 
+                    As mentioned above our team members each took their own approach to the plot and we would communicate back and forth giving each other opinions and constructive criticism about our graphs. We built upon one another's ideas such as Andres' idea to implement a link that opens a new tab with a google search for further interaction or Rosey's use of a back button that reset the layout.
+                    However, this took the most time of all as each individual person put around 10-12 hours into this step. Combined, the time it took to create a finalized, debugged visualization that all team members were happy with and had personal characteristics added by each one was around 36 hours. However, this may have been more as much of the time communicating ideas and debating was not calculated.
+                    The specific difficulties we all encountered here was the fact that as we added a specific interation technique, three other things in the graph would break down so we spent an enourmous amount of time debugging and rereading code.
+             </p>
             </div>
         </div>
 
         <div class="step-item" id="stage4">
             <div class="circle">4</div>
             <div class="content">
-                <h2>Stage 4: Website</h2>
-                <p> Because we wanted to experiment further on the website, we added a modified version of a javascript timeline for this process flow chart. The entire process of creating and perfecting this specific page took around 7 hours as we perfected the zooming in by clicking.</p>
+                <h2>Stage 4: Website & Writeup</h2>
+                <p> The backbone of this website was created at the beginning of the project using the layout developed in the labs.
+                     The only thing needed to be completed was the writeup which due to the quantity of back and forth and debating every aspect did not take long (~ 25-35 minutes). Additionally, we had been adding on to the development process individual as we went on so the process development was distributed throughout the project and team members. 
+                     However, because our team wanted experiment further on the website, we added a modified version of a javascript timeline for this process flow chart. The entire process of creating and perfecting this specific page took around 4 hours as we perfected the zooming in by clicking.
+                     This was because we went through many types of zooming, transitions, css attributes, and we were never quite satisfied. We also considered adding a carousel of progress pictures of our graphs but eventually discarded the idea.
+                    </p>
             </div>
 
         </div>
-
-        <div class="step-item" id="stage5">
-            <div class="circle">5</div>
-            <div class="content">
-                <h2>Stage 5: ???? </h2>
-                <p>FINISH</p>
-            </div>
-        </div>
-    </div>
+       <button id="nextButton" style="display: none;">Next</button>
 
     <script src="global.js"></script>
 </body>
