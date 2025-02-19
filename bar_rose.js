@@ -24,7 +24,7 @@ svg.append("text")
     .attr("text-anchor", "middle")
     .style("font-size", "26px")
     .style("font-weight", "bold")
-    .text("Average Surgery Duration & Recovery Times");
+    .text("Average Surgery Duration & Hospital Recovery Times");
 
 // Add Subtitle
 svg.append("text")
@@ -33,7 +33,7 @@ svg.append("text")
     .attr("text-anchor", "middle")
     .style("font-size", "20px")
     .style("fill", "#666")
-    .text("Comparing surgery and hospitalization durations across different procedures.");
+    .text("Comparing surgery and hospitalization durations across different surgical procedures.");
 
 
 // Back button
