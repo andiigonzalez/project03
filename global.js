@@ -89,14 +89,6 @@ select.addEventListener("input", function (event) {
   document.documentElement.offsetHeight; 
 });
 
-// Add the "Next" button to the DOM
-const nextButton = document.createElement("button");
-nextButton.id = "nextButton";
-nextButton.textContent = "Next";
-nextButton.style.display = "none"; // Initially hidden
-document.body.appendChild(nextButton);
-
-let currentStepIndex = 0;
 
 document.addEventListener("DOMContentLoaded", function () {
   const timelineItems = document.querySelectorAll(".step-item");
@@ -104,42 +96,26 @@ document.addEventListener("DOMContentLoaded", function () {
   timelineItems.forEach((item, index) => {
     item.addEventListener("click", function () {
       toggleZoom(item);
-      currentStepIndex = index; // Update the current step index
-      nextButton.style.display = "block"; // Show the "Next" button
     });
-  });
-
-  // Handle "Next" button click
-  nextButton.addEventListener("click", function () {
-    if (currentStepIndex < timelineItems.length - 1) {
-      currentStepIndex++;
-      const nextItem = timelineItems[currentStepIndex];
-      nextItem.scrollIntoView({ behavior: "smooth" });
-      toggleZoom(nextItem); // Zoom into the next item
-    } else {
-      alert("You've reached the end of the timeline!");
-    }
   });
 });
-
-function toggleZoom(selectedItem) {
-  const isZoomed = selectedItem.classList.contains("zoomed");
-
-  if (isZoomed) {
-    // Return to timeline view
-    document.querySelectorAll(".step-item").forEach(item => {
-      item.classList.remove("zoomed", "faded");
-      item.style.display = "flex";
-    });
-    nextButton.style.display = "none"; // Hide the "Next" button when unzooming
-  } else {
-    // Expand selected item, fade others
-    document.querySelectorAll(".step-item").forEach(item => {
-      if (item !== selectedItem) {
-        item.classList.add("faded");
-      }
-    });
-
-    selectedItem.classList.add("zoomed");
+  function toggleZoom(selectedItem) {
+    const isZoomed = selectedItem.classList.contains("zoomed");
+  
+    if (isZoomed) {
+        // Return to timeline view
+        document.querySelectorAll(".step-item").forEach(item => {
+            item.classList.remove("zoomed", "faded");
+            item.style.display = "flex";
+        });
+    } else {
+        // Expand selected item, fade others
+        document.querySelectorAll(".step-item").forEach(item => {
+            if (item !== selectedItem) {
+                item.classList.add("faded");
+            }
+        });
+  
+        selectedItem.classList.add("zoomed");
+    }
   }
-}
