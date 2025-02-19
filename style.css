@@ -1,8 +1,7 @@
 root {
     --color-accent: oklch(65% 50% 0);
     color-scheme: light dark
-    }
-
+}
 body {
     /* Set line height to 1.5 times the font size
          and use the OS’s UI font as the website font
@@ -11,12 +10,11 @@ body {
     font: 100%/1.5 system-ui;
     max-width: 130ch;
     margin-inline: max(1em, (100% - 100ch) / 2);
-
-  }
+}
 h1 {
     text-align: center;
     font-size:2.8em;
-  }
+}
 .color-scheme {
   position: absolute;
   top: 1rem;
@@ -48,7 +46,7 @@ nav {
     ul, 
     ul li {
         display: contents;
-        display: inline-block
+        display: inline-block;
     }
 
     a {
