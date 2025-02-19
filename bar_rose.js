@@ -222,6 +222,7 @@ function updateChart(root) {
 
     barGroups.transition().duration(750).style("opacity", 1);
 
+    // Append surgery bars
     barGroups.append("rect")
         .attr("class", "bar op-bar")
         .attr("x", d => xScale(-d.data.op_dur || 0))
@@ -230,10 +231,20 @@ function updateChart(root) {
         .attr("fill", "#1f77b4")
         .on("mouseover", (event, d) => showTooltip(event, d, "op"))
         .on("mouseout", hideTooltip)
-        .on("click", (event, d) => expandBar(event, d))
+        .on("click", (event, d) => {
+            if (d.children) {
+                // Parent group: Expand on click
+                expandBar(event, d);
+            } else {
+                // Child group: Open Google search
+                const searchQuery = encodeURIComponent(d.data.name);
+                window.open(`https://www.google.com/search?q=${searchQuery}`, '_blank');
+            }
+        })
         .transition().duration(750)
         .attr("width", d => Math.abs(xScale(0) - xScale(-d.data.op_dur || 0)));
 
+    // Append hospitalization bars
     barGroups.append("rect")
         .attr("class", "bar hosp-bar")
         .attr("x", xScale(0))
@@ -242,7 +253,16 @@ function updateChart(root) {
         .attr("fill", "#ff7f0e")
         .on("mouseover", (event, d) => showTooltip(event, d, "hosp"))
         .on("mouseout", hideTooltip)
-        .on("click", (event, d) => expandBar(event, d))
+        .on("click", (event, d) => {
+            if (d.children) {
+                // Parent group: Expand on click
+                expandBar(event, d);
+            } else {
+                // Child group: Open Google search
+                const searchQuery = encodeURIComponent(d.data.name);
+                window.open(`https://www.google.com/search?q=${searchQuery}`, '_blank');
+            }
+        })
         .transition().duration(750)
         .attr("width", d => xScale(d.data.hosp_dur || 0) - xScale(0));
 
