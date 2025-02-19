@@ -1,5 +1,7 @@
 :root {
     --color-accent: oklch(65% 50% 0);
+    --text-light: black;
+    --text-dark: white;
     color-scheme: light dark
 }
 body {
@@ -11,6 +13,15 @@ body {
     max-width: 130ch;
     margin-inline: max(1em, (100% - 100ch) / 2);
 }
+
+body.light-mode {
+  color: var(--text-light);
+}
+
+body.dark-mode {
+  color: var(--text-dark);
+}
+
 h1 {
     text-align: center;
     font-size:2.8em;
@@ -211,12 +222,13 @@ text {
   width: 100%;
   max-width: 1200px;
   margin: auto;
-  width: 100%; /* Or set a specific width like 1200px */
-  height: 100vh; /* Or set a specific height */
-  display: flex; /* Optional: Ensures SVG scales properly */
-  justify-content: center; /* Optional: Centers the chart */
-  align-items: center; /* Optional: Centers the chart */
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;  /* Align content to the left */
+  align-items: center;
+  padding-left: 50px; /* Adjust this value for fine-tuning */
 }
+
 
 svg {
   width: 100%;
@@ -239,8 +251,8 @@ svg {
 
 #backButton {
   position: absolute;
-  top: 10px;   /* Distance from the top of .chart-container2 */
-  right: 10px; /* Distance from the right of .chart-container2 */
+  top: 100px;   /* Distance from the top of .chart-container2 */
+  left: 200px; /* Distance from the right of .chart-container2 */
   z-index: 10; /* Ensures it stays above the chart */
   padding: 8px 12px;
   background-color: #474747;
@@ -254,4 +266,18 @@ svg {
   background-color: #666; /* Lighter gray on hover */
 }
 
-/* -------------------------------------------------*/
+/* ---------------------Chart------------------*/
+
+/* Chart Title */
+.chart-title, .chart-subtitle {
+  fill: currentColor; /* Inherits the color from body */
+  text-anchor: middle;
+}
+
+/* Axis Labels */
+.x-axis-label, .y-axis text {
+  fill: currentColor;
+  font-size: 14px;
+  font-weight: bold;
+}
+/* --------------------------- */

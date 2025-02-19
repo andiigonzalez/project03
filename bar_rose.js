@@ -19,8 +19,9 @@ const svg = d3.select("#chart-svg")
 
 // Add Chart Title
 svg.append("text")
+    .attr("class", "chart-title")  // Apply class
     .attr("x", width / 2) // Centered
-    .attr("y", -margin.top * .5) // 
+    .attr("y", -margin.top * 0.5)
     .attr("text-anchor", "middle")
     .style("font-size", "26px")
     .style("font-weight", "bold")
@@ -28,11 +29,11 @@ svg.append("text")
 
 // Add Subtitle
 svg.append("text")
-    .attr("x", width / 2) // Centered
-    .attr("y", -margin.top / 20) // 
+    .attr("class", "chart-subtitle")  // Apply class
+    .attr("x", width / 2)
+    .attr("y", -margin.top / 20)
     .attr("text-anchor", "middle")
-    .style("font-size", "20px")
-    .style("fill", "#666")
+    .style("font-size", "18px")
     .text("Comparing surgery and hospitalization durations across different surgical procedures.");
 
 
@@ -76,7 +77,7 @@ d3.json("hierarchical_surgery_data.json").then(data => {
 });
 
 function showTooltip(event, d, type) {
-    let minVal, maxVal, unit, label;
+    let minVal, maxVal, avgVal, unit, label;
 
     if (d.children) {
         // If it's an operation type, compute min/max from children surgeries
@@ -86,24 +87,32 @@ function showTooltip(event, d, type) {
 
         minVal = values.length ? d3.min(values).toFixed(2) : "N/A";
         maxVal = values.length ? d3.max(values).toFixed(2) : "N/A";
+        avgVal = values.length ? d3.mean(values).toFixed(2) : "N/A";
     } else {
-        // If it's a leaf node (individual surgery), use its own min/max values
+        // If it's a leaf node (individual surgery), use its own values
         minVal = type === "op" ? d.data.op_dur_min : d.data.hosp_dur_min;
         maxVal = type === "op" ? d.data.op_dur_max : d.data.hosp_dur_max;
+        avgVal = type === "op" ? d.data.op_dur : d.data.hosp_dur;
 
         // Ensure values are formatted properly
         minVal = minVal !== undefined ? parseFloat(minVal).toFixed(2) : "N/A";
         maxVal = maxVal !== undefined ? parseFloat(maxVal).toFixed(2) : "N/A";
+        avgVal = avgVal !== undefined ? parseFloat(avgVal).toFixed(2) : "N/A";
     }
 
     unit = type === "op" ? "hours" : "days";
     label = type === "op" ? "Operation" : "Hospitalization";
 
     tooltip.style("display", "block")
-        .html(`<strong>${d.data.name}</strong><br>${label} Duration:<br>Min: ${minVal} ${unit}<br>Max: ${maxVal} ${unit}`)
+        .html(`<strong>${d.data.name}</strong><br>
+               ${label} Duration:<br>
+               Min: ${minVal} ${unit}<br>
+               Max: ${maxVal} ${unit}<br>
+               <strong>Avg: ${avgVal} ${unit}</strong>`)  // Explicitly add avg duration
         .style("left", `${event.pageX + 10}px`)
         .style("top", `${event.pageY - 30}px`);
 }
+
 
 
 function hideTooltip() {
@@ -194,18 +203,18 @@ function updateChart(root) {
 
     // Surgery Duration Label (Left)
     svg.append("text")
-        .attr("class", "x-axis-label")
+        .attr("class", "x-axis-label")  // Apply class
         .attr("text-anchor", "middle")
         .attr("x", xScale(-maxDuration / 2))
-        .attr("y", newHeight - margin.bottom -5)  // Ensures it stays visible
+        .attr("y", newHeight - margin.bottom - 5)
         .text("Average Surgery Duration (in hours)");
 
     // Hospitalization Duration Label (Right)
     svg.append("text")
-        .attr("class", "x-axis-label")
+        .attr("class", "x-axis-label")  // Apply class
         .attr("text-anchor", "middle")
         .attr("x", xScale(maxDuration / 2))
-        .attr("y", newHeight - margin.bottom -5)  // Ensures it stays visible
+        .attr("y", newHeight - margin.bottom - 5)
         .text("Average Hospitalization Duration (in days)");
 
 
