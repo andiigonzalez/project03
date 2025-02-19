@@ -186,11 +186,11 @@ nav {
 .axis-label {
   font-size: 14px;
   font-weight: bold;
-  fill: white;
+  fill: rgb(122, 122, 122);
 }
 
 text {
-  fill: white;
+  fill: rgb(126, 126, 126);
 }
 
 #tooltip {
@@ -211,11 +211,28 @@ text {
   width: 100%;
   max-width: 1200px;
   margin: auto;
+  width: 100%; /* Or set a specific width like 1200px */
+  height: 100vh; /* Or set a specific height */
+  display: flex; /* Optional: Ensures SVG scales properly */
+  justify-content: center; /* Optional: Centers the chart */
+  align-items: center; /* Optional: Centers the chart */
 }
 
 svg {
   width: 100%;
   height: auto;
+}
+
+.y-axis text {
+  font-size: 14px;
+  font-weight: bold;
+  fill: #707070;
+}
+
+.x-axis text {
+  font-size: 18px;
+  font-weight: bold;
+  fill: #707070;
 }
 
 /*--- chart back button----*/

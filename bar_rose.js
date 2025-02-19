@@ -22,16 +22,16 @@ svg.append("text")
     .attr("x", width / 2) // Centered
     .attr("y", -margin.top * .5) // 
     .attr("text-anchor", "middle")
-    .style("font-size", "20px")
+    .style("font-size", "26px")
     .style("font-weight", "bold")
     .text("Average Surgery Duration & Recovery Times");
 
 // Add Subtitle
 svg.append("text")
     .attr("x", width / 2) // Centered
-    .attr("y", -margin.top / 8) // 
+    .attr("y", -margin.top / 20) // 
     .attr("text-anchor", "middle")
-    .style("font-size", "18px")
+    .style("font-size", "20px")
     .style("fill", "#666")
     .text("Comparing surgery and hospitalization durations across different procedures.");
 
@@ -75,6 +75,41 @@ d3.json("hierarchical_surgery_data.json").then(data => {
     console.error("Error loading JSON data:", error);
 });
 
+function showTooltip(event, d, type) {
+    let minVal, maxVal, unit, label;
+
+    if (d.children) {
+        // If it's an operation type, compute min/max from children surgeries
+        const values = d.children.map(c => 
+            type === "op" ? c.data.op_dur : c.data.hosp_dur
+        ).filter(v => v !== undefined);
+
+        minVal = values.length ? d3.min(values).toFixed(2) : "N/A";
+        maxVal = values.length ? d3.max(values).toFixed(2) : "N/A";
+    } else {
+        // If it's a leaf node (individual surgery), use its own min/max values
+        minVal = type === "op" ? d.data.op_dur_min : d.data.hosp_dur_min;
+        maxVal = type === "op" ? d.data.op_dur_max : d.data.hosp_dur_max;
+
+        // Ensure values are formatted properly
+        minVal = minVal !== undefined ? parseFloat(minVal).toFixed(2) : "N/A";
+        maxVal = maxVal !== undefined ? parseFloat(maxVal).toFixed(2) : "N/A";
+    }
+
+    unit = type === "op" ? "hours" : "days";
+    label = type === "op" ? "Operation" : "Hospitalization";
+
+    tooltip.style("display", "block")
+        .html(`<strong>${d.data.name}</strong><br>${label} Duration:<br>Min: ${minVal} ${unit}<br>Max: ${maxVal} ${unit}`)
+        .style("left", `${event.pageX + 10}px`)
+        .style("top", `${event.pageY - 30}px`);
+}
+
+
+function hideTooltip() {
+    tooltip.style("display", "none");
+}
+
 // Function to update chart dynamically
 function updateChart(root) {
     if (!root.children || root.children.length === 0) {
@@ -101,6 +136,39 @@ function updateChart(root) {
 
     resizeChart();  // ensures axes update correctly
 
+    // Ensure a clipPath exists to prevent grid lines from extending beyond axes
+    let clip = svg.select("#clip");
+    if (clip.empty()) {
+        clip = svg.append("defs").append("clipPath")
+            .attr("id", "clip")
+            .append("rect")
+            .attr("width", width - margin.left - margin.right)
+            .attr("height", height - margin.top - margin.bottom);
+    }
+
+    // Ensure the grid container exists
+    let grid = svg.select(".grid");
+    if (grid.empty()) {
+        grid = svg.insert("g", ":first-child") // Insert behind everything else
+            .attr("class", "grid");
+    }
+
+    // Ensure grid extends to the correct bottom position
+    grid.transition().duration(750)
+        .attr("transform", `translate(0, ${height - margin.bottom + 40})`) // Align at bottom of the chart
+        .call(
+            d3.axisBottom(xScale)
+                .tickSize(-(height - margin.top - margin.bottom +40)) // Extend grid to the bottom
+                .tickFormat("") // Hide tick labels
+        )
+        .selectAll("line")
+        .style("stroke", "#ccc") // Light gray grid lines
+        .style("stroke-opacity", 0.7)
+        .style("stroke-dasharray", "4,4"); // Dashed lines for better visibility
+
+    // Ensure grid is behind the bars
+    svg.select(".grid").lower();
+
     let yAxis = svg.select(".y-axis");
     if (yAxis.empty()) {
         yAxis = svg.append("g").attr("class", "y-axis");
@@ -113,18 +181,13 @@ function updateChart(root) {
     if (xAxis.empty()) {
         xAxis = svg.append("g").attr("class", "x-axis");
     }
-    
-    
-    let lastBarName = yScale.domain()[yScale.domain().length - 1]; // Last name in Y scale
-    let lastBarPosition = lastBarName ? yScale(lastBarName) + yScale.bandwidth() : height - margin.bottom;
 
+    let lastBarName = yScale.domain()[yScale.domain().length - 1];
+    let lastBarPosition = lastBarName ? yScale(lastBarName) + yScale.bandwidth() : height - margin.bottom;
 
     xAxis.transition().duration(750)
         .attr("transform", `translate(0, ${lastBarPosition + 10})`)
         .call(d3.axisBottom(xScale).ticks(10).tickFormat(d => Math.abs(d)));
-
-
-
 
     // Remove old labels before re-adding
     svg.selectAll(".x-axis-label").remove();
@@ -183,41 +246,6 @@ function updateChart(root) {
         .transition().duration(750)
         .attr("width", d => xScale(d.data.hosp_dur || 0) - xScale(0));
 
-    function showTooltip(event, d, type) {
-        let minVal, maxVal, unit, label;
-
-        if (d.children) {
-            // If it's an operation type, compute min/max from children surgeries
-            const values = d.children.map(c => 
-                type === "op" ? c.data.op_dur : c.data.hosp_dur
-            ).filter(v => v !== undefined);
-
-            minVal = values.length ? d3.min(values).toFixed(2) : "N/A";
-            maxVal = values.length ? d3.max(values).toFixed(2) : "N/A";
-        } else {
-            // If it's a leaf node (individual surgery), use its own min/max values
-            minVal = type === "op" ? d.data.op_dur_min : d.data.hosp_dur_min;
-            maxVal = type === "op" ? d.data.op_dur_max : d.data.hosp_dur_max;
-
-            // Ensure values are formatted properly
-            minVal = minVal !== undefined ? parseFloat(minVal).toFixed(2) : "N/A";
-            maxVal = maxVal !== undefined ? parseFloat(maxVal).toFixed(2) : "N/A";
-        }
-
-        unit = type === "op" ? "hours" : "days";
-        label = type === "op" ? "Operation" : "Hospitalization";
-
-        tooltip.style("display", "block")
-            .html(`<strong>${d.data.name}</strong><br>${label} Duration:<br>Min: ${minVal} ${unit}<br>Max: ${maxVal} ${unit}`)
-            .style("left", `${event.pageX + 10}px`)
-            .style("top", `${event.pageY - 30}px`);
-    }
-
-
-    function hideTooltip() {
-        tooltip.style("display", "none");
-    }
-
     backButton.style("display", root !== initialData ? "block" : "none");
 }
 
@@ -249,14 +277,10 @@ function resizeChart() {
         .attr("y", height - margin.bottom + 80);
 }
 
-// Ensure chart resizes properly
-window.addEventListener("resize", resizeChart);
-resizeChart();
-
-
-// Ensure chart resizes properly
-window.addEventListener("resize", resizeChart);
-resizeChart();
+window.addEventListener("resize", () => {
+    width = window.innerWidth * 0.9 - margin.left - margin.right;
+    updateChart(initialData);
+});
 
 
 function expandBar(event, d) {
