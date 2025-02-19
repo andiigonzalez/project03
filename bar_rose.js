@@ -167,7 +167,7 @@ function updateChart(root) {
         .attr("transform", `translate(0, ${height - margin.bottom + 40})`) // Align at bottom of the chart
         .call(
             d3.axisBottom(xScale)
-                .tickSize(-(height - margin.top - margin.bottom +40)) // Extend grid to the bottom
+                .tickSize(-(height - margin.top - margin.bottom + 40)) // Extend grid to the bottom
                 .tickFormat("") // Hide tick labels
         )
         .selectAll("line")
@@ -191,11 +191,11 @@ function updateChart(root) {
         xAxis = svg.append("g").attr("class", "x-axis");
     }
 
-    let lastBarName = yScale.domain()[yScale.domain().length - 1];
+    let lastBarName = yScale.domain()[yScale.domain().length -1];
     let lastBarPosition = lastBarName ? yScale(lastBarName) + yScale.bandwidth() : height - margin.bottom;
 
     xAxis.transition().duration(750)
-        .attr("transform", `translate(0, ${lastBarPosition + 10})`)
+        .attr("transform", `translate(0, ${lastBarPosition + 10})`) // +10
         .call(d3.axisBottom(xScale).ticks(10).tickFormat(d => Math.abs(d)));
 
     // Remove old labels before re-adding
@@ -233,7 +233,7 @@ function updateChart(root) {
 
     // Append surgery bars
     barGroups.append("rect")
-        .attr("class", "bar op-bar")
+        .attr("class", d => d.children ? "bar op-bar parent-bar" : "bar op-bar subgroup-bar") // Different classes
         .attr("x", d => xScale(-d.data.op_dur || 0))
         .attr("width", 0)
         .attr("height", yScale.bandwidth())
@@ -255,7 +255,7 @@ function updateChart(root) {
 
     // Append hospitalization bars
     barGroups.append("rect")
-        .attr("class", "bar hosp-bar")
+    .attr("class", d => d.children ? "bar hosp-bar parent-bar" : "bar hosp-bar subgroup-bar") // Different classes
         .attr("x", xScale(0))
         .attr("width", 0)
         .attr("height", yScale.bandwidth())
@@ -275,7 +275,12 @@ function updateChart(root) {
         .transition().duration(750)
         .attr("width", d => xScale(d.data.hosp_dur || 0) - xScale(0));
 
-    backButton.style("display", root !== initialData ? "block" : "none");
+    // Ensure Back button is only shown for subgroups (not parent-level)
+    if (root.depth > 0) {  
+        backButton.style("display", "block");
+    } else {
+        backButton.style("display", "none");
+    }
 }
 
 
@@ -315,6 +320,13 @@ window.addEventListener("resize", () => {
 function expandBar(event, d) {
     if (!d.children) return;
     updateChart(d);
+
+    // Show back button ONLY when drilling into a subgroup
+    if (d.depth > 0) { // Ensures only deeper subgroups trigger back button
+        backButton.style("display", "block");
+    } else {
+        backButton.style("display", "none");
+    }
 
     // Ensure X-Axis Updates Properly
     let lastBarName = yScale.domain()[yScale.domain().length - 1];

@@ -176,17 +176,33 @@ nav {
 
 /*-------------- Hierarchical bar chart style elements ----- */
 .bar {
-  fill: lightcoral;
   cursor: pointer;
-}
-
-.bar:hover {
-  fill: pink;
 }
 
 .hosp-bar {
-  fill: steelblue;
   cursor: pointer;
+}
+
+/* Parent Bars */
+.parent-bar.op-bar {
+  fill: rgb(252, 99, 99); 
+}
+
+.parent-bar.hosp-bar {
+  fill: rgb(46, 105, 153);
+}
+
+/* Subgroup Bars */
+.subgroup-bar.op-bar {
+  fill: lightcoral; 
+}
+
+.subgroup-bar.hosp-bar {
+  fill: steelblue;
+}
+
+.op-bar:hover {
+  fill: pink;
 }
 
 .hosp-bar:hover {
@@ -260,6 +276,11 @@ svg {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  display: none; /* Ensure it starts hidden */
+}
+
+#backButton.show {
+  display: block !important; /* Override any other styles */
 }
 
 #backButton:hover {
