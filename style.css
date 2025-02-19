@@ -38,6 +38,10 @@ h1 {
     position: relative;
     display: inline-block;
 }
+.h3 {
+    font-weight:normal;
+    text-align: center;
+}
 
 
 /* 
