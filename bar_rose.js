@@ -16,6 +16,26 @@ const svg = d3.select("#chart-svg")
     .append("g")
     .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
+
+// Add Chart Title
+svg.append("text")
+    .attr("x", width / 2) // Centered
+    .attr("y", -margin.top * .5) // 
+    .attr("text-anchor", "middle")
+    .style("font-size", "20px")
+    .style("font-weight", "bold")
+    .text("Average Surgery Duration & Recovery Times");
+
+// Add Subtitle
+svg.append("text")
+    .attr("x", width / 2) // Centered
+    .attr("y", -margin.top / 8) // 
+    .attr("text-anchor", "middle")
+    .style("font-size", "18px")
+    .style("fill", "#666")
+    .text("Comparing hospitalization and surgery durations across different procedures.");
+
+
 // Back button
 const backButton = d3.select(".chart-container2")
     .append("button")

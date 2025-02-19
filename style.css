@@ -166,22 +166,23 @@ nav {
 
 /*-------------- Hierarchical bar chart style elements ----- */
 .bar {
-  fill: steelblue;
-  cursor: pointer;
-}
-
-.bar:hover {
-  fill: lightblue;
-}
-
-.hosp-bar {
   fill: lightcoral;
   cursor: pointer;
 }
 
-.hosp-bar:hover {
+.bar:hover {
   fill: pink;
 }
+
+.hosp-bar {
+  fill: steelblue;
+  cursor: pointer;
+}
+
+.hosp-bar:hover {
+  fill: lightblue;
+}
+
 
 .axis-label {
   font-size: 14px;
