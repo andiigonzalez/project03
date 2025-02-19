@@ -8,15 +8,16 @@
 </head>
 <body>
     <h1 class="page-title">Design Rationale</h1>
-    <p> <b>Title</b>: XXXXX </p>
-    <p> <b>Colors</b>: XXXXX </p>
-    <p> <b>Layout</b>: XXXXX
-            We initially started out with vertical columns as you can see in the images below but later opted for a horizontal bar chart to improve the accessibility of our graph. Because our axes labels are long surgery names, it makes it easier on the reader to place them in the natural reading direction. 
-            We also investigated the option of a butterfly chart in order to have a more distinct comparison between operations but ultimately decided against it as it was not as intuitive as the horizontal bar chart. The surgery duration bars were much longer than those of durgery durtaion and drew the attention away from the surgery durations.</p>
-    <p>  <b>Transitions/Interactivity</b>:
-        This plot was always intended to have at least a filtering of data such that viewers could filter by surgery type and further compare the values of hospital durations relative to surgery durations. However, we first began with a dropdown menu, then we replaced it with just clicking on the bars and the background for transitions. Lastly, in order to allow for </p>
- <p> <b>Annotations</b>: XXXXX
-             XXXXX </p>
+    <p> <b>Title</b>: Average Surgery Duration & Recovery Times:
+        Comparing surgery and hospitalization durations across different procedures.</p>
+    <p> <b>Colors</b>: A light red for surgeries themselves, and blue for hospitalization times. This seems intuitive as surgical procedures are reminiscent of blood, but we don't want to be too explicit in this regard, so a soft coral serves the intuitive purpose without being too graphic. Blue is associated with calmness and seems appropriate when referencing recovery time in the hospital.</p>
+    <p> <b>Layout</b>: We initially started out with a vertical column bar chart but later opted for a horizontal bar chart to improve the readability of our graph. Because our axes labels are long surgery names, it makes sense to place them on the y-axis and makes it easier on the reader to place them in the natural reading direction. 
+  
+        We considered implementing a butterfly chart in order to have a more obvious comparison between operations. However, since the surgery duration bars were much longer than those of surgery duration, we have chosen to display the durations in different units: surgery durations in hours, and hospital stay in days.
+            </p>
+    <p>  <b>Transitions/Interactivity</b>: This plot was always intended to have a way to filter the data such that viewers could filter by surgery type and further compare the values of hospital durations relative to surgery durations. We first began with a dropdown menu, then we replaced it with just clicking on the bars for transitions. Initially, the chart showcases the main groupings of surgical procedures which upon interaction via click, cascade into the procedures belonging to that group. This allows an overview of surgery and hospital recovery times across the main types of procedures, while still offering granularity by offering a more detailed view of surgery and hospital recovery times by specific procedure types included in the data. Additionally, the viewer can then get more information on the listed procedure by clicking on it which will open its associated Wikipedia page.   
+        </p>
+ <p> <b>Annotations</b>:  To fully explore the recovery times between patients across different types of procedures, we have included an interactive tooltip where we display minimum and maximum durations for each group of procedures. This would help the viewer at a glance since averages can be heavily influenced by outliers, so by including these values we can provide a more informed picture.  </p>
     </p>  <b>Other</b>: XXXXX
     </p>
 

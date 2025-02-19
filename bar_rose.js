@@ -33,7 +33,7 @@ svg.append("text")
     .attr("text-anchor", "middle")
     .style("font-size", "18px")
     .style("fill", "#666")
-    .text("Comparing hospitalization and surgery durations across different procedures.");
+    .text("Comparing surgery and hospitalization durations across different procedures.");
 
 
 // Back button
