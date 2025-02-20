@@ -1,49 +1,52 @@
 :root {
-    --color-accent: oklch(65% 50% 0);
-    --text-light: black;
-    --text-dark: white;
-    color-scheme: light dark
+  --color-accent: oklch(65% 50% 0);
+  --text-light: black;
+  --text-dark: white;
+  color-scheme: light dark
 }
 body {
-    /* Set line height to 1.5 times the font size
-         and use the OS’s UI font as the website font
-       */
-    accent-color: var(--color-accent);
-    font: 100%/1.5 system-ui;
-    max-width: 130ch;
-    margin-inline: max(1em, (100% - 100ch) / 2);
+  /* Set line height to 1.5 times the font size
+       and use the OS’s UI font as the website font
+     */
+  accent-color: var(--color-accent);
+  font: 100%/1.5 system-ui;
+  width: 100vw;
+  max-width: none;
+  margin: 0 3vw; /* Adds a small margin on the sides */
+  padding: 0 2vw; /* Optional: Adds a tiny padding */
+  box-sizing: border-box;
 }
 
 body.light-mode {
-  color: var(--text-light);
+color: var(--text-light);
 }
 
 body.dark-mode {
-  color: var(--text-dark);
+color: var(--text-dark);
 }
 
 h1 {
-    text-align: center;
-    font-size:2.8em;
+  text-align: center;
+  font-size:2.8em;
 }
 .color-scheme {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  font-size: 80%;
-  font-family: inherit;
+position: absolute;
+top: 1rem;
+right: 1rem;
+font-size: 80%;
+font-family: inherit;
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 h3 {
-    font-weight:normal;
+  font-weight:normal;
 } 
 h4{
-    font-weight: bold;
-    text-align: center;
+  font-weight: bold;
+  text-align: center;
 }
 
 
@@ -53,259 +56,250 @@ h4{
 */
 
 nav {
-    display: flex;
-    margin-bottom: 1em;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-     --border-color: oklch(50% 10% 200 / 40%);
-    border-bottom-color: var(--border-color);
-    
+  display: flex;
+  margin-bottom: 1em;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+   --border-color: oklch(50% 10% 200 / 40%);
+  border-bottom-color: var(--border-color);
+  
 
-    ul, 
-    ul li {
-        display: contents;
-    }
-
-    a {
-        flex: 1;
-        text-decoration: none;
-        color: inherit;
-        text-align: center;
-        padding: 0.5em;
-        transition: all 0.3s ease;
-        
-        &.current{
-            flex: 1;
-            border-bottom-width: 0.4em;
-            padding-bottom: 0.2em;
-            border-bottom-color: var(--color-accent);
-        }
-
-        &:hover{
-            border-bottom: 0.4em solid var(--color-accent);
-            background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
-            padding-bottom: 0.2em;
-        }
-    }
-
+  ul, 
+  ul li {
+      display: contents;
   }
 
-  /* 
+  a {
+      flex: 1;
+      text-decoration: none;
+      color: inherit;
+      text-align: center;
+      padding: 0.5em;
+      transition: all 0.3s ease;
+      
+      &.current{
+          flex: 1;
+          border-bottom-width: 0.4em;
+          padding-bottom: 0.2em;
+          border-bottom-color: var(--color-accent);
+      }
+
+      &:hover{
+          border-bottom: 0.4em solid var(--color-accent);
+          background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
+          padding-bottom: 0.2em;
+      }
+  }
+
+}
+
+/* 
 ----------------------------------------------------------------------------------------------------------------------
 -------------------------------------------- PROJECT DEVELOPMENT -----------------------------------------------------
 */
 
 .project-steps {
-  display: grid;
-  grid-template-columns: 1fr; /* One columns */
-  gap: 50px; /* Space between elements */
-  justify-content: center;
-  align-items: start;
-  margin: auto;
+display: grid;
+grid-template-columns: 1fr; /* One columns */
+gap: 50px; /* Space between elements */
+justify-content: center;
+align-items: start;
+margin: auto;
 }
 
 /* ✅ Fix: Ensure all items align properly in grid */
 .step-item {
-  display: flex;
-  align-items: start;
-  width: 100%;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-  position: relative;
-  justify-content: space-evenly;
-  padding: 10px;
-  background: transparent;
-  backdrop-filter: blur(20px);
-  border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  min-height: 150px;
+display: flex;
+align-items: start;
+width: 100%;
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+position: relative;
+justify-content: space-evenly;
+padding: 10px;
+background: transparent;
+backdrop-filter: blur(20px);
+border-radius: 5px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+min-height: 150px;
 }
 
 
 /* Circles with numbers */
 .circle {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background: transparent;
-  box-shadow: 0 4px 8px rgba(63, 63, 63, 0.2);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-  font-weight: bold;
-  border: 2px solid #333;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background: transparent;
+box-shadow: 0 4px 8px rgba(63, 63, 63, 0.2);
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+font-weight: bold;
+border: 2px solid #333;
 }
 
 /* Content Box */
 .content {
-  background: transparent;
-  padding: 10px 10px;
-  border-radius: 10px;
-  text-align: left;
-  flex-grow: 1;
-  width: 60%;
-  overflow: auto;
-  position: relative;
+background: transparent;
+padding: 10px 10px;
+border-radius: 10px;
+text-align: left;
+flex-grow: 1;
+width: 60%;
+overflow: auto;
+position: relative;
 }
 
 /* ZOOMED STAGE */
 .zoomed {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80vw;
-  height: auto;
-  max-height: 90vh;
-  z-index: 100;
-  padding: 10px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 18px;
-  line-height: 1.5;
-  overflow-y: auto;
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 80vw;
+height: auto;
+max-height: 90vh;
+z-index: 100;
+padding: 10px;
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 18px;
+line-height: 1.5;
+overflow-y: auto;
 }
 
 /* Hide circle & arrow in zoomed view */
 .zoomed .circle, .zoomed .arrow {
-  display: none;
+display: none;
 }
 
 /* FADED effect for other stages */
 .faded {
-  opacity: 0.3;
-  pointer-events: none;
+opacity: 0.3;
+pointer-events: none;
 }
 
 /*-------------- Hierarchical bar chart style elements ----- */
 .bar {
-  cursor: pointer;
+cursor: pointer;
 }
 
 .hosp-bar {
-  cursor: pointer;
+cursor: pointer;
 }
 
 /* Parent Bars */
 .parent-bar.op-bar {
-  fill: rgb(252, 99, 99); 
+fill: rgb(252, 99, 99); 
 }
 
 .parent-bar.hosp-bar {
-  fill: rgb(46, 105, 153);
+fill: rgb(46, 105, 153);
 }
 
 /* Subgroup Bars */
 .subgroup-bar.op-bar {
-  fill: lightcoral; 
+fill: lightcoral; 
 }
 
 .subgroup-bar.hosp-bar {
-  fill: steelblue;
+fill: steelblue;
 }
 
 .op-bar:hover {
-  fill: pink;
+fill: pink;
 }
 
 .hosp-bar:hover {
-  fill: lightblue;
+fill: lightblue;
 }
 
 
 .axis-label {
-  font-size: 14px;
-  font-weight: bold;
-  fill: rgb(122, 122, 122);
-}
-
-text {
-  fill: rgb(126, 126, 126);
+font-size: 14px;
+font-weight: bold;
+fill: rgb(122, 122, 122);
 }
 
 #tooltip {
-  position: absolute;
-  background: rgba(0, 0, 0, 0.8);
-  color: white;
-  padding: 8px;
-  border-radius: 4px;
-  font-size: 12px;
-  pointer-events: none;
-  backdrop-filter: blur(10px);
-  white-space: nowrap;
-  box-shadow: 0px 0px 5px rgba(63, 63, 63, 0.5);
+position: absolute;
+background: rgba(0, 0, 0, 0.8);
+color: white;
+padding: 8px;
+border-radius: 4px;
+font-size: 12px;
+pointer-events: none;
+backdrop-filter: blur(10px);
+white-space: nowrap;
+box-shadow: 0px 0px 5px rgba(63, 63, 63, 0.5);
 }
 
 .chart-container2 {
-  position: relative;
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  height: 100vh;
+  width: auto; /* Allows natural expansion */
+  max-width: 96vw; /* Ensures it doesn’t touch the edges */
+  height: 90vh;
   display: flex;
-  justify-content: flex-start;  /* Align content to the left */
+  justify-content: center;
   align-items: center;
-  padding-left: 50px; /* Adjust this value for fine-tuning */
+  flex-direction: column;
+  margin: 0 auto; /* Centers the chart */
+  padding-left: 100;
+  box-sizing: border-box;
 }
 
 
 svg {
-  width: 100%;
-  height: auto;
-}
-
-.y-axis text {
-  font-size: 14px;
-  font-weight: bold;
-  fill: #707070;
-}
-
-.x-axis text {
-  font-size: 18px;
-  font-weight: bold;
-  fill: #707070;
+width: 100%;
+height: 100%;
+display: block;
 }
 
 /*--- chart back button----*/
 
 #backButton {
-  position: absolute;
-  top: 60px;   /* Distance from the top of .chart-container2 */
-  right: 250px; /* Distance from the right of .chart-container2 */
-  z-index: 10; /* Ensures it stays above the chart */
-  padding: 8px 12px;
-  background-color: #474747;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  display: none; /* Ensure it starts hidden */
+position: absolute;
+bottom: 20px;   /* Distance from the top of .chart-container2 */
+right: 250px; /* Distance from the right of .chart-container2 */
+z-index: 10; /* Ensures it stays above the chart */
+padding: 8px 12px;
+background-color: #474747;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+display: none; /* Ensure it starts hidden */
 }
 
 #backButton.show {
-  display: block !important; /* Override any other styles */
+display: block !important; /* Override any other styles */
 }
 
 #backButton:hover {
-  background-color: #666; /* Lighter gray on hover */
+background-color: #666; /* Lighter gray on hover */
 }
 
 /* ---------------------Chart------------------*/
 
 /* Chart Title */
 .chart-title, .chart-subtitle {
-  fill: currentColor; /* Inherits the color from body */
-  text-anchor: middle;
+fill: currentColor; /* Inherits the color from body */
+text-anchor: middle;
 }
 
 /* Axis Labels */
 .x-axis-label, .y-axis text {
-  fill: currentColor;
-  font-size: 14px;
-  font-weight: bold;
+fill: currentColor;
+font-size: 12px;
 }
+  
+.x-axis text {
+font-size: 18px;
+font-weight: bold;
+}
+  
 /* --------------------------- */

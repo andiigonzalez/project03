@@ -7,11 +7,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="chart-container">
-        <h2>Surgery Hierarchical Bar Chart</h2>
-        <svg id="chart-svg" viewBox="0 0 900 600" preserveAspectRatio="xMidYMid meet"></svg>
-        <script type="module" src="bar.js"></script>
+    <div class="chart-container2">
+        <button id="backButton">Back</button>
+        <div>
+            <svg id="chart-svg"></svg>
+        </div>
     </div>
     
+    <div class="instructions">
+        <p>THIS IS THE TEST VIEW</p>
+        <p>- Click on any bar to see a sub group of procedures belonging to that category.</p>
+        <p>- Hover over any bar to see the average, min and max.</p>
+        <p>- To get more information on a procedure you can click its respective bar</p>
+        <p>- You can click the back button to return to the main group.</p>
+        <p><i>- "Help! Resizing the window / zooming in broke the chart!"</i> Just refresh the page to fix the view!</p>
+    </div>
+    <script type="module" src="bar.js"></script>
 </body>
 </html>

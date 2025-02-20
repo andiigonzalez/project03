@@ -1,8 +1,9 @@
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
 const margin = { top: 50, right: 150, bottom: 50, left: 150 };
-let width = window.innerWidth * 0.9 - margin.left - margin.right;
-let height = Math.min(600, window.innerHeight * 0.8) - margin.top - margin.bottom;
+let width = document.querySelector(".chart-container2").clientWidth - margin.left - margin.right;
+let height = document.querySelector(".chart-container2").clientHeight - margin.top - margin.bottom;
+
 
 // Create tooltip
 const tooltip = d3.select("body").append("div")
@@ -12,9 +13,13 @@ const tooltip = d3.select("body").append("div")
 // Create and select the SVG
 const svg = d3.select("#chart-svg")
     .attr("id", "chart-svg")
-    .attr("viewBox", `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
+    .attr("viewBox", `0 0 ${width} ${height}`)
+    .attr("preserveAspectRatio", "none") // Ensures proper scaling
+    .attr("width", "100%") // Forces full width
+    .attr("height", "100%") // Forces full height
     .append("g")
-    .attr("transform", `translate(${margin.left}, ${margin.top})`);
+    .attr("transform", `translate(${margin.left-100}, ${margin.top})`);
+
 
 
 // Add Chart Title
@@ -136,8 +141,11 @@ function updateChart(root) {
     const newHeight = Math.max(containerHeight, numBars * barHeight); // Ensure enough height for all bars
 
     d3.select("#chart-svg")
-        .attr("viewBox", `0 0 ${width + margin.left + margin.right} ${newHeight + margin.top + margin.bottom}`)
-        .attr("height", newHeight + margin.top + margin.bottom);  // Dynamically adjust height
+        .attr("width", width)
+        .attr("height", height)
+        .attr("viewBox", `0 0 ${width} ${height}`)
+        .attr("preserveAspectRatio", "xMidYMid meet");
+
 
     // update domains only here
     xScale.domain([-maxDuration, maxDuration]); 
@@ -164,10 +172,10 @@ function updateChart(root) {
 
     // Ensure grid extends to the correct bottom position
     grid.transition().duration(750)
-        .attr("transform", `translate(0, ${height - margin.bottom + 40})`) // Align at bottom of the chart
+        .attr("transform", `translate(0, ${height - margin.bottom -55})`) // Align at bottom of the chart
         .call(
             d3.axisBottom(xScale)
-                .tickSize(-(height - margin.top - margin.bottom + 40)) // Extend grid to the bottom
+                .tickSize(-(height - margin.top - margin.bottom -10)) // Extend grid to the bottom
                 .tickFormat("") // Hide tick labels
         )
         .selectAll("line")
@@ -199,23 +207,32 @@ function updateChart(root) {
         .call(d3.axisBottom(xScale).ticks(10).tickFormat(d => Math.abs(d)));
 
     // Remove old labels before re-adding
-    svg.selectAll(".x-axis-label").remove();
-
-    // Surgery Duration Label (Left)
-    svg.append("text")
-        .attr("class", "x-axis-label")  // Apply class
-        .attr("text-anchor", "middle")
+    let leftLabel = svg.select(".surgery-label");
+    if (leftLabel.empty()) {
+        leftLabel = svg.append("text")
+            .attr("class", "x-axis-label surgery-label")
+            .attr("text-anchor", "middle")
+            .attr("x", xScale(-maxDuration / 2))
+            .attr("y", newHeight - margin.bottom -40) // +40 Moves it below axis numbers
+            .text("Average Surgery Duration (in hours)");
+    }
+    leftLabel.transition().duration(750)
         .attr("x", xScale(-maxDuration / 2))
-        .attr("y", newHeight - margin.bottom - 5)
-        .text("Average Surgery Duration (in hours)");
+        .attr("y", newHeight - margin.bottom -60); //+60
 
     // Hospitalization Duration Label (Right)
-    svg.append("text")
-        .attr("class", "x-axis-label")  // Apply class
-        .attr("text-anchor", "middle")
+    let rightLabel = svg.select(".hospital-label");
+    if (rightLabel.empty()) {
+        rightLabel = svg.append("text")
+            .attr("class", "x-axis-label hospital-label")
+            .attr("text-anchor", "middle")
+            .attr("x", xScale(maxDuration / 2))
+            .attr("y", newHeight - margin.bottom -40)
+            .text("Average Hospitalization Duration (in days)");
+    }
+    rightLabel.transition().duration(750)
         .attr("x", xScale(maxDuration / 2))
-        .attr("y", newHeight - margin.bottom - 5)
-        .text("Average Hospitalization Duration (in days)");
+        .attr("y", newHeight - margin.bottom -60);
 
 
     const bars = svg.selectAll(".bar-group")
@@ -286,34 +303,36 @@ function updateChart(root) {
 
 // Function to handle resizing dynamically
 function resizeChart() {
-    width = window.innerWidth * 0.9 - margin.left - margin.right;
-    height = Math.min(800, window.innerHeight * 0.85) - margin.top - margin.bottom; // Allow more height flexibility
+    let newWidth = document.querySelector(".chart-container2").clientWidth - margin.left - margin.right;
+    let newHeight = document.querySelector(".chart-container2").clientHeight - margin.top - margin.bottom;
 
     d3.select("#chart-svg")
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.top + margin.bottom)
-        .attr("viewBox", `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`);
+        .attr("width", newWidth)
+        .attr("height", newHeight)
+        .attr("viewBox", `0 0 ${newWidth} ${newHeight}`)
+        .attr("preserveAspectRatio", "xMidYMid meet");
 
-    // Ensure scales dynamically adjust
-    xScale.range([margin.left, width - margin.right]);
-    yScale.range([0, height]);
+    xScale.range([margin.left, newWidth - margin.right]);
+    yScale.range([0, newHeight - margin.top - margin.bottom]);
 
-    // Re-call the axes
     svg.select(".x-axis")
-        .attr("transform", `translate(0, ${height - margin.bottom})`) 
+        .attr("transform", `translate(0, ${newHeight - margin.bottom - 20})`)
         .call(d3.axisBottom(xScale).ticks(10).tickFormat(d => Math.abs(d)));
 
     svg.select(".y-axis")
         .call(d3.axisLeft(yScale));
 
-    // Ensure labels remain in correct position
     svg.selectAll(".x-axis-label")
-        .attr("y", height - margin.bottom + 80);
+        .attr("y", newHeight - margin.bottom - 10);
 }
 
+
 window.addEventListener("resize", () => {
-    width = window.innerWidth * 0.9 - margin.left - margin.right;
-    updateChart(initialData);
+    clearTimeout(window.resizing);
+    window.resizing = setTimeout(() => {
+        resizeChart();
+        updateChart(initialData);
+    }, 200);
 });
 
 
