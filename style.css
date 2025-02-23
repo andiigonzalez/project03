@@ -263,7 +263,7 @@ display: block;
 
 #backButton {
 position: absolute;
-bottom: 20px;   /* Distance from the top of .chart-container2 */
+bottom: 50px;   /* Distance from the bottom of .chart-container2 */
 right: 250px; /* Distance from the right of .chart-container2 */
 z-index: 10; /* Ensures it stays above the chart */
 padding: 8px 12px;
